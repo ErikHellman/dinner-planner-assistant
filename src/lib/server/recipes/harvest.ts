@@ -1,5 +1,6 @@
-import { access, mkdir, rename, unlink, writeFile } from 'node:fs/promises';
+import { access, mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { writeFileAtomic } from './atomic-write';
 import { normalizeRecipe, RecipeNormalizeError } from './normalize';
 import { fetchImage, fetchListingPage, fetchRecipeDetail, RecipeScrapeError } from './scrape';
 import type { RawListingPage, RawRecipeAndSteps } from './types';
@@ -33,23 +34,6 @@ async function exists(file: string): Promise<boolean> {
 
 function imageUrl(raw: RawRecipeAndSteps, size: 'small' | 'large'): string | null {
 	return raw.images?.urls?.find((u) => u?.size === size)?.url || null;
-}
-
-/**
- * Write via tmp+rename so an interrupted run never leaves a truncated file: a partial
- * `{id}.json` would poison the query layer's loadAll AND satisfy the skip-if-exists check.
- * The tmp lives in the same directory (rename is POSIX-atomic only within a filesystem)
- * and `101.json.tmp` never matches the query layer's /^\d+\.json$/ doc filter.
- */
-async function writeFileAtomic(file: string, data: Uint8Array | string): Promise<void> {
-	const tmp = `${file}.tmp`;
-	try {
-		await writeFile(tmp, data);
-		await rename(tmp, file);
-	} catch (error) {
-		await unlink(tmp).catch(() => {});
-		throw error;
-	}
 }
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
