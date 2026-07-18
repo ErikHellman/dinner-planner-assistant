@@ -1,0 +1,216 @@
+{
+  "recipeId": 91830,
+  "mainRecipeId": null,
+  "name": "Nudelsallad med fläskkotlett, chilidressing och koriander",
+  "headline": "Nudelsallad med fläskkotlett",
+  "subheadline": "chilidressing och koriander",
+  "description": null,
+  "chefTip": "Tänk på att chili kan variera i styrka, smaka dig fram till lagom hetta! ",
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Ägg",
+    "Vete",
+    "Sojabönor",
+    "Fisk",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 554,
+    "protein": 41.22,
+    "carbs": 68.59,
+    "fat": 12.77
+  },
+  "co2eKgPerServing": 0.906,
+  "rating": {
+    "average": 4.11,
+    "count": 219
+  },
+  "ingredients": [
+    {
+      "section": "Nudelsallad",
+      "name": "äggnudlar",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "röd chili",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "soja- och ingefärssås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp soja- och ingefärssås",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "fisksås",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk fisksås",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Nudelsallad: Koka nudlar enligt anvisning på förpackningen. Häll av och spola kallt, lägg i en salladsskål."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Finhacka röd chili (se tips). Skala morot. Halvera morot på längden och skär i tunna sneda skivor. Klyfta rödlök tunt. Tvätta lime i ljummet vatten och finriv skalet. Klyfta limen och spara till servering. Skär fläskkotlett i tunna strimlor."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dressing: Lägg chili, limeskal och pressad vitlök i en skål. Blanda med soja- och ingefärssås, fisksås, vitvinsvinäger och socker. Häll dressingen (spara ca 1 msk till fläskkotletten) över nudlarna i salladsskålen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Nudelsallad: Hetta upp neutral olja i en stekpanna. Fräs morot och rödlök ca 2 min. Krydda med lite salt och lägg allt i salladsskålen. Spara stekpannan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fläskkotlett: Hetta upp neutral olja i den använda stekpannan. Stek det strimlade köttet ca 5 min, tills det är helt genomstekt. Krydda med salt och lite nymald svartpeppar. Avsluta med att hälla över den sparade dressingen och låt koka in."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera nudelsallad med fläskkotlett och limeklyfta. Toppa med koriander."
+    }
+  ],
+  "images": {
+    "large": "images/91830-large.jpg",
+    "small": "images/91830-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91830/nudelsallad-med-flaskkotlett-chilidressing-och-koriander",
+    "harvestedAt": "2026-07-18T20:32:26.350Z"
+  }
+}

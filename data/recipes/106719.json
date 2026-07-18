@@ -1,0 +1,262 @@
+{
+  "recipeId": 106719,
+  "mainRecipeId": null,
+  "name": "Kryddiga färsbiffar med rostad potatis, paprikaröra och ruccola",
+  "headline": "Kryddiga färsbiffar med rostad potatis",
+  "subheadline": "paprikaröra och ruccola",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 562,
+    "protein": 32,
+    "carbs": 48.81,
+    "fat": 26.57
+  },
+  "co2eKgPerServing": 2.399,
+  "rating": {
+    "average": 4.19,
+    "count": 219
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikaröra",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikaröra",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikaröra",
+      "name": "fetaost",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikaröra",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikaröra",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "rökt chilimix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "mjölk",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "blandfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g blandfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddiga färsbiffar",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Halvera potatis. Lägg på en ugnsplåt med bakplåtspapper och blanda med olja, lite salt och nymald svartpeppar. Rosta mitt i ugnen ca 20 min, tills potatisen är mjuk och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Paprikaröra: Halvera röd paprika och ta bort kärnhuset. Lägg paprika och vitlök (med skal) på plåten vid sidan av potatisen. Rosta i ca 15 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kryddiga färsbiffar: Blanda pressad vitlök, ströbröd, rökt chilimix, salt, lite nymald svartpeppar och mjölk i en bunke. Blanda ner blandfärs och forma till 2 biffar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp olja i en rymlig stekpanna. Stek biffarna ca 2 min per sida. Lägg över i en ugnsform och tillaga klart under potatisen ca 10 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Paprikaröra: Ta försiktigt bort skalet på vitlöken. Lägg vitlök och paprika i en mixerbuke. Tillsätt fetaost, salt och lite nymald svartpeppar. Mixa med stavmixer till en röra."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Sallad: Tärna tomat. Lägg tomat och ruccola i en salladsskål och dressa med balsamvinäger och olivolja."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servera kryddiga färsbiffar med rostad potatis, paprikaröra och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/106719-large.jpg",
+    "small": "images/106719-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/106719/kryddiga-farsbiffar-med-rostad-potatis-paprikarora-och-ruccola",
+    "harvestedAt": "2026-07-18T20:32:32.880Z"
+  }
+}

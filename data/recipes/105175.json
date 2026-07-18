@@ -1,0 +1,224 @@
+{
+  "recipeId": 105175,
+  "mainRecipeId": null,
+  "name": "Kycklinggryta med svamp, timjan, äpple och potatismos",
+  "headline": "Kycklinggryta med svamp",
+  "subheadline": "timjan, äpple och potatismos",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Sojabönor",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 649,
+    "protein": 40.4,
+    "carbs": 65.83,
+    "fat": 24.9
+  },
+  "co2eKgPerServing": 1.017,
+  "rating": {
+    "average": null,
+    "count": 51
+  },
+  "ingredients": [
+    {
+      "section": "Potatismos",
+      "name": "potatis",
+      "amount": 450,
+      "unit": "g",
+      "raw": "450 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatismos",
+      "name": "mjölk",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1 ½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "smör",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "champinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "rött äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rött äpple",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Potatismos: Skala och koka mospotatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelse kycklinggryta: Klyfta gul lök. Halvera champinjoner. Skär kycklinglårfilé i mindre bitar, ca 3x3 cm. Skär inte bort fettet, det smälter i grytan och ger god och fyllig smak."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kycklinggryta: Hetta upp smör i en stekgryta. Bryn kyckling ca 2 min. Krydda med salt och nymald svartpeppar. Tillsätt lök, champinjoner och pressad vitlök. Fräs ytterligare ca 2 min. Blanda ner vetemjöl, tomatpuré, torkad timjan, kinesisk soja, vatten och kycklingbuljong. Låt sjuda på medelvärme ca 10 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Potatismos: Värm mjölk och smör i en kastrull. Häll av potatisen och mosa med elvisp eller potatisstöt. Tillsätt mjölkblandningen och vispa till ett mos. Smaka av med lite salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tärna äpple. Dra grytan från värmen och blanda ner äpple. Smaka av med salt och nymald svartpeppar. Servera med potatismos."
+    }
+  ],
+  "images": {
+    "large": "images/105175-large.jpg",
+    "small": "images/105175-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/105175/kycklinggryta-med-svamp-timjan-apple-och-potatismos",
+    "harvestedAt": "2026-07-18T20:32:32.241Z"
+  }
+}

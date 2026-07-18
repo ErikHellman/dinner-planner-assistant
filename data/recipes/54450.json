@@ -1,0 +1,261 @@
+{
+  "recipeId": 54450,
+  "mainRecipeId": null,
+  "name": "Zucchini- och cheddarplättar med klyftpotatis och krämig sallad",
+  "headline": "Zucchini- och cheddarplättar",
+  "subheadline": "med klyftpotatis och krämig sallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Barnvänligt"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete",
+    "Ägg"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 632,
+    "protein": 25.58,
+    "carbs": 68.33,
+    "fat": 28.53
+  },
+  "co2eKgPerServing": 0.565,
+  "rating": {
+    "average": 4.23,
+    "count": 865
+  },
+  "ingredients": [
+    {
+      "section": "Klyftpotatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Krämig sallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig sallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig sallad",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig sallad",
+      "name": "spiskummin",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig sallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "zucchini",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "salt",
+      "amount": 0.75,
+      "unit": "tsk",
+      "raw": "¾ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "ägg",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "riven cheddarost",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g riven cheddarost",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchini- & cheddarplättar",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Zucchini- och cheddarplättar: Grovriv zucchini och lägg i ett durkslag. Strö över 3/4 tsk salt och låt stå ca 10 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Klyftpotatis: Klyfta potatis och lägg på en ugnsplåt med bakplåtspapper. Blanda med olivolja, lite salt och nymald svartpeppar. Tillaga mitt i ugnen ca 25 min, tills potatisen är klar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Krämig sallad: Finhacka bananschalottenlök. Tärna gurka. Blanda allt med gräddfil, spiskummin och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Zucchini- och cheddarplättar: Pressa ur vätskan från den rivna zucchinin. Finhacka bananschalottenlök. Lägg allt i en bunke och blanda ner vetemjöl, ägg och riven cheddarost. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Hetta upp rikligt med olivolja i en stekpanna. Klicka ut ca 6 små plättar med en sked och stek ca 3 min per sida. Låt rinna av på lite hushållspapper."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Till servering: Skölj citron ordentligt i ljummet vatten. Finriv skalet över de nystekta plättarna. Klyfta den använda citronen."
+    },
+    {
+      "step": 9,
+      "section": null,
+      "text": "Servering: Servera nystekta zucchini- och cheddarplättar med klyftpotatis, krämig sallad, mixsallad och citronklyfta!"
+    }
+  ],
+  "images": {
+    "large": "images/54450-large.jpg",
+    "small": "images/54450-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/54450/zucchini-och-cheddarplattar-med-klyftpotatis-och-kramig-sallad",
+    "harvestedAt": "2026-07-18T20:32:08.622Z"
+  }
+}

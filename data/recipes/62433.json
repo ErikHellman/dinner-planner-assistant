@@ -1,0 +1,300 @@
+{
+  "recipeId": 62433,
+  "mainRecipeId": null,
+  "name": "Saffransbulgur med rostade kikärtor, oliver, aubergineröra och labne",
+  "headline": "Saffransbulgur med rostade kikärtor",
+  "subheadline": "oliver, aubergineröra och labne",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 537,
+    "protein": 21.06,
+    "carbs": 55.12,
+    "fat": 25.86
+  },
+  "co2eKgPerServing": 0.663,
+  "rating": {
+    "average": null,
+    "count": 12
+  },
+  "ingredients": [
+    {
+      "section": "Rostade kikärtor",
+      "name": "kikärtor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kikärtor",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade kikärtor",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade kikärtor",
+      "name": "rökt chilimix",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade kikärtor",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade kikärtor",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade kikärtor",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "saffran",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp saffran",
+      "isBasis": false
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "bladpersilja",
+      "amount": 5,
+      "unit": "g",
+      "raw": "5 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "babyspenat",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "snacksoliver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp snacksoliver",
+      "isBasis": false
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Saffransbulgur",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Aubergineröra",
+      "name": "aubergine",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st aubergine",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergineröra",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "1 + 3 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Aubergineröra",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergineröra",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergineröra",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergineröra",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Labne",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Labne",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Labne",
+      "name": "bladpersilja",
+      "amount": 5,
+      "unit": "g",
+      "raw": "5 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Labne",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Labne",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Skölj citronen i ljummet vatten och finriv skalet. Spara skalet till steg 7. Grovhacka all bladpersilja."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostade kikärtor: Häll av kikärtor och lägg på en ugnsplåt med bakplåtspapper. Strö över rökt krydda, lite salt och nymald svartpeppar. Ringla över olivolja. Rosta i mitten av ugnen ca 25 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Aubergineröra: Halvera aubergine på längden och lägg i en ugnsform. Ringla över 1 tsk olivolja och krydda med lite salt. Rosta i nedre delen av ugnen ca 25 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Saffransbulgur: Koka bulgur enligt anvisning på förpackningen, men byt ut saltet mot grönsaksbuljong samt tillsätt saffran."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Strimla babyspenat. Halvera kalamataoliver. Lägg allt i en bunke. Blanda ner bladpersilja, saffransbulgur och pressad citronsaft. Krydda med lite salt och nymald svartpeppar. Lägg upp saffransbulgurn på ett fat."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Auberginekräm: Skrapa ur fruktköttet från den rostade auberginen och lägg i en mixerbunke. Tillsätt pressad vitlök, citronskal, citronsaft och resten av olivoljan. Mixa till en kräm med stavmixer. Tillsätt bladpersilja. Smaka av med lite salt."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Labne: Blanda matyoghurt, pressad vitlök och bladpersilja i en skål. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 9,
+      "section": null,
+      "text": "Servera saffransbulgur toppad med rostade kikärtor, aubergineröra och labne."
+    }
+  ],
+  "images": {
+    "large": "images/62433-large.jpg",
+    "small": "images/62433-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/62433/saffransbulgur-med-rostade-kikartor-oliver-auberginerora-och-labne",
+    "harvestedAt": "2026-07-18T20:32:16.639Z"
+  }
+}

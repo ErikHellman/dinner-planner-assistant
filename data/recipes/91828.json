@@ -1,0 +1,207 @@
+{
+  "recipeId": 91828,
+  "mainRecipeId": null,
+  "name": "Fläskkotlett i teriyakisås med broccoli",
+  "headline": "Fläskkotlett i teriyakisås",
+  "subheadline": "med broccoli",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Sojabönor",
+    "Sesamfrön",
+    "Vete",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 532,
+    "protein": 41.98,
+    "carbs": 58.7,
+    "fat": 14.36
+  },
+  "co2eKgPerServing": 0.974,
+  "rating": {
+    "average": 3.94,
+    "count": 467
+  },
+  "ingredients": [
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Teriyakisås",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Teriyakisås",
+      "name": "teriyakisås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp teriyakisås",
+      "isBasis": false
+    },
+    {
+      "section": "Teriyakisås",
+      "name": "riven ingefära",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Teriyakisås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Teriyakisås",
+      "name": "majsstärkelse",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Teriyakisås",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "jasminris",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl jasminris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Skär broccoli i mindre buketter och skiva stammen tunt. Klyfta rödlök tunt. Skär fläskkotlett i 2 jämntjocka skivor."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fläskkotlett: Hetta upp smör i en stekpanna. Bryn fläskkotletterna ca 3 min per sida. Krydda med salt och nymalen svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Teriyakisås: Blanda ihop vatten, teriyakisås, riven ingefära, pressad vitlök, majsstärkelse och srirachasås (efter egen smak) i en skål."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fläskkotlett: Häll teriyakisåsen över köttet, koka upp och sjud ca 3 min."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Till servering: Hetta upp smör i en rymlig stekpanna. Fräs broccoli och rödlök ca 4 min. Krydda med lite salt."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Skär gärna upp köttet i skivor. Servera fläskkotlett i teriyakisås med jasminris och broccoli."
+    }
+  ],
+  "images": {
+    "large": "images/91828-large.jpg",
+    "small": "images/91828-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91828/flaskkotlett-i-teriyakisas-med-broccoli",
+    "harvestedAt": "2026-07-18T20:32:25.943Z"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "recipeId": 59628,
+  "mainRecipeId": null,
+  "name": "Rostad paprikasoppa med färsk oregano, surdegsbaguette och bönspread",
+  "headline": "Rostad paprikasoppa med färsk oregano",
+  "subheadline": "surdegsbaguette och bönspread",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Nötter",
+    "Svaveldioxid",
+    "Mjölk",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 533,
+    "protein": 19.53,
+    "carbs": 91.91,
+    "fat": 9.74
+  },
+  "co2eKgPerServing": 0.57,
+  "rating": {
+    "average": 3.9,
+    "count": 123
+  },
+  "ingredients": [
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "röd paprika",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "vatten",
+      "amount": 4.5,
+      "unit": "dl",
+      "raw": "4 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "torkad oregano",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasoppa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bönspread",
+      "name": "vita bönor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp vita bönor",
+      "isBasis": false
+    },
+    {
+      "section": "Bönspread",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Bönspread",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Bönspread",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bönspread",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bönspread",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegsbaguette",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st surdegsbaguette",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "oregano",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g oregano",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig). Grädda surdegsbaguetten enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad paprikasoppa: Halvera röd paprika och tomat. Lägg på en plåt med bakplåtspapper och rosta högt upp i ugnen ca 15 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Bönspread: Häll av och skölj vita bönor. Skölj citronen i ljummet vatten och finriv skalet. Lägg bönor, citronskal, pressad citronsaft, pressad vitlök, olivolja, salt och lite nymald svartpeppar i en mixerbunke. Mixa slätt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Rostad paprikasoppa: Finhacka bananschalottenlök. Hetta upp lite olivolja i en rymlig kastrull eller stekgryta. Stek lök, pressad vitlök och chili flakes ca 2 min. Tillsätt de rostade grönsakerna, vatten, tomatpuré, torkad oregano, vitvinsvinäger och grönsaksbuljong. Sjud ca 3 min. Mixa soppan slät med stavmixer. Smaka av med salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Toppa rostad paprikasoppa med oreganoblad. Servera med surdegsbaguette och bönspread."
+    }
+  ],
+  "images": {
+    "large": "images/59628-large.jpg",
+    "small": "images/59628-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59628/rostad-paprikasoppa-med-farsk-oregano-surdegsbaguette-och-bonspread",
+    "harvestedAt": "2026-07-18T20:32:13.468Z"
+  }
+}

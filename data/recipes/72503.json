@@ -1,0 +1,275 @@
+{
+  "recipeId": 72503,
+  "mainRecipeId": null,
+  "name": "Bibimbap med sojastekt svamp, kimchi och stekt ägg",
+  "headline": "Bibimbap med sojastekt svamp",
+  "subheadline": "kimchi och stekt ägg",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Vete",
+    "Svaveldioxid",
+    "Ägg",
+    "Sesamfrön"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 630,
+    "protein": 24.27,
+    "carbs": 86.82,
+    "fat": 20.67
+  },
+  "co2eKgPerServing": 0.784,
+  "rating": {
+    "average": 3.85,
+    "count": 143
+  },
+  "ingredients": [
+    {
+      "section": "Kimchi",
+      "name": "ingefära",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "gochujangpasta",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk gochujangpasta",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "vitvinsvinäger 30ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 30ml",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kimchi",
+      "name": "salladskål",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g salladskål",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt ägg",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt ägg",
+      "name": "ägg",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt ägg",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sojastekt svamp",
+      "name": "skogschampinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g skogschampinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Sojastekt svamp",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Sojastekt svamp",
+      "name": "sesamfrön",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Sojastekt svamp",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sojastekt svamp",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Spenatsallad",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Spenatsallad",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Spenatsallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Spenatsallad",
+      "name": "sesamfrön",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Spenatsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ris",
+      "name": "jasminris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g jasminris",
+      "isBasis": false
+    },
+    {
+      "section": "Gochujangsås",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Gochujangsås",
+      "name": "gochujangpasta",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk gochujangpasta",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Ris: Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Kimchi: Skala och finriv ingefära och vitlök. Lägg i en rymlig bunke och blanda med japansk soja, gochujangpasta, tomatpuré, vitvinsvinäger och socker. Grovstrimla salladskål. Vänd ner i bunken och blanda ordentligt, gärna med händerna, tills kålen mjuknar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Stekt ägg: Hetta upp lite olja i en rymlig stekpanna och stek ägg ca 3 min, krydda med lite salt. Gulan får gärna vara krämig. Lägg äggen på ett fat och spara stekpannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Sojastekt svamp: Kvarta skogschampinjoner. Hetta upp sesamolja i den använda stekpannan och stek svampen ca 3 min på hög värme. Tillsätt sesamfrön, pressad vitlök och japansk soja, stek ytterligare ca 1 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Spenatsallad: Lägg babyspenat i en salladsskål. Blanda med sesamolja, vitvinsvinäger, sesamfrön och lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Gochujangsås: Blanda japansk soja och gochujangpasta i en skål."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Fördela jasminris, kimchi, sojastekt svamp och spenatsallad i 2 skålar. Toppa med stekt ägg. Servera bibimbap med lite gochujangsås."
+    }
+  ],
+  "images": {
+    "large": "images/72503-large.jpg",
+    "small": "images/72503-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/72503/bibimbap-med-sojastekt-svamp-kimchi-och-stekt-agg",
+    "harvestedAt": "2026-07-18T20:32:18.299Z"
+  }
+}

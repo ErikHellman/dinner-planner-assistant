@@ -1,0 +1,207 @@
+{
+  "recipeId": 83001,
+  "mainRecipeId": null,
+  "name": "Citrusrostad kycklinglårfilé med caesardressad rotfruktssallad",
+  "headline": "Citrusrostad kycklinglårfilé",
+  "subheadline": "med caesardressad rotfruktssallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos",
+    "Senap"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 533,
+    "protein": 40.51,
+    "carbs": 49.24,
+    "fat": 19.32
+  },
+  "co2eKgPerServing": 0.897,
+  "rating": {
+    "average": 4.02,
+    "count": 783
+  },
+  "ingredients": [
+    {
+      "section": "Citrusrostad kyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Citrusrostad kyckling",
+      "name": "citrus mix",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse citrus mix",
+      "isBasis": false
+    },
+    {
+      "section": "Citrusrostad kyckling",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "salt",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "romansallad",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st romansallad",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Caesardressing",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Caesardressing",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Caesardressing",
+      "name": "dijonsenap",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Caesardressing",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Caesardressing",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Caesardressing",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Citrusrostad kyckling: Lägg kycklinglårfilé i mitten på en ugnsplåt med bakplåtspapper. Krydda med citrusmix."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostade rotfrukter: Kvarta potatis. Tvätta och skär morötter i grova bitar. Lägg potatis och morot runtom kycklingen. Ringla lite olivolja och krydda med salt och nymald svartpeppar över allting på plåten. Rosta allt i mitten av ugnen ca 20 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Caesardressing: Finriv parmesanost. Lägg i en skål och blanda med gräddfil, dijonsenap, pressad vitlök, salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Lägg upp den rostade kycklingen på ett fat. Bryt romansallad i grova bitar. Skär snackgurka i mindre bitar. Blanda de rostade rotfrukterna med romansallad, gurka och caesardressing direkt på plåten."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servering: Servera citrusrostad kyckling med caesardressad rotfruktssallad."
+    }
+  ],
+  "images": {
+    "large": "images/83001-large.jpg",
+    "small": "images/83001-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/83001/citrusrostad-kycklinglarfile-med-caesardressad-rotfruktssallad",
+    "harvestedAt": "2026-07-18T20:32:19.595Z"
+  }
+}

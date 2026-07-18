@@ -1,0 +1,216 @@
+{
+  "recipeId": 94310,
+  "mainRecipeId": null,
+  "name": "Asiatisk kycklingsoppa med kokosmjölk, chili och citrongräs",
+  "headline": "Asiatisk kycklingsoppa",
+  "subheadline": "med kokosmjölk, chili och citrongräs",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Fisk",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 533,
+    "protein": 45.42,
+    "carbs": 53.63,
+    "fat": 15.24
+  },
+  "co2eKgPerServing": 0.726,
+  "rating": {
+    "average": 4.19,
+    "count": 412
+  },
+  "ingredients": [
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "ingefära",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "röd chili",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "citrongräs",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citrongräs",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "vatten",
+      "amount": 4.5,
+      "unit": "dl",
+      "raw": "4 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "fisksås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp fisksås",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk kycklingsoppa",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 180&deg;C (varmluft) eller 200&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tillaga surdegspavé enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelse: Kyfta gul lök. Skala och skär ingefära i tunna skivor. Skär röd chili i tunna skivor. Kvarta champinjoner och klyfta tomat. Krossa roten på citrongräs med baksidan av kniven. Dela sedan citrongräset på mitten. Skär kycklingfilé i mindre bitar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Asiatisk kycklingsoppa: Hetta upp lite olja i en rymlig kastrull eller stekgryta. Fräs citrongräs, lök, ingefära, chili och pressad vitlök ca 2 min. Tillsätt vatten och kycklingbuljong. Koka upp och låt sjuda ca 5 min. Tillsätt coconut cream, fisksås, socker, champinjoner och kyckling. Låt allt sjuda ytterligare ca 7 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tvätta limen i ljummet vatten och finriv det yttersta skalet. Blanda ner tomat och limeskal i soppan och smaka av med pressad saft från halva limen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Klyfta resten av den använda limen och plocka ut citrongräsbitarna från soppan. Servera asiatisk kycklingsoppa med surdegspavé och limeklyfta. Toppa med koriander."
+    }
+  ],
+  "images": {
+    "large": "images/94310-large.jpg",
+    "small": "images/94310-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/94310/asiatisk-kycklingsoppa-med-kokosmjolk-chili-och-citrongras",
+    "harvestedAt": "2026-07-18T20:32:27.618Z"
+  }
+}

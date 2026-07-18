@@ -1,0 +1,252 @@
+{
+  "recipeId": 46546,
+  "mainRecipeId": null,
+  "name": "Cevapcici med rostad ajvarsås och klyftpotatis",
+  "headline": "Cevapcici med rostad ajvarsås",
+  "subheadline": "och klyftpotatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 503,
+    "protein": 30.55,
+    "carbs": 49.63,
+    "fat": 20.27
+  },
+  "co2eKgPerServing": 4.316,
+  "rating": {
+    "average": 3.97,
+    "count": 140
+  },
+  "ingredients": [
+    {
+      "section": "Klyftpotatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ajvar",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvar",
+      "name": "gul lök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvar",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvar",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ajvar",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Ajvar",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvar",
+      "name": "flytande honung",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvar",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "gul lök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Klyftpotatis: Klyfta potatis och lägg på ena sidan av en plåt med bakplåtspapper. Blanda med lite olivolja, salt och nymald svartpeppar. Tillaga högt upp i ugnen ca 25 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ajvar: Klyfta röd paprika och gul lök. Lägg på plåten, bredvid potatisen. Rosta högt upp i ugnen ca 15 min. Öppna gärna ugnsluckan efter halva tillagningstiden för att släppa ut ånga."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Cevapcici: Grovriv gul lök och lägg i en bunke. Blanda med nötfärs, pressad vitlök, paprikapulver, tomatpuré, salt och vatten. Forma till 8 st avlånga biffar. Hetta upp lite olivolja i en stekpanna. Stek biffarna runt om ca 10 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ajvar: Lägg den rostade paprikan och löken i en mixerbunke. Tillsätt vitvinsvinäger, olivolja, vatten, chili flakes (efter smak) och honung. Mixa med stavmixer. Smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Grovhacka bladpersilja. Servera nystekt cevapcici med klyftpotatis och ajvar. Toppa med persilja!"
+    }
+  ],
+  "images": {
+    "large": "images/46546-large.jpg",
+    "small": "images/46546-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46546/cevapcici-med-rostad-ajvarsas-och-klyftpotatis",
+    "harvestedAt": "2026-07-18T20:32:01.249Z"
+  }
+}

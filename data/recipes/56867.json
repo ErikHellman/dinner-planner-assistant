@@ -1,0 +1,214 @@
+{
+  "recipeId": 56867,
+  "mainRecipeId": null,
+  "name": "Sydamerikansk sötpotatisgryta med fetaost",
+  "headline": "Sydamerikansk sötpotatisgryta",
+  "subheadline": "med fetaost",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 604,
+    "protein": 17.69,
+    "carbs": 86.92,
+    "fat": 20.59
+  },
+  "co2eKgPerServing": 0.484,
+  "rating": {
+    "average": null,
+    "count": 20
+  },
+  "ingredients": [
+    {
+      "section": "Sötpotatisgryta",
+      "name": "sötpotatis",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st sötpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "tomatsås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatsås",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "½+½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "matvete",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g matvete",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka matvete enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Sötpotatisgryta: Dela sötpotatis i mindre bitar, ca 2x2 cm. Grovhacka bananschalottenlök och tomat."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp lite olja i en stekgryta. Fräs lök, sötpotatis och spiskummin ca 3 min på medelvärme."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt pressad vitlök, grönsaksbuljong, chili flakes (efter smak), tomatsås, coconut cream, vatten och salt. Sjud ca 20 min, tills potatisen är mjuk. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Rör ner babyspenat och pressa i saften från &frac12; lime, ta från värmen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Klyfta resten av limen. Toppa sötpotatisgryta med tomat och smulad fetaost. Servera med nykokt matvete och limeklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/56867-large.jpg",
+    "small": "images/56867-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/56867/sydamerikansk-sotpotatisgryta-med-fetaost",
+    "harvestedAt": "2026-07-18T20:32:09.394Z"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "recipeId": 50479,
+  "mainRecipeId": null,
+  "name": "Lasagne alle melanzane - vegetarisk auberginelasagne",
+  "headline": "Lasagne alle melanzane",
+  "subheadline": "vegetarisk auberginelasagne",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 35,
+    "max": 45
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Selleri",
+    "Kräftdjur",
+    "Fisk",
+    "Sojabönor",
+    "Nötter",
+    "Ägg",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 526,
+    "protein": 29.23,
+    "carbs": 54.37,
+    "fat": 21.32
+  },
+  "co2eKgPerServing": 1.425,
+  "rating": {
+    "average": 3.99,
+    "count": 644
+  },
+  "ingredients": [
+    {
+      "section": "Aubergine",
+      "name": "aubergine",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st aubergine",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Aubergine",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "örtmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Lasagne",
+      "name": "mozzarella",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp mozzarella",
+      "isBasis": false
+    },
+    {
+      "section": "Lasagne",
+      "name": "grande premium",
+      "amount": 40,
+      "unit": "g",
+      "raw": "40 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Lasagne",
+      "name": "lasagneplattor",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g lasagneplattor",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp balsamvinäger",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Aubergine: Skär aubergine i tunna skivor. Lägg på en plåt med bakplåtspapper och krydda med salt. Rosta mitt i ugnen ca 10 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tomatsås: Hetta upp lite olivolja i en kastrull och fräs pressad vitlök ca 1 min. Tillsätt krossade tomater, vatten, örtmix, balsamvinäger, socker, grönsaksbuljong och lite nymald svartpeppar. Sjud ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Lasagne: Bryt mozzarella i bitar. Bred ut lite tomatsås i en ugnsform (ca 15x20 cm). Varva lasagneplattor, tomatsås, aubergine, mozzarella och riven grande premium i formen. Gratinera lasagnen mitt i ugnen ca 20 min, tills den fått fin färg."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ruccolasallad: Skär gurka i mindre bitar. Lägg upp med ruccola i en skål och dressa med lite olivolja och balsamvinäger."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera lasagne alle melanzane med ruccolasallad."
+    }
+  ],
+  "images": {
+    "large": "images/50479-large.jpg",
+    "small": "images/50479-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/50479/lasagne-alle-melanzane-vegetarisk-auberginelasagne",
+    "harvestedAt": "2026-07-18T20:32:07.654Z"
+  }
+}

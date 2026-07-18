@@ -1,0 +1,169 @@
+{
+  "recipeId": 58027,
+  "mainRecipeId": null,
+  "name": "Tomatbräserad fläskkotlett med ruccola och persilladesmör",
+  "headline": "Tomatbräserad fläskkotlett med ruccola",
+  "subheadline": "och persilladesmör",
+  "description": null,
+  "chefTip": "Om du vill - dressa ruccolasalladen med lite olivolja, salt och svartpeppar.",
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Kött",
+    "Proteinrik",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 547,
+    "protein": 41.45,
+    "carbs": 46.34,
+    "fat": 21.79
+  },
+  "co2eKgPerServing": 1.278,
+  "rating": {
+    "average": 3.79,
+    "count": 152
+  },
+  "ingredients": [
+    {
+      "section": "Tomatbräserad fläskkolett",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatbräserad fläskkolett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatbräserad fläskkolett",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatbräserad fläskkolett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatbräserad fläskkolett",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatbräserad fläskkolett",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatbräserad fläskkolett",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ruccola",
+      "amount": 60,
+      "unit": "g",
+      "raw": "60 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Persilladesmör",
+      "name": "smör, rumstempererat",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g smör, rumstempererat",
+      "isBasis": true
+    },
+    {
+      "section": "Persilladesmör",
+      "name": "persillade",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Persilladesmör",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tomatbräserad fläskkolett: Klyfta gul lök. Skär fläskkotlett i portionsbitar och krydda köttet med salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp olivolja i en rymlig stekpanna och stek fläskkotlett ca 2 min per sida. Tillsätt lök, krossade tomater och kycklingbuljong. Låt sjuda på medelvärme ca 7 min, tills köttet är helt genomstekt. Om såsen blir för tjock så späd med lite extra vatten. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Persilladesmör: Mosa ihop smör, persillade och salt på ett fat."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera tomatbräserad fläskkotlett med bulgur, persilladesmör och ruccola."
+    }
+  ],
+  "images": {
+    "large": "images/58027-large.jpg",
+    "small": "images/58027-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58027/tomatbraserad-flaskkotlett-med-ruccola-och-persilladesmor",
+    "harvestedAt": "2026-07-18T20:32:10.046Z"
+  }
+}

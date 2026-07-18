@@ -1,0 +1,219 @@
+{
+  "recipeId": 90760,
+  "mainRecipeId": null,
+  "name": "Burgerbowl med picklad rödlök och grönsaker",
+  "headline": "Burgerbowl",
+  "subheadline": "med picklad rödlök och grönsaker",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 505,
+    "protein": 30.96,
+    "carbs": 53.34,
+    "fat": 18.69
+  },
+  "co2eKgPerServing": 4.339,
+  "rating": {
+    "average": 4.12,
+    "count": 722
+  },
+  "ingredients": [
+    {
+      "section": "Picklad rödlök",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "socker",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl socker",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "ättiksprit (12%)",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Burgare",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Burgare",
+      "name": "chili flakes",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Burgare",
+      "name": "rökt paprikapulver",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk rökt paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Burgare",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Burgare",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Burgare",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "BBQ-sås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp BBQ-sås",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Klyftpotatis: Klyfta potatis. Lägg på en ugnsplåt med bakplåtspapper och blanda med neutral olja och lite salt. Rosta mitt i ugnen ca 25 min, tills potatisen är mjuk och fått fin färg. Rör om efter halva tillagningstiden."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Picklad rödlök: Skiva rödlök tunt. Häll vatten, socker och ättiksprit i en liten kastrull och koka upp. Ta kastrullen från värmen. Lägg ner löken och blanda med lagen, låt stå till servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Burgare: Blanda nötfärs, chili flakes (efter egen smak), rökt paprikapulver, salt och nymald svartpeppar i en bunke. Forma färsen till ca 10 st köttbullar och tryck till dem lätt till miniburgare. Hetta upp neutral olja i en rymlig stekpanna. Stek miniburgarna ca 3 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servering: Skär tomat och snackgurka i mindre bitar. Lägg klyftpotatis i skålar. Toppa med mixsallad, miniburgare, picklad rödlök, gurka och tomat. Servera med bbq-sås."
+    }
+  ],
+  "images": {
+    "large": "images/90760-large.jpg",
+    "small": "images/90760-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90760/burgerbowl-med-picklad-rodlok-och-gronsaker",
+    "harvestedAt": "2026-07-18T20:32:22.987Z"
+  }
+}

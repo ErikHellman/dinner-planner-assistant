@@ -1,0 +1,264 @@
+{
+  "recipeId": 50473,
+  "mainRecipeId": null,
+  "name": "Paprika- och tomatsoppa med za'atar flatbreads",
+  "headline": "Paprika- och tomatsoppa",
+  "subheadline": "med za'atar flatbreads",
+  "description": null,
+  "chefTip": "Blir det za'atar över? Spara i en burk och strö gärna på en sallad!",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Sesamfrön",
+    "Svaveldioxid",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 663,
+    "protein": 25.07,
+    "carbs": 101.28,
+    "fat": 17.53
+  },
+  "co2eKgPerServing": 0.614,
+  "rating": {
+    "average": null,
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "section": "Za'atar topping",
+      "name": "sesamfrön",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Za'atar topping",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Za'atar topping",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "röd paprika",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "små vita bönor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp små vita bönor",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "pizzasås",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl pizzasås",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "vatten",
+      "amount": 4,
+      "unit": "dl",
+      "raw": "4 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- & tomatsoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Flatbreads",
+      "name": "pizzadeg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pizzadeg",
+      "isBasis": false
+    },
+    {
+      "section": "Flatbreads",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Flatbreads",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Flatbreads",
+      "name": "flingsalt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm flingsalt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "matyoghurt",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl matyoghurt",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Za'atar topping: Finriv citronskal. Krossa sesamfrön, torkad oregano och citronskal i en mortel. Om du inte har en mortel kan du blanda allt i en skål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Paprika- och tomatsoppa: Klyfta röd paprika, tomat och bananschalottenlök. Skiva vitlök tunt. Häll av och skölj små vita bönor."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp lite olivolja i en kastrull eller stekgryta. Fräs paprika, tomat, lök och vitlök ca 5 min på hög värme."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tillsätt pizzasås, hälften av bönorna, socker, rödvinsvinäger, torkad oregano, lite salt och nymald svartpeppar. Blanda ner vatten och smulad grönsaksbuljong. Låt sjuda ca 12 min under lock."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Flatbreads: Rulla ut pizzadegen. Lägg på en plåt med bakplåtspapper. Ringla över olivolja och strö på rikligt med za'atar och lite flingsalt. Grädda mitt i ugnen ca 12 min, tills brödet fått fin färg. Ringla över lite extra olivolja."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Paprika- och tomatsoppa: Ta kastrullen från värmen och mixa soppan slät med stavmixer. Rör ner resten av bönorna."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Lägg upp paprika- och tomatsoppa i djupa tallrikar och toppa med en klick matyoghurt. Servera med za'atar flatbreads."
+    }
+  ],
+  "images": {
+    "large": "images/50473-large.jpg",
+    "small": "images/50473-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/50473/paprika-och-tomatsoppa-med-za-atar-flatbreads",
+    "harvestedAt": "2026-07-18T20:32:07.950Z"
+  }
+}

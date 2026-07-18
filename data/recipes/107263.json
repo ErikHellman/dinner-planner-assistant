@@ -1,0 +1,230 @@
+{
+  "recipeId": 107263,
+  "mainRecipeId": null,
+  "name": "Pankopanerad fisk med kall dillsås, gröna ärtor och kokt potatis",
+  "headline": "Pankopanerad fisk med kall dillsås",
+  "subheadline": "gröna ärtor och kokt potatis",
+  "description": null,
+  "chefTip": "Använd gärna mandolin om du har.",
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Senap",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 545,
+    "protein": 40.97,
+    "carbs": 59.51,
+    "fat": 15.96
+  },
+  "co2eKgPerServing": 0.392,
+  "rating": {
+    "average": 3.64,
+    "count": 214
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "gröna ärtor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp gröna ärtor",
+      "isBasis": false
+    },
+    {
+      "section": "Dillsås",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillsås",
+      "name": "citronskal",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citronskal",
+      "isBasis": false
+    },
+    {
+      "section": "Dillsås",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Dillsås",
+      "name": "dijonsenap",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Dillsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "citronsaft",
+      "amount": null,
+      "unit": "st",
+      "raw": "st citronsaft",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Pankopanerad fisk",
+      "name": "alaska pollock",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g alaska pollock",
+      "isBasis": false
+    },
+    {
+      "section": "Pankopanerad fisk",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Pankopanerad fisk",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Pankopanerad fisk",
+      "name": "vetemjöl",
+      "amount": null,
+      "unit": "dl",
+      "raw": "ca ½ dl vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Pankopanerad fisk",
+      "name": "panko",
+      "amount": null,
+      "unit": "förp",
+      "raw": "ca ½ förp panko",
+      "isBasis": false
+    },
+    {
+      "section": "Pankopanerad fisk",
+      "name": "ägg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st ägg",
+      "isBasis": true
+    },
+    {
+      "section": "Pankopanerad fisk",
+      "name": "olja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka potatis mjuk i lättsaltat vatten. Lägg ner gröna ärtor på slutet av koktiden och låt koka med ca 1 min."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Dillsås: Hacka dill. Skölj citron i ljummet vatten och finriv skalet. Lägg dill och citronskal i en skål. Blanda ner matyoghurt och dijonsenap. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Gurksallad: Hyvla (se tips!) eller skär snackgurka tunt. Lägg i en salladsskål och blanda ner pressad citronsaft från den använda citronen (ca &frac12; msk) och socker. Plocka dill och blanda ner vid servering. Skär resten av citronen i klyftor."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Pankopanerad fisk: Krydda alaska pollock med salt och nymald svartpeppar. Tag fram tre tallrikar. Häll vetemjöl på en, panko på den andra och vispa upp ett ägg i den tredje. Vänd fisken först i mjöl, sedan i uppvispat ägg och slutligen i panko. Stek fisken på medelvärme i en stekpanna med olja tills den är frasig och gyllenbrun, ca 3 min per sida."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera pankopanerad fisk med dillsås, kokt potatis, ärtor, gurksallad och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/107263-large.jpg",
+    "small": "images/107263-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/107263/pankopanerad-fisk-med-kall-dillsas-grona-artor-och-kokt-potatis",
+    "harvestedAt": "2026-07-18T20:32:33.119Z"
+  }
+}

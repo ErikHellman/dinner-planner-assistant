@@ -1,0 +1,207 @@
+{
+  "recipeId": 94767,
+  "mainRecipeId": null,
+  "name": "Vietnamesisk glasnudelsallad med räkor, mango, jordnötter och nouc cham",
+  "headline": "Vietnamesisk glasnudelsallad",
+  "subheadline": "med räkor, mango, jordnötter och nouc cham",
+  "description": "Grunden till denna maträtt är smakerna i den Vietnamesiska dressingen Nouc cham. Den har en perfekt harmoni mellan hetta, syra, sötma och sälta!  ",
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Fisk",
+    "Selleri",
+    "Kräftdjur",
+    "Jordnötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pekannötter",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 503,
+    "protein": 21.73,
+    "carbs": 77.76,
+    "fat": 11.68
+  },
+  "co2eKgPerServing": 1.4,
+  "rating": {
+    "average": 3.79,
+    "count": 456
+  },
+  "ingredients": [
+    {
+      "section": "Nouc cham",
+      "name": "mynta",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Nouc cham",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Nouc cham",
+      "name": "röd chili",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Nouc cham",
+      "name": "fisksås",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1 ½ msk fisksås",
+      "isBasis": false
+    },
+    {
+      "section": "Nouc cham",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Nouc cham",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "glasnudlar",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp glasnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "mango",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st mango",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "selleristjälk",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st selleristjälk",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "räkor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor",
+      "isBasis": false
+    },
+    {
+      "section": "Glasnudelsallad",
+      "name": "mynta",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "hackade jordnötter",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp hackade jordnötter",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka glasnudlar enligt anvisning på förpackningen. Häll av och spola i kallt vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Nouc cham: Finstrimla mynta, vitlök och röd chili. Lägg i en mortel tillsammans med socker. Mortla ihop allt till en röra. Blanda ner fisksås och pressad limesaft. Har ni ingen mortel så finhacka grönsakerna och blanda allt i en skål istället."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelse glasnudelsallad: Skala och skär mango, morot och rödlök i tunna skivor. Skiva stjälkselleri tunt. Skär tomat i små klyftor och strimla mynta. Häll av räkor. Lägg allt i en rymlig bunke."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Glasnudelsallad: Klipp nudlarna några gånger med en sax (så blir det lättare att blanda salladen). Tillsätt glasnudlar och nouc cham till bunken med grönsaker. Blanda ordentligt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Lägg upp glasnudelsalladen på ett serveringsfat och toppa med koriander och hackade jordnötter. Servera!"
+    }
+  ],
+  "images": {
+    "large": "images/94767-large.jpg",
+    "small": "images/94767-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/94767/vietnamesisk-glasnudelsallad-med-rakor-mango-jordnotter-och-nouc-cham",
+    "harvestedAt": "2026-07-18T20:32:28.142Z"
+  }
+}

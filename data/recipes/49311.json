@@ -1,0 +1,251 @@
+{
+  "recipeId": 49311,
+  "mainRecipeId": null,
+  "name": "Texas vegochili med rostad sötpotatis och majs",
+  "headline": "Texas vegochili",
+  "subheadline": "med rostad sötpotatis och majs",
+  "description": null,
+  "chefTip": "Tänk på att chili varierar i styrka. Smaka dig fram till önskad hetta!",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 685,
+    "protein": 20.88,
+    "carbs": 95.28,
+    "fat": 24.49
+  },
+  "co2eKgPerServing": 0.801,
+  "rating": {
+    "average": 4.1,
+    "count": 301
+  },
+  "ingredients": [
+    {
+      "section": "Rostad sötpotatis & majs",
+      "name": "majs",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp majs",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad sötpotatis & majs",
+      "name": "sötpotatis",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st sötpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad sötpotatis & majs",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad sötpotatis & majs",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad sötpotatis & majs",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Texas chili",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "röd chili",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "kidneybönor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kidneybönor",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Texas chili",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "rökt chilimix",
+      "amount": 0.3333333333333333,
+      "unit": "förp",
+      "raw": "⅓ förp rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Texas chili",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Texas chili",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Texas chili",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Texas chili",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "tortillachips",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse tortillachips",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad sötpotatis och majs: Häll av majs. Skala och tärna sötpotatis. Lägg majs och sötpotatis på varsin sida av en plåt med bakplåtspapper. Ringla över olivolja och krydda med lite salt. Rosta mitt i ugnen ca 18 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Texas chili: Tärna röd paprika. Klyfta gul lök. Finhacka röd chili. Häll av och skölj kidneybönor."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp olivolja i en stekgryta och fräs paprika, lök, chili, pressad vitlök, rökt chilikmix och spiskummin ca 3 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tillsätt kidneybönor, krossade tomater, vatten, vitvinsvinäger, socker och grönsaksbuljong till grytan. Sjud under lock ca 10 min. Vänd ner rostad sötpotatis i grytan och smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Toppa grytan med rostad majs och koriander. Servera med tortillachips."
+    }
+  ],
+  "images": {
+    "large": "images/49311-large.jpg",
+    "small": "images/49311-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/49311/texas-vegochili-med-rostad-sotpotatis-och-majs",
+    "harvestedAt": "2026-07-18T20:32:07.599Z"
+  }
+}

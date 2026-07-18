@@ -1,0 +1,210 @@
+{
+  "recipeId": 46875,
+  "mainRecipeId": null,
+  "name": "Fläskkotlett med gremolatarostade rotfrukter och dragoncrème",
+  "headline": "Fläskkotlett med gremolatarostade rotfrukter",
+  "subheadline": "och dragoncrème",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 515,
+    "protein": 36.53,
+    "carbs": 51.2,
+    "fat": 18.19
+  },
+  "co2eKgPerServing": 0.804,
+  "rating": {
+    "average": 4.16,
+    "count": 271
+  },
+  "ingredients": [
+    {
+      "section": "Rostade rotfrukter",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gremolata",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolata",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolata",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Örtstekt fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Örtstekt fläskkotlett",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Örtstekt fläskkotlett",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Örtstekt fläskkotlett",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "0 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dragoncrème",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Dragoncrème",
+      "name": "torkad dragon",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Dragoncrème",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Dragoncrème",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostade rotfrukter: Klyfta småpotatis och morötter. Lägg allt på en smord ugnsplåt. Blanda med lite olivolja, salt och nymald svartpeppar. Tillaga mitt i ugnen ca 22 min, eller tills rotfrukterna är klara."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Gremolata: Skölj citronen ordentligt i ljummet vatten och finriv skalet. Skär citronen i klyftor. Lägg citronskalet i en liten skål. Finhacka bladpersilja och vitlök. Blanda ner i skålen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Örtstekt fläskkotlett: Skär fläskkotlett i cm-tjocka skivor. Krydda med torkad oregano och lite salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp rikligt med olivolja i en stekpanna. Stek köttet ca 3 min per sida, tills det är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Dragoncr&egrave;me: Blanda ihop gräddfil med torkad dragon och honung. Smaka av med lite salt."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Blanda de rostade rotfrukterna med gremolata och servera med örtstekta fläskkotletter, citronklyftor och dragoncr&egrave;me."
+    }
+  ],
+  "images": {
+    "large": "images/46875-large.jpg",
+    "small": "images/46875-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46875/flaskkotlett-med-gremolatarostade-rotfrukter-och-dragoncreme",
+    "harvestedAt": "2026-07-18T20:32:04.280Z"
+  }
+}

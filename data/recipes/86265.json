@@ -1,0 +1,177 @@
+{
+  "recipeId": 86265,
+  "mainRecipeId": null,
+  "name": "Fläskkarré med bulgursallad, fetaost och BBQ-sås",
+  "headline": "Fläskkarré med bulgursallad,",
+  "subheadline": "fetaost och BBQ-sås",
+  "description": null,
+  "chefTip": "Vill du grilla, tänd grillen!",
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Proteinrik",
+    "Grill",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 631,
+    "protein": 43.21,
+    "carbs": 50.63,
+    "fat": 28.44
+  },
+  "co2eKgPerServing": 1.249,
+  "rating": {
+    "average": null,
+    "count": 0
+  },
+  "ingredients": [
+    {
+      "section": "Bulgursallad",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "romansallad",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st romansallad",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Sås",
+      "name": "BBQ-sås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp BBQ-sås",
+      "isBasis": false
+    },
+    {
+      "section": "Sås",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkarré",
+      "name": "fläskkarré",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkarré",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkarré",
+      "name": "persillade",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkarré",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkarré",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Bulgursallad: Koka bulgur enligt anvisningen på förpackningen, men byt ut salt mot kycklingbuljong."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Skär tomat, snackgurka och romansallad i mindre bitar. Lägg allt i små skålar eller allt i en salladsskål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Sås: Blanda BBQ-sås med gräddfil i en skål."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fläskkarré: Krydda fläskkarré med persillade, salt och lite nymald svartpeppar. Hetta upp en grill- eller stekpanna på hög värme och tillaga köttet ca 4 min per sida, tills köttet är genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Bulgursallad: Blanda ner bulgur i salladsskålen och smula över fetaost. Eller servera allt separat."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera fläskkarré med bulgursallad och sås."
+    }
+  ],
+  "images": {
+    "large": "images/86265-large.jpg",
+    "small": "images/86265-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/86265/flaskkarre-med-bulgursallad-fetaost-och-bbq-sas",
+    "harvestedAt": "2026-07-18T20:32:19.831Z"
+  }
+}

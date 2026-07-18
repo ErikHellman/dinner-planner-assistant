@@ -1,0 +1,207 @@
+{
+  "recipeId": 58753,
+  "mainRecipeId": null,
+  "name": "Fisksoppa med dragonmajonnäs och surdegsbröd",
+  "headline": "Fisksoppa med dragonmajonnäs",
+  "subheadline": "och surdegsbröd",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Senap",
+    "Ägg",
+    "Sesamfrön",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 607,
+    "protein": 36.61,
+    "carbs": 55.76,
+    "fat": 26.36
+  },
+  "co2eKgPerServing": 0.734,
+  "rating": {
+    "average": 3.99,
+    "count": 645
+  },
+  "ingredients": [
+    {
+      "section": "Fisksoppa",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "peppar- och fänkålsmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp peppar- och fänkålsmix",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "alaska pollock",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g alaska pollock",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "dragonmajonnäs",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp dragonmajonnäs",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig). Grädda surdegspavé lagom till servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Fisksoppa: Skär rödlök i tunna klyftor. Slanta morötter."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp lite olivolja i en rymlig stekgryta. Fräs lök, morötter, pressad vitlök och peppar- och fänkålsmix ca 3 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt tomatpuré, vitvinsvinäger, krossade tomater, vatten och grönsaksbuljong. Koka upp och sjud under lock ca 7 min, tills morötterna mjuknat något. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Skär alaska pollock i mindre bitar och krydda med salt. Blanda ner fisken och sjud ca 2 min, tills den är klar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Grovhacka bladpersilja och strö över fisksoppan. Servera med en klick dragonmajonnäs och surdegspavé."
+    }
+  ],
+  "images": {
+    "large": "images/58753-large.jpg",
+    "small": "images/58753-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58753/fisksoppa-med-dragonmajonnas-och-surdegsbrod",
+    "harvestedAt": "2026-07-18T20:32:11.263Z"
+  }
+}

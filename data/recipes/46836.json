@@ -1,0 +1,230 @@
+{
+  "recipeId": 46836,
+  "mainRecipeId": null,
+  "name": "Bakad sötpotatis med fetaost, guacamole och picklad lök",
+  "headline": "Bakad sötpotatis med fetaost",
+  "subheadline": "guacamole och picklad lök",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Nötter",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 612,
+    "protein": 19.13,
+    "carbs": 80.15,
+    "fat": 23.88
+  },
+  "co2eKgPerServing": 0.677,
+  "rating": {
+    "average": 4.09,
+    "count": 68
+  },
+  "ingredients": [
+    {
+      "section": "Bakad sötpotatis",
+      "name": "sötpotatis",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st sötpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "kikärtor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kikärtor",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "garam masala",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk garam masala",
+      "isBasis": false
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "socker",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "ättiksprit (12%)",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Guacamole",
+      "name": "avokado",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st avokado",
+      "isBasis": false
+    },
+    {
+      "section": "Guacamole",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Guacamole",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Guacamole",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Guacamole",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Guacamole",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "babyspenat",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g babyspenat",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Bakad sötpotatis: Halvera sötpotatis på längden. Pensla hela sötpotatisen med lite olivolja. Strö på lite salt på snittytan. Lägg potatisen med snittytan nedåt på en plåt med bakplåtspapper. Baka mitt i ugnen ca 30 min, tills sötpotatisen blivit mjuk."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Häll av och skölj kikärtor. Blanda med garam masala, lite olivolja och salt i en bunke. Öppna ugnen och lägg kikärtorna på plåten med sötpotatis och rosta med sötpotatisen de sista 15 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Picklad rödlök: Skiva rödlök tunt. Koka upp socker, ättika och vatten i en kastrull. Dra från värmen och tillsätt löken. Låt stå tills servering."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Guacamole: Skala, kärna ur och mosa eller tärna avokado. Tärna tomater smått. Lägg allt i en skål och tillsätt pressad vitlök, pressad limesaft, salt och chili flakes."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Smula fetaost. Sprid ut babyspenat på ett serveringsfat och lägg sötpotatisen ovanpå. Mosa innanmätet med en gaffel."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Toppa bakad sötpotatis med picklad rödlök, rostade kikärtor och fetaost. Servera med en klick guacamole."
+    }
+  ],
+  "images": {
+    "large": "images/46836-large.jpg",
+    "small": "images/46836-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46836/bakad-sotpotatis-med-fetaost-guacamole-och-picklad-lok",
+    "harvestedAt": "2026-07-18T20:32:02.822Z"
+  }
+}

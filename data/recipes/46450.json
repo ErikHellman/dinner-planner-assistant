@@ -1,0 +1,186 @@
+{
+  "recipeId": 46450,
+  "mainRecipeId": null,
+  "name": "Potatissallad med räkor, sparris, dill och krutonger",
+  "headline": "Potatissallad med räkor",
+  "subheadline": "sparris, dill och krutonger",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Senap",
+    "Ägg",
+    "Kräftdjur",
+    "Mjölk",
+    "Sojabönor",
+    "Svaveldioxid",
+    "Vete",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 656,
+    "protein": 30.43,
+    "carbs": 63.78,
+    "fat": 31.05
+  },
+  "co2eKgPerServing": 1.401,
+  "rating": {
+    "average": null,
+    "count": 50
+  },
+  "ingredients": [
+    {
+      "section": "Dressing",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "mild senap",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp mild senap",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Potatissallad",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatissallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Potatissallad",
+      "name": "grön sparris",
+      "amount": 1,
+      "unit": "knippe",
+      "raw": "1 knippe grön sparris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "räkor, 300 g",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor, 300 g",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "krutonger",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krutonger",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ägg",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st ägg",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Potatissallad: Koka potatis mjuk i lättsaltat vatten. Skär bort den nedersta träiga delen på sparrisen. Skär sedan i ca 3 cm långa stavar. Låt koka med potatisen de sista 2 min."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka upp vatten i en kastrull. Lägg ner ägg och låt koka 7 min. Häll av och spola i kallt vatten."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelser: Häll av räkor. Skiva rödlök tunt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Dressing: Tvätta citronen i ljummet vatten och finriv skalet. Lägg citronskalet i en skål. Blanda med pressad saft från citronen, majonnäs, senap, honung, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Potatissallad: Låt den kokta potatisen svalna något. Dela potatisen och lägg i en salladsskål. Blanda med rödlök, sparris och dressing."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Skala och halvera äggen. Grovhacka dill. Servera potatissalladen toppad med dill, räkor, krutonger och ägghalva."
+    }
+  ],
+  "images": {
+    "large": "images/46450-large.jpg",
+    "small": "images/46450-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46450/potatissallad-med-rakor-sparris-dill-och-krutonger",
+    "harvestedAt": "2026-07-18T20:31:59.859Z"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "recipeId": 90324,
+  "mainRecipeId": null,
+  "name": "Räkpasta med curry, tomat och dill",
+  "headline": "Räkpasta med curry",
+  "subheadline": "tomat och dill",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Sojabönor",
+    "Senap",
+    "Vete",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 555,
+    "protein": 34.01,
+    "carbs": 93.33,
+    "fat": 5.07
+  },
+  "co2eKgPerServing": 1.569,
+  "rating": {
+    "average": 3.97,
+    "count": 323
+  },
+  "ingredients": [
+    {
+      "section": "Pastasås",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Pastasås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "curry",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp curry",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "mjölk",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl mjölk",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "majsstärkelse",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Pastasås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "räkor, (300 g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor, (300 g)",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mezze maniche rigate",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g mezze maniche rigate",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp rikligt med lättsaltat vatten i en kastrull till pastakoket i steg 4."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Strimla rödlök. Tärna tomat och röd paprika. Grovhacka dill. Häll av räkor. Tvätta citron och finriv det yttersta skalet."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Pastasås: Hetta upp lite olivolja i en stekgryta och fräs rödlök, tomat och röd paprika ca 4 min. Tillsätt pressad vitlök, curry, paprikapulver och tomatpuré, låt fräsa ca 1 min. Blanda ner chili flakes, mjölk och majsstärkelse (utblandat i lika delar vatten). Koka upp och låt sjuda ca 5 min. Smaka av med salt och eventuellt mer chili flakes."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Koka pastan enligt anvisning på förpackningen."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ta grytan med pastasås från värmen. Blanda ner citronskal, pressad saft från halva den använda citronen och hackad dill, smaka av med salt och svartpeppar. Vänd ner avrunna räkor och kokt pasta. Servera direkt."
+    }
+  ],
+  "images": {
+    "large": "images/90324-large.jpg",
+    "small": "images/90324-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90324/rakpasta-med-curry-tomat-och-dill",
+    "harvestedAt": "2026-07-18T20:32:20.727Z"
+  }
+}

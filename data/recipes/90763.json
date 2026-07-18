@@ -1,0 +1,181 @@
+{
+  "recipeId": 90763,
+  "mainRecipeId": null,
+  "name": "Sweet and sour turkey - kalkonfärs med färsk ingefära och chili",
+  "headline": "Sweet and sour turkey - kalkonfärs",
+  "subheadline": "med färsk ingefära och chili",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Sesamfrön",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 547,
+    "protein": 33.95,
+    "carbs": 57.31,
+    "fat": 20.19
+  },
+  "co2eKgPerServing": 0.742,
+  "rating": {
+    "average": 3.94,
+    "count": 923
+  },
+  "ingredients": [
+    {
+      "section": "Sötsur sås",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Sötsur sås",
+      "name": "sesamolja",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Sötsur sås",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsur sås",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "ingefära",
+      "amount": 0.5,
+      "unit": "bit",
+      "raw": "½ bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "morötter",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "sesamolja",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Basmatiris",
+      "name": "basmatiris, (ca 1 dl)",
+      "amount": 95,
+      "unit": "g",
+      "raw": "95 g basmatiris, (ca 1 dl)",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Basmatiris: Koka basmatiris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Sötsur sås: Vispa ihop japansk sojasås, sesamolja, balsamvinäger och socker i en skål, tills sockret lösts upp."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kalkonfärs: Skala och finhacka ingefära och vitlök. Skala och grovriv morot. Klyfta rödlök."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp sesamolja i en stekpanna och stek vitlök, ingefära och chili flakes (efter egen smak) några sekunder. Tillsätt kalkonfärs och rödlök, fräs ytterligare ca 4 min. Krydda med salt. Häll på den sötsura såsen och rör ner morötterna."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Låt sjuda ca 2 min, tills färsen är helt genomstekt. Späd med lite vatten om kalkonfärsen upplevs torr."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera sötsur kalkonfärs med nykokt basmatiris."
+    }
+  ],
+  "images": {
+    "large": "images/90763-large.jpg",
+    "small": "images/90763-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90763/sweet-and-sour-turkey-kalkonfars-med-farsk-ingefara-och-chili",
+    "harvestedAt": "2026-07-18T20:32:23.407Z"
+  }
+}

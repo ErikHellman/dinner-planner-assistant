@@ -1,0 +1,238 @@
+{
+  "recipeId": 60497,
+  "mainRecipeId": null,
+  "name": "Tomatsoppa med färsk oregano och quesadillas",
+  "headline": "Tomatsoppa med quesadillas",
+  "subheadline": "och färsk oregano",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Barnvänligt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 596,
+    "protein": 21.31,
+    "carbs": 73.26,
+    "fat": 24.19
+  },
+  "co2eKgPerServing": 0.936,
+  "rating": {
+    "average": 4.13,
+    "count": 1671
+  },
+  "ingredients": [
+    {
+      "section": "Tomatsoppa",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "crème fraiche",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g crème fraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsoppa",
+      "name": "oregano",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksstavar",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksstavar",
+      "name": "gurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Quesadillas",
+      "name": "tortillabröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tortillabröd",
+      "isBasis": false
+    },
+    {
+      "section": "Quesadillas",
+      "name": "riven mozzarella",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g riven mozzarella",
+      "isBasis": false
+    },
+    {
+      "section": "Quesadillas",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Quesadillas",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Tomatsoppa: Hacka bananschalottenlök och tärna tomat grovt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Hetta upp lite olivolja i en rymlig kastrull och fräs lök, pressad vitlök och tomatpuré hastigt. Tillsätt tomat, krossade tomater, vatten, grönsaksbuljong, torkad oregano, socker, salt och lite nymald svartpeppar. Sjud ca 10 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ta soppan från värmen och rör ner créme fraiche. Vill du ha en slät soppa, mixa med stavmixer direkt i kastrullen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grönsaksstavar: Skala morötter. Skär morötter och gurka i stavar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Quesadillas: Lägg upp hälften av tortillabröden på arbetsbänken. Fördela riven mozzarella och lite salt över bröden. Lägg på de resterande bröden som lock. Hetta upp lite olivolja i en stekpanna. Värm bröden ca 1 min per sida så att osten smälter något."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Plocka blad från oregano. Skär quesadillas i mindre bitar. Toppa tomatsoppan med oregano. Servera med quesadillas och grönsaksstavar."
+    }
+  ],
+  "images": {
+    "large": "images/60497-large.jpg",
+    "small": "images/60497-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/60497/tomatsoppa-med-farsk-oregano-och-quesadillas",
+    "harvestedAt": "2026-07-18T20:32:14.071Z"
+  }
+}

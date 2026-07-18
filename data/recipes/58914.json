@@ -1,0 +1,246 @@
+{
+  "recipeId": 58914,
+  "mainRecipeId": null,
+  "name": "Fransk kycklinggryta med champinjoner och persilja",
+  "headline": "Fransk kycklinggryta",
+  "subheadline": "med champinjoner och persilja",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Vete",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 495,
+    "protein": 42.23,
+    "carbs": 54,
+    "fat": 12.28
+  },
+  "co2eKgPerServing": 0.65,
+  "rating": {
+    "average": 4.14,
+    "count": 79
+  },
+  "ingredients": [
+    {
+      "section": "Kycklinggryta",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "lagerblad",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st lagerblad",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "torkad timjan",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "majsstärkelse",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "vatten",
+      "amount": 2.5,
+      "unit": "dl",
+      "raw": "2½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten. Vid servering, blanda potatisen med olivolja och lite salt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Tärna gul lök och dela champinjoner. Skiva morot. Hacka bladpersilja. Skär kycklingfilé i ca 3x3 cm stora bitar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kycklinggryta: Hetta upp olivolja i en stekgryta. Bryn kyckling runt om ca 3 min och krydda med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt gul lök, pressad vitlök, morot, champinjoner, tomatpuré, lagerblad, torkad timjan och socker. Fräs ytterligare ca 3 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tillsätt vitvinsvinäger, kinesisk soja och kycklingbuljong. Rör ut majsstärkelse i lite av vattnet. Häll ner majsredningen och resten av vattnet i grytan. Koka upp och sjud under lock ca 10 min, tills kycklingen är helt genomstekt. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera kycklinggryta med nykokt potatis. Toppa med bladpersilja!"
+    }
+  ],
+  "images": {
+    "large": "images/58914-large.jpg",
+    "small": "images/58914-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58914/fransk-kycklinggryta-med-champinjoner-och-persilja",
+    "harvestedAt": "2026-07-18T20:32:11.619Z"
+  }
+}

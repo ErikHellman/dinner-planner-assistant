@@ -1,0 +1,264 @@
+{
+  "recipeId": 36776,
+  "mainRecipeId": null,
+  "name": "Medelhavsbiffar med tomat, fetaost och tzatziki",
+  "headline": "Medelhavsbiffar med tomat",
+  "subheadline": "fetaost och tzatziki",
+  "description": null,
+  "chefTip": "Saknar du en ugnsfast stekpanna? Lägg över biffarna i en ugnsform och följ receptet.",
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 587,
+    "protein": 42.15,
+    "carbs": 45.87,
+    "fat": 26.15
+  },
+  "co2eKgPerServing": 4.631,
+  "rating": {
+    "average": 4.12,
+    "count": 69
+  },
+  "ingredients": [
+    {
+      "section": "Medelhavsbiffar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavsbiffar",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavsbiffar",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavsbiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavsbiffar",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavsbiffar",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavsbiffar",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Topping",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "flytande honung",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Medelhavsbiffar: Lägg nötfärs i en bunke. Blanda med torkad oregano, tomatpuré, salt och lite nymald svartpeppar. Forma färsen till 2 biffar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Krossa vitlöksklyftan lätt med en kniv. Hetta upp lite olivolja i en stekpanna som tål ugnsvärme. Fräs den krossade vitlöksklyftan ca 2 min för att ge smak till oljan. Lyft bort vitlöken. Bryn biffarna i vitlöksoljan tills de fått fin färg."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Topping: Tärna tomat. Toppa biffarna i stekpannan med tomat, torkad oregano och lite salt. Ställ in hela stekpannan mitt i ugnen (eller lägg över allt i en ugnsform). Tillaga ca 10 min, tills biffarna är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Tzatziki: Grovriv gurka och pressa bort vätskan. Blanda riven gurka, matyoghurt, pressad vitlök och salt i en skål. Smaka av med lite nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Sallad: Lägg mixsallad i en salladsskål. Dressa med lite vitvinsvinäger, honung, salt och nymald svartpeppar."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Strö smulad fetaost över medelhavsbiffarna. Servera med bulgur, sallad och tzatziki."
+    }
+  ],
+  "images": {
+    "large": "images/36776-large.jpg",
+    "small": "images/36776-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/36776/medelhavsbiffar-med-tomat-fetaost-och-tzatziki",
+    "harvestedAt": "2026-07-18T19:55:43.730Z"
+  }
+}

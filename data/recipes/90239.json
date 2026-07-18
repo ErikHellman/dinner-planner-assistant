@@ -1,0 +1,187 @@
+{
+  "recipeId": 90239,
+  "mainRecipeId": null,
+  "name": "Stekt fläskkotlett med citrondressad potatissallad",
+  "headline": "Stekt fläskkotlett",
+  "subheadline": "citrondressad potatissallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [],
+  "nutritionPerServing": {
+    "energyKcal": 516,
+    "protein": 37.48,
+    "carbs": 44.23,
+    "fat": 21.03
+  },
+  "co2eKgPerServing": 1.052,
+  "rating": {
+    "average": 3.96,
+    "count": 131
+  },
+  "ingredients": [
+    {
+      "section": "Potatissallad",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatissallad",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Potatissallad",
+      "name": "rädisor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rädisor",
+      "isBasis": false
+    },
+    {
+      "section": "Potatissallad",
+      "name": "sockerärtor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sockerärtor",
+      "isBasis": false
+    },
+    {
+      "section": "Potatissallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "olivolja",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten. Låt svalna något."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Potatissallad: Skiva rödlök och rädisor. Halvera sockerärtor. Lägg allt i en salladsskål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dressing: Tvätta citron i ljummet vatten och finriv skalet. Blanda olivolja, ca 1-2 msk pressad citronsaft, rivet citronskal och flytande honung i en skål. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Potatissallad: Skär potatisen i mindre bitar och lägg i salladsskålen med grönsakerna. Häll över dressingen och blanda väl."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fläskkotlett: Skär fläskkotlett i 2 jämntjocka skivor, krydda med salt och lite nymald svartpeppar. Hetta upp neutral olja i en rymlig stekpanna. Stek köttet ca 3 min per sida, tills köttet är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera nystekt fläskkotlett med ljummen potatissallad och mixsallad."
+    }
+  ],
+  "images": {
+    "large": "images/90239-large.jpg",
+    "small": "images/90239-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90239/stekt-flaskkotlett-med-citrondressad-potatissallad",
+    "harvestedAt": "2026-07-18T20:32:20.677Z"
+  }
+}

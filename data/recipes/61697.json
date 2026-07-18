@@ -1,0 +1,204 @@
+{
+  "recipeId": 61697,
+  "mainRecipeId": null,
+  "name": "Medelhavsinspirerad kalkonfärs i tortillabröd med päron och tzatziki",
+  "headline": "Medelhavsinspirerad kalkonfärs i tortillabröd med päron och tzatziki",
+  "subheadline": "i tortillabröd med päronsallad och tzatziki",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Senap",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 603,
+    "protein": 39.93,
+    "carbs": 61.16,
+    "fat": 22.03
+  },
+  "co2eKgPerServing": 0.781,
+  "rating": {
+    "average": 3.33,
+    "count": 151
+  },
+  "ingredients": [
+    {
+      "section": "Tzatziki",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "three spices",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse three spices",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "dijonsenap",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Päronsallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Päronsallad",
+      "name": "päron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st päron",
+      "isBasis": false
+    },
+    {
+      "section": "Päronsallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Päronsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "tortillabröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tortillabröd",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Tzatziki: Grovriv snackgurka och pressa ur vätskan. Lägg gurkan i en skål och blanda ner matyoghurt, pressad vitlök, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Kalkonfärs: Hetta upp lite olja i en stekpanna. Stek kalkonfärs på hög värme ca 3 min. Tillsätt three spices, dijonsenap, tomatpuré, salt och vatten. Koka i hop ca 3 min. Smaka eventuellt av med lite salt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Päronsallad: Skiva bananschalottenlök och skär päron i tunna klyftor. Lägg i en salladsskål och blanda ner ruccola och lite salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fyll tortillabröd med päronsallad, gyros och tzatziki."
+    }
+  ],
+  "images": {
+    "large": "images/61697-large.jpg",
+    "small": "images/61697-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61697/medelhavsinspirerad-kalkonfars-i-tortillabrod-med-paron-och-tzatziki",
+    "harvestedAt": "2026-07-18T20:32:15.479Z"
+  }
+}

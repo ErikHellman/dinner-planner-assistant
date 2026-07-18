@@ -1,0 +1,247 @@
+{
+  "recipeId": 95899,
+  "mainRecipeId": null,
+  "name": "Örtstekt kyckling med dragonsås, ris och haricots verts",
+  "headline": "Örtstekt kyckling med dragonsås",
+  "subheadline": "ris och haricots verts",
+  "description": null,
+  "chefTip": "Går även bra att blanda ner haricots verts i salladen!",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos",
+    "Senap"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 545,
+    "protein": 45.57,
+    "carbs": 64.12,
+    "fat": 11.79
+  },
+  "co2eKgPerServing": 1.061,
+  "rating": {
+    "average": 3.9,
+    "count": 258
+  },
+  "ingredients": [
+    {
+      "section": "Kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "persillade",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "torkad dragon",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "minifraiche",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl minifraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "kycklingbuljong",
+      "amount": 0.3333333333333333,
+      "unit": "förp",
+      "raw": "⅓ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "dijonsenap",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olja",
+      "amount": 0.75,
+      "unit": "msk",
+      "raw": "¾ msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "basmatiris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g basmatiris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "haricots verts",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp haricots verts",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Till servering: Koka basmatiris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kyckling: Krydda kycklingfilé med persillade, salt och nymald svartpeppar. Hetta upp olja i en rymlig stekpanna. Stek kycklingen ca 3 min per sida. Lägg över i en ugnsform. Tillaga klart kycklingen i mitten av ugnen ca 10 min, tills den är genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Dragonsås: Finhacka all schalottenlök. Hetta upp olja i en kastrull och fräs lök och torkad dragon ca 1 min. Tillsätt minifraiche, vatten och kycklingbuljong, koka upp och sjud ca 3 min. Smaka av med lite salt och nymald svartpeppar. Späd med vatten om såsen blir för tjock."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Vispa ihop dijonsenap med olja i en salladskål. Skär tomat i mindre bitar. Blanda ner allt i salladsskålen tillsammans med ruccola och resten av schalottenlök ."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Till servering: Koka upp vatten i en kastrull och koka haricots verts ca 1 min."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera stekt kyckling med dragonsås, haricots verts (se tips!), sallad och ris."
+    }
+  ],
+  "images": {
+    "large": "images/95899-large.jpg",
+    "small": "images/95899-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/95899/ortstekt-kyckling-med-dragonsas-ris-och-haricots-verts",
+    "harvestedAt": "2026-07-18T20:32:29.221Z"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "recipeId": 90755,
+  "mainRecipeId": null,
+  "name": "Örtkyckling med palsternacka, rotselleri, bulgur och tomatsky",
+  "headline": "Örtkyckling med palsternacka",
+  "subheadline": "rotselleri, bulgur och tomatsky",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Selleri",
+    "Svaveldioxid",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 456,
+    "protein": 45.22,
+    "carbs": 51.09,
+    "fat": 7.86
+  },
+  "co2eKgPerServing": 0.634,
+  "rating": {
+    "average": 3.9,
+    "count": 282
+  },
+  "ingredients": [
+    {
+      "section": "Rostad palsternacka och rotselleri",
+      "name": "rotselleri",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g rotselleri",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad palsternacka och rotselleri",
+      "name": "palsternacka",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g palsternacka",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad palsternacka och rotselleri",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad palsternacka och rotselleri",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad palsternacka och rotselleri",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad palsternacka och rotselleri",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "örtmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "socker",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Örtkyckling",
+      "name": "kycklingbuljong",
+      "amount": 0.25,
+      "unit": "förp",
+      "raw": "¼ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostad palsternacka och rotselleri: Skala rotselleri och palsternacka och skär i ca 2 cm tjocka stavar. Lägg på en ugnsplåt med bakplåtspapper. Blanda med olivolja, salt och lite nymald svartpeppar. Rosta högt upp i ugnen ca 15 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Örtkyckling: Tärna tomat och dela all kycklingfilé på längden. Krydda kycklingen med örtmix, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp lite olivolja i en stekpanna. Stek kycklingen ca 6 min runt om. Tillsätt tomat, tomatpuré, vitvinsvinäger, socker, vatten och kycklingbuljong. Låt sjuda ca 4 min, tills kycklingen är helt genomstekt. Smaka av tomatskyn med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Rör ner olivolja och vitvinsvinäger i den nykokta bulgurn, smaka av med lite salt. Servera med örtkyckling, rostad rotselleri och tomatsky."
+    }
+  ],
+  "images": {
+    "large": "images/90755-large.jpg",
+    "small": "images/90755-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90755/ortkyckling-med-palsternacka-rotselleri-bulgur-och-tomatsky",
+    "harvestedAt": "2026-07-18T20:32:22.764Z"
+  }
+}

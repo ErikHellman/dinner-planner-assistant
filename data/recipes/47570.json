@@ -1,0 +1,265 @@
+{
+  "recipeId": 47570,
+  "mainRecipeId": null,
+  "name": "Paprikasoppa med italiensk hårdost och vitlöksbröd",
+  "headline": "Paprikasoppa med italiensk hårdost",
+  "subheadline": "och vitlöksbröd",
+  "description": null,
+  "chefTip": "Om någon inte gillar vitlöksbröd går det givetvis lika bra att servera bröden som de är.",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 617,
+    "protein": 19.05,
+    "carbs": 64.59,
+    "fat": 31.39
+  },
+  "co2eKgPerServing": 1.147,
+  "rating": {
+    "average": 4.01,
+    "count": 732
+  },
+  "ingredients": [
+    {
+      "section": "Paprikasoppa",
+      "name": "röd paprika",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "röda linser",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp röda linser",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "crème fraiche",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g crème fraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikasoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Servering",
+      "name": "crème fraiche",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g crème fraiche",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelse paprikasoppa: Klyfta röd paprika och gul lök. Häll av och skölj röda linser."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Paprikasoppa: Hetta upp olja i en stekgryta. Fräs paprika och lök ca 3 min. Tillsätt krossade tomater, röda linser, vatten, vitvinsvinäger, paprikapulver, chili flakes, grönsaksbuljong och pressad vitlök. Sjud ca 8 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Vitlöksbröd: Skär surdegspavé i skivor, se tips! Lägg på en plåt med bakplåtspapper och gnid in brödet med pressad vitlök, olja, lite salt och torkad oregano. Rosta i mitten av ugnen ca 5 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Paprikasoppa: Tillsätt riven grande premium och cr&egrave;me fraiche till soppan och mixa med stavmixer. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Finhacka bladpersilja. Ringla ner lite cr&egrave;me fraiche i soppan vid servering. Servera med vitlöksbröd och toppa med persilja."
+    }
+  ],
+  "images": {
+    "large": "images/47570-large.jpg",
+    "small": "images/47570-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/47570/paprikasoppa-med-italiensk-hardost-och-vitloksbrod",
+    "harvestedAt": "2026-07-18T20:32:07.148Z"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "recipeId": 91805,
+  "mainRecipeId": null,
+  "name": "Marinerad kyckling med stekt potatisgnocchi, basilika och parmesan",
+  "headline": "Marinerad kyckling med stekt potatisgnocchi",
+  "subheadline": "basilika och parmesan",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Vete",
+    "Mjölk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 479,
+    "protein": 45.06,
+    "carbs": 51.52,
+    "fat": 10.31
+  },
+  "co2eKgPerServing": 0.647,
+  "rating": {
+    "average": 4.19,
+    "count": 212
+  },
+  "ingredients": [
+    {
+      "section": "Kyckling",
+      "name": "japansk soja",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "paprikapulver",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "gnocchi",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g gnocchi",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "basilika",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g basilika",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "olivolja",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gnocchi",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gnocchi",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Kyckling: Blanda ihop japansk soja, olivolja, paprikapulver, socker och riven vitlök till en marinad i en bunke. Dela kycklingfilé på längden och blanda ner i bunken. Låt marinera 10-15 min."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Gnocchi: Lägg potatisgnocchi i en rymlig bunke och täck med kallt vatten. Låt stå minst 5 min. Finhacka bananschalottenlök. Halvera cocktailtomater. Finriv parmesanost och plocka bladen från basilika."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kyckling: Hetta upp olivolja i en stek- eller grillpanna och stek kycklingen ca 3 min per sida, tills den fått fin färg och är genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Gnocchi: Häll av gnocchin. Hetta upp olivolja i en rymlig stekpanna. Stek gnocchi tills den har fått fin färg och blivit krispig, ca 4 min. Krydda med lite salt och nymald svartpeppar. Blanda ner lök och cocktailtomater, stek ytterligare ca 1 min. Dra från värmen och strö över riven parmesan och basilika."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera stekt potatisgnocchi med kyckling."
+    }
+  ],
+  "images": {
+    "large": "images/91805-large.jpg",
+    "small": "images/91805-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91805/marinerad-kyckling-med-stekt-potatisgnocchi-basilika-och-parmesan",
+    "harvestedAt": "2026-07-18T20:32:24.611Z"
+  }
+}

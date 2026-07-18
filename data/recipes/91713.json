@@ -1,0 +1,207 @@
+{
+  "recipeId": 91713,
+  "mainRecipeId": null,
+  "name": "Kyckling i jordnötssås med salladslök och lime",
+  "headline": "Kyckling i jordnötssås",
+  "subheadline": "med salladslök och lime",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Sojabönor",
+    "Jordnötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pekannötter",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 522,
+    "protein": 46.68,
+    "carbs": 52.59,
+    "fat": 13.88
+  },
+  "co2eKgPerServing": 0.654,
+  "rating": {
+    "average": 4.28,
+    "count": 218
+  },
+  "ingredients": [
+    {
+      "section": "Kycklinggryta",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "curry",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk curry",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklinggryta",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "jasminris",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl jasminris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Limedressad kålsallad",
+      "name": "strimlad rödkål",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g strimlad rödkål",
+      "isBasis": false
+    },
+    {
+      "section": "Limedressad kålsallad",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Limedressad kålsallad",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Limedressad kålsallad",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Jordnötssås",
+      "name": "hackade jordnötter",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp hackade jordnötter",
+      "isBasis": false
+    },
+    {
+      "section": "Jordnötssås",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Jordnötssås",
+      "name": "japansk soja",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1 ½ msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Jordnötssås",
+      "name": "socker",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Jordnötssås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Limedressad kålsallad: Skala och finstrimla morot. Lägg strimlad rödkål och morot i en rymlig bunke. Tvätta lime i ljummet vatten och finriv det yttersta skalet. Blanda ner limeskal, pressad limesaft och japansk soja i bunken med grönsaker."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Jordnötssås: Lägg hackade jordnötter, pressad vitlök, socker, japansk soja och vatten i en mixerbunke. Mixa med en stavmixer till en sås."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kycklinggryta: Skär kycklingfilé i mindre bitar, ca 3x3 cm stora. Hetta upp neutral olja i en stekgryta. Tillsätt kycklingbitarna och krydda med curry, salt och chili flakes (efter egen smak). Låt steka ca 5 min, tills kycklingen fått fin färg och är helt genomstekt. Tillsätt jordnötssåsen och koka ihop ca 1 min. Späd eventuellt med mer vatten."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Strimla salladslök och strö över kycklinggrytan. Servera med limedressad rödkålssallad och jasminris."
+    }
+  ],
+  "images": {
+    "large": "images/91713-large.jpg",
+    "small": "images/91713-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91713/kyckling-i-jordnotssas-med-salladslok-och-lime",
+    "harvestedAt": "2026-07-18T20:32:23.941Z"
+  }
+}

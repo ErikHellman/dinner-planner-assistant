@@ -1,0 +1,175 @@
+{
+  "recipeId": 60545,
+  "mainRecipeId": null,
+  "name": "Pad See Ew - wokade nudlar med sojasås, kalkonfärs och pak choy",
+  "headline": "Pad See Ew - wokade nudlar med kalkonfärs",
+  "subheadline": "sojasås och pak choy",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Vete",
+    "Sesamfrön",
+    "Svaveldioxid",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 629,
+    "protein": 34.7,
+    "carbs": 76.92,
+    "fat": 20.24
+  },
+  "co2eKgPerServing": 0.782,
+  "rating": {
+    "average": 3.99,
+    "count": 1079
+  },
+  "ingredients": [
+    {
+      "section": "Nudlar",
+      "name": "risnudlar",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp risnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "soja- och ingefärssås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp soja- och ingefärssås",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "hoisinsås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp hoisinsås",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Woksås",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonwok",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonwok",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonwok",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonwok",
+      "name": "olja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonwok",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonwok",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm chili flakes",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Nudlar: Koka risnudlar i en kastrull med lättsaltat vatten 3 min. Häll av och spola kallt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Woksås: Blanda ihop soja- och ingefärssås, hoisinsås, socker och vitvinsvinäger i en skål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelse: Finhacka vitlök och strimla pak choy. Klyfta rödlök."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kalkonwok: Hetta upp rikligt med neutral olja i en wok eller rymlig stekpanna. Fräs kalkonfärs ca 6 min, tills färsen fått fin stekyta. Tillsätt vitlök, pak choy och rödlök. Krydda med lite salt. Låt allt fräsa ytterligare ca 2 min. Lägg över allt på en tallrik."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Nudelwok: Tillsätt mer neutral olja till den använda woken. Fräs nudlarna ca 1 min, rör om så att de inte fastnar. Tillsätt hälften av woksåsen och låt allt fräsa ytterligare ca 2 min, nudlarna ska bli lite karamelliserade. Tillsätt kalkonwoken och resten av woksåsen. Blanda ihop allt ordentligt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera Pad See Ew toppad med lite chili flakes (efter egen smak)."
+    }
+  ],
+  "images": {
+    "large": "images/60545-large.jpg",
+    "small": "images/60545-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/60545/pad-see-ew-wokade-nudlar-med-sojasas-kalkonfars-och-pak-choy",
+    "harvestedAt": "2026-07-18T20:32:13.957Z"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "recipeId": 47567,
+  "mainRecipeId": null,
+  "name": "Gratinerad fransk dragonkyckling",
+  "headline": "Gratinerad fransk dragonkyckling",
+  "subheadline": null,
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos",
+    "Senap"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 749,
+    "protein": 42.09,
+    "carbs": 44.24,
+    "fat": 44.91
+  },
+  "co2eKgPerServing": 1.141,
+  "rating": {
+    "average": 3.87,
+    "count": 192
+  },
+  "ingredients": [
+    {
+      "section": "Tillbehör",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "vitvinsvinäger",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk vitvinsvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "zucchini",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "crème fraiche",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g crème fraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "dijonsenap",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "torkad dragon",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Gratinerad dragonkyckling",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka potatis i lättsaltat vatten."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dragonkyckling: Krydda kycklingfilé med salt och lite nymald svartpeppar. Hetta upp smör i en stekpanna och bryn kycklingen runt om ca 3 min. Lägg i en smord ugnsform."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Dela zucchini och tomat i cm-stora bitar. Strimla bananschalottenlök. Fördela lök, zucchini och hälften av tomaterna över kycklingen."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Blanda vispgrädde, cr&egrave;me fraiche, dijonsenap, torkad dragon och kycklingbuljong i en liten bunke. Häll blandningen över kycklingen. Gratinera högt upp i ugnen ca 20 min, tills kycklingen ör helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Blanda resten av tomaterna med mixsallad i en skål. Dressa salladen med olivolja och vitvinsvinäger. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera gratinerad fransk dragonkyckling med nykokt potatis och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/47567-large.jpg",
+    "small": "images/47567-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/47567/gratinerad-fransk-dragonkyckling",
+    "harvestedAt": "2026-07-18T20:32:06.954Z"
+  }
+}

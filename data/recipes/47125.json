@@ -1,0 +1,267 @@
+{
+  "recipeId": 47125,
+  "mainRecipeId": null,
+  "name": "Kyckling i dillsås med rostade rotsaker",
+  "headline": "Kyckling i dillsås med rostade rotsaker",
+  "subheadline": null,
+  "description": "Kyckling i dillsås med rostade morötter, potatis och rotselleri, en varm svensk klassiker att samlas kring.",
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 25,
+    "max": 35
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Selleri",
+    "Mjölk",
+    "Vete",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 593,
+    "protein": 40.76,
+    "carbs": 48.45,
+    "fat": 26.2
+  },
+  "co2eKgPerServing": 0.789,
+  "rating": {
+    "average": null,
+    "count": 44
+  },
+  "ingredients": [
+    {
+      "section": "Rotsaker",
+      "name": "rotselleri",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g rotselleri",
+      "isBasis": false
+    },
+    {
+      "section": "Rotsaker",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rotsaker",
+      "name": "bakpotatis",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rotsaker",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rotsaker",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rotsaker",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rotsaker",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "vetemjöl",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "vispgrädde",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "ättiksprit (12%)",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sötsyrlig dillsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rotsaker: Skala och skär rotselleri och morötter i mindre bitar. Tärna bakpotatis. Klyfta rödlök."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Lägg potatis, rotselleri och morot på en ugnsplåt och blanda med olivolja, salt och lite nymald svartpeppar. Rosta rotsakerna i övre delen av ugnen ca 20 min. Tillsätt rödlök och tillaga allt i ytterligare ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kyckling: Krydda kycklingfilé med salt och lite nymald svartpeppar. Hetta upp smör i en stekpanna och bryn kycklingen runt om. Lägg över i en ugnsform och tillaga klart i nedre delen av ugnen (under rotfrukterna) ca 18 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sötsyrlig dillsås: Finhacka rödlök. Hetta upp smör i en liten kastrull och fräs löken hastigt utan att den får färg. Pudra ner vetemjöl. Vispa ner vatten, vispgrädde och kycklingbuljong. Låt sjuda ca 5 min."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Finhacka dill. Blanda ner socker, ättiksprit och dill i såsen. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera nystekt kyckling med sötsyrlig dillsås, rostade rotfrukter och ruccola."
+    }
+  ],
+  "images": {
+    "large": "images/47125-large.jpg",
+    "small": "images/47125-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/47125/kyckling-i-dillsas-med-rostade-rotsaker",
+    "harvestedAt": "2026-07-18T20:32:06.378Z"
+  }
+}

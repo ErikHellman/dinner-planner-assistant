@@ -1,0 +1,211 @@
+{
+  "recipeId": 105025,
+  "mainRecipeId": null,
+  "name": "Tofu Stroganoff med champinjoner och potatis",
+  "headline": "Tofu Stroganoff",
+  "subheadline": "med champinjoner och potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegan",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Vegan",
+    "Barnvänligt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Senap",
+    "Havre",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 605,
+    "protein": 25.65,
+    "carbs": 52.33,
+    "fat": 32.59
+  },
+  "co2eKgPerServing": 0.554,
+  "rating": {
+    "average": 3.39,
+    "count": 92
+  },
+  "ingredients": [
+    {
+      "section": "Stroganoff",
+      "name": "tofu",
+      "amount": 230,
+      "unit": "g",
+      "raw": "230 g tofu",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "olja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Stroganoff",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stroganoff",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "dijonsenap",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "rökt paprikapulver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rökt paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "imat",
+      "amount": 2.5,
+      "unit": "dl",
+      "raw": "2½ dl imat",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Stroganoff",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "mixsallad",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tofustroganoff: Tärna tofu. Kvarta champinjoner och strimla gul lök. Hetta upp olja i en rymlig stekpanna eller stekgryta och bryn tofu ca 3 min. Tillsätt svampen och löken, stek ytterligare ca 2 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Blanda ner tomatpuré, dijonsenap, rökt paprikapulver, och lite nymald svartpeppar, låt steka med ca 1 min. Rör ner imat och grönsaksbuljong. Sjud ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillbehör: Lägg mixsallad i en skål och dressa med lite olja, vitvinsvinäger, salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grovhacka bladpersilja och strö över stroganoffen. Servera tofustroganoff med kokt potatis och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/105025-large.jpg",
+    "small": "images/105025-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/105025/tofu-stroganoff-med-champinjoner-och-potatis",
+    "harvestedAt": "2026-07-18T20:32:31.657Z"
+  }
+}

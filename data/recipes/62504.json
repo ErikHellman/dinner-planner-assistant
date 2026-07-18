@@ -1,0 +1,200 @@
+{
+  "recipeId": 62504,
+  "mainRecipeId": null,
+  "name": "Smörstekt torsk med tångcaviarsås och varm färskpotatis- och sparrissallad",
+  "headline": "Smörstekt torsk med tångcaviarsås",
+  "subheadline": "och varm färskpotatis- och sparrissallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 533,
+    "protein": 36.39,
+    "carbs": 44.89,
+    "fat": 23.13
+  },
+  "co2eKgPerServing": 0.532,
+  "rating": {
+    "average": null,
+    "count": 18
+  },
+  "ingredients": [
+    {
+      "section": "Tångcaviarsås",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tångcaviarsås",
+      "name": "tångcaviar",
+      "amount": 1,
+      "unit": "burk",
+      "raw": "1 burk tångcaviar",
+      "isBasis": false
+    },
+    {
+      "section": "Tångcaviarsås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Tångcaviarsås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tångcaviarsås",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Potatis- & sparrissallad",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatis- & sparrissallad",
+      "name": "grön sparris",
+      "amount": 1,
+      "unit": "knippe",
+      "raw": "1 knippe grön sparris",
+      "isBasis": false
+    },
+    {
+      "section": "Potatis- & sparrissallad",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Potatis- & sparrissallad",
+      "name": "citronsaft",
+      "amount": null,
+      "unit": "st",
+      "raw": "0 st citronsaft",
+      "isBasis": false
+    },
+    {
+      "section": "Potatis- & sparrissallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Potatis- & sparrissallad",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatis- & sparrissallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Smörstekt torsk",
+      "name": "torskfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g torskfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Smörstekt torsk",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Smörstekt torsk",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Smörstekt torsk",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Dela potatis och koka mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tångcaviarsås: Finhacka rödlök och lägg i en liten skål. Blanda ner tångcaviar, gräddfil och salt. Skölj citronen noggrant och finriv det yttersta skalet. Blanda ner citronskalet i såsen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Färskpotatis- och sparrissallad: Skär bort den nedersta delen av sparrisen (ca 2 cm). Skär resten av sparrisen i bitar. Grovhacka dill. Pressa saften från den skalade citronen (ca 1 msk) i en salladsskål. Tillsätt olivolja, salt och nymald svartpeppar. Koka upp lite lättsaltat vatten och koka sparrisen ca 1 min, häll av och spola i kallt vatten. Blanda ner potatis, sparris och dill i salladsskålen med dressing vid servering. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Smörstekt torsk: Skär torskfilé i portionsbitar. Krydda med salt och nymald svartpeppar. Hetta upp smör i en stekpanna och stek fisken ca 2 min per sida, tills den är klar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera smörstekt torsk med tångcaviarsås och varm potatis- och sparrissallad."
+    }
+  ],
+  "images": {
+    "large": "images/62504-large.jpg",
+    "small": "images/62504-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/62504/smorstekt-torsk-med-tangcaviarsas-och-varm-farskpotatis-och-sparrissallad",
+    "harvestedAt": "2026-07-18T20:32:16.877Z"
+  }
+}

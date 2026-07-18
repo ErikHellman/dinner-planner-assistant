@@ -1,0 +1,206 @@
+{
+  "recipeId": 95493,
+  "mainRecipeId": null,
+  "name": "Zaatarstekt fläskkotlett med bulgursallad, apelsin och yoghurt",
+  "headline": "Zaatarstekt fläskkotlett",
+  "subheadline": "med bulgursallad, apelsin och yoghurt",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete",
+    "Sesamfrön"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 552,
+    "protein": 42.57,
+    "carbs": 51.34,
+    "fat": 19.6
+  },
+  "co2eKgPerServing": 0.992,
+  "rating": {
+    "average": 3.97,
+    "count": 168
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "balsamvinäger",
+      "amount": 1.5,
+      "unit": "tsk",
+      "raw": "1½ tsk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "olivolja",
+      "amount": 1.5,
+      "unit": "tsk",
+      "raw": "1½ tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "apelsin",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st apelsin",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "mynta",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "za'atarkrydda",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk za'atarkrydda",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Bulgursallad: Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Strimla schalottenlök och lägg i en salladsskål. Blanda ner balsamvinäger, olivolja, salt och nymald svartpeppar. Skala och klyfta apelsin, skär klyftorna i mindre bitar. Tärna tomat och snackgurka. Blanda ner allt i salladsskålen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fläskkotlett: Skär fläskkotlett i 2 jämntjocka skivor. Krydda med zaatarkrydda, salt och nymald svartpeppar. Hetta upp olja och smör i en stekpanna. Stek köttet på medelvärme ca 3 min per sida, tills det är genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Strimla och blanda ner mynta i salladen. Servera nystekt fläskkotlett med bulgursallad och matyoghurt."
+    }
+  ],
+  "images": {
+    "large": "images/95493-large.jpg",
+    "small": "images/95493-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/95493/zaatarstekt-flaskkotlett-med-bulgursallad-apelsin-och-yoghurt",
+    "harvestedAt": "2026-07-18T20:32:28.751Z"
+  }
+}

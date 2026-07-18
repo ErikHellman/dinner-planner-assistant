@@ -1,0 +1,205 @@
+{
+  "recipeId": 109884,
+  "mainRecipeId": null,
+  "name": "Snabb grönsakscurry med lime, koriander, kokosmjölk och jasminris",
+  "headline": "Snabb grönsakscurry",
+  "subheadline": "med lime, koriander, kokosmjölk och jasminris",
+  "description": null,
+  "chefTip": "Börja med en liten mängd massaman currypasta och smaka av innan du tillsätter mer, eftersom den kan upplevas som ganska stark.",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål",
+    "Klart på 20 min"
+  ],
+  "allergies": [],
+  "nutritionPerServing": {
+    "energyKcal": 534,
+    "protein": 16.5,
+    "carbs": 80.74,
+    "fat": 16.07
+  },
+  "co2eKgPerServing": 0.512,
+  "rating": {
+    "average": 3.7,
+    "count": 210
+  },
+  "ingredients": [
+    {
+      "section": "Grönsakscurry",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "olja",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "blomkålsbuketter",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp blomkålsbuketter",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "massaman currypasta",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp massaman currypasta",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "majsstärkelse",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "röda linser",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp röda linser",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "babyspenat",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakscurry",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "jasminris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g jasminris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Grönsakscurry: Klyfta schalottenlök. Skala och skiva morot i slantar. Hetta upp olja i en rymlig stekgryta. Fräs lök, pressad vitlök, blomkålsbuketter och morrotsslantar ca 3 min. Tillsätt massaman currypasta och fräs ytterligare ca 30 sekunder."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tillsätt vatten, coconut cream och grönsaksbuljong. Koka upp och sjud ca 7 min, tills grönsakerna mjuknat något. Blanda ner majsstärkelse (utblandat i lika delar vatten)."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Häll av och skölj röda linser. Blanda ner linser och babyspenat i grytan, låt allt bli varmt och smaka av med pressad limesaft, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera grönsakscurry med jasminris och koriander."
+    }
+  ],
+  "images": {
+    "large": "images/109884-large.jpg",
+    "small": "images/109884-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/109884/snabb-gronsakscurry-med-lime-koriander-kokosmjolk-och-jasminris",
+    "harvestedAt": "2026-07-18T20:32:34.315Z"
+  }
+}

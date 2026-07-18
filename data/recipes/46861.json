@@ -1,0 +1,221 @@
+{
+  "recipeId": 46861,
+  "mainRecipeId": null,
+  "name": "Risotto verde med sparris, babyspenat och mandelspån",
+  "headline": "Risotto verde med sparris",
+  "subheadline": "babyspenat och mandelspån",
+  "description": null,
+  "chefTip": "Spara de grova delarna av sparrisen! Ge risotton mer smak genom att koka dem i buljongen 5 min.",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pistaschmandel",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 534,
+    "protein": 19.26,
+    "carbs": 68.04,
+    "fat": 20.53
+  },
+  "co2eKgPerServing": 0.618,
+  "rating": {
+    "average": 3.91,
+    "count": 149
+  },
+  "ingredients": [
+    {
+      "section": "Risotto",
+      "name": "vatten",
+      "amount": 6,
+      "unit": "dl",
+      "raw": "6 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "babyspenat",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Råstekt sparris",
+      "name": "grön sparris",
+      "amount": 1,
+      "unit": "knippe",
+      "raw": "1 knippe grön sparris",
+      "isBasis": false
+    },
+    {
+      "section": "Råstekt sparris",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Råstekt sparris",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Råstekt sparris",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "babyspenat",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mandelspån",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g mandelspån",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Risotto: Koka upp vatten och grönsaksbuljong i en kastrull (se tips!). Finhacka bananschalottenlök och vitlök."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Hetta upp olivolja i en stekgryta och fräs lök, vitlök och risottoris ca 3 min. Tillsätt vitvinsvinäger och späd riset med den varma buljongen, lite i taget. När buljongen kokat in, tillsätt mer och fortsätt tills all buljong kokat in eller riset känns mjukt. Rör om då och då."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Lägg babyspenat och &frac12; dl vatten i en mixerbunke och mixa slätt. Ta risotton från värmen och rör ner mixad spenat och riven grande premium. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Råstekt sparris: Ansa sparris. Hetta upp lite olivolja i en stekpanna och stek sparrisen ca 2 min, tills den fått fin färg. Krydda med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servering: Servera risotto verde toppad med babyspenat, råstekt sparris, riven grande premium och mandelspån."
+    }
+  ],
+  "images": {
+    "large": "images/46861-large.jpg",
+    "small": "images/46861-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46861/risotto-verde-med-sparris-babyspenat-och-mandelspan",
+    "harvestedAt": "2026-07-18T20:32:04.940Z"
+  }
+}

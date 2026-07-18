@@ -1,0 +1,177 @@
+{
+  "recipeId": 82672,
+  "mainRecipeId": null,
+  "name": "Kyckling i gräddig ajvarsås med sallad på gurka och fetaost",
+  "headline": "Kyckling i krämig ajvarsås",
+  "subheadline": "med sallad på gurka och fetaost",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 615,
+    "protein": 48.58,
+    "carbs": 49.25,
+    "fat": 24.86
+  },
+  "co2eKgPerServing": 0.854,
+  "rating": {
+    "average": 3.94,
+    "count": 363
+  },
+  "ingredients": [
+    {
+      "section": "Bulgur",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "ajvar relish",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp ajvar relish",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Ajvarstekt kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gurka",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gurka",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gurka",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Bulgur: Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ajvarstekt kyckling: Dela varje kycklingfilé en gång på längden. Klyfta gul lök."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp smör i en stekgryta och stek kyckling på hög värme ca 2 min. Tillsätt lök och fräs ytterligare ca 1 min. Häll på ajvar, vispgrädde och vatten. Krydda med salt, socker och lite nymald svartpeppar. Låt puttra ca 5 min under lock."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Gurk- och fetaostsallad: Skär snackgurka i stora bitar. Skiva rödlök tunt. Lägg i en skål och blanda med lite olivolja och nymald svartpeppar. Smula fetaost över."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera ajvarstekt kyckling med bulgur och gurk- och fetaostsallad."
+    }
+  ],
+  "images": {
+    "large": "images/82672-large.jpg",
+    "small": "images/82672-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/82672/kyckling-i-graddig-ajvarsas-med-sallad-pa-gurka-och-fetaost",
+    "harvestedAt": "2026-07-18T20:32:19.367Z"
+  }
+}

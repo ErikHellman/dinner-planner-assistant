@@ -1,0 +1,204 @@
+{
+  "recipeId": 97759,
+  "mainRecipeId": null,
+  "name": "Persisk kyckling med saffran, granatäpple och persilja",
+  "headline": "Persisk kyckling med saffran",
+  "subheadline": "granatäpple och persilja",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 548,
+    "protein": 41.33,
+    "carbs": 67.45,
+    "fat": 12.55
+  },
+  "co2eKgPerServing": 0.835,
+  "rating": {
+    "average": 3.65,
+    "count": 212
+  },
+  "ingredients": [
+    {
+      "section": "Persisk kyckling",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "saffran",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp saffran",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "vatten",
+      "amount": 2.5,
+      "unit": "dl",
+      "raw": "2½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "majsstärkelse",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Persisk kyckling",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "basmatiris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g basmatiris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "granatäpple",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st granatäpple",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka basmatiris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Persisk kyckling: Finhacka gul lök. Skär broccoli i mindre buketter. Dela varje kycklinglårfilé i ca 4 bitar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp olja i en stekgryta och fräs kycklingbitarna ca 4 min. Krydda med salt och nymald svartpeppar. Tillsätt lök, pressad vitlök och saffran, fräs ytterligare ca 1 min. Tillsätt spiskummin, chili flakes, vatten, majsstärkelse (utblandat i lika delar vatten) och kycklingbuljong. Koka upp och sjud under lock ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Rör ner broccolibuketterna och låt sjuda ca 1 min under lock. Smaka av med lite salt och nymald svartpeppar, alternativt med chili flakes för önskad hetta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Till servering: Kvarta granatäpple och banka lätt ur kärnorna i en skål. Grovhacka bladpersilja."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera persisk kyckling med nykokt ris. Toppa med granatäpple och persilja."
+    }
+  ],
+  "images": {
+    "large": "images/97759-large.jpg",
+    "small": "images/97759-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/97759/persisk-kyckling-med-saffran-granatapple-och-persilja",
+    "harvestedAt": "2026-07-18T20:32:29.976Z"
+  }
+}

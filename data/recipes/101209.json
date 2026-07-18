@@ -1,0 +1,248 @@
+{
+  "recipeId": 101209,
+  "mainRecipeId": null,
+  "name": "Mezze maniche med tomatpesto, gremolatastekta grönsaker och ruccola",
+  "headline": "Mezze maniche med tomatpesto",
+  "subheadline": "gremolatastekta grönsaker och ruccola",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Laktos",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pistaschmandel",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 648,
+    "protein": 25.64,
+    "carbs": 83.96,
+    "fat": 23.3
+  },
+  "co2eKgPerServing": 0.57,
+  "rating": {
+    "average": 3.92,
+    "count": 334
+  },
+  "ingredients": [
+    {
+      "section": "Pasta",
+      "name": "mezze maniche rigate",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g mezze maniche rigate",
+      "isBasis": false
+    },
+    {
+      "section": "Pasta",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "zucchini",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "1+1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gremolatastekta grönsaker",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatpesto",
+      "name": "soltorkade tomater",
+      "amount": 0.5,
+      "unit": "burk",
+      "raw": "½ burk soltorkade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatpesto",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatpesto",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatpesto",
+      "name": "mandelspån",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g mandelspån",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatpesto",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatpesto",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatpesto",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "msk",
+      "raw": "3 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "förp",
+      "raw": "förp chili flakes",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Pasta: Koka upp rikligt med lättsaltat vatten i en kastrull till pastakoket i steg 3."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Gremolatastekta grönsaker: Kvarta zucchini och skär bort lite av innanmätet (spara till tomatpeston). Strimla sedan zucchinin i jämntjocka strimlor. Halvera cocktailtomat. Grovhacka bladpersilja."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Pasta: Koka mezze maniche rigate enligt anvisning på förpackningen. Spara ca 1 dl av pastavattnet när du häller av pastan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tomatpesto: Lägg innanmätet av zucchini i en mixerbunke. Tillsätt soltorkade tomater (avhällda), riven grande premium, pressad vitlök, mandelspån och vatten. Mixa ihop till en pesto med stavmixer. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Gremolatastekta grönsaker: Skölj citron i ljummet vatten och finriv skalet. Hetta upp olivolja i en rymlig stekpanna. Stek zucchini på hög värme ca 2 min. Krydda med lite salt och nymald svartpeppar. Dra stekpannan från värmen och blanda ner pressad vitlök, citronskal, cocktailtomater, persilja och olivolja. Smaka av med lite pressad citronsaft."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Pasta: Blanda avhälld pasta med tomatpesto. Späd med pastavatten till önskad konsistens."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera mezze maniche med tomatpesto, gremolatastekta grönsaker och ruccola. Toppa med grande premium och chili flakes (valfritt)."
+    }
+  ],
+  "images": {
+    "large": "images/101209-large.jpg",
+    "small": "images/101209-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/101209/mezze-maniche-med-tomatpesto-gremolatastekta-gronsaker-och-ruccola",
+    "harvestedAt": "2026-07-18T20:32:31.932Z"
+  }
+}

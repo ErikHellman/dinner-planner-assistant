@@ -1,0 +1,247 @@
+{
+  "recipeId": 83227,
+  "mainRecipeId": null,
+  "name": "Limekryddade färsbiffar med asiatisk potatissallad, koriander och sesamfrön",
+  "headline": "Limekryddade färsbiffar",
+  "subheadline": "med asiatisk potatissallad, koriander och sesamfrön",
+  "description": null,
+  "chefTip": "Rosta gärna sesamfröna i en torr, het stekpanna tills de får en gyllene färg.",
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Nötter",
+    "Sojabönor",
+    "Svaveldioxid",
+    "Sesamfrön"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 591,
+    "protein": 32.9,
+    "carbs": 56.44,
+    "fat": 25.91
+  },
+  "co2eKgPerServing": 2.153,
+  "rating": {
+    "average": 4.2,
+    "count": 593
+  },
+  "ingredients": [
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "blandfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g blandfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Limekryddade färsbiffar",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "socker",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk potatissallad",
+      "name": "sesamfrön",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sesamfrön",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Potatissallad: Dela potatis i mindre bitar och koka mjuka i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Skiva snackgurka och rödlök tunt. Lägg gurkan och löken i en salladsskål. Blanda ner socker, japansk soja, vitvinsvinäger, neutral olja och pressad vitlök. Låt stå och marinera tills potatisen är klar. Rör om ibland."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Limekryddade färsbiffar: Lägg ströbröd i en bunke och blanda ner vatten, japansk soja, salt, chili flakes och pressad vitlök."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tvätta lime i ljummet vatten och finriv skalet. Klyfta limen till servering. Blanda ner limeskal och blandfärs i bunken. Forma till 6 små färsbiffar. Stek ca 4 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Potatissallad: Häll av potatisen. Strimla pak choy och grovhacka koriander. Blanda ner allt försiktigt i salladsskålen med grönsaker. Smaka av med salt, nymald svartpeppar och chili flakes. Toppa med sesamfrön."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera limekryddade färsbiffar med asiatisk potatissallad och limeklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/83227-large.jpg",
+    "small": "images/83227-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/83227/limekryddade-farsbiffar-med-asiatisk-potatissallad-koriander-och-sesamfron",
+    "harvestedAt": "2026-07-18T20:32:19.273Z"
+  }
+}

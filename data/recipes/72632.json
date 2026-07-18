@@ -1,0 +1,220 @@
+{
+  "recipeId": 72632,
+  "mainRecipeId": null,
+  "name": "Japchae - sojamarinerade nudlar med grönsaker räkor och sesamfrön",
+  "headline": "Japchae - sojamarinerade nudlar",
+  "subheadline": "med grönsaker räkor och sesamfrön",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Sesamfrön",
+    "Ägg",
+    "Vete",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 496,
+    "protein": 26,
+    "carbs": 66.02,
+    "fat": 14.18
+  },
+  "co2eKgPerServing": 1.612,
+  "rating": {
+    "average": 4.08,
+    "count": 559
+  },
+  "ingredients": [
+    {
+      "section": "Dressing",
+      "name": "sesamfrön",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "äggnudlar",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "shiitake",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g shiitake",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "olja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Nudlar och grönsaker",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "sesamfrön",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "räkor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "röd chili",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st röd chili",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Nudlar: Koka nudlar enligt anvisning på förpackningen. Häll av och spola kallt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Till servering: Rosta alla sesamfrön i en torr och het rymlig stekpanna. Lägg på en tallrik och spara stekpannan."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dressing: Blanda japansk soja, socker, sesamolja, pressad vitlök, sesamfrön och nymald svartpeppar i en skål."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grönsaker: Skala morot. Strimla morot, röd paprika, gul lök och pak choy. Skär shiitake i mindre bitar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp rikligt med neutral olja i den använda stekpannan. Fräs morot, lök och shiitake ca 5 min. Krydda med lite salt. Lägg allt i en salladsskål."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Lägg ner avhällda nudlar i salladsskålen tillsammans med röd paprika och pak choy. Tillsätt dressingen och blanda väl. Låt gärna allt marineras i ca 5 min."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Häll av räkor och strimla röd chili, blanda ner i nudelsalladen. Servera i djupa skålar och toppa med resten av sesamfröna."
+    }
+  ],
+  "images": {
+    "large": "images/72632-large.jpg",
+    "small": "images/72632-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/72632/japchae-sojamarinerade-nudlar-med-gronsaker-rakor-och-sesamfron",
+    "harvestedAt": "2026-07-18T20:32:18.334Z"
+  }
+}

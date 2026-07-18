@@ -1,0 +1,213 @@
+{
+  "recipeId": 94596,
+  "mainRecipeId": null,
+  "name": "Ceviche på räkor med jalapeño, koriander och krispigt tortillabröd",
+  "headline": "Ceviche på räkor",
+  "subheadline": "med jalapeño, koriander och krispigt tortillabröd",
+  "description": null,
+  "chefTip": "För att kunna få ut mycket limesaft - rulla limen med ett hårt tryck mot skärbrädan innan du delar den i två. Använd en gaffel och tryck in i limeköttet medan du pressar med handen! ",
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Sommar",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Kräftdjur",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 455,
+    "protein": 21.99,
+    "carbs": 58.4,
+    "fat": 14.87
+  },
+  "co2eKgPerServing": 1.343,
+  "rating": {
+    "average": 3.85,
+    "count": 88
+  },
+  "ingredients": [
+    {
+      "section": "Leche de tigre",
+      "name": "koriander",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Leche de tigre",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Leche de tigre",
+      "name": "jalapeño",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st jalapeño",
+      "isBasis": false
+    },
+    {
+      "section": "Leche de tigre",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Leche de tigre",
+      "name": "olja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Leche de tigre",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Ceviche",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Ceviche",
+      "name": "koriander",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Ceviche",
+      "name": "räkor (300g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor (300g)",
+      "isBasis": false
+    },
+    {
+      "section": "Krispig tortilla",
+      "name": "tortillabröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tortillabröd",
+      "isBasis": false
+    },
+    {
+      "section": "Krispig tortilla",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Krispig tortilla",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Krispig tortilla",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakssalsa",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakssalsa",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakssalsa",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakssalsa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Leche de tigre: Grovhacka koriander, vitlök och jalape&ntilde;o (ta bort kärnorna för en mildare smak). Lägg allt i en mixerbunke och tillsätt pressad limesaft, olja och socker. Mixa slätt med stavmixer."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ceviche: Finhacka rödlök. Grovhacka koriander. Häll av räkor och blanda allt en skål."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Krispig tortilla: Kvarta tortillabröd och lägg på en plåt med bakplåtspapper. Ringla över lite olja och strö på lite salt. Blanda runt och rosta i ugnen ca 5 min, tills bröden blivit krispiga."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grönsakssalsa: Tärna tomat och snackgurka smått. Finhacka rödlök. Blanda allt i en bunke och krydda med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Blanda ceviche med leche de tigre. Servera med grönsakssalsa och krispig tortilla."
+    }
+  ],
+  "images": {
+    "large": "images/94596-large.jpg",
+    "small": "images/94596-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/94596/ceviche-pa-rakor-med-jalapeno-koriander-och-krispigt-tortillabrod",
+    "harvestedAt": "2026-07-18T20:32:27.695Z"
+  }
+}

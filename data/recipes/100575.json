@@ -1,0 +1,233 @@
+{
+  "recipeId": 100575,
+  "mainRecipeId": null,
+  "name": "Grillad fläskkotlett med potatisklyftor, grönsallad och dijonnaise",
+  "headline": "Grillad fläskkotlett med potatisklyftor",
+  "subheadline": "grönsallad och dijonnaise",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Klassiker",
+    "Grill",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Ägg",
+    "Senap",
+    "Svaveldioxid",
+    "Mjölk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 542,
+    "protein": 39.82,
+    "carbs": 39.98,
+    "fat": 24.79
+  },
+  "co2eKgPerServing": 0.968,
+  "rating": {
+    "average": 3.96,
+    "count": 335
+  },
+  "ingredients": [
+    {
+      "section": "Potatisklyftor",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatisklyftor",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Potatisklyftor",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Potatisklyftor",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatisklyftor",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Dijonnaise",
+      "name": "ägg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Dijonnaise",
+      "name": "olja",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1½ msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Dijonnaise",
+      "name": "dijonsenap",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Dijonnaise",
+      "name": "vitvinsvinäger 15ml",
+      "amount": null,
+      "unit": "påse",
+      "raw": "⅕ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Dijonnaise",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dijonnaise",
+      "name": "svartpeppar",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Potatisklyftor: Klyfta potatis. Lägg på en ugnsplåt med bakplåtspapper och blanda med lite olja, salt och nymald svartpeppar. Rosta högt upp i ugnen ca 20 min, tills potatisen är mjuk och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dijonnaise: Koka ägg 5 min. Häll av och spola kallt. Skala ägget och lägg i en mixerbunke. Tillsätt olja, dijonsenap, vitvinsvinäger, salt och nymald svartpeppar. Mixa till en slät sås med stavmixer. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grönsallad: Skär tomat och snackgurka i mindre bitar. Strimla schalottenlök. Lägg allt i en salladskål och blanda med mixsallad."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fläskkotlett: Skär fläskkotlett i jämntjocka skivor. Krydda med salt och nymald svartpeppar. Grilla i grillpanna eller hetta upp smör och stek i en stekpanna ca 3 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera grillad fläskkotlett med potatisklyftor, grönsallad och dijonnaise."
+    }
+  ],
+  "images": {
+    "large": "images/100575-large.jpg",
+    "small": "images/100575-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/100575/grillad-flaskkotlett-med-potatisklyftor-gronsallad-och-dijonnaise",
+    "harvestedAt": "2026-07-18T20:32:30.612Z"
+  }
+}

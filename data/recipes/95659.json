@@ -1,0 +1,189 @@
+{
+  "recipeId": 95659,
+  "mainRecipeId": null,
+  "name": "Krämig rotsellerisoppa med äpple, räkor och dill",
+  "headline": "Krämig rotsellerisoppa",
+  "subheadline": "med äpple, räkor och dill",
+  "description": null,
+  "chefTip": "Har du ont om tid? Dela äpplet i klyftor.",
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Sesamfrön",
+    "Ägg",
+    "Vete",
+    "Selleri",
+    "Laktos",
+    "Svaveldioxid",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 677,
+    "protein": 29.46,
+    "carbs": 81.26,
+    "fat": 26.06
+  },
+  "co2eKgPerServing": 1.626,
+  "rating": {
+    "average": null,
+    "count": 23
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "surdegsbaguette",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st surdegsbaguette",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "rotselleri",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g rotselleri",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Soppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "vispgrädde",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Soppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Topping",
+      "name": "räkor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "grönt äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grönt äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Värm ugnen till 180&deg;C (varmluft) eller 200&deg;C (vanlig). Tillaga surdegsbaguette enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Soppa: Skala rotselleri och skär i mindre bitar. Hacka gul lök. Lägg allt i en kastrull tillsammans med pressad vitlök, vatten och grönsaksbuljong. Koka upp och sjud ca 15 min, tills allt mjuknat."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Topping: Häll av räkor och lägg i en skål. Tärna äpple (se tips!) och hacka dill. Blanda allt med räkorna och smulad fetaost."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Soppa: Blanda ner vispgrädde och vitvinsvinäger. Mixa soppan slät med stavmixer. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera krämig rotsellerisoppa i djupa tallrikar med topping och surdegsbröd."
+    }
+  ],
+  "images": {
+    "large": "images/95659-large.jpg",
+    "small": "images/95659-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/95659/kramig-rotsellerisoppa-med-apple-rakor-och-dill",
+    "harvestedAt": "2026-07-18T20:32:29.568Z"
+  }
+}

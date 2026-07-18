@@ -1,0 +1,231 @@
+{
+  "recipeId": 62028,
+  "mainRecipeId": null,
+  "name": "Kycklingburgare med srirachamajonnäs och rostade morötter",
+  "headline": "Kycklingburgare med srirachamajonnäs",
+  "subheadline": "och rostade morötter",
+  "description": null,
+  "chefTip": "Anpassa gärna mängden srirachasås efter önskemål om hetta!",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Nötter",
+    "Ägg",
+    "Mjölk",
+    "Sesamfrön",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 706,
+    "protein": 42.8,
+    "carbs": 46.08,
+    "fat": 38.98
+  },
+  "co2eKgPerServing": 0.708,
+  "rating": {
+    "average": null,
+    "count": 12
+  },
+  "ingredients": [
+    {
+      "section": "Rostade morötter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "olja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Srirachamajonnäs",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Srirachamajonnäs",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Srirachamajonnäs",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Srirachamajonnäs",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "minutfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g minutfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "mixsallad",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "hamburgerbröd",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st hamburgerbröd",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostade morötter: Klyfta morötter och lägg på en plåt med bakplåtspapper. Ringla över olja. Krydda med lite salt och chili flakes. Rosta högt upp i ugnen ca 15 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Srirachamajonnäs: Lägg majonnäs i en skål. Blanda med srirachasås och salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kyckling: Krydda minutfilé med salt och nymald svartpeppar. Hetta upp olja och smör i en stekpanna. Stek kycklingen ca 5 min per sida, tills den är helt genomstekt. Strö över lite chili flakes. Lägg upp på en tallrik och spara stekpannan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tilbehör: Skiva tomat och bananschalottenlök tunt. Rosta hamburgerbröd i den använda stekpannan."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fyll varma hamburgerbröd med srirachamajonnäs, sallad, lök, tomat och stekt kyckling. Servera med rostade morötter."
+    }
+  ],
+  "images": {
+    "large": "images/62028-large.jpg",
+    "small": "images/62028-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/62028/kycklingburgare-med-srirachamajonnas-och-rostade-morotter",
+    "harvestedAt": "2026-07-18T20:32:15.983Z"
+  }
+}

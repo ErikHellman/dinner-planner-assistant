@@ -1,0 +1,217 @@
+{
+  "recipeId": 90473,
+  "mainRecipeId": null,
+  "name": "Gazpacho med rostad paprika, fetaost, gräslök och surdegsbröd",
+  "headline": "Gazpacho med rostad paprika",
+  "subheadline": "fetaost, gräslök och surdegsbröd",
+  "description": null,
+  "chefTip": "Är det en varm sommardag, låt den svalna helt och mixa soppan med några isbitar.",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Sommar",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 495,
+    "protein": 19.76,
+    "carbs": 57.5,
+    "fat": 20.67
+  },
+  "co2eKgPerServing": 0.85,
+  "rating": {
+    "average": 4.05,
+    "count": 130
+  },
+  "ingredients": [
+    {
+      "section": "Gazpacho",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "gurka",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gazpacho",
+      "name": "rökt chilimix",
+      "amount": 0.25,
+      "unit": "förp",
+      "raw": "¼ förp rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Gazpacho",
+      "name": "salt",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gazpacho",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gazpacho",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "gräslök",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g gräslök",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "frömix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp frömix",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Gazpacho: Halvera och ta bort kärnhuset ur röd paprika. Halvera cocktailtomat och hacka vitlök och gul lök. Lägg allt i en rymlig ugnsform (ca 20x30 cm) och rosta högt upp i ugnen ca 15 min. Ta ut och låt svalna något (se tips!)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Till servering: Tillaga surdegspavé enligt anvisning på förpackningen. Strimla gräslök och tärna fetaost."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp en torr och het stekpanna och rosta frömix, tills det har fått fin färg."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Gazpacho: Skär gurka i mindre bitar och lägg i en bunke med höga kanter. Tillsätt de rostade grönsakerna, krossade tomater, vitvinsvinäger, olivolja, rökt chilikrydda, socker, salt, lite nymald svartpeppar och vatten. Mixa ihop med stavmixer och smaka av med lite rödvinsvinäger och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera gazpacho i djupa skålar och toppa med fetaost, frömix och gräslök. Servera med surdegspavé."
+    }
+  ],
+  "images": {
+    "large": "images/90473-large.jpg",
+    "small": "images/90473-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90473/gazpacho-med-rostad-paprika-fetaost-graslok-och-surdegsbrod",
+    "harvestedAt": "2026-07-18T20:32:21.283Z"
+  }
+}

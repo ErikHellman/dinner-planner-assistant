@@ -1,0 +1,223 @@
+{
+  "recipeId": 46616,
+  "mainRecipeId": null,
+  "name": "Citronstekt kycklingfilé med morotsbearnaise och ruccola",
+  "headline": "Citronstekt kycklingfilé",
+  "subheadline": "med morotsbearnaise och ruccola",
+  "description": "Citronstekt kyckling med hemmagjord bearnaise på morot och dragon. Ugnsrostad potatis bredvid. Söndagsmiddag mitt i veckan.",
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 509,
+    "protein": 40.43,
+    "carbs": 50.2,
+    "fat": 16.24
+  },
+  "co2eKgPerServing": 0.644,
+  "rating": {
+    "average": 4.11,
+    "count": 720
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Morotsbearnaise",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Morotsbearnaise",
+      "name": "smör",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g smör",
+      "isBasis": true
+    },
+    {
+      "section": "Morotsbearnaise",
+      "name": "torkad dragon",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Morotsbearnaise",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Morotsbearnaise",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Morotsbearnaise",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Morotsbearnaise",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Citronstekt kyckling",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Citronstekt kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Citronstekt kyckling",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Citronstekt kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Citronstekt kyckling",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Dela potatis och klyfta rödlök. Lägg allt på en ugnsplåt med bakplåtspapper. Blanda med olivolja, salt och nymald svartpeppar. Rosta högt upp i ugnen ca 22 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Morotsbearnaise: Skala och skär morot i små morotsstubbar. Koka mjuk i lättsaltat vatten. Häll av och lägg i en mixerbunke tillsammans med smör, torkad dragon, vitvinsvinäger och vatten. Mixa helt slät med stavmixer. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Citronstekt kyckling: Tvätta citronen i ljummet vatten och finriv skalet. Dela kycklingfilé på längden och krydda med salt och lite nymald svartpeppar. Hetta upp lite olivolja i en stekpanna. Stek kycklingen ca 8 min runt om, tills den är helt genomstekt . Strö över citronskal."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Klyfta den använda citronen. Servera citronstekt kyckling med rostad potatis, morotsbearnaise, ruccola och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/46616-large.jpg",
+    "small": "images/46616-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46616/citronstekt-kycklingfile-med-morotsbearnaise-och-ruccola",
+    "harvestedAt": "2026-07-18T20:32:01.313Z"
+  }
+}

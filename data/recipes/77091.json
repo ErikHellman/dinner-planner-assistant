@@ -1,0 +1,227 @@
+{
+  "recipeId": 77091,
+  "mainRecipeId": null,
+  "name": "Tom Yum -  Thailändsk soppa med limeblad, citrongräs, ägg och räkor",
+  "headline": "Tom Yum -  Thailändsk soppa",
+  "subheadline": "med limeblad, citrongräs, ägg och räkor",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Kräftdjur",
+    "Fisk",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 480,
+    "protein": 36.82,
+    "carbs": 63.63,
+    "fat": 8.72
+  },
+  "co2eKgPerServing": 1.615,
+  "rating": {
+    "average": null,
+    "count": 33
+  },
+  "ingredients": [
+    {
+      "section": "Limemarinerade räkor",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Limemarinerade räkor",
+      "name": "räkor, (300g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor, (300g)",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "ingefära",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "citrongräs",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citrongräs",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "grön chili",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st grön chili",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Buljong",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "fisksås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp fisksås",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "limeblad",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp limeblad",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Buljong",
+      "name": "lime",
+      "amount": null,
+      "unit": "st",
+      "raw": "st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ägg",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "äggnudlar",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Limemarinerade räkor: Tvätta lime i ljummet vatten och finriv det yttersta skalet. Häll av räkor och lägg i en skål. Blanda räkorna med limeskal och pressad saft från halva limen. Låt dra tills servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Krämigt ägg: Koka upp vatten i en kastrull. Lägg i äggen och låt koka ca 7 min. Spola i kallt vatten. Skala och dela i två delar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelser: Skiva champinjoner. Skala och skiva ingefära. Finhacka gul lök och vitlök. Skär grön chili i skivor. Skär broccoli i små buketter och skiva stammen tunt. Krossa roten på citrongräs, använd exempelvis baksidan av kniven."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Buljong: Hetta upp lite neutral olja i en stekgryta och stek lök, vitlök, ingefära, chili och tomatpuré i ca 2 min. Tillsätt champinjoner, vatten, fisksås, citrongräs och limeblad. Låt koka upp och sjud tills servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Till servering: Koka äggnudlar enligt anvisning på förpackningen. Lägg i den skurna broccolin och låt koka med de sista 2 minuterna."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Buljong: Ta upp citrongräs och limeblad från buljongen. Smaka av med pressad saft från den använda limen."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Fördela nudlar och broccoli i skålar. Häll på buljongen med svamp. Toppa med ägg, koriander och marinerade räkor. Servera direkt!"
+    }
+  ],
+  "images": {
+    "large": "images/77091-large.jpg",
+    "small": "images/77091-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/77091/tom-yum-thailandsk-soppa-med-limeblad-citrongras-agg-och-rakor",
+    "harvestedAt": "2026-07-18T20:32:18.693Z"
+  }
+}

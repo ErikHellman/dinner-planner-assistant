@@ -1,0 +1,306 @@
+{
+  "recipeId": 46922,
+  "mainRecipeId": null,
+  "name": "Cajunkyckling med kreolsk tomatsås och majskolv",
+  "headline": "Cajunkyckling med kreolsk tomatsås",
+  "subheadline": "och majskolv",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 35,
+    "max": 45
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Nötter",
+    "Selleri",
+    "Mjölk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 623,
+    "protein": 44.89,
+    "carbs": 68.76,
+    "fat": 18.73
+  },
+  "co2eKgPerServing": 1.087,
+  "rating": {
+    "average": null,
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "rökt paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rökt paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "rökt paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rökt paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Cajunkyckling",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "grön paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grön paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "selleristjälk",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st selleristjälk",
+      "isBasis": false
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "chili flakes",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kreolsk tomatsås",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Majskolvar",
+      "name": "majskolv",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st majskolv",
+      "isBasis": false
+    },
+    {
+      "section": "Majskolvar",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Majskolvar",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Tärna gul lök, grön paprika och selleristicks i cm-stora bitar. Finhacka vitlök."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostad potatis: Skär potatis i skivor (ca 1 cm) och lägg på en ugnsplåt med bakplåtspapper. Blanda med lite olivolja och krydda med lite salt, rökt paprikapulver och nymald svartpeppar. Rosta i övre delen av ugnen ca 20 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Cajunkyckling: Blanda salt, rökt paprikapulver, torkad timjan, torkad oregano, chili flakes och nymald svartpeppar i en liten skål. Krydda kycklingfilé med kryddblandningen. Hetta upp lite olivolja i en stekpanna och bryn kycklingen ca 2 min per sida."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Lägg över kycklingen i en ugnsfast form. Lägg majskolvarna bredvid kycklingen och tillaga i nedre delen av ugnen ca 15 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Kreolsk tomatsås: Hetta upp olivolja i en rymlig kastrull eller stekgryta. Fräs lök, vitlök, paprika och selleri ca 5 min. Tillsätt krossade tomater, kycklingbuljong, chili flakes och nymald svartpeppar. Sjud ca 10 min. Smaka av med salt, nymald svartpeppar och chili flakes."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Gnid in majskolvarna med smör och krydda med lite salt. Servera cajunkyckling med kreolsk tomatsås, rostad potatis och smörad majskolv."
+    }
+  ],
+  "images": {
+    "large": "images/46922-large.jpg",
+    "small": "images/46922-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46922/cajunkyckling-med-kreolsk-tomatsas-och-majskolv",
+    "harvestedAt": "2026-07-18T20:32:05.628Z"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "recipeId": 95556,
+  "mainRecipeId": null,
+  "name": "Nötfärschili med svarta bönor, paprika och surdegspavé",
+  "headline": "Nötfärschili med svarta bönor",
+  "subheadline": "paprika och surdegspavé",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sesamfrön",
+    "Ägg",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 554,
+    "protein": 37.96,
+    "carbs": 57.72,
+    "fat": 19
+  },
+  "co2eKgPerServing": 4.432,
+  "rating": {
+    "average": 4.08,
+    "count": 261
+  },
+  "ingredients": [
+    {
+      "section": "Nötfärschili",
+      "name": "svarta bönor",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp svarta bönor",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "rökt chilimix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärschili",
+      "name": "oxbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp oxbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "matyoghurt",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g matyoghurt",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 180&deg;C (varmluft) eller 200&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelse: Häll av och skölj svarta bönor. Tärna schalottenlök, röd paprika och tomat."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Nötfärschili: Hetta upp olja i en rymlig stekgryta och bryn nötfärs ca 2 min. Tillsätt de tärnade grönsakerna, pressad vitlök, tomatpuré, spiskummin, rökt chilikrydda, salt och nymald svartpeppar, fräs ytterligare ca 2 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Blanda ner vatten, svarta bönor, socker och oxbuljong. Koka ca 15 min. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tillaga surdegspavé enligt anvisning på förpackningen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera nötfärschili med en klick matyoghurt och surdegspavé."
+    }
+  ],
+  "images": {
+    "large": "images/95556-large.jpg",
+    "small": "images/95556-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/95556/notfarschili-med-svarta-bonor-paprika-och-surdegspave",
+    "harvestedAt": "2026-07-18T20:32:29.445Z"
+  }
+}

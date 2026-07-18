@@ -1,0 +1,243 @@
+{
+  "recipeId": 59288,
+  "mainRecipeId": null,
+  "name": "Black bean curry med jordnötter, mango och koriander",
+  "headline": "Black bean curry",
+  "subheadline": "med jordnötter, mango och koriander",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Svaveldioxid",
+    "Vete",
+    "Jordnötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pekannötter",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 640,
+    "protein": 24.32,
+    "carbs": 79.6,
+    "fat": 24.98
+  },
+  "co2eKgPerServing": 0.7,
+  "rating": {
+    "average": 3.89,
+    "count": 443
+  },
+  "ingredients": [
+    {
+      "section": "Black bean curry",
+      "name": "mango",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st mango",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "svarta bönor, 380g",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp svarta bönor, 380g",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Black bean curry",
+      "name": "curry",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp curry",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Black bean curry",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "lime",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Black bean curry",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Black bean curry",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "hackade jordnötter",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp hackade jordnötter",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Förberedelser: Skala och tärna mango. Finhacka bananschalottenlök och vitlök. Häll av och skölj svarta bönor."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Black bean curry: Hetta upp lite olja i en stekgryta. Fräs lök, vitlök och curry ca 2 min. Tillsätt krossade tomater, svarta bönor, coconut cream, vatten och grönsaksbuljong. Sjud ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Skölj limen i ljummet vatten och finriv skalet. Tillsätt limeskal och pressad limesaft till grytan. Sjud ca 2 min. Blanda ner mango. Smaka av med lite salt och chili flakes."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Lägg mixsallad i en salladsskål och blanda med lite vitvinsvinäger, chili flakes och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Toppa grytan med koriander och hackade jordnötter. Servera med bulgur och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/59288-large.jpg",
+    "small": "images/59288-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59288/black-bean-curry-med-jordnotter-mango-och-koriander",
+    "harvestedAt": "2026-07-18T20:32:12.841Z"
+  }
+}

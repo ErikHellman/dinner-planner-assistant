@@ -1,0 +1,239 @@
+{
+  "recipeId": 108037,
+  "mainRecipeId": null,
+  "name": "Medelhavsfisk med kalamataoliver, fetaost, citron och bladpersilja",
+  "headline": "Medelhavsfisk med kalamataoliver",
+  "subheadline": "fetaost, citron och bladpersilja",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Selleri",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 542,
+    "protein": 43.06,
+    "carbs": 53.06,
+    "fat": 17.5
+  },
+  "co2eKgPerServing": 0.889,
+  "rating": {
+    "average": 3.73,
+    "count": 102
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "örtmix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "socker",
+      "amount": 0.75,
+      "unit": "tsk",
+      "raw": "¾ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavspanna",
+      "name": "alaska pollock",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g alaska pollock",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavspanna",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavspanna",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavspanna",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavspanna",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavspanna",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavspanna",
+      "name": "snacksoliver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp snacksoliver",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "gurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tomatsås: Finhacka gul lök och vitlök. Hetta upp olivolja i en traktörpanna eller rymlig stekpanna. Fräs lök och vitlök ca 2 min på medelvärme. Tillsätt krossade tomater, vatten, örtmix, salt och socker. Låt sjuda ca 5 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Medelhavspanna: Krydda alaska pollock med salt och svartpeppar. Lägg ner fiskbitarna i tomatsåsen och låt bräsera under lock ca 5 min, tills de är klara."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Finhacka bladpersilja. Tvätta citron i ljummet vatten och finriv det yttersta skalet. Smula fetaost. Strö kalamataoliver, fetaost, persilja och citronskal över fisken."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Gurksallad: Skär gurka i grova bitar och lägg i en skål. Blanda ner bladpersilja, olivolja och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Klyfta den använda citronen. Servera medelhavspanna med bulgur, gurksallad och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/108037-large.jpg",
+    "small": "images/108037-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/108037/medelhavsfisk-med-kalamataoliver-fetaost-citron-och-bladpersilja",
+    "harvestedAt": "2026-07-18T20:32:33.752Z"
+  }
+}

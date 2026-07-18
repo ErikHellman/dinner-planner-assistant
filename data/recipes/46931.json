@@ -1,0 +1,256 @@
+{
+  "recipeId": 46931,
+  "mainRecipeId": null,
+  "name": "Citrongrillad fläskkarré med krämig fransk potatissallad",
+  "headline": "Citrongrillad fläskkarré",
+  "subheadline": "med krämig fransk potatissallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Grill"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Senap",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 600,
+    "protein": 35.25,
+    "carbs": 50.09,
+    "fat": 28.71
+  },
+  "co2eKgPerServing": 1.015,
+  "rating": {
+    "average": null,
+    "count": 22
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "rött äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rött äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "dijonsenap",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "torkad timjan",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Citrongrillad fläskkarré",
+      "name": "skivad fläskkarré",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g skivad fläskkarré",
+      "isBasis": false
+    },
+    {
+      "section": "Citrongrillad fläskkarré",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Citrongrillad fläskkarré",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Citrongrillad fläskkarré",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig). Om du vill grilla, tänd grillen!"
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostad potatis: Halvera potatis och lägg på en ugnsplåt med bakplåtspapper. Blanda med lite olivolja, salt och nymald svartpeppar. Rosta mitt i ugnen ca 20-25 min, tills potatisen är klar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grönsaker: Skölj citronen i ljummet vatten och finriv skalet. Finstrimla rödlök. Tärna rött äpple och tomat. Lägg allt i en salladsskål och blanda ner citronskal, gräddfil, dijonsenap, vitvinsvinäger, torkad timjan, pressad vitlök och salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Citrongrillad fläskkarré: Krydda skivad fläskkarré med salt och rikligt med nymald svartpeppar. Grilla eller hetta upp lite smör i en stekpanna och stek köttet ca 4 min per sida, tills det är helt genomstekt. Halvera den använda citronen och grilla eller stek med snittytan nedåt någon minut."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Pressa den grillade citronen över det nygrillade köttet."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Rostad potatis: Blanda ner den rostade potatisen i salladsskålen med grönsakerna."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Grovhacka bladpersilja och strö över potatissalladen. Servera med citrongrillad fläskkarré och mixsallad."
+    }
+  ],
+  "images": {
+    "large": "images/46931-large.jpg",
+    "small": "images/46931-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46931/citrongrillad-flaskkarre-med-kramig-fransk-potatissallad",
+    "harvestedAt": "2026-07-18T20:32:05.854Z"
+  }
+}

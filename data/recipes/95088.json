@@ -1,0 +1,193 @@
+{
+  "recipeId": 95088,
+  "mainRecipeId": null,
+  "name": "Healthy bowl med räkor, rödkålssallad, avokado och granatäppelsallad",
+  "headline": "Healthy bowl med räkor",
+  "subheadline": "rödkålssallad, avokado och granatäppelsallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Kräftdjur",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 535,
+    "protein": 23.41,
+    "carbs": 59.05,
+    "fat": 22.81
+  },
+  "co2eKgPerServing": 1.477,
+  "rating": {
+    "average": 3.92,
+    "count": 280
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "matvete",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g matvete",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "räkor (300g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor (300g)",
+      "isBasis": false
+    },
+    {
+      "section": "Rödkålssallad",
+      "name": "rödkål",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g rödkål",
+      "isBasis": false
+    },
+    {
+      "section": "Rödkålssallad",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Rödkålssallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rödkålssallad",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rödkålssallad",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "förp",
+      "raw": "förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Avokado",
+      "name": "avokado",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st avokado",
+      "isBasis": false
+    },
+    {
+      "section": "Avokado",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Avokado",
+      "name": "spiskummin",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Avokado",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Avokado",
+      "name": "citron",
+      "amount": null,
+      "unit": "st",
+      "raw": "st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Granatäppelsallad",
+      "name": "granatäpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st granatäpple",
+      "isBasis": false
+    },
+    {
+      "section": "Granatäppelsallad",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Granatäppelsallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka matvete enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rödkålssallad: Finstrimla rödkål och lägg i en rymlig bunke. Tvätta citron i ljummet vatten och finriv det yttersta skalet. Blanda rödkål med citronzest, pressad saft från halva citronen, olivolja, salt och chili flakes (efter egen smak)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Avokado: Halvera och gröp ur avokadon. Lägg på en tallrik tillsammans med pressad vitlök, spiskummin, salt och ca &frac12; msk pressad citronsaft från resten av den använda citronen. Mosa ihop med en gaffel."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Granatäppelsallad: Halvera granatäpple och plocka ut kärnorna. Detta görs enklast genom att slå med en träsked på baksidan av granatäpplet så att kärnorna ramlar ut rakt ner i en bunke. Blanda ner babyspenat och olivolja."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Till servering: Häll av räkor. Lägg kokt matvete i botten av 2 tallrikar. Fördela rödkålssallad, granatäppelsallad, mosad avokado och räkor ovanpå matvetet. Servera."
+    }
+  ],
+  "images": {
+    "large": "images/95088-large.jpg",
+    "small": "images/95088-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/95088/healthy-bowl-med-rakor-rodkalssallad-avokado-och-granatappelsallad",
+    "harvestedAt": "2026-07-18T20:32:28.561Z"
+  }
+}

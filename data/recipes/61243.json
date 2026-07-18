@@ -1,0 +1,213 @@
+{
+  "recipeId": 61243,
+  "mainRecipeId": null,
+  "name": "Burgare med het hamburgerdressing och rostade morötter",
+  "headline": "Burgare med rostade morötter",
+  "subheadline": "och het hamburgerdressing",
+  "description": null,
+  "chefTip": "Värm hamburgerbröden hastigt, med snittytan nedåt, i den använda stekpannan! ",
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Senap",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 570,
+    "protein": 34.41,
+    "carbs": 48.58,
+    "fat": 26.4
+  },
+  "co2eKgPerServing": 4.385,
+  "rating": {
+    "average": 4.07,
+    "count": 344
+  },
+  "ingredients": [
+    {
+      "section": "Hamburgerdressing",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Hamburgerdressing",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Hamburgerdressing",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Hamburgerdressing",
+      "name": "mild senap",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk mild senap",
+      "isBasis": false
+    },
+    {
+      "section": "Hamburgerdressing",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Burgare",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Burgare",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Burgare",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Burgare",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "hamburgerbröd",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st hamburgerbröd",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hamburgerdressing: Blanda ihop gräddfil, pressad vitlök, sriracha (efter egen smak), mild senap och salt i en skål."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Rostade morötter: Dela morötter i stavar och lägg i en ugnsform. Blanda med lite neutral olja och salt. Tillaga högt upp i ugnen ca 10 min, tills morötterna fått fin färg."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Burgare: Forma nötfärs till 2 platta biffar. Krydda med salt och lite nymald svartpeppar. Hetta upp lite olja i en stekpanna och stek burgarna ca 4 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Tillbehör: Skiva tomat och rödlök. Lägg upp tillsammans med mixsallad på ett fat."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servering: Fyll hamburgerbröd (se tips!) med burgare, grönsaker och dressing. Servera med rostade morötter."
+    }
+  ],
+  "images": {
+    "large": "images/61243-large.jpg",
+    "small": "images/61243-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61243/burgare-med-het-hamburgerdressing-och-rostade-morotter",
+    "harvestedAt": "2026-07-18T20:32:14.543Z"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "recipeId": 107267,
+  "mainRecipeId": null,
+  "name": "Loaded potato med ost, räkor, dill och fänkålssallad",
+  "headline": "Loaded potato med räkor",
+  "subheadline": "ost, dill och fänkålssallad",
+  "description": "Den klassiska \"loaded potato\" är vanligtvis fylld med bl.a. bacon, men i detta recept har den fått en frisk räkröra och en krispig fänkålssallad.",
+  "chefTip": "Hyvla gärna fänkål på mandolin om du har.",
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Kräftdjur",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 433,
+    "protein": 37.43,
+    "carbs": 48.38,
+    "fat": 10.03
+  },
+  "co2eKgPerServing": 1.481,
+  "rating": {
+    "average": 4.01,
+    "count": 87
+  },
+  "ingredients": [
+    {
+      "section": "Loaded potato",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Loaded potato",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Loaded potato",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Loaded potato",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Loaded potato",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Loaded potato",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Räkröra",
+      "name": "keso",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g keso",
+      "isBasis": false
+    },
+    {
+      "section": "Räkröra",
+      "name": "räkor (300 g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor (300 g)",
+      "isBasis": false
+    },
+    {
+      "section": "Räkröra",
+      "name": "pepparrot",
+      "amount": 0.3333333333333333,
+      "unit": "st",
+      "raw": "⅓ st pepparrot",
+      "isBasis": false
+    },
+    {
+      "section": "Räkröra",
+      "name": "citron (citronskal)",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron (citronskal)",
+      "isBasis": false
+    },
+    {
+      "section": "Räkröra",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Räkröra",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Räkröra",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Räkröra",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "grönt äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grönt äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "citron (citronsaft)",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron (citronsaft)",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Loaded potato: Halvera potatis. Lägg på en ugnsplåt med bakplåtspapper och blanda med olja, lite salt och nymald svartpeppar. Tillaga mitt i ugnen ca 25 min, tills potatisen mjuknat och fått fin färg. Rör om efter halva tillagningstiden."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Räkröra: Lägg keso i en skål. Häll av räkor. Skala och finriv pepparrot. Skölj citron i ljummet vatten och finriv det yttersta skalet. Finhacka rödlök och dill. Blanda ner allt i skålen. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fänkålssallad: Hyvla (se tips!) eller strimla fänkål och grönt äpple tunt. Grovhacka dill. Lägg allt i en salladsskål och tillsätt pressad citronsaft från den använda citronen. Smaka av med lite salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Loaded potato: Krossa den rostade potatisen lite lätt med en potatisstöt eller liknande. Riv över parmesanost och gratinera högt upp i ugnen ca 5 min, tills osten har fått fin färg."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera loaded potato med räkröra och fänkålssallad."
+    }
+  ],
+  "images": {
+    "large": "images/107267-large.jpg",
+    "small": "images/107267-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/107267/loaded-potato-med-ost-rakor-dill-och-fankalssallad",
+    "harvestedAt": "2026-07-18T20:32:33.332Z"
+  }
+}

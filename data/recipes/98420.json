@@ -1,0 +1,221 @@
+{
+  "recipeId": 98420,
+  "mainRecipeId": null,
+  "name": "Timjan- och vitlöksstekt kyckling med tryffelcrème, ugnsbakade rödbetor och spetskål",
+  "headline": "Timjan- och vitlöksstekt kyckling med tryffelcrème",
+  "subheadline": "ugnsbakade rödbetor och spetskål",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 548,
+    "protein": 42.12,
+    "carbs": 53.71,
+    "fat": 18.32
+  },
+  "co2eKgPerServing": 0.626,
+  "rating": {
+    "average": 4.21,
+    "count": 96
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rödbetor",
+      "name": "kokt rödbeta (250g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kokt rödbeta (250g)",
+      "isBasis": false
+    },
+    {
+      "section": "Rödbetor",
+      "name": "spetskål",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g spetskål",
+      "isBasis": false
+    },
+    {
+      "section": "Rödbetor",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rödbetor",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rödbetor",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Timjan- och vitlöksstekt kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Timjan- och vitlöksstekt kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Timjan- och vitlöksstekt kyckling",
+      "name": "torkad timjan",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Timjan- och vitlöksstekt kyckling",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Timjan- och vitlöksstekt kyckling",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Tryffelcrème",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Tryffelcrème",
+      "name": "tryffelolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk tryffelolja",
+      "isBasis": false
+    },
+    {
+      "section": "Tryffelcrème",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tryffelcrème",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Halvera potatis. Lägg på en ugnsplåt med bakplåtspapper. Blanda med olja, salt och lite nymald svartpeppar. Rosta i övre delen av ugnen ca 20 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rödbeta: Skär kokta rödbetor och spetskål i mindre bitar. Lägg i en ugnsform och blanda med lite olja, salt och svartpeppar. Rosta mitt i ugnen ca 12 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Timjan- och vitlöksstekt kyckling: Krydda kycklingfilé med salt och torkad timjan. Krossa vitlöksklyftor. Hetta upp smör i en stekpanna tillsammans med vitlöksklyftorna. Stek kycklingen i vitlökssmöret ca 2 min per sida. Ös med smöret emellanåt. Lägg över kycklingen på plåten med potatis och tillaga klart ca 6 min, tills den är genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tryffelcr&egrave;me: Blanda ihop gräddfil, tryffelolja, salt och nymald svartpeppar i en skål."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera kyckling med rostad potatis, rödbetor, spetskål och tryffelcr&egrave;me."
+    }
+  ],
+  "images": {
+    "large": "images/98420-large.jpg",
+    "small": "images/98420-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/98420/timjan-och-vitloksstekt-kyckling-med-tryffelcreme-ugnsbakade-rodbetor-och-spetskal",
+    "harvestedAt": "2026-07-18T20:32:29.974Z"
+  }
+}

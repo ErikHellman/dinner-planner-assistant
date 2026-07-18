@@ -1,0 +1,259 @@
+{
+  "recipeId": 81711,
+  "mainRecipeId": null,
+  "name": "Morotssoppa med rostade kikärtor och limeyoghurt",
+  "headline": "Morotssoppa med rostade kikärtor",
+  "subheadline": "och limeyoghurt",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 623,
+    "protein": 19.03,
+    "carbs": 81.97,
+    "fat": 24.35
+  },
+  "co2eKgPerServing": 0.371,
+  "rating": {
+    "average": null,
+    "count": 47
+  },
+  "ingredients": [
+    {
+      "section": "Morotssoppa",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "riven ingefära",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "apelsin",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st apelsin",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kikärtskrutonger",
+      "name": "kikärtor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kikärtor",
+      "isBasis": false
+    },
+    {
+      "section": "Kikärtskrutonger",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Kikärtskrutonger",
+      "name": "majsstärkelse",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Kikärtskrutonger",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kikärtskrutonger",
+      "name": "chili flakes",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Kikärtskrutonger",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Limeyoghurt",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Limeyoghurt",
+      "name": "matyoghurt",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Limeyoghurt",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Limeyoghurt",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig). Baka surdegspavé enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Morotssoppa: Slanta morötter och grovhacka gul lök. Hetta upp lite olja i en kastrull och fräs allt ca 2 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt riven ingefära, pressad vitlök, coconut cream, pressad apelsinsaft, vatten och grönsaksbuljong. Låt puttra ca 10 min eller tills morötterna är mjuka."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Kikärtskrutonger: Häll av och skölj kikärtor. Torka med hushållspapper och lägg på en plåt med bakplåtspapper. Blanda med majsstärkelse, olja, chili flakes (efter smak) och salt. Rosta högt upp i ugnen ca 10 min."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Limeyoghurt: Tvätta limen i ljummet vatten och finriv skalet. Blanda limeskal med matyoghurt, gräddfil och salt i en skål."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Morotssoppa: Mixa soppan slät med stavmixer. Späd eventuellt med mer vatten. Smaka av med lite salt och pressad saft från den använda limen."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Toppa morotsoppan med kikärtskrutonger. Servera med surdegspavé och en klick limeyoghurt."
+    }
+  ],
+  "images": {
+    "large": "images/81711-large.jpg",
+    "small": "images/81711-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/81711/morotssoppa-med-rostade-kikartor-och-limeyoghurt",
+    "harvestedAt": "2026-07-18T20:32:19.108Z"
+  }
+}

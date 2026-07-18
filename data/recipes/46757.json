@@ -1,0 +1,239 @@
+{
+  "recipeId": 46757,
+  "mainRecipeId": null,
+  "name": "Fläskkotlett med bearnaisesmör och tomatsallad",
+  "headline": "Fläskkotlett med bearnaisesmör",
+  "subheadline": "och tomatsallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 489,
+    "protein": 35.49,
+    "carbs": 39.35,
+    "fat": 21.12
+  },
+  "co2eKgPerServing": 0.935,
+  "rating": {
+    "average": 4.09,
+    "count": 1271
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": null,
+      "unit": "st",
+      "raw": "0 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Bearnaisesmör",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Bearnaisesmör",
+      "name": "torkad dragon",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Bearnaisesmör",
+      "name": "vitvinsvinäger 15ml",
+      "amount": null,
+      "unit": "påse",
+      "raw": "⅙ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Bearnaisesmör",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bearnaisesmör",
+      "name": "smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g smör",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Dela potatis och lägg på en ugnsplåt med bakplåtspapper. Blanda med lite olivolja, pressad vitlök, salt och lite nymald svartpeppar. Rosta i mitten av ugnen ca 20 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Bearnaisesmör: Finhacka bananschalottenlök. Lägg i en skål med torkad dragon, vitvinsvinäger och salt. Tillsätt rumstempererat smör och mosa ihop allt med en gaffel."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tomatsallad: Tärna tomat och finhacka bananschalottenlök. Lägg i en skål tillsammans med ruccola. Blanda med olivolja, salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fläskkotlett: Skär fläskkotlett i två bitar. Krydda med lite salt och nymald svartpeppar. Grilla köttet i grillpanna eller stek i stekpanna ca 4 min per sida, tills det är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera fläskkotlett med bearnaisesmör, tomatsallad och rostad potatis."
+    }
+  ],
+  "images": {
+    "large": "images/46757-large.jpg",
+    "small": "images/46757-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46757/flaskkotlett-med-bearnaisesmor-och-tomatsallad",
+    "harvestedAt": "2026-07-18T20:32:02.511Z"
+  }
+}

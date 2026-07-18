@@ -1,0 +1,228 @@
+{
+  "recipeId": 91809,
+  "mainRecipeId": null,
+  "name": "Kyckling i limesås med jasminris och chilistekt pak choy",
+  "headline": "Kyckling i limesås",
+  "subheadline": "med jasminris och chilistekt pak choy",
+  "description": null,
+  "chefTip": "Tänk på att chili varierar i styrka. Smaka dig fram till lagom hetta!",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 547,
+    "protein": 47.77,
+    "carbs": 68.71,
+    "fat": 9.04
+  },
+  "co2eKgPerServing": 0.879,
+  "rating": {
+    "average": 4.02,
+    "count": 257
+  },
+  "ingredients": [
+    {
+      "section": "Jasminris",
+      "name": "jasminris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g jasminris",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "lime",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "minifraiche",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl minifraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i limesås",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Chilistekt pak choy",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Chilistekt pak choy",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Chilistekt pak choy",
+      "name": "röd chili",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Chilistekt pak choy",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Chilistekt pak choy",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Jasminris: Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Chilistekt pak choy: Bryt av bladen på pak choy. Strimla rödlök. Skiva röd chili tunt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp neutral olja i en rymlig stekpanna och stek pak choy, rödlök och röd chili (se tips) på hög värme ca 2 min. Krydda med lite salt. Lägg över på ett fat och spara stekpannan (har du två stekpannor, så kan du med fördel steka pak choy till servering)."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kyckling i limesås: Strimla kycklingfilé. Skölj lime i ljummet vatten och finriv skalet."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp neutral olja i den använda stekpannan. Bryn kycklingen ca 3 min. Krydda med salt lite och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Pressa ner vitlök och låt steka med ca &frac12; min under omrörning. Tillsätt vatten, minifraiche, kycklingbuljong, kinesisk soja och socker. Koka upp och låt sjuda ca 5 min. Smaka av med rivet limeskal och pressad limesaft. Vänd ner babyspenat."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera kyckling i limesås med jasminris och chilistekt pak choy."
+    }
+  ],
+  "images": {
+    "large": "images/91809-large.jpg",
+    "small": "images/91809-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91809/kyckling-i-limesas-med-jasminris-och-chilistekt-pak-choy",
+    "harvestedAt": "2026-07-18T20:32:24.969Z"
+  }
+}

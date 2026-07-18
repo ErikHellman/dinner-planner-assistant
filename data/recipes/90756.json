@@ -1,0 +1,213 @@
+{
+  "recipeId": 90756,
+  "mainRecipeId": null,
+  "name": "Linguine con melanzane - pasta med aubergine- och tomatsås och fetaosttopping",
+  "headline": "Linguine con melanzane",
+  "subheadline": "pasta med aubergine- och tomatsås och fetaosttopping",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Selleri",
+    "Svaveldioxid",
+    "Sojabönor",
+    "Senap",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 532,
+    "protein": 24.11,
+    "carbs": 90.18,
+    "fat": 8.34
+  },
+  "co2eKgPerServing": 0.916,
+  "rating": {
+    "average": 3.93,
+    "count": 564
+  },
+  "ingredients": [
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "aubergine",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st aubergine",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "örtmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "socker",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Aubergine- och tomatsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "linguine",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g linguine",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ruccola",
+      "amount": 60,
+      "unit": "g",
+      "raw": "60 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaosttopping",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaosttopping",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Aubergine- och tomatsås: Skär aubergine i ca 1 cm tjocka skivor. Lägg på en ugnsplåt med bakplåtspapper och strö över lite salt. Rosta högt upp i ugnen ca 20 min, tills de fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp olivolja i en stekgryta. Fräs pressad vitlök och tomatpuré ca 1 min, under omrörning. Blanda ner krossade tomater, örtmix, socker och grönsaksbuljong. Koka upp och sjud till servering."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Pasta: Koka linguine enligt anvisning på förpackningen. Spara lite pastavatten när du häller av pastan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fetaosttopping: Finstrimla bladpersilja och smula fetaost. Lägg i en skål."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Aubergine- och tomatsås: Blanda ner auberginen i såsen. Späd med sparat pastavatten till önskad konsistens. Smaka av med balsamvinäger, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Blanda ner avrunnen pasta i tomatsåsen och servera med fetaosttopping och ruccola."
+    }
+  ],
+  "images": {
+    "large": "images/90756-large.jpg",
+    "small": "images/90756-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90756/linguine-con-melanzane-pasta-med-aubergine-och-tomatsas-och-fetaosttopping",
+    "harvestedAt": "2026-07-18T20:32:22.903Z"
+  }
+}

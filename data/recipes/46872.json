@@ -1,0 +1,230 @@
+{
+  "recipeId": 46872,
+  "mainRecipeId": null,
+  "name": "Japansk ramensoppa med sesamstekt broccoli och löskokt ägg",
+  "headline": "Japansk ramensoppa",
+  "subheadline": "med sesamstekt broccoli och löskokt ägg",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Ägg",
+    "Vete",
+    "Nötter",
+    "Svaveldioxid",
+    "Sojabönor",
+    "Sesamfrön"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 541,
+    "protein": 25.62,
+    "carbs": 57.32,
+    "fat": 23.22
+  },
+  "co2eKgPerServing": 0.624,
+  "rating": {
+    "average": 3.78,
+    "count": 537
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "ägg",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "äggnudlar",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "champinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "ingefära",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "olja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "chili flakes",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "vatten",
+      "amount": 6,
+      "unit": "dl",
+      "raw": "6 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Ramenbuljong",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Sesamstekt broccoli",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Sesamstekt broccoli",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Sesamstekt broccoli",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Sesamstekt broccoli",
+      "name": "olja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Sesamstekt broccoli",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Sesamstekt broccoli",
+      "name": "sesamfrön",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sesamfrön",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp lättsaltat vatten i en kastrull till nudelkoket i steg 6."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka upp vatten i en liten kastrull. Lägg i äggen och låt koka 7 min. Skölj i kallt vatten. Skala och dela."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ramenbuljong: Kvarta champinjoner. Skala och finriv ingefära (ca 1 msk) och vitlök."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp rikligt med neutral olja i en kastrull och fräs svamp, vitlök, ingefära och chili flakes ca 4 min. Tillsätt vatten, japansk soja, vitvinsvinäger och grönsaksbuljong. Sjud under lock tills servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sesamstekt broccoli: Skär broccoli i små buketter och skiva stammen tunt. Strimla salladslök. Hetta upp sesamolja och lite olja i en stekpanna och fräs grönsakerna ca 3 min. Tillsätt japansk soja och sesamfrön. Fräs ytterligare ca 1 min."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Koka nudlar enligt anvisning på förpackningen."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Fördela nudlar och sesamstekt broccoli i två skålar. Häll på den varma ramenbuljongen. Toppa med ägg och koriander!"
+    }
+  ],
+  "images": {
+    "large": "images/46872-large.jpg",
+    "small": "images/46872-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46872/japansk-ramensoppa-med-sesamstekt-broccoli-och-loskokt-agg",
+    "harvestedAt": "2026-07-18T20:32:04.281Z"
+  }
+}

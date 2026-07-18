@@ -1,0 +1,188 @@
+{
+  "recipeId": 70017,
+  "mainRecipeId": null,
+  "name": "Wokade risnudlar med grönsaker, jordnötter och räkor",
+  "headline": "Wokade risnudlar med räkor",
+  "subheadline": "med grönsaker och jordnötter",
+  "description": null,
+  "chefTip": "Blanda gärna avhällda nudlar med sås och grönsaker. ",
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Jordnötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pekannötter",
+    "Valnötter",
+    "Sojabönor",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 533,
+    "protein": 27.76,
+    "carbs": 72.29,
+    "fat": 14.81
+  },
+  "co2eKgPerServing": 1.581,
+  "rating": {
+    "average": null,
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "section": "Grönsakswok",
+      "name": "gul paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "olja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "sweet chilisås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sweet chilisås",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "majsstärkelse",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "risnudlar, (100g)",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp risnudlar, (100g)",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakswok",
+      "name": "hackade jordnötter",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp hackade jordnötter",
+      "isBasis": false
+    },
+    {
+      "section": "Limemarinerade räkor",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Limemarinerade räkor",
+      "name": "räkor, (300g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor, (300g)",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka upp rikligt med lättsaltat vatten i en kastrull till nudlarna i steg 7."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelser: Skär gul paprika i mindre bitar. Dela broccoli i mindre buketter och strimla stammen tunt. Häll av räkor."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Limemarinerade räkor: Finriv skalet från en lime. Blanda räkor, limeskal och pressad limesaft från halva limen i en bunke. Låt stå i kylen till servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grönsakwok: Vispa samman sweet chili, japansk soja, vatten och majsstärkelse i en bunke."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Hetta upp rikligt med olja i en rymlig stekpanna eller wok. Fräs gul paprika och broccoli ca 3 min på hög värme, krydda med lite salt. Tillsätt sojablandningen och koka upp och sjud ca 3 min, tills såsen har önskad konsistens. Smaka av med lite salt."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Koka risnudlar enligt anvisning på förpackningen."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Klyfta resten av limen. Servera grönsaker i sötsyrlig sås med risnudlar och limeklyfta (se tips!). Toppa med limemarinerade räkor och hackade jordnötter."
+    }
+  ],
+  "images": {
+    "large": "images/70017-large.jpg",
+    "small": "images/70017-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/70017/wokade-risnudlar-med-gronsaker-jordnotter-och-rakor",
+    "harvestedAt": "2026-07-18T20:32:17.708Z"
+  }
+}

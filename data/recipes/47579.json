@@ -1,0 +1,233 @@
+{
+  "recipeId": 47579,
+  "mainRecipeId": null,
+  "name": "Örtstekt kyckling med tzatziki och klyftpotatis",
+  "headline": "Örtstekt kyckling med tzatziki",
+  "subheadline": "och klyftpotatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 499,
+    "protein": 37.72,
+    "carbs": 45.62,
+    "fat": 18.38
+  },
+  "co2eKgPerServing": 0.8,
+  "rating": {
+    "average": 4.06,
+    "count": 220
+  },
+  "ingredients": [
+    {
+      "section": "Klyftpotatis",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "gurka",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Örtstekt kyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Örtstekt kyckling",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Örtstekt kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Örtstekt kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Örtstekt kyckling",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Örtstekt kyckling",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Örtstekt kyckling",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "gurka",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Klyftpotatis: Klyfta potatis och lägg i en ugnsform eller långpanna. Blanda med olivolja, salt och lite nymald svartpeppar. Rosta mitt i ugnen ca 25 min, tills potatisen fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tzatziki: Grovriv gurka. Krama ur vätskan och lägg gurkan i en skål. Blanda med pressad vitlök och matyoghurt. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Örtstekt kyckling: Krydda kycklinglårfilé med torkad oregano, salt och lite nymald svartpeppar. Hetta upp smör och olivolja i en stekpanna. Stek kycklingen ca 5 min per sida, tills den är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Skölj citronen i ljummet vatten. Finriv det yttersta skalet och strö över den nystekta kycklingen. Klyfta den använda citronen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Sallad: Tärna gurka och tomat. Lägg i en salladsskål och blanda med mixsallad."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera nystekt örtkyckling med klyftpotatis, tzatziki, sallad och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/47579-large.jpg",
+    "small": "images/47579-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/47579/ortstekt-kyckling-med-tzatziki-och-klyftpotatis",
+    "harvestedAt": "2026-07-18T20:32:07.039Z"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "recipeId": 46265,
+  "mainRecipeId": null,
+  "name": "Fläskkotlett med grekisk zucchinisallad och vitlökssås",
+  "headline": "Fläskkotlett med grekisk zucchinisallad",
+  "subheadline": "och vitlökssås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 654,
+    "protein": 37.46,
+    "carbs": 46.94,
+    "fat": 35.19
+  },
+  "co2eKgPerServing": 1.099,
+  "rating": {
+    "average": null,
+    "count": 30
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": null,
+      "unit": "st",
+      "raw": "0 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "rosmarin/timjan mix",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "zucchini",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchinisallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "rosmarin/timjan mix",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "snacksoliver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp snacksoliver",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Klyfta potatis och lägg på ena sidan av en ugnsplåt med bakplåtspapper. Blanda med olivolja, rosmarin/timjan mix, salt och nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Zucchinisallad: Skär zucchini i grova bitar. Klyfta röd paprika. Lägg allt på plåten bredvid potatisen. Blanda med olivolja, pressad vitlök, torkad oregano, salt och nymald svartpeppar. Dela citronen och lägg halva på plåten (klyfta den andra halvan och spara till servering). Rosta allt i övre delen av ugnen ca 20 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fläskkotlett: Skär fläskkotlett i 2 jämntjocka skivor. Krydda med rosmarin/timjan mix, salt och nymald svartpeppar. Hetta upp lite olivolja i en stekpanna och stek köttet ca 4 min per sida, tills det är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Vitlökssås: Blanda gräddfil, pressad vitlök, olivolja, salt och nymald svartpeppar i en liten skål."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Pressa den ugnsbakade citronen över de rostade grönsakerna och lägg upp allt på ett fat. Toppa med snacksoliver. Servera med fläskkotlett, potatis, citronklyfta och vitlökssås."
+    }
+  ],
+  "images": {
+    "large": "images/46265-large.jpg",
+    "small": "images/46265-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46265/flaskkotlett-med-grekisk-zucchinisallad-och-vitlokssas",
+    "harvestedAt": "2026-07-18T20:31:59.223Z"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "recipeId": 106444,
+  "mainRecipeId": null,
+  "name": "Stekt kolja med blomkålspuré, brynt hasselnötssmör och kokt potatis",
+  "headline": "Stekt kolja med blomkålspuré",
+  "subheadline": "brynt hasselnötssmör och kokt potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Svaveldioxid",
+    "Nötter",
+    "Hasselnötter",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 525,
+    "protein": 39.99,
+    "carbs": 46.6,
+    "fat": 19.84
+  },
+  "co2eKgPerServing": 0.527,
+  "rating": {
+    "average": 4.11,
+    "count": 201
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Blomkålspuré",
+      "name": "blomkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st blomkål",
+      "isBasis": false
+    },
+    {
+      "section": "Blomkålspuré",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Blomkålspuré",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Blomkålspuré",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Brynt hasselnötssmör",
+      "name": "hasselnötter",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g hasselnötter",
+      "isBasis": false
+    },
+    {
+      "section": "Brynt hasselnötssmör",
+      "name": "smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g smör",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kolja",
+      "name": "koljafilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g koljafilé",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt kolja",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kolja",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kolja",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Blomkålspuré: Putsa och skär blomkål i mindre buketter. Koka mjuk i lättsaltat vatten, ca 20 min. Häll av och mixa med stavmixer. Tillsätt smör, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Gurksallad: Skär snackgurka i mindre bitar. Strimla schalottenlök. Lägg i en salladsskål och blanda ner balsamvinäger och socker. Smaka av med lite salt och nymald svartpeppar. Låt stå till servering."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Brynt hasselnötssmör: Krossa hasselnötter lite lätt. Smält smör i en liten kastrull. När smöret \"tystnar\" börjar det att brynas, vispa då hela tiden. När det har en gyllenbrun färg och nötaktig doft är det klart. Häll över smöret i en värmetålig skål. Blanda ner nötterna."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Stekt kolja: Skär koljafilé i portionsbitar. Krydda med salt och lite nymald svartpeppar. Hetta upp olja i en rymlig stekpanna och stek fisken ca 3 min per sida (det kan variera beroende på fiskens tjocklek). Tills den är genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servering: Servera nystekt kolja med kokt potatis, gurksallad, blomkålspuré och brynt hasselnötssmör."
+    }
+  ],
+  "images": {
+    "large": "images/106444-large.jpg",
+    "small": "images/106444-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/106444/stekt-kolja-med-blomkalspure-brynt-hasselnotssmor-och-kokt-potatis",
+    "harvestedAt": "2026-07-18T20:32:32.425Z"
+  }
+}

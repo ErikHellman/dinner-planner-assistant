@@ -1,0 +1,304 @@
+{
+  "recipeId": 55209,
+  "mainRecipeId": null,
+  "name": "Dragonbiffar med svampsås, fänkålssallad och rostad potatis",
+  "headline": "Dragonbiffar med svampsås",
+  "subheadline": "fänkålssallad och rostad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött"
+  ],
+  "allergies": [
+    "Vete",
+    "Sojabönor",
+    "Mjölk",
+    "Senap",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 555,
+    "protein": 35.92,
+    "carbs": 58.94,
+    "fat": 19.52
+  },
+  "co2eKgPerServing": 4.418,
+  "rating": {
+    "average": 3.99,
+    "count": 122
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "kinesisk soja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "torkad dragon",
+      "amount": 1.5,
+      "unit": "tsk",
+      "raw": "1½ tsk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "dijonsenap",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonbiffar",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "rött äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rött äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.6666666666666666,
+      "unit": "påse",
+      "raw": "⅔ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Halvera potatis. Lägg på en ugnsplåt med bakplåtspapper och blanda med lite olivolja, salt och nymald svartpeppar. Rosta mitt i ugnen ca 25 min, tills potatisen är mjuk och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Svampsås: Kvarta champinjoner. Hacka schalottenlök. Hetta upp lite olivolja i en stekpanna och stek svampen ca 2 min. Tillsätt löken och pressad vitlök, stek ytterligare ca 1 min. Lägg över svampen i en kastrull. Pudra över vetemjöl och rör om. Spara stekpannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Blanda ner vatten (lite i taget), balsamvinäger, kycklingbuljong, socker och kinesisk soja. Koka upp och sjud ca 5 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Dragonbiffar: Blanda ströbröd, mjölk, torkad dragon, dijonsenap, salt och nymald svartpeppar i en bunke. Blanda ner nötfärs och forma till 4 mindre biffar. Hetta upp lite olivolja i den använda stekpannan och stek färsbiffarna ca 2 min per sida."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Slå över svampsåsen över biffarna. Täck med lock och sjud ca 5 min, tills biffarna är helt genomstekt."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Fänkålssallad: Hyvla fänkål tunt. Strimla äpple. Lägg allt i en salladskål. Blanda med vitvinsvinäger och lite flingsalt."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servera dragonbiffar med svampsås, fänkålssallad och rostad potatis."
+    }
+  ],
+  "images": {
+    "large": "images/55209-large.jpg",
+    "small": "images/55209-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/55209/dragonbiffar-med-svampsas-fankalssallad-och-rostad-potatis",
+    "harvestedAt": "2026-07-18T20:32:08.889Z"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "recipeId": 46739,
+  "mainRecipeId": null,
+  "name": "Cashewnötscurry med röda linser, kokosmjölk och rostad blomkål",
+  "headline": "Cashewnötscurry med röda linser",
+  "subheadline": "kokosmjölk och rostad blomkål",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Jordnötter",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Makadamianötter",
+    "Mandel",
+    "Paranötter",
+    "Pekannötter",
+    "Pistaschmandel",
+    "Valnötter",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 544,
+    "protein": 21.91,
+    "carbs": 60.45,
+    "fat": 23.85
+  },
+  "co2eKgPerServing": 0.469,
+  "rating": {
+    "average": 3.94,
+    "count": 763
+  },
+  "ingredients": [
+    {
+      "section": "Rostad blomkål",
+      "name": "blomkål",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st blomkål",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad blomkål",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad blomkål",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad blomkål",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Curry paste",
+      "name": "gul lök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "cashewnötter",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g cashewnötter",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "curry",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp curry",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "malen ingefära",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse malen ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Curry paste",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gryta",
+      "name": "röda linser",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp röda linser",
+      "isBasis": false
+    },
+    {
+      "section": "Gryta",
+      "name": "gul lök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Gryta",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gryta",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Gryta",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Gryta",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Gryta",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "cashewnötter",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g cashewnötter",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad blomkål: Skär blomkål i små buketter. Lägg i en ugnsform och blanda med lite olivolja, pressad vitlök och salt. Rosta mitt i ugnen ca 20 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Till servering: Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Curry paste: Finhacka gul lök och lägg i en mixerbunke tillsammans med cashewnötter, pressad vitlök, tomatpuré, chili flakes, spiskummin, curry, malen ingefära och salt. Mixa till en smet med stavmixer."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Gryta: Häll av och skölj röda linser. Klyfta gul lök. Hetta upp lite olivolja i en stekgryta och fräs löken ca &frac12; min. Tillsätt curry paste och fräs allt ytterligare ca 1 min. Blanda ner vatten, coconut cream och grönsaksbuljong. Låt sjuda ca 8 min. Blanda ner avhällda röda linser, låt sjuda ca 2 min. Smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Vänd ner babyspenat och den rostade blomkålen i lins- och cashewnötscurryn. Toppa med cashewnötter och servera med bulgur."
+    }
+  ],
+  "images": {
+    "large": "images/46739-large.jpg",
+    "small": "images/46739-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46739/cashewnotscurry-med-roda-linser-kokosmjolk-och-rostad-blomkal",
+    "harvestedAt": "2026-07-18T20:32:01.818Z"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "recipeId": 94982,
+  "mainRecipeId": null,
+  "name": "Ört- och vitlöksstekt fläskkotlett med rostad paprikasås, risoni och spetskålssallad",
+  "headline": "Ört- och vitlöksstekt fläskkotlett",
+  "subheadline": "med rostad paprikasås, risoni och spetskålssallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 551,
+    "protein": 43.63,
+    "carbs": 62.09,
+    "fat": 14.29
+  },
+  "co2eKgPerServing": 0.94,
+  "rating": {
+    "average": 4.01,
+    "count": 145
+  },
+  "ingredients": [
+    {
+      "section": "Risoni",
+      "name": "risoni",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risoni",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad paprikasås",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Spetskålssallad",
+      "name": "spetskål",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g spetskål",
+      "isBasis": false
+    },
+    {
+      "section": "Spetskålssallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Spetskålssallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.6666666666666666,
+      "unit": "påse",
+      "raw": "⅔ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Spetskålssallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ört- och vitlöksstekt fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Ört- och vitlöksstekt fläskkotlett",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ört- och vitlöksstekt fläskkotlett",
+      "name": "persillade",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Ört- och vitlöksstekt fläskkotlett",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ört- och vitlöksstekt fläskkotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig). Koka upp rikligt med lättsaltat vatten i en kastrull till risoni i steg 4."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad paprikasås: Halvera paprika och ta bort kärnhuset. Skala vitlök. Lägg allt i en ugnsform och blanda med lite olivolja och salt. Tillaga i övre delen av ugnen ca 15 min, tills paprikan är mjuk."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Spetskålssallad: Finstrimla spetskål. Lägg i en rymlig bunke och blanda med vitvinsvinäger, salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Risoni: Koka risoni enligt anvisning på förpackningen."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ört- och vitlöksstekt fläskkotlett: Skär fläskkotlett i portionsbitar. Krydda med salt, persillade och nymald svartpeppar. Hetta upp lite olivolja i en stekpanna och stek köttet ca 3 min per sida. tills det är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Rostad paprikasås: Finriv parmesanost och lägg i en mixerbunke. Tillsätt den rostade paprikan och vitlöken, vatten och vitvinsvinäger. Mixa till en sås med stavmixer. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera ört- och vitlöksstekt fläskkotlett med rostad paprikasås, risoni och spetskålssallad."
+    }
+  ],
+  "images": {
+    "large": "images/94982-large.jpg",
+    "small": "images/94982-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/94982/ort-och-vitloksstekt-flaskkotlett-med-rostad-paprikasas-risoni-och-spetskalssallad",
+    "harvestedAt": "2026-07-18T20:32:28.431Z"
+  }
+}

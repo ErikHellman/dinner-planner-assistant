@@ -1,0 +1,178 @@
+{
+  "recipeId": 91941,
+  "mainRecipeId": null,
+  "name": "Krämig linguine med räkor, zucchini, dill och citron",
+  "headline": "Krämig linguine med räkor",
+  "subheadline": "zucchini, dill och citron",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Nötter",
+    "Sojabönor",
+    "Senap",
+    "Vete",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 547,
+    "protein": 31.9,
+    "carbs": 87.27,
+    "fat": 7.87
+  },
+  "co2eKgPerServing": 1.478,
+  "rating": {
+    "average": 3.48,
+    "count": 65
+  },
+  "ingredients": [
+    {
+      "section": "Grönsakssås",
+      "name": "zucchini",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakssås",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakssås",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakssås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakssås",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakssås",
+      "name": "minifraiche",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl minifraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakssås",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "linguine",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g linguine",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "räkor, (300 g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor, (300 g)",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm chili flakes",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka linguine enligt anvisning på förpackningen. Spara ca 1 dl av kokvattnet när du häller av pastan."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Grönsakssås: Hyvla långa remsor av zucchini och morötter med potatisskalare. Strimla tunt det som ej går att hyvla. Häll av räkor och finhacka dill."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp neutral olja i en rymlig stekpanna. Fräs zucchini och morot tillsammans med lite salt tills de mjuknat ca 3 min. Tillsätt tomatpuré och låt den steka med under omrörning ca 1 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Blanda ner minifraiche, koka upp och sjud ca 2 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Blanda ner pasta, räkor, finhackad dill och spä med pastavatten lite i taget. Rör om så att det blir krämigt. Smaka av med lite pressad citronsaft."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Klyfta resten av citronen. Toppa räk- och zucchinipastan med lite chili flakes, servera med citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/91941-large.jpg",
+    "small": "images/91941-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91941/kramig-linguine-med-rakor-zucchini-dill-och-citron",
+    "harvestedAt": "2026-07-18T20:32:27.234Z"
+  }
+}

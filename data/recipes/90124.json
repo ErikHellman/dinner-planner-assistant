@@ -1,0 +1,222 @@
+{
+  "recipeId": 90124,
+  "mainRecipeId": null,
+  "name": "Fläskkotlett med rostade rotfrukter och varm dragonsås",
+  "headline": "Fläskkotlett med rostade rotfrukter",
+  "subheadline": "och varm dragonsås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Senap"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 567,
+    "protein": 39.99,
+    "carbs": 55.13,
+    "fat": 20.72
+  },
+  "co2eKgPerServing": 0.886,
+  "rating": {
+    "average": 3.98,
+    "count": 441
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "rödbeta",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödbeta",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "gul lök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "minifraiche",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl minifraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "torkad dragon",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "dijonsenap",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ugnsrostade rotfrukter: Skala och skär rödbeta och morötter i klyftor. Klyfta potatis. Lägg allt på en ugnsplåt med bakplåtspapper och blanda med olivolja och lite salt. Tillaga mitt i ugnen ca 25 min, tills rotfrukterna är klara och fått fin färg."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Dragonsås: Finhacka gul lök. Hetta upp smör i en kastrull och fräs löken ca 3 min. Tillsätt minifraiche, kycklingbuljong, torkad dragon och dijonsenap. Koka upp och sjud till steg 5. Smaka av med lite salt och nymald svartpeppar. Späd eventuellt med lite vatten om såsen blir för tjock."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fläskkotlett: Skär köttet i 2 jämntjocka skivor. Krydda med salt och nymald svartpeppar. Hetta upp smör i en stekpanna och stek köttet ca 3 min per sida. Slå över dragonsåsen och sjud ca 2 min, tills köttet är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servering: Servera fläskkotlett med dragonsås och rotfrukter."
+    }
+  ],
+  "images": {
+    "large": "images/90124-large.jpg",
+    "small": "images/90124-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90124/flaskkotlett-med-rostade-rotfrukter-och-varm-dragonsas",
+    "harvestedAt": "2026-07-18T20:32:20.227Z"
+  }
+}

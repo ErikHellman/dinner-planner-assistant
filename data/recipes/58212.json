@@ -1,0 +1,276 @@
+{
+  "recipeId": 58212,
+  "mainRecipeId": null,
+  "name": "Fläskgyros med tomatsås, krämig gurksallad och rostad potatis",
+  "headline": "Fläskgyros med tomatsås",
+  "subheadline": "krämig gurksallad och rostad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Senap",
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 578,
+    "protein": 40.86,
+    "carbs": 54.17,
+    "fat": 21.97
+  },
+  "co2eKgPerServing": 1.274,
+  "rating": {
+    "average": 4.08,
+    "count": 155
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskgyros",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskgyros",
+      "name": "dijonsenap",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskgyros",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskgyros",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskgyros",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskgyros",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Krämig gurksallad",
+      "name": "gurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig gurksallad",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig gurksallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig gurksallad",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig gurksallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Krämig gurksallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Halvera potatis. Lägg på en ugnsplåt med bakplåtspapper och blanda med lite olivolja, salt och nymald svartpeppar. Rosta mitt i ugnen ca 20 min, tills potatisen är mjuk och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fläskgyros: Blanda pressad vitlök, senap, spiskummin och salt i en bunke. Strimla fläskkotlett och blanda ner i senapsblandningen. Låt marinera ca 15 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tomatsås: Hacka gul lök. Hetta upp lite olivolja i en kastrull. Fräs lök ca 2 min. Tillsätt krossade tomater, chili flakes (efter egen smak) och kycklingbuljong. Koka upp och sjud ca 10 min. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Krämig gurksallad: Skär gurka i mindre bitar. Lägg i en skål och blanda med gräddfil, vitvinsvinäger, pressad vitlök, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fläskgyros: Hetta upp lite olivolja i en stekpanna. Stek det marinerade fläskköttet ca 7 min, tills det är helt genomstekt."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera fläskgyros med tomatsås, krämig gurksallad och rostad potatis."
+    }
+  ],
+  "images": {
+    "large": "images/58212-large.jpg",
+    "small": "images/58212-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58212/flaskgyros-med-tomatsas-kramig-gurksallad-och-rostad-potatis",
+    "harvestedAt": "2026-07-18T20:32:10.472Z"
+  }
+}

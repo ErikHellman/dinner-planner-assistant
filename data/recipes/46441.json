@@ -1,0 +1,198 @@
+{
+  "recipeId": 46441,
+  "mainRecipeId": null,
+  "name": "Varmrökt lax med äppelsallad och dillsås",
+  "headline": "Varmrökt lax",
+  "subheadline": "med äppelsallad och dillsås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Sommar",
+    "Nästan klart",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 556,
+    "protein": 29.53,
+    "carbs": 53.42,
+    "fat": 24.96
+  },
+  "co2eKgPerServing": 0.71,
+  "rating": {
+    "average": 4.06,
+    "count": 584
+  },
+  "ingredients": [
+    {
+      "section": "Dillsås",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillsås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Dillsås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Äppelsallad",
+      "name": "grönt äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grönt äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelsallad",
+      "name": "gurka",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelsallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelsallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelsallad",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelsallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Äppelsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "varmrökt lax",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g varmrökt lax",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka potatis i lättsaltat vatten. Dela stora potatisar för kortare koktid."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Dillsås: Grovhacka dill och lägg i en liten skål. Blanda med gräddfil, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Äppelsallad: Tärna äpple och gurka. Skiva bananschalottenlök. Lägg allt i en skål. Blanda med vitvinsvinäger, honung, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grovhacka dill. Ringla lite olivolja och strö dill och lite salt över den nykokta potatisen. Servera med varmrökt lax, äppelsallad och dillsås."
+    }
+  ],
+  "images": {
+    "large": "images/46441-large.jpg",
+    "small": "images/46441-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46441/varmrokt-lax-med-appelsallad-och-dillsas",
+    "harvestedAt": "2026-07-18T20:31:59.717Z"
+  }
+}

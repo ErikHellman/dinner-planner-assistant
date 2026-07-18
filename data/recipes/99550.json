@@ -1,0 +1,172 @@
+{
+  "recipeId": 99550,
+  "mainRecipeId": null,
+  "name": "Fiskgryta med lax, tomat och sockerärtor",
+  "headline": "Fiskgryta med lax",
+  "subheadline": "bulgur, tomat och sockerärtor",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Fisk",
+    "Senap",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 543,
+    "protein": 37.51,
+    "carbs": 43.55,
+    "fat": 24.34
+  },
+  "co2eKgPerServing": 0.977,
+  "rating": {
+    "average": 3.96,
+    "count": 448
+  },
+  "ingredients": [
+    {
+      "section": "Fiskgryta",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "laxfilé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st laxfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "peppar- och fänkålsmix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp peppar- och fänkålsmix",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "vatten",
+      "amount": 2.5,
+      "unit": "dl",
+      "raw": "2 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "sockerärtor",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp sockerärtor",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Förberedelse: Klyfta bananschalottenlök. Skala och slanta morot. Tärna tomat. Skär lax i 2x2 cm stora bitar och krydda med salt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Bulgur: Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fiskgryta: Hetta upp olja i en stekgryta och fräs lök och morot ca 2 min. Tillsätt tomat, tomatpuré och peppar- och fänkålsmix, fräs ytterligare ca 1 min. Häll på vatten och grönsaksbuljong, låt sjuda ca 5 min. Tillsätt laxbitarna och låt puttra under lock ca 3 min, tills fisken är klar. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Strimla sockerärtor. Toppa grytan med sockerärtor och servera med bulgur."
+    }
+  ],
+  "images": {
+    "large": "images/99550-large.jpg",
+    "small": "images/99550-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/99550/fiskgryta-med-lax-tomat-och-sockerartor",
+    "harvestedAt": "2026-07-18T20:32:30.587Z"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "recipeId": 104674,
+  "mainRecipeId": null,
+  "name": "Citrusstekt kyckling med rostade morötter, ras el hanout, sesamfrön och mynta",
+  "headline": "Citrusstekt kyckling",
+  "subheadline": "med rostade morötter, ras el hanout, sesamfrön och mynta",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Sesamfrön",
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 527,
+    "protein": 46.19,
+    "carbs": 49.46,
+    "fat": 16.1
+  },
+  "co2eKgPerServing": 0.66,
+  "rating": {
+    "average": 4.25,
+    "count": 251
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "olivolja",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "ras el hanout",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ras el hanout",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "sesamfrön",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "socker",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddrostade morötter",
+      "name": "mynta",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Citrusstekt kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Citrusstekt kyckling",
+      "name": "citrus mix",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse citrus mix",
+      "isBasis": false
+    },
+    {
+      "section": "Citrusstekt kyckling",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "mynta",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökscrème",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökscrème",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökscrème",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Kryddrostade morötter: Skala och halvera morötter på längden. Lägg på en ugnsplåt med bakplåtspapper. Blanda med olivolja, ras el hanout, sesamfrön, salt och socker. Rosta i övre delen av ugnen ca 20 min, tills morötterna är mjuka och har fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Citrusstekt kyckling: Krydda kycklingfilé med citrusmix. Hetta upp olja i en stekpanna och stek kycklingen ca 2 min per sida. Lägg över i en ugnsform och tillaga klart i nedre delen av ugnen ca 8 min, tills den är genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Gurksallad: Skär snackgurka i grova bitar och strimla mynta. Blanda ihop i en skål tillsammans med olivolja och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Vitlökscr&egrave;me: Blanda ihop gräddfil, pressad vitlök och salt i en liten skål."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Kryddrostade morötter: Finstrimla mynta. Bred ut vitlökscr&egrave;me på ett serveringsfat. Lägg de rostade morötterna på vitlökscr&egrave;men och toppa med strimlad mynta."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Servera citrusstekt kycklingfilé med rostade morötter, gurksallad och bulgur."
+    }
+  ],
+  "images": {
+    "large": "images/104674-large.jpg",
+    "small": "images/104674-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/104674/citrusstekt-kyckling-med-rostade-morotter-ras-el-hanout-sesamfron-och-mynta",
+    "harvestedAt": "2026-07-18T20:32:31.342Z"
+  }
+}

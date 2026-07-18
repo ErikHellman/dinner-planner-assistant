@@ -1,0 +1,222 @@
+{
+  "recipeId": 61390,
+  "mainRecipeId": null,
+  "name": "Fisksoppa med aioli, persilja och surdegsbröd",
+  "headline": "Fisksoppa med aioli",
+  "subheadline": "persilja och surdegsbröd",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Sesamfrön",
+    "Ägg",
+    "Vete",
+    "Selleri"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 563,
+    "protein": 36.7,
+    "carbs": 53.01,
+    "fat": 22.72
+  },
+  "co2eKgPerServing": 0.778,
+  "rating": {
+    "average": 4.02,
+    "count": 479
+  },
+  "ingredients": [
+    {
+      "section": "Tillbehör",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Aioli",
+      "name": "majonnäs",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Aioli",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Aioli",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "selleristjälk",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st selleristjälk",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "alaska pollock",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g alaska pollock",
+      "isBasis": false
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fisksoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Grädda surdegspavé enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Aioli: Blanda majonnäs, salt och pressad vitlök i en liten skål."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fisksoppa: Klyfta gul lök och skär tomat i mindre bitar. Skala och slanta morötter. Strimla stjälkselleri. Hetta upp olivolja i stekgrytan. Fräs gul lök, tomat, selleri, morötter, torkad timjan och pressad vitlök ca 4 min. Tillsätt krossade tomater, vatten och grönsaksbuljong. Låt sjuda under lock ca 5 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Skär alaska pollock i mindre bitar. Krydda med salt och lite nymald svartpeppar. Tillsätt fisken till grytan och sjud ca 2 min, tills fisken är klar. Smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Grovhacka bladpersilja. Strö persilja över fisksoppan. Servera med en klick aioli och nygräddat bröd."
+    }
+  ],
+  "images": {
+    "large": "images/61390-large.jpg",
+    "small": "images/61390-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61390/fisksoppa-med-aioli-persilja-och-surdegsbrod",
+    "harvestedAt": "2026-07-18T20:32:14.542Z"
+  }
+}

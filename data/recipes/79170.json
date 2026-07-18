@@ -1,0 +1,201 @@
+{
+  "recipeId": 79170,
+  "mainRecipeId": null,
+  "name": "Sejrygg i parmesan- och purjolöksås med kokt potatis och broccoli",
+  "headline": "Sejrygg i parmesan- och purjolökssås",
+  "subheadline": "med kokt potatis och broccoli",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 579,
+    "protein": 46.51,
+    "carbs": 46.97,
+    "fat": 22.82
+  },
+  "co2eKgPerServing": 0.715,
+  "rating": {
+    "average": 3.93,
+    "count": 136
+  },
+  "ingredients": [
+    {
+      "section": "Kokt potatis och broccoli",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Kokt potatis och broccoli",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Kokt potatis och broccoli",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Kokt potatis och broccoli",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "purjolök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st purjolök",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "mjölk",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1 ½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "riven parmesan",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g riven parmesan",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesan- och purjolöksås",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Sejrygg",
+      "name": "sejrygg",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g sejrygg",
+      "isBasis": false
+    },
+    {
+      "section": "Sejrygg",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sejrygg",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Kokt potatis och broccoli: Koka potatis mjuk i lättsaltat vatten. Skär broccoli i små buketter och tillsätt till potatiskoket de sista 3 min. Häll av och vänd runt med en klick smör och lite salt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Halvera purjolök och skölj ordentligt. Skiva purjolöken tunt. Tärna tomat. Klyfta citron."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Parmesan- och purjolöksås: Hetta upp smör i en stekpanna. Fräs purjolök ca 1 min. Tillsätt tomat och pressad vitlök, fräs ytterligare ca 1 min. Häll i vispgrädde, mjölk och grönsaksbuljong, låt koka upp."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Krydda sejrygg med salt och lite nymald svartpeppar. Lägg ner fisken i såsen och låt sjuda ca 3 min, tills fisken är klar. Toppa med riven parmesan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera sejrygg i parmesan- och purjolöksås med kokt potatis och broccoli."
+    }
+  ],
+  "images": {
+    "large": "images/79170-large.jpg",
+    "small": "images/79170-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/79170/sejrygg-i-parmesan-och-purjoloksas-med-kokt-potatis-och-broccoli",
+    "harvestedAt": "2026-07-18T20:32:18.868Z"
+  }
+}

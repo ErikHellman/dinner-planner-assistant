@@ -1,0 +1,197 @@
+{
+  "recipeId": 108224,
+  "mainRecipeId": null,
+  "name": "Snabb thaicurry med kyckling, citrongräs, blomkål och basmatiris",
+  "headline": "Snabb thaicurry med kyckling",
+  "subheadline": "citrongräs, blomkål och basmatiris",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik",
+    "Klart på 20 min"
+  ],
+  "allergies": [],
+  "nutritionPerServing": {
+    "energyKcal": 549,
+    "protein": 44.56,
+    "carbs": 69.98,
+    "fat": 10.09
+  },
+  "co2eKgPerServing": 0.721,
+  "rating": {
+    "average": 4.08,
+    "count": 72
+  },
+  "ingredients": [
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "citrongräs",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citrongräs",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "kycklingfilé strimlad",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé strimlad",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "massaman currypasta",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp massaman currypasta",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "coconut cream",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "blomkålsbuketter",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp blomkålsbuketter",
+      "isBasis": false
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Thaicurry med kyckling",
+      "name": "majsstärkelse",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "basmatiris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g basmatiris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "lime",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka basmatiris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Thaicurry med kyckling: Skala och skiva morot i slantar. Slå sönder citrongräs med baksidan av en kniv och dela i 3 delar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp olja i en stekgryta och fräs strimlad kyckling ca 3 min, krydda med salt och lite nymald svartpeppar. Tillsätt citrongräs, pressad vitlök och massaman currypasta, fräs ytterligare ca 1 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt vatten, coconut cream, kycklingbuljong, blomkålsbuketter och morotsslantar. Koka upp och sjud under lock ca 8 min, tills blomkålen mjuknat något. Tillsätt majsstärkelse utblandat i lika delar vatten och låt koka upp, smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Klyfta lime. Servera thaicurry med basmatiris och limeklyfta. Toppa med koriander."
+    }
+  ],
+  "images": {
+    "large": "images/108224-large.jpg",
+    "small": "images/108224-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/108224/snabb-thaicurry-med-kyckling-citrongras-blomkal-och-basmatiris",
+    "harvestedAt": "2026-07-18T20:32:33.996Z"
+  }
+}

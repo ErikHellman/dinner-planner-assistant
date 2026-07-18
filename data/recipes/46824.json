@@ -1,0 +1,250 @@
+{
+  "recipeId": 46824,
+  "mainRecipeId": null,
+  "name": "Risotto med soltorkad tomat och timjanstekt portabello",
+  "headline": "Risotto med soltorkad tomat",
+  "subheadline": "och timjanstekt portabello",
+  "description": null,
+  "chefTip": "Använd gärna oljan från de soltorkade tomaterna i receptet! ",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 535,
+    "protein": 15.84,
+    "carbs": 74.62,
+    "fat": 19.24
+  },
+  "co2eKgPerServing": 0.746,
+  "rating": {
+    "average": 4.08,
+    "count": 183
+  },
+  "ingredients": [
+    {
+      "section": "Risotto",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "soltorkade tomater",
+      "amount": 0.5,
+      "unit": "burk",
+      "raw": "½ burk soltorkade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "grande premium",
+      "amount": null,
+      "unit": "g",
+      "raw": "20+20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanstekt portabello",
+      "name": "portabello",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g portabello",
+      "isBasis": false
+    },
+    {
+      "section": "Timjanstekt portabello",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Timjanstekt portabello",
+      "name": "timjan",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Timjanstekt portabello",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanstekt portabello",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanstekt portabello",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Insalata",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Insalata",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Insalata",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Insalata",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Insalata",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Risottobuljong: Koka upp vatten, vitvinsvinäger och grönsaksbuljong i en kastrull."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Risotto: Finhacka gul lök. Häll av soltorkade tomater (se tips!). Hetta upp olivolja i en stekgryta och fräs lök och soltorkade tomater ca 3 min. Tillsätt risottoris och stek ytterligare ca 1 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Späd riset med den varma buljongen, lite i taget. När buljongen kokat in, tillsätt mer och fortsätt tills all buljong kokat in eller riset känns mjukt. Rör om då och då."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Timjanstekt portabello: Skiva portabello och vitlök. Repa timjanblad. Hetta upp rikligt med olivolja i en stekpanna och fräs portabello, vitlök, timjan, salt och lite nymald svartpeppar och stek ca 4 min, tills svampen är mjuk."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ta risotton från värmen och rör ner hälften av riven grande premium. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Insalata: Skär tomat i mindre bitar. Blanda med mixsallad, olivolja, balsamvinäger och lite salt i en skål."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servering: Toppa risotto med timjanstekt portabello, resten av osten och några kvistar timjan. Servera med insalata."
+    }
+  ],
+  "images": {
+    "large": "images/46824-large.jpg",
+    "small": "images/46824-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46824/risotto-med-soltorkad-tomat-och-timjanstekt-portabello",
+    "harvestedAt": "2026-07-18T20:32:02.616Z"
+  }
+}

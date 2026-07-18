@@ -1,0 +1,216 @@
+{
+  "recipeId": 91836,
+  "mainRecipeId": null,
+  "name": "Stekt fläskkotlett med majs- och gurksalsa, vitlökssås och persilja",
+  "headline": "Stekt fläskkotlett med majs- och gurksalsa",
+  "subheadline": "vitlökssås och persilja",
+  "description": null,
+  "chefTip": "Tänk på att färsk chili varierar i styrka. Smaka er fram till lagom hetta.",
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Grill"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Ägg"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 724,
+    "protein": 38.36,
+    "carbs": 53.54,
+    "fat": 39.58
+  },
+  "co2eKgPerServing": 0.921,
+  "rating": {
+    "average": null,
+    "count": 27
+  },
+  "ingredients": [
+    {
+      "section": "Gurksalsa",
+      "name": "majs",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp majs",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksalsa",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksalsa",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksalsa",
+      "name": "grön chili",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st grön chili",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksalsa",
+      "name": "lime, (limesaft)",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime, (limesaft)",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksalsa",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksalsa",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksalsa",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "lime, (limeskal)",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime, (limeskal)",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Vitlökssås: Skölj lime i ljummet vatten och finriv skalet. Blanda gräddfil, majonnäs, rivet limeskal, pressad vitlök och salt i en skål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Gurksalsa: Häll av majs. Tärna snackgurka smått. Finhacka rödlök och grön chili (se tips). Grovhacka bladpersilja. Lägg allt i en skål. Blanda med pressad limesaft från den använda limen, olivolja och salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fläskkotlett: Skär fläskkotlett i 2 jämntjocka skivor, krydda med salt och lite nymald svartpeppar. Hetta upp neutral olja i en rymlig stekpanna. Stek köttet ca 3 min per sida, tills köttet är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera nystekt fläskkotlett med gurksalsa, vitlökssås och kokt potatis."
+    }
+  ],
+  "images": {
+    "large": "images/91836-large.jpg",
+    "small": "images/91836-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91836/stekt-flaskkotlett-med-majs-och-gurksalsa-vitlokssas-och-persilja",
+    "harvestedAt": "2026-07-18T20:32:27.080Z"
+  }
+}

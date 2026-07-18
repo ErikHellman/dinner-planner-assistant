@@ -1,0 +1,240 @@
+{
+  "recipeId": 90745,
+  "mainRecipeId": null,
+  "name": "Grönsakslasagne med fetaost och mixsallad",
+  "headline": "Grönsakslasagne",
+  "subheadline": "med fetaost och mixsallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 35,
+    "max": 45
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Selleri",
+    "Kräftdjur",
+    "Fisk",
+    "Sojabönor",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 515,
+    "protein": 22.97,
+    "carbs": 66.71,
+    "fat": 17.42
+  },
+  "co2eKgPerServing": 0.977,
+  "rating": {
+    "average": 3.96,
+    "count": 100
+  },
+  "ingredients": [
+    {
+      "section": "Grönsakslasagne",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "zucchini",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "minifraiche",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl minifraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "örtmix, 2 tsk",
+      "amount": null,
+      "unit": "förp",
+      "raw": "förp örtmix, 2 tsk",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsakslasagne",
+      "name": "lasagneplattor",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g lasagneplattor",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Skala och grovriv morötter. Tärna zucchini smått. Hacka gul lök och vitlök."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Grönsakslasagne: Hetta upp neutral olja i en rymlig stekpanna. Fräs gul lök och morötter ca 3 min. Tillsätt vitlöken och fräs ytterligare ca 30 sekunder."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grönsakslasagne: Blanda ner zucchini, krossade tomater, tomatpuré, vatten, grönsaksbuljong, chili flakes, mini fraiche, örtmix, salt, nymald svartpeppar och socker. Koka upp och sjud ca 10 min, tills grönsakerna mjuknat. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grönsakslasagne: Smula fetaost på en tallrik. Lägg samman lasagnen. Börja med lite grönsakssås i botten på en ugnsform (ca 15x20 cm). Lägg på lasagneplattor och varva sedan fetaost, grönsakssås och lasagneplattor. Avsluta med grönsakssås överst och strö över riven grande premium."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Grönsakslasagne: Sänk ugnstemperaturen till 175&deg;C (varmluft) eller 200&deg;C (vanlig). Ställ in lasagnen i mitten av ugnen och tillaga klart ca 20 min, täck med folie vid behov."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Till servering: Har du tid, låt lasagnen vila ca 5 min innan servering. Servera med mixsallad."
+    }
+  ],
+  "images": {
+    "large": "images/90745-large.jpg",
+    "small": "images/90745-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90745/gronsakslasagne-med-fetaost-och-mixsallad",
+    "harvestedAt": "2026-07-18T20:32:22.286Z"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "recipeId": 59584,
+  "mainRecipeId": null,
+  "name": "Pannbiff med timjanbräserad lök, matvete och ljummen rotfruktssallad",
+  "headline": "Pannbiff med timjanbräserad lök",
+  "subheadline": "matvete och ljummen rotfruktssallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Selleri",
+    "Vete",
+    "Mjölk",
+    "Ägg",
+    "Sojabönor"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 682,
+    "protein": 37.57,
+    "carbs": 73.43,
+    "fat": 26.42
+  },
+  "co2eKgPerServing": 2.241,
+  "rating": {
+    "average": 4.01,
+    "count": 181
+  },
+  "ingredients": [
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "matvete",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g matvete",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "rotselleri",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g rotselleri",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad rotfruktssallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiff",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiff",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiff",
+      "name": "ägg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st ägg",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiff",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiff",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiff",
+      "name": "blandfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g blandfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiff",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Timjanbräserad lök",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka matvete enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostade rotfrukter: Skala och skär morot och rotselleri i mindre bitar. Lägg på en plåt med bakplåtspapper och blanda med olivolja, salt och nymald svartpeppar. Rosta mitt i ugnen ca 20 min. Klyfta rödlök och blanda med rotfrukterna. Rosta allt ytterligare ca 8 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Pannbiff: Blanda ströbröd, mjölk, ägg, salt och nymald svartpeppar i en bunke. Blanda ner blandfärs. Forma smeten till 2 lika stora biffar. Stek ca 2 min per sida i en stekpanna med smör. Lägg över i en ugnsform (spara stekpannan till punkt 5). Tillaga klart biffarna i nedre delen av ugnen (under rotfrukterna) ca 15 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Timjanbräserad lök: Strimla rödlök. Stek löken på medelvärme i den använda stekpannan ca 3 min. Krydda med torkad timjan. Pudra över vetemjöl. Blanda ner balsamvinäger, kinesisk soja, vatten, socker och kycklingbuljong. Låt sjuda ca 3 min."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Blanda kokt matvete, rostade rotfrukter och ruccola. Servera med pannbiff och timjanbräserad lök."
+    }
+  ],
+  "images": {
+    "large": "images/59584-large.jpg",
+    "small": "images/59584-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59584/pannbiff-med-timjanbraserad-lok-matvete-och-ljummen-rotfruktssallad",
+    "harvestedAt": "2026-07-18T20:32:13.329Z"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "recipeId": 85252,
+  "mainRecipeId": null,
+  "name": "Stekt kycklingfilé med tomatsallad, rostad potatis och vardagsbea",
+  "headline": "Stekt kycklingfilé med vardagsbea",
+  "subheadline": "tomatsallad och rostad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Klassiker",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Vete",
+    "Laktos",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 618,
+    "protein": 43.64,
+    "carbs": 53.14,
+    "fat": 25.65
+  },
+  "co2eKgPerServing": 0.905,
+  "rating": {
+    "average": 4.11,
+    "count": 283
+  },
+  "ingredients": [
+    {
+      "section": "Rostade rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "mjölk",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "crème fraiche",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g crème fraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "torkad dragon",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Vardagsbea",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt kyckling",
+      "name": "persillade",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kyckling",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostade rotfrukter: Halvera potatis. Skala morot och skär i mindre bitar. Lägg allt på en ugnsplåt med bakplåtspapper och blanda med olivolja, salt och lite nymald svartpeppar. Rosta mitt i ugnen ca 25 min, tills rotfrukterna är mjuka och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tomatsallad: Dela tomat i mindre bitar. Finhacka rödlök. Lägg allt i en salladsskål och blanda med olivolja och vitvinsvinäger. Blanda ner mixsallad vid servering. Eller servera allt separat."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Stekt kyckling: Krydda kycklingfilé med persillade, salt och lite nymald svartpeppar. Hetta upp olja i en rymlig stekpanna. Bryn kycklingen ca 3 min per sida. Lägg över i en ugnsform och tillaga klart i ugnen under rotfrukterna ca 10 min, tills kyckling är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Vardagsbea: Smält smör i en kastrull. Pudra över vetemjöl. Rör ner mjölk, kycklingbuljong och lite nymald svartpeppar. Låt sjuda ca 4 min, rör om då och då. Ta från värmen och rör ner cr&egrave;me fraiche och torkad dragon. Smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera nystekt kycklingfilé med rostade rotfrukter, tomatsallad och vardagsbea."
+    }
+  ],
+  "images": {
+    "large": "images/85252-large.jpg",
+    "small": "images/85252-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/85252/stekt-kycklingfile-med-tomatsallad-rostad-potatis-och-vardagsbea",
+    "harvestedAt": "2026-07-18T20:32:19.695Z"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "recipeId": 46559,
+  "mainRecipeId": null,
+  "name": "Fläskmedaljonger med svampsås, rostad potatis och äpple- och fänkålssallad",
+  "headline": "Fläskmedaljonger med svampsås",
+  "subheadline": "rostad potatis och äpple- och fänkålssallad",
+  "description": null,
+  "chefTip": "För att få extra tunna skivor äpple och fänkål, använd gärna mandolin om du har. ",
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Sojabönor",
+    "Vete",
+    "Mjölk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 607,
+    "protein": 42.18,
+    "carbs": 52.43,
+    "fat": 25.41
+  },
+  "co2eKgPerServing": 1.116,
+  "rating": {
+    "average": 4.08,
+    "count": 359
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Äpple- & fänkålssallad",
+      "name": "rött äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rött äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Äpple- & fänkålssallad",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Äpple- & fänkålssallad",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Äpple- & fänkålssallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Äpple- & fänkålssallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Äpple- & fänkålssallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "vetemjöl",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "mjölk",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "oxbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp oxbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "kinesisk soja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskmedaljonger",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskmedaljonger",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskmedaljonger",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskmedaljonger",
+      "name": "torkad timjan",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskmedaljonger",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskmedaljonger",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Klyfta potatis. Finhacka bananschalottenlök. Skiva hälften av champinjonerna, kvarta resten (till steg 6)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ugnsrostad potatis: Lägg potatisklyftorna på en ugnsplåt med bakplåtspapper. Ringla över lite olivolja. Krydda med salt och lite nymald svartpeppar. Rosta klyftorna i övre delen av ugnen ca 25 min. Rör om efter halva tillagningstiden."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Äpple- och fänkålssallad: Skär rött äpple och fänkål i tunna skivor (se tips!). Lägg allt i en skål. Blanda med olivolja, vitvinsvinäger, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Svampsås: Hetta upp smör i en kastrull. Fräs lök och skivade champinjoner ca 3 min. Pudra över vetemjöl. Vispa ner mjölk, lite i taget. Tillsätt köttbuljong och kinesisk soja. Koka upp och sjud ca 5 min. Smaka av med lite salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fläskmedaljonger: Skär fläskkotlett i 2 skivor. Dela sedan skivorna på hälften. Banka dem lite lätt med handen, så de blir jämnstora. Krydda med salt, lite nymald svartpeppar och torkad timjan. Hetta upp smör och lite olivolja i en stekpanna. Stek köttet ca 3 min per sida, tills det är helt genomstekt. Tillsätt kvartade champinjonerna och fräs ytterligare ca 1 min."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera nystekta fläskmedaljonger med svampsås, ugnsrostad potatis, champinjoner och äpple- och fänkålssallad."
+    }
+  ],
+  "images": {
+    "large": "images/46559-large.jpg",
+    "small": "images/46559-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46559/flaskmedaljonger-med-svampsas-rostad-potatis-och-apple-och-fankalssallad",
+    "harvestedAt": "2026-07-18T20:32:00.743Z"
+  }
+}

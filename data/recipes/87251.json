@@ -1,0 +1,255 @@
+{
+  "recipeId": 87251,
+  "mainRecipeId": null,
+  "name": "Ramen med ostronskivling, pocherat ägg och chiliolja",
+  "headline": "Ramen med ostronskivling",
+  "subheadline": "pocherat ägg och chiliolja",
+  "description": null,
+  "chefTip": "Det går även bra att koka äggen ca 7 min och servera löskokta ägg! ",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Sesamfrön",
+    "Nötter",
+    "Sojabönor",
+    "Vete",
+    "Svaveldioxid",
+    "Ägg"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 605,
+    "protein": 21.27,
+    "carbs": 62.3,
+    "fat": 30.05
+  },
+  "co2eKgPerServing": 0.617,
+  "rating": {
+    "average": 3.96,
+    "count": 113
+  },
+  "ingredients": [
+    {
+      "section": "Chiliolja",
+      "name": "olja",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1½ msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Chiliolja",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Chiliolja",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Chiliolja",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Chiliolja",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Buljong",
+      "name": "ingefära",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "sesamolja",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "soja- och ingefärssås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp soja- och ingefärssås",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Buljong",
+      "name": "vatten",
+      "amount": 7,
+      "unit": "dl",
+      "raw": "7 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Buljong",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Marinerad svamp",
+      "name": "ostronskivling",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g ostronskivling",
+      "isBasis": false
+    },
+    {
+      "section": "Marinerad svamp",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Marinerad svamp",
+      "name": "sesamfrön",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Marinerad svamp",
+      "name": "soja- och ingefärssås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp soja- och ingefärssås",
+      "isBasis": false
+    },
+    {
+      "section": "Pocherade ägg",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Pocherade ägg",
+      "name": "ättiksprit (12%)",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Pocherade ägg",
+      "name": "ägg",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar",
+      "name": "äggnudlar",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Nudlar",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Chiliolja: Hetta upp neutral olja och seasmolja i en kastrull. Lägg chili flakes, pressad vitlök och salt i en skål. Slå över den varma oljan och blanda runt ordentligt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Buljong: Skala och skiva ingefära och vitlök. Hetta upp sesamolja i en rymlig kastrull och fräs ingefära och vitlök ca 1 min. Tillsätt soja- och ingefärssås, grönsaksbuljong och vatten. Koka upp och låt sjuda ca 20 min. Smaka av med vitvinsvinäger."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Marinerad svamp: Skär ostronskivling i mindre bitar. Hetta upp lite neutral olja i en stekpanna och stek svampen med sesamfrön ca 4 min. Ta från värmen och blanda ner soja- och ingefärssås. Låt dra tills steg 6."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Pocherade ägg: Blanda vatten och ättiksprit i en skål. Knäck försiktigt i äggen. Låt stå minst 5 min. Koka upp 1 liter vatten i en kastrull. Häll ner äggen med ättiksvattnet i det kokande vattnet. Låt sjuda ca 3 min, plocka upp äggen och lägg på ett fat."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Till servering: Koka äggnudlar enligt anvisning på förpackningen. Skär pak choy i mindre bitar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fördela nudlar, pak choy, marinerad svamp och pocherade ägg i två skålar. Slå över den varma buljongen. Toppa med koriander och chiliolja. Servera direkt!"
+    }
+  ],
+  "images": {
+    "large": "images/87251-large.jpg",
+    "small": "images/87251-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/87251/ramen-med-ostronskivling-pocherat-agg-och-chiliolja",
+    "harvestedAt": "2026-07-18T20:32:20.152Z"
+  }
+}

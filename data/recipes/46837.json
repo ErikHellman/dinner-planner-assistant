@@ -1,0 +1,221 @@
+{
+  "recipeId": 46837,
+  "mainRecipeId": null,
+  "name": "Uerfilé med gräddkokt purjolök och dillgremolata",
+  "headline": "Uerfilé med gräddkokt purjolök",
+  "subheadline": "och dillgremolata",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 538,
+    "protein": 32.05,
+    "carbs": 41.92,
+    "fat": 26.94
+  },
+  "co2eKgPerServing": 2.38,
+  "rating": {
+    "average": 4.02,
+    "count": 874
+  },
+  "ingredients": [
+    {
+      "section": "Gräddkokt purjolök",
+      "name": "purjolök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st purjolök",
+      "isBasis": false
+    },
+    {
+      "section": "Gräddkokt purjolök",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Gräddkokt purjolök",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Gräddkokt purjolök",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Gräddkokt purjolök",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Gräddkokt purjolök",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Gräddkokt purjolök",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillgremolata",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Dillgremolata",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillgremolata",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dillgremolata",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dillgremolata",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillgremolata",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Uerfilé",
+      "name": "uerfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g uerfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Uerfilé",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Uerfilé",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Gräddkokt purjolök: Dela purjolök på längden. Skär i ca 1 cm breda skivor på snedden. Hetta upp lite smör i en kastrull och fräs purjolöken ca 2 min, utan att den får färg. Tillsätt vatten, vispgrädde, grönsaksbuljong och nymald svartpeppar. Koka ca 3 min. Smaka av med salt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dillgremolata: Tvätta citronen i ljummet vatten och finriv skalet. Finhacka dill. Pressa saften från halva den använda citronen (ca 1 msk) i en skål. Blanda ner olivolja, citronskal, pressad vitlök, lite salt, nymald svartpeppar och dill i skålen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tärna snackgurka smått. Blanda med dillgremolatan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Uerfilé: Krydda uerfilé med salt. Hetta upp lite olivolja i en rymlig stekpanna och stek fisken ca 2 min per sida, tills den är klar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Klyfta resten av citronen. Servera nystekt uerfilé med gurka och dillgremolata, gräddkokt purjolök, kokt potatis och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/46837-large.jpg",
+    "small": "images/46837-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46837/uerfile-med-graddkokt-purjolok-och-dillgremolata",
+    "harvestedAt": "2026-07-18T20:32:03.445Z"
+  }
+}

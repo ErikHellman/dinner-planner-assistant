@@ -1,0 +1,223 @@
+{
+  "recipeId": 91775,
+  "mainRecipeId": null,
+  "name": "Dillstekt sejrygg med äppelremoulade, grönsaker och kokt potatis",
+  "headline": "Dillstekt sejrygg med äppelremoulade",
+  "subheadline": "grönsaker och kokt potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Barnvänligt"
+  ],
+  "allergies": [
+    "Fisk",
+    "Mjölk",
+    "Svaveldioxid",
+    "Ägg",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 553,
+    "protein": 35.48,
+    "carbs": 44.77,
+    "fat": 25.77
+  },
+  "co2eKgPerServing": 0.434,
+  "rating": {
+    "average": 3.86,
+    "count": 326
+  },
+  "ingredients": [
+    {
+      "section": "Dillstekt sejrygg",
+      "name": "sejrygg",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g sejrygg",
+      "isBasis": false
+    },
+    {
+      "section": "Dillstekt sejrygg",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillstekt sejrygg",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillstekt sejrygg",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "rädisor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rädisor",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelremoulade",
+      "name": "grönt äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grönt äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelremoulade",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelremoulade",
+      "name": "matyoghurt",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelremoulade",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelremoulade",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelremoulade",
+      "name": "curry",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk curry",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelremoulade",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Potatis: Koka potatis mjuk i lättsaltat vatten. Dela stora potatisar för kortare koktid."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Dillstekt sejrygg: Krydda sejrygg med salt och låt stå till steg 4."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Äppelremoulade: Tärna grönt äpple smått och hacka all dill (spara hälften av dillen till steg 4). Blanda äpple, dill, matyoghurt, majonnäs, vitvinsvinäger och curry i en skål. Smaka av med lite salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Dillstekt sejrygg: Hetta upp smör i en stekpanna. Stek fisken ca 2 min per sida, tills den är klar. Strö resten av dillen över fisken i pannan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Skiva snackgurka och bananschalottenlök tunt. Klyfta rädisor. Lägg allt i en skål och blanda med lite salt, nymald svartpeppar och vitvinsvinäger."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera dillstekt sejrygg med kokt potatis, äppelremoulade och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/91775-large.jpg",
+    "small": "images/91775-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91775/dillstekt-sejrygg-med-appelremoulade-gronsaker-och-kokt-potatis",
+    "harvestedAt": "2026-07-18T20:32:24.086Z"
+  }
+}

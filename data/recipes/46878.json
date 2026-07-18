@@ -1,0 +1,225 @@
+{
+  "recipeId": 46878,
+  "mainRecipeId": null,
+  "name": "Honungsrostade gulbetor med chèvre, krämig risoni och ärtskottssallad",
+  "headline": "Honungsrostade gulbetor med chèvre",
+  "subheadline": "krämig risoni och ärtskottssallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 35,
+    "max": 45
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 650,
+    "protein": 25.07,
+    "carbs": 81.06,
+    "fat": 25.02
+  },
+  "co2eKgPerServing": 0.497,
+  "rating": {
+    "average": null,
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "section": "Honungsrostade gulbetor",
+      "name": "gulbetor",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g gulbetor",
+      "isBasis": false
+    },
+    {
+      "section": "Honungsrostade gulbetor",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Honungsrostade gulbetor",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Honungsrostade gulbetor",
+      "name": "flytande honung",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Honungsrostade gulbetor",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Honungsrostade gulbetor",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Honungsrostade gulbetor",
+      "name": "chèvre",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g chèvre",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "vatten",
+      "amount": 7,
+      "unit": "dl",
+      "raw": "7 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "risoni",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risoni",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "färskost",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp färskost",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ärtskottssallad",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Ärtskottssallad",
+      "name": "rädisor",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rädisor",
+      "isBasis": false
+    },
+    {
+      "section": "Ärtskottssallad",
+      "name": "ärtskott",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ärtskott",
+      "isBasis": false
+    },
+    {
+      "section": "Ärtskottssallad",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ärtskottssallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Honungsrostade gulbetor: Skrubba och kvarta gulbetor. Lägg på en plåt med bakplåtspapper och blanda med olivolja, flytande honung, salt och lite nymald svartpeppar. Rosta mitt i ugnen ca 25 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Krämig risoni: Koka upp vatten och smulad grönsaksbuljong i en kastrull. Tillsätt risoni och koka ca 10 min. Rör om då och då. Spara ca &frac12; dl buljong när du häller av risonin."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Häll av risonin och rör ner färskost. Tillsätt lite av den sparade buljongen (ca 1 msk). Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ärtskottssallad: Tvätta citronen i ljummet vatten och finriv skalet. Skiva rädisor tunt. Blanda rädisor, ärtskott, citronskal, lite pressad citronsaft (ca 1 tsk), olivolja och lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Bryt ch&egrave;vre i mindre bitar. Blanda med rostade gulbetor och pressad saft från resten av citronen."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera krämig risoni med honungsrostade gulbetor och ärtskottssallad."
+    }
+  ],
+  "images": {
+    "large": "images/46878-large.jpg",
+    "small": "images/46878-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46878/honungsrostade-gulbetor-med-chevre-kramig-risoni-och-artskottssallad",
+    "harvestedAt": "2026-07-18T20:32:04.803Z"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "recipeId": 46873,
+  "mainRecipeId": null,
+  "name": "Tabbouleh med pannoumi och äppeltzatziki",
+  "headline": "Tabbouleh med pannoumi",
+  "subheadline": "och äppeltzatziki",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 539,
+    "protein": 26.54,
+    "carbs": 49.22,
+    "fat": 26.18
+  },
+  "co2eKgPerServing": 0.541,
+  "rating": {
+    "average": 4.1,
+    "count": 508
+  },
+  "ingredients": [
+    {
+      "section": "Äppeltzatziki",
+      "name": "rött äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rött äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "vitlök",
+      "amount": null,
+      "unit": "klyfta",
+      "raw": "½-1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tabbouleh",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt pannoumi",
+      "name": "pannoumi",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp pannoumi",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt pannoumi",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tabbouleh: Koka bulgur enligt anvisning på förpackningen, men tillsätt grönsaksbuljong istället för salt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Äppeltzatziki: Grovriv äpple och lägg i en skål. Rör ner gräddfil och pressad vitlök. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tabbouleh: Finhacka bladpersilja och bananschalottenlök. Tärna snackgurka och tomat. Lägg allt i en skål och blanda ner nykokt bulgur, lite olivolja, vitvinsvinäger och pressad vitlök. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Stekt pannoumi: Hetta upp lite olivolja i en stekpanna. Tärna pannoumi och stek ca 3 min, tills osten fått fin färg."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servering: Servera nystekt pannoumi med tabbouleh och äppeltzatziki."
+    }
+  ],
+  "images": {
+    "large": "images/46873-large.jpg",
+    "small": "images/46873-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46873/tabbouleh-med-pannoumi-och-appeltzatziki",
+    "harvestedAt": "2026-07-18T20:32:04.068Z"
+  }
+}

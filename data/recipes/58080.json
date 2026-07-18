@@ -1,0 +1,184 @@
+{
+  "recipeId": 58080,
+  "mainRecipeId": null,
+  "name": "Bulgogistekt kalkonfärs med nudlar och mangosallad",
+  "headline": "Bulgogistekt kalkonfärs",
+  "subheadline": "med nudlar och mangosallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Vete",
+    "Sesamfrön"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 655,
+    "protein": 35,
+    "carbs": 80.44,
+    "fat": 21.46
+  },
+  "co2eKgPerServing": 0.95,
+  "rating": {
+    "average": 4.12,
+    "count": 973
+  },
+  "ingredients": [
+    {
+      "section": "Mangosallad",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Mangosallad",
+      "name": "mango",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st mango",
+      "isBasis": false
+    },
+    {
+      "section": "Mangosallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Mangosallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "päron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st päron",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "soja- och ingefärssås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp soja- och ingefärssås",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgogistekt kalkonfärs",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "risnudlar",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp risnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "isbergssallad",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st isbergssallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka risnudlar enligt anvisning på förpackningen. Häll av och spola kallt. Klipp nudlarna i lite mindre bitar med en sax."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Mangosallad: Skölj limen i ljummet vatten och finriv det yttersta skalet. Skala och tärna mango. Strimla rödlök. Lägg allt i en salladsskål. Smaka av med pressad saft från limen och lite salt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Bulgogistekt kalkonfärs: Grovriv päron. Hetta upp lite neutral olja i en wok eller stekpanna. Fräs kalkonfärs tills den fått fin färg, ca 3 min. Blanda ner pressad vitlök, sesamolja, päron och soja- och ingefärssås. Låt fräsa ytterligare ca 2 min, tills färsen är helt genomstekt. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Bryt blad från isbergssallad och lägg på ett fat."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fyll salladsblad med bulgogistekt kalkonfärs, mangosallad och risnudlar. Rulla ihop och ät direkt."
+    }
+  ],
+  "images": {
+    "large": "images/58080-large.jpg",
+    "small": "images/58080-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58080/bulgogistekt-kalkonfars-med-nudlar-och-mangosallad",
+    "harvestedAt": "2026-07-18T20:32:10.170Z"
+  }
+}

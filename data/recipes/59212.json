@@ -1,0 +1,234 @@
+{
+  "recipeId": 59212,
+  "mainRecipeId": null,
+  "name": "Senapsbiffar på kalkon med löksky, persilja och gurka",
+  "headline": "Senapsbiffar på kalkon med löksky",
+  "subheadline": "persilja och gurka",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Senap",
+    "Sojabönor",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 508,
+    "protein": 34.85,
+    "carbs": 50.58,
+    "fat": 18.52
+  },
+  "co2eKgPerServing": 0.674,
+  "rating": {
+    "average": 4.01,
+    "count": 234
+  },
+  "ingredients": [
+    {
+      "section": "Senapsbiffar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Senapsbiffar",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Senapsbiffar",
+      "name": "dijonsenap",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Senapsbiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Senapsbiffar",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Senapsbiffar",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Senapsbiffar",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Löksky",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Löksky",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Löksky",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "rädisor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rädisor",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 180&deg;C (varmluft) eller 200&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Senapsbiffar: Blanda ströbröd, mjölk, dijonsenap, salt, lite nymald svartpeppar och kalkonfärs i en bunke. Forma till 2 biffar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp lite olivolja i en stekpanna och bryn biffarna ca 2 min per sida. Lägg över i en ugnsform och tillaga klart mitt i ugnen ca 10 min, tills de är helt genomstekta. Spara pannan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Löksky: Skiva gul lök. Hetta upp lite smör i den använda stekpannan och bryn löken med socker ca 2 min. Pudra över vetemjöl. Rör ner vatten, vitvinsvinäger och kinesisk soja. Sjud ca 6 min och smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Grovhacka bladpersilja och skär snackgurka i stavar. Servera senapsbiffar med löksky, nykokt potatis, rädisor och gurka. Toppa med persilja!"
+    }
+  ],
+  "images": {
+    "large": "images/59212-large.jpg",
+    "small": "images/59212-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59212/senapsbiffar-pa-kalkon-med-loksky-persilja-och-gurka",
+    "harvestedAt": "2026-07-18T20:32:12.808Z"
+  }
+}

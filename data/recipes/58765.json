@@ -1,0 +1,260 @@
+{
+  "recipeId": 58765,
+  "mainRecipeId": null,
+  "name": "Kycklingschnitzel med gremolata och kall ruccolasås",
+  "headline": "Kycklingschnitzel med gremolata",
+  "subheadline": "och kall ruccolasås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 515,
+    "protein": 42.24,
+    "carbs": 46.23,
+    "fat": 17.9
+  },
+  "co2eKgPerServing": 0.767,
+  "rating": {
+    "average": 4.13,
+    "count": 1270
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": null,
+      "unit": "st",
+      "raw": "0 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "romansallad",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st romansallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccola-gremolata",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccola-gremolata",
+      "name": "ruccola",
+      "amount": 15,
+      "unit": "g",
+      "raw": "15 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccola-gremolata",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasås",
+      "name": "ruccola",
+      "amount": 15,
+      "unit": "g",
+      "raw": "15 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasås",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingschnitzel",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingschnitzel",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingschnitzel",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingschnitzel",
+      "name": "ströbröd",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingschnitzel",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "msk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Blanda potatis, lite olivolja och salt på en ugnsplåt med bakplåtspapper. Rosta högt upp i ugnen ca 25 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kycklingschnitzel: Krydda kycklingfilé med salt och nymald svartpeppar. Häll ut ströbröd på en tallrik och vänd runt kycklingen. Hetta upp olja i en rymlig stekpanna. Stek kycklingen ca 2 min per sida och lägg över i en ugnsfast form. Tillaga klart i ugnen ca 10-15 min, tills den är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Ruccola-gremolata: Skölj citronen i ljummet vatten och finriv skalet. Finhacka ruccola. Lägg allt i en skål. Blanda ner pressad vitlök."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ruccolasås: Grovhacka ruccola och lägg i en skål. Blanda med gräddfil och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Sallad: Skiva bananschalottenlök och tomat. Dela romansallad i mindre bitar. Lägg allt i en skål och blanda med lite olivolja, vitvinsvinäger, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Klyfta den använda citronen. Servera kycklingschnitzel med gremolata, sallad, ruccolasås, rostad potatis och citronklyftor."
+    }
+  ],
+  "images": {
+    "large": "images/58765-large.jpg",
+    "small": "images/58765-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58765/kycklingschnitzel-med-gremolata-och-kall-ruccolasas",
+    "harvestedAt": "2026-07-18T20:32:11.096Z"
+  }
+}

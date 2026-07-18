@@ -1,0 +1,204 @@
+{
+  "recipeId": 107873,
+  "mainRecipeId": null,
+  "name": "Stekta fläskmedaljonger med brysselkålssallad och potatismos",
+  "headline": "Stekta fläskmedaljonger med grönkålssallad",
+  "subheadline": "potatismos",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 541,
+    "protein": 39.21,
+    "carbs": 52.84,
+    "fat": 19.2
+  },
+  "co2eKgPerServing": 1,
+  "rating": {
+    "average": 3.87,
+    "count": 110
+  },
+  "ingredients": [
+    {
+      "section": "Potatismos",
+      "name": "mospotatis",
+      "amount": 450,
+      "unit": "g",
+      "raw": "450 g mospotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatismos",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "brysselkål",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp brysselkål",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "rött äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rött äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "babyspenat",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Potatismos: Skala och koka mospotatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberdelse: Ta eventuellt bort de yttersta bladen från brysselkålen. Halvera brysselkålen. Skär rött äpple i små klyftor. Strimla rödlök. Skär fläskkotlett i 2 jämntjocka skivor. Halvera varje skiva (totalt 4 bitar)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fläskkotlett: Krydda köttet med salt och nymald svartpeppar. Hetta upp olja i en rymlig stekpanna. Stek köttet ca 3 min per sida, tills köttet är genomstekt. Lägg upp köttet på ett fat och spara stekpannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Ljummen brysselkålssallad: Hetta upp olja i den sparade stekpannan. Fräs kålen och löken ca 5 min, tills kålen mjuknat. Blanda ner äpplet och fräs ytterligare ca 1 min. Krydda allt med lite salt och nymalda svartpeppar. Ta från värmen och blanda ner babyspenat."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Potatismos: Värm mjölk och smör i en kastrull. Häll av potatisen och mosa med elvisp eller potatisstöt. Tillsätt mjölkblandningen och vispa till ett mos. Smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera fläskkotlett med ljummen brysselkålssallad och potatismos."
+    }
+  ],
+  "images": {
+    "large": "images/107873-large.jpg",
+    "small": "images/107873-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/107873/stekta-flaskmedaljonger-med-brysselkalssallad-och-potatismos",
+    "harvestedAt": "2026-07-18T20:32:33.482Z"
+  }
+}

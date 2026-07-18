@@ -1,0 +1,269 @@
+{
+  "recipeId": 46886,
+  "mainRecipeId": null,
+  "name": "Bakad sötpotatis med frijoles, pico de gallo och picklad rödlök",
+  "headline": "Bakad sötpotatis med frijoles",
+  "subheadline": "pico de gallo och picklad rödlök",
+  "description": null,
+  "chefTip": "Tänk på att chili varierar i styrka. Smaka dig fram till lagom hetta!",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 525,
+    "protein": 13.85,
+    "carbs": 85.36,
+    "fat": 14.27
+  },
+  "co2eKgPerServing": 0.435,
+  "rating": {
+    "average": 3.87,
+    "count": 197
+  },
+  "ingredients": [
+    {
+      "section": "Bakad sötpotatis",
+      "name": "sötpotatis",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st sötpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad sötpotatis",
+      "name": "bakplåtspapper",
+      "amount": null,
+      "unit": "st",
+      "raw": "st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "ättiksprit (12%)",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Frijoles",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Frijoles",
+      "name": "svarta bönor, 380g",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp svarta bönor, 380g",
+      "isBasis": false
+    },
+    {
+      "section": "Frijoles",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Frijoles",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Frijoles",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Frijoles",
+      "name": "spiskummin",
+      "amount": 2,
+      "unit": "förp",
+      "raw": "2 förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Frijoles",
+      "name": "paprikapulver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Frijoles",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Frijoles",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Frijoles",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Pico de gallo",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Pico de gallo",
+      "name": "jalapeño",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st jalapeño",
+      "isBasis": false
+    },
+    {
+      "section": "Pico de gallo",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Pico de gallo",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Pico de gallo",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Bakad sötpotatis: Halvera sötpotatis på längden. Gnid in halvorna med olivolja och salt. Lägg med snittytan nedåt på en plåt med bakplåtspapper. Rosta mitt i ugnen ca 30 min, tills sötpotatisen är mjuk."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Picklad rödlök: Skiva rödlök tunt. Koka upp vatten, socker och ättika i en kastrull. Blanda ner rödlöken och ta från värmen och låt stå till servering."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Frijoles: Finhacka rödlök. Häll av och skölj svarta bönor. Hetta upp olivolja i en stekpanna och fräs lök och pressad vitlök ca 3 min. Tillsätt bönor, vatten, spiskummin, paprikapulver, vitvinsvinäger, salt och lite nymald svartpeppar. Sjud ca 10 min, eller tills vätskan kokat in."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Pico de gallo: Tärna tomat smått. Kärna ur och finhacka jalape&ntilde;o. Grovhacka koriander (spara hälften till servering). Lägg allt i en skål och blanda med pressad limesaft och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Mosa sötpotatisens inkråm med en gaffel. Servera bakad sötpotatis fylld med frijoles, pico de gallo, gräddfil, picklad rödlök och koriander."
+    }
+  ],
+  "images": {
+    "large": "images/46886-large.jpg",
+    "small": "images/46886-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46886/bakad-sotpotatis-med-frijoles-pico-de-gallo-och-picklad-rodlok",
+    "harvestedAt": "2026-07-18T20:32:04.981Z"
+  }
+}

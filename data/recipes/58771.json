@@ -1,0 +1,284 @@
+{
+  "recipeId": 58771,
+  "mainRecipeId": null,
+  "name": "Kotlett Rydberg med senapskräm",
+  "headline": "Kotlett Rydberg med senapskräm",
+  "subheadline": null,
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Senap",
+    "Laktos",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 564,
+    "protein": 36.71,
+    "carbs": 44.43,
+    "fat": 26.64
+  },
+  "co2eKgPerServing": 1.044,
+  "rating": {
+    "average": 4.17,
+    "count": 290
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatis",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Karamelliserad lök",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Karamelliserad lök",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Karamelliserad lök",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Karamelliserad lök",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Karamelliserad lök",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Senapskräm",
+      "name": "crème fraiche",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g crème fraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Senapskräm",
+      "name": "dijonsenap",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Senapskräm",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Senapskräm",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Senapskräm",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Kotlett",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kotlett",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Kotlett",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ugnsrostad potatis: Skär potatis i 1x1 cm stora bitar. Lägg på en plåt med bakplåtspapper. Ringla över lite olivolja, salt och nymald svartpeppar. Tillaga mitt i ugnen ca 20 min, tills potatisen är klar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Karamelliserad lök: Finhacka gul lök. Hetta upp smör i en stekpanna. Stek löken mjuk på svag värme, ca 8 min. Rör ner socker, salt och nymald svartpeppar. Lägg över på ett fat och spara pannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Senapskräm: Blanda cr&egrave;me fraiche, dijonsenap och flytande honung i en skål. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Tärna tomat. Blanda mixsallad och tomat i en salladsskål och dressa med vitvinsvinäger, salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Kotlett: Skär fläskkotlett i 2x2 cm stora bitar. Krydda med lite salt och nymald svartpeppar. Hetta upp lite smör och olivolja i den använda stekpannan. Stek köttet på hög värme i omgångar ca 3 min, tills det är helt genomstekt."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Lägg upp ugnsrostad potatis, karamelliserad lök och nystekt fläskkotlett på två tallrikar. Servera med senapskräm och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/58771-large.jpg",
+    "small": "images/58771-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58771/kotlett-rydberg-med-senapskram",
+    "harvestedAt": "2026-07-18T20:32:11.408Z"
+  }
+}

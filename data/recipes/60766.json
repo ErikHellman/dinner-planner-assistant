@@ -1,0 +1,220 @@
+{
+  "recipeId": 60766,
+  "mainRecipeId": null,
+  "name": "Okonomiyaki - Japansk kålpannkaka med sojapicklad svamp, rostade sesamfrön och salladslök",
+  "headline": "Okonomiyaki - Japansk kålpannkaka",
+  "subheadline": "med sojapicklad svamp, rostade sesamfrön och salladslök",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Svaveldioxid",
+    "Ägg",
+    "Vete",
+    "Mjölk",
+    "Sesamfrön"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 632,
+    "protein": 23.16,
+    "carbs": 58.8,
+    "fat": 33.82
+  },
+  "co2eKgPerServing": 0.43,
+  "rating": {
+    "average": 3.93,
+    "count": 381
+  },
+  "ingredients": [
+    {
+      "section": "Sojapicklad svamp",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Sojapicklad svamp",
+      "name": "japansk soja",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Sojapicklad svamp",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Sojapicklad svamp",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sojapicklad svamp",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kålpannkaka",
+      "name": "vetemjöl",
+      "amount": 1.25,
+      "unit": "dl",
+      "raw": "1 ¼ dl vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Kålpannkaka",
+      "name": "mjölk",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Kålpannkaka",
+      "name": "ägg",
+      "amount": 3,
+      "unit": "st",
+      "raw": "3 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Kålpannkaka",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kålpannkaka",
+      "name": "vitkål",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g vitkål",
+      "isBasis": false
+    },
+    {
+      "section": "Kålpannkaka",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Topping",
+      "name": "sesamfrön",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "rädisor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rädisor",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "teriyakisås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp teriyakisås",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Sojapicklad svamp: Kvarta champinjoner. Koka upp japansk soja, vatten, vitvinsvinäger och socker i en liten kastrull. Tillsätt svampen och låt koka ca 1 min. Dra från värmen och låt stå till servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Topping: Rosta sesamfrön i en torr stekpanna tills de är gyllenbruna. Lägg i en liten skål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Finstrimla salladslök och skiva rädisor så tunt som möjligt. Lägg i en bunke med iskallt vatten."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kålpannkaka: Vispa ihop vetemjöl, mjölk, ägg och salt till en pannkakssmet i en rymlig bunke. Finstrimla vitkål och blanda ner i smeten."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Kålpannkaka: Hetta upp lite neutral olja i en stekpanna och stek pannkakssmeten ca 3 min per sida, tills den är gyllenbrun."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Topping: Grovhacka koriander (även stjälken). Häll av salladslök och rädisor."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Dela på pannkakan, så att det blir 2 halvor. Lägg upp på tallrik och ringla över majonnäs och teriyakisås. Toppa med sojapicklad svamp, rostade sesamfrön, rädisor, salladslök och koriander."
+    }
+  ],
+  "images": {
+    "large": "images/60766-large.jpg",
+    "small": "images/60766-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/60766/okonomiyaki-japansk-kalpannkaka-med-sojapicklad-svamp-rostade-sesamfron-och-salladslok",
+    "harvestedAt": "2026-07-18T20:32:14.242Z"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "recipeId": 46445,
+  "mainRecipeId": null,
+  "name": "Ugnsbakad lax med citronsås och kokt potatis",
+  "headline": "Ugnsbakad lax med citronsås",
+  "subheadline": "och kokt potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Barnvänligt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Fisk",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 604,
+    "protein": 34.97,
+    "carbs": 45,
+    "fat": 31.52
+  },
+  "co2eKgPerServing": 1.012,
+  "rating": {
+    "average": null,
+    "count": 25
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsbakad lax",
+      "name": "laxfilé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st laxfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsbakad lax",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsbakad lax",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Citronsås",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "gurka",
+      "amount": 0.25,
+      "unit": "st",
+      "raw": "¼ st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "gurka",
+      "amount": 0.75,
+      "unit": "st",
+      "raw": "¾ st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Potatis: Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ugnsbakad lax: Lägg laxfilé i en smord ugnsform. Krydda med salt och lite nymald svartpeppar. Tillaga mitt i ugnen ca 15-18 min, tills fisken är klar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Citronsås: Tvätta citronen i ljummet vatten och finriv skalet. Tärna gurka smått och finhacka bananschalottenlök, lägg i en skål. Blanda med citronskal, gräddfil och lite salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Skär resten av gurkan i mindre bitar och klyfta tomat. Lägg allt i en salladsskål tillsammans med mixsallad."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Klyfta den använda citronen. Servera ugnsbakad lax med nykokt potatis, citronsås, sallad och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/46445-large.jpg",
+    "small": "images/46445-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46445/ugnsbakad-lax-med-citronsas-och-kokt-potatis",
+    "harvestedAt": "2026-07-18T20:31:59.562Z"
+  }
+}

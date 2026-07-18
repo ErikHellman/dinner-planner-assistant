@@ -1,0 +1,207 @@
+{
+  "recipeId": 46880,
+  "mainRecipeId": null,
+  "name": "Grekisk pytt med oliver och bakad fetaost",
+  "headline": "Grekisk pytt",
+  "subheadline": "med oliver och bakad fetaost",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 540,
+    "protein": 19.67,
+    "carbs": 57.92,
+    "fat": 25.55
+  },
+  "co2eKgPerServing": 0.502,
+  "rating": {
+    "average": 3.93,
+    "count": 666
+  },
+  "ingredients": [
+    {
+      "section": "Grekisk pytt",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "rosmarin/timjan mix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "fetaost",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk pytt",
+      "name": "snacksoliver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp snacksoliver",
+      "isBasis": false
+    },
+    {
+      "section": "Dressade linser",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dressade linser",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dressade linser",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Dressade linser",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Dressade linser",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dressade linser",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Dressade linser",
+      "name": "gröna linser",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp gröna linser",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Grekisk pytt: Klyfta potatis och rödlök. Lägg i en smord ugnsform (ca 20x30 cm) och blanda med lite olivolja, rosmarin/timjan mix, salt och lite nymald svartpeppar. Tillaga mitt i ugnen ca 20 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dressade linser: Blanda pressad vitlök, olivolja, flytande honung, pressad citronsaft (ca &frac12; msk), salt och lite nymald svartpeppar i en skål. Häll av och skölj gröna linser. Blanda ner linserna i skålen med dressing."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grekisk pytt: Halvera cocktailtomater. Ta ut formen ur ugnen och lägg på tomater och fetaost. Tillaga mitt i ugnen ytterligare ca 10 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grovhacka bladpersilja. Strö dressade linser, persilja och oliver över potatisen. Servera!"
+    }
+  ],
+  "images": {
+    "large": "images/46880-large.jpg",
+    "small": "images/46880-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46880/grekisk-pytt-med-oliver-och-bakad-fetaost",
+    "harvestedAt": "2026-07-18T20:32:04.803Z"
+  }
+}

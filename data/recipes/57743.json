@@ -1,0 +1,220 @@
+{
+  "recipeId": 57743,
+  "mainRecipeId": null,
+  "name": "Små köttfärsbiffar med äppelraita och paprikarostad potatis",
+  "headline": "Små köttfärsbiffar med äppelraita",
+  "subheadline": "och paprikarostad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 532,
+    "protein": 33.05,
+    "carbs": 51.21,
+    "fat": 21.66
+  },
+  "co2eKgPerServing": 4.398,
+  "rating": {
+    "average": 4.13,
+    "count": 590
+  },
+  "ingredients": [
+    {
+      "section": "Paprikarostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikarostad potatis",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikarostad potatis",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprikarostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikarostad potatis",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikarostad potatis",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Paprikarostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Äppelraita",
+      "name": "grönt äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grönt äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelraita",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelraita",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Äppelraita",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärsbiffar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärsbiffar",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärsbiffar",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärsbiffar",
+      "name": "curry",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp curry",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärsbiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärsbiffar",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärsbiffar",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk vatten",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Paprikarostad potatis: Halvera potatis. Klyfta röd paprika och gul lök. Lägg på en plåt med bakplåtspapper och blanda med salt, olivolja och lite nymald svartpeppar. Tillaga högt upp i ugnen ca 20 min, tills potatisen är klar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Äppelraita: Tärna äpple smått och lägg i en liten skål. Blanda ner matyoghurt och pressad vitlök. Smaka av med lite salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Köttfärsbiffar: Lägg nötfärs i en bunke. Blanda ner pressad vitlök, tomatpuré, curry, salt och vatten. Forma till 4 platta små biffar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp olja i en stekpanna. Stek biffarna på medelvärme ca 6 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera små köttfärsbiffar med äppelraita och paprikarostad potatis."
+    }
+  ],
+  "images": {
+    "large": "images/57743-large.jpg",
+    "small": "images/57743-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/57743/sma-kottfarsbiffar-med-appelraita-och-paprikarostad-potatis",
+    "harvestedAt": "2026-07-18T20:32:09.761Z"
+  }
+}

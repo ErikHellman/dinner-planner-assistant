@@ -1,0 +1,183 @@
+{
+  "recipeId": 90669,
+  "mainRecipeId": null,
+  "name": "Pannoumi fried rice med svamp och lime",
+  "headline": "Pannoumi fried rice",
+  "subheadline": "med svamp och lime",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Sesamfrön",
+    "Ägg",
+    "Sojabönor"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 673,
+    "protein": 30.94,
+    "carbs": 70.79,
+    "fat": 29.52
+  },
+  "co2eKgPerServing": 0.791,
+  "rating": {
+    "average": 3.78,
+    "count": 400
+  },
+  "ingredients": [
+    {
+      "section": "Fried rice",
+      "name": "jasminris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g jasminris",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "ingefära",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "champinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "pannoumi",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp pannoumi",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "sesamolja",
+      "amount": null,
+      "unit": "påse",
+      "raw": "½+½ påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "ägg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Fried rice",
+      "name": "japansk soja",
+      "amount": 0.6666666666666666,
+      "unit": "förp",
+      "raw": "⅔ förp japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "lime",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka jasminris ca 8 min, så riset fortfarande har kvar lite kärna, när du häller av riset."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Skala morot och ingefära. Tärna morot smått och skär champinjoner i mindre bitar. Tärna pannoumi i ca &frac12; cm-tjocka tärningar och strimla salladslök. Finhacka vitlök och ingefära."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fried rice: Hetta upp sesamolja i en rymlig stekpanna och stek pannoumitärningarna tills de är gyllene, ca 2 min. Lägg på ett fat, spara stekpannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp sesamolja i den använda stekpannan och stek morötter och svamp ca 3 min. Låt vitlök och den vita delen på salladslöken och ingefära steka med ca 1 min under omrörning. Blanda ner det kokta riset och låt det steka med ca 3 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Vispa upp ägg i en liten skål. Blanda ner äggvispet, japansk soja och pannoumi i grönsaksfräset. Stek ytterligare någon minut tills äggen stelnat."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Klyfta lime. Toppa med koriander, resten av salladslöken och servera med limeklyftor och srirachasås."
+    }
+  ],
+  "images": {
+    "large": "images/90669-large.jpg",
+    "small": "images/90669-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90669/pannoumi-fried-rice-med-svamp-och-lime",
+    "harvestedAt": "2026-07-18T20:32:22.245Z"
+  }
+}

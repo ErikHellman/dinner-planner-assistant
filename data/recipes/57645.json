@@ -1,0 +1,234 @@
+{
+  "recipeId": 57645,
+  "mainRecipeId": null,
+  "name": "Krämig parmesanrisotto med bakade tomater, dillmarinerade räkor och pinjenötter",
+  "headline": "Krämig parmesanrisotto med dillmarinerade räkor",
+  "subheadline": "bakade tomater och pinjenötter",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Svaveldioxid",
+    "Kräftdjur",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Makadamianötter",
+    "Mandel",
+    "Paranötter",
+    "Pekannötter",
+    "Pistaschmandel",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 650,
+    "protein": 24.6,
+    "carbs": 70.48,
+    "fat": 29.94
+  },
+  "co2eKgPerServing": 1.643,
+  "rating": {
+    "average": 4.07,
+    "count": 67
+  },
+  "ingredients": [
+    {
+      "section": "Risotto",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "räkor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor",
+      "isBasis": false
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "pinjenötter",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g pinjenötter",
+      "isBasis": false
+    },
+    {
+      "section": "Bakade tomater",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Bakade tomater",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bakade tomater",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bakade tomater",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka upp vatten, grönsaksbuljong och vitvinsvinäger i en kastrull. Dra från värmen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Risotto: Finhacka bananschalottenlök och vitlök. Hetta upp lite olivolja i en rymlig stekgryta. Fräs lök, vitlök och risottoris ca 2 min. Späd riset med buljongen, lite i taget. När det kokat in, tillsätt mer buljong och fortsätt så tills all buljong är slut eller riset känns mjukt, rör om då och då."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Dillmarinerade räkor: Hacka hälften av dillen (spara resten till servering). Häll av räkor. Blanda räkor, dill, pressad vitlök och olivolja i en bunke. Låt dra tills servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Bakade tomater: Lägg cocktailtomater i en ugnsform. Ringla på lite olivolja. Strö på salt och socker. Rosta högt upp i ugnen ca 10 min, tills tomaterna fått fin färg."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Risotto: Finriv parmesan. Blanda ner riven parmesan och bakade tomater i risotton. Smaka eventuellt av med lite salt."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera risotto toppad med dillmarinerade räkor och pinjenötter (rosta gärna pinjenötterna i en torr och het stekpanna innan servering!)."
+    }
+  ],
+  "images": {
+    "large": "images/57645-large.jpg",
+    "small": "images/57645-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/57645/kramig-parmesanrisotto-med-bakade-tomater-dillmarinerade-rakor-och-pinjenotter",
+    "harvestedAt": "2026-07-18T20:32:09.704Z"
+  }
+}

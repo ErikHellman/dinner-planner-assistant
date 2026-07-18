@@ -1,0 +1,237 @@
+{
+  "recipeId": 67923,
+  "mainRecipeId": null,
+  "name": "Risnudelsallad med ingefärspicklad gurka och wokad tofu",
+  "headline": "Risnudelsallad med ingefärspicklad gurka",
+  "subheadline": "och wokad tofu",
+  "description": "Asiatiskinspirerad risnudelsallad med krispig tofu, pak choi, mynta och syrlig ingefärsgurka vid sidan.",
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Sesamfrön",
+    "Sojabönor",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 646,
+    "protein": 26.36,
+    "carbs": 85.51,
+    "fat": 22.08
+  },
+  "co2eKgPerServing": 0.49,
+  "rating": {
+    "average": 3.77,
+    "count": 84
+  },
+  "ingredients": [
+    {
+      "section": "Ingefärspicklad gurka",
+      "name": "gurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Ingefärspicklad gurka",
+      "name": "riven ingefära",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Ingefärspicklad gurka",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Ingefärspicklad gurka",
+      "name": "ättiksprit (12%)",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Ingefärspicklad gurka",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "risnudlar",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp risnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "socker",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "röd chili",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "mynta",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Nudelsallad",
+      "name": "riven ingefära",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Wokad tofu",
+      "name": "tofu",
+      "amount": 230,
+      "unit": "g",
+      "raw": "230 g tofu",
+      "isBasis": false
+    },
+    {
+      "section": "Wokad tofu",
+      "name": "majsstärkelse",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Wokad tofu",
+      "name": "olja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "0 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Wokad tofu",
+      "name": "soja- och ingefärssås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp soja- och ingefärssås",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka risnudlar enligt anvisning på förpackningen. Häll av och spola i kallt vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ingefärspicklad gurka: Skiva gurka tunt med osthyvel eller mandolin. Lägg gurka och riven ingefära i en skål. Blanda med socker, ättiksprit och salt. Låt stå till servering, rör om då och då."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Nudelsallad: Tvätta lime i ljummet vatten. Finriv det yttersta skalet på limen och pressa saften i en rymlig salladsskål. Blanda ner socker, japansk soja och sesamolja. Skala och finhacka vitlök och chili (tänk på att färsk chili kan variera i styrka, använd efter smak). Rör ner i salladsskålen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Skala och skär morot i strimlor. Skiva pak choy. Grovhacka blad från mynta. Blanda ner grönsakerna, riven ingefära och nudlarna i salladsskålen."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Wokad tofu: Tärna tofu och torka av med hushållspapper. Lägg i en skål och blanda med majsstärkelse. Hetta upp rikligt med neutral olja i en wok eller stekpanna. Stek tofun runt om ca 4 min, tills tofun fått färg och blivit krispig. Häll eventuellt bort överflödig olja och häll ner soja- och ingefärssås i woken. Woka tofun med såsen ca 2 min."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera risnudelsallad med ingefärspicklad gurka och wokad tofu."
+    }
+  ],
+  "images": {
+    "large": "images/67923-large.jpg",
+    "small": "images/67923-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/67923/risnudelsallad-med-ingefarspicklad-gurka-och-wokad-tofu",
+    "harvestedAt": "2026-07-18T20:32:17.239Z"
+  }
+}

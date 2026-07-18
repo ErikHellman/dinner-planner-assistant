@@ -1,0 +1,253 @@
+{
+  "recipeId": 61643,
+  "mainRecipeId": null,
+  "name": "Grillad kyckling med choronsmör, mâchesallad och smashad potatis",
+  "headline": "Grillad kyckling med choronsmör",
+  "subheadline": "mâchesallad och smashad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Sommar",
+    "Grill"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 552,
+    "protein": 34.78,
+    "carbs": 47.7,
+    "fat": 24.68
+  },
+  "co2eKgPerServing": 0.718,
+  "rating": {
+    "average": 4.02,
+    "count": 615
+  },
+  "ingredients": [
+    {
+      "section": "Rotfrukter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rotfrukter",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rotfrukter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Choronsmör",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Choronsmör",
+      "name": "tomatpuré",
+      "amount": 0.25,
+      "unit": "förp",
+      "raw": "¼ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Choronsmör",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Choronsmör",
+      "name": "torkad dragon",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Choronsmör",
+      "name": "rumstempererat smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g rumstempererat smör",
+      "isBasis": true
+    },
+    {
+      "section": "Choronsmör",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Choronsmör",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grillad kyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grillad kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Mâchesallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Mâchesallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Mâchesallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Mâchesallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Mâchesallad",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Mâchesallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Mâchesallad",
+      "name": "mâchesallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mâchesallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rotfrukter: Skala morötter och skär i ca 3 cm tjocka stubbar. Koka potatis och morot ca 15 min i lättsaltat vatten. Häll av och lägg på en plåt med bakplåtspapper. Krossa potatis och morot lätt med en potatisstöt. Ringla över olivolja och krydda med salt. Rosta i övre delen av ugnen ca 15 min, tills rotfrukterna fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Choronsmör: Finhacka schalottenlök. Hetta upp lite smör i en stekpanna och fräs löken ca 2 min. Tillsätt tomatpuré och fräs ytterligare ca &frac12; min. Tillsätt vitvinsvinäger och torkad dragon, låt vätskan koka bort. Lägg över i en skål och låt svalna. Blanda ihop lökfräset med rumstempererat smör. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grillad kyckling: Krydda kycklinglårfilé med salt och nymald svartpeppar. Hetta upp en grillpanna och grilla eller stek kycklingen ca 2 min per sida. Lägg över i en ugnsform och laga klart i nedre delen av ugnen ca 8 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "M&acirc;chesallad: Blanda olivolja, vitvinsvinäger, salt och lite nymald svartpeppar i en salladsskål. Finhacka schalottenlök och tärna tomat. Blanda ner i salladsskålen tillsammans med m&acirc;chesallad."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera grillad kyckling med choronsmör, rostade rotfrukter och m&acirc;chesallad."
+    }
+  ],
+  "images": {
+    "large": "images/61643-large.jpg",
+    "small": "images/61643-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61643/grillad-kyckling-med-choronsmor-machesallad-och-smashad-potatis",
+    "harvestedAt": "2026-07-18T20:32:14.901Z"
+  }
+}

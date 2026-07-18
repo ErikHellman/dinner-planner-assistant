@@ -1,0 +1,251 @@
+{
+  "recipeId": 46527,
+  "mainRecipeId": null,
+  "name": "Nötfärsbiffar med rosmarin, tzatziki och rostad potatis",
+  "headline": "Nötfärsbiffar med rosmarin",
+  "subheadline": "tzatziki och rostad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 549,
+    "protein": 35.35,
+    "carbs": 52.38,
+    "fat": 22.06
+  },
+  "co2eKgPerServing": 4.427,
+  "rating": {
+    "average": 4.04,
+    "count": 847
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "rosmarin/timjan mix",
+      "amount": 0.3333333333333333,
+      "unit": "förp",
+      "raw": "⅓ förp rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar med rosmarin",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärsbiffar med rosmarin",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärsbiffar med rosmarin",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar med rosmarin",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar med rosmarin",
+      "name": "rosmarin/timjan mix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärsbiffar med rosmarin",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar med rosmarin",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Dela potatis och lägg på en plåt med bakplåtspapper. Blanda med lite olivolja, salt och rosmarin/timjan mix. Rosta högt upp i ugnen tills potatisen är klar, ca 20 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tzatziki: Grovriv snackgurka och pressa ur vätskan. Lägg den rivna gurkan i en skål. Blanda med matyoghurt, pressad vitlök, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Nötfärsbiffar med rosmarin: Lägg nötfärs i en bunke. Blanda med ströbröd, mjölk, salt, rosmarin/timjan mix och lite nymald svartpeppar. Forma till 2 biffar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp lite olivolja i en stekpanna. Stek biffarna ca 4 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Tomatsallad: Halvera cocktailtomater och strimla rödlök. Lägg i en skål och blanda med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera nötfärsbiffar med rostad potatis, tzatziki och tomatsallad."
+    }
+  ],
+  "images": {
+    "large": "images/46527-large.jpg",
+    "small": "images/46527-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46527/notfarsbiffar-med-rosmarin-tzatziki-och-rostad-potatis",
+    "harvestedAt": "2026-07-18T20:32:00.254Z"
+  }
+}

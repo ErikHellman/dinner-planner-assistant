@@ -1,0 +1,246 @@
+{
+  "recipeId": 58562,
+  "mainRecipeId": null,
+  "name": "Italiensk örtkyckling med tomatconcassé och klyftpotatis",
+  "headline": "Italiensk örtkyckling",
+  "subheadline": "med tomatconcassé och klyftpotatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Nötter",
+    "Mjölk",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 464,
+    "protein": 34.94,
+    "carbs": 42.81,
+    "fat": 16.99
+  },
+  "co2eKgPerServing": 0.666,
+  "rating": {
+    "average": 4.11,
+    "count": 900
+  },
+  "ingredients": [
+    {
+      "section": "Italiensk örtkyckling",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Italiensk örtkyckling",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Italiensk örtkyckling",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Italiensk örtkyckling",
+      "name": "torkad oregano",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Italiensk örtkyckling",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Italiensk örtkyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Italiensk örtkyckling",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "torkad oregano",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatconcassé",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Italiensk örtkyckling: Finhacka vitlök och lägg i en bunke. Blanda ner japansk soja, olivolja, torkad oregano, chili flakes och all kycklinglårfilé. Låt marinera, tillagas i punkt 5."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Klyftpotatis: Klyfta potatis och lägg i en smord långpanna. Blanda med lite olivolja, salt och nymald svartpeppar. Tillaga mitt i ugnen ca 25 min, tills potatisen är klar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tomatconcassé: Finhacka bananschalottenlök och vitlök. Grovhacka tomat. Lägg allt i en kastrull och tillsätt torkad oregano, olivolja, balsamvinäger och salt. Sjud ca 8 min, rör om med jämna mellanrum. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Italiensk örtkyckling: Hetta upp lite smör och olivolja i en stekpanna. Bryn den marinerade kycklingen tills den fått fin färg. Lägg kycklingen på potatisen i ugnen och tillaga klart tills den är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Grovhacka bladpersilja och strö över kycklingen och potatisen precis innan servering. Servera med tomatconcassé och mixsallad!"
+    }
+  ],
+  "images": {
+    "large": "images/58562-large.jpg",
+    "small": "images/58562-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58562/italiensk-ortkyckling-med-tomatconcasse-och-klyftpotatis",
+    "harvestedAt": "2026-07-18T20:32:10.707Z"
+  }
+}

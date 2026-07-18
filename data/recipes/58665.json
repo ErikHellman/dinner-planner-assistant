@@ -1,0 +1,231 @@
+{
+  "recipeId": 58665,
+  "mainRecipeId": null,
+  "name": "Cevapcici med klyftpotatis och ajvar relish",
+  "headline": "Cevapcici med klyftpotatis",
+  "subheadline": "och ajvar relish",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 531,
+    "protein": 31.48,
+    "carbs": 50.66,
+    "fat": 22.49
+  },
+  "co2eKgPerServing": 4.311,
+  "rating": {
+    "average": 3.98,
+    "count": 1174
+  },
+  "ingredients": [
+    {
+      "section": "Klyftpotatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Klyftpotatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "olivolja",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "ajvar relish",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp ajvar relish",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Klyftpotatis: Klyfta potatis och lägg på en plåt med bakplåtspapper. Blanda med olivolja, lite salt och nymald svartpeppar. Tillaga högt upp i ugnen ca 20 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Cevapcici: Grovriv bananschalottenlök och lägg i en bunke. Blanda med nötfärs, pressad vitlök, paprikapulver, tomatpuré, vatten och salt. Forma till 8 st avlånga biffar. Hetta upp olivolja i en stekpanna. Stek biffarna runt om ca 10 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tomatsallad: Skiva tomat och rödlök. Lägg på en tallrik och ringla över olivolja och vitvinsvinäger. Krydda med salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera nystekt cevapcici med klyftpotatis, tomatsallad och ajvar relish."
+    }
+  ],
+  "images": {
+    "large": "images/58665-large.jpg",
+    "small": "images/58665-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58665/cevapcici-med-klyftpotatis-och-ajvar-relish",
+    "harvestedAt": "2026-07-18T20:32:10.744Z"
+  }
+}

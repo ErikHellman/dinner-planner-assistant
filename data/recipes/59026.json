@@ -1,0 +1,190 @@
+{
+  "recipeId": 59026,
+  "mainRecipeId": null,
+  "name": "Pannoumisallad med bulgur och zucchini- tzatziki",
+  "headline": "Pannoumisallad",
+  "subheadline": "med bulgur och zucchini- tzatziki",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 527,
+    "protein": 26.4,
+    "carbs": 47.39,
+    "fat": 25.78
+  },
+  "co2eKgPerServing": 0.729,
+  "rating": {
+    "average": 4.22,
+    "count": 77
+  },
+  "ingredients": [
+    {
+      "section": "Pannoumisallad",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "pannoumi",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp pannoumi",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "zucchini",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Pannoumisallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchini- tzatziki",
+      "name": "zucchini",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchini- tzatziki",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchini- tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Zucchini- tzatziki",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Zucchini- tzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Pannoumisallad: Koka bulgur enligt anvisning på förpackningen, men byt ut salt mot grönsaksbuljong."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Zucchini- tzatziki: Grovriv zucchini och pressa ur vätskan. Blanda zucchini, gräddfil, pressad vitlök, salt och lite nymald svartpeppar i en skål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Pannoumisallad: Klyfta röd paprika. Halvera citron. Skiva pannoumi och zucchini."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grilla eller stek citronen med snittytan nedåt ca 5 min, tills den är mjuk och har fått ordentligt med färg. Grilla eller stek grönsaker och pannoumi runt om tills de är mjuka och fått fin färg. Lägg över på en skärbräda allt eftersom det blir klart och skär i mindre bitar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tärna tomat. Blanda bulgur, tomat, ruccola, pressad saft från den grillade citronen och lite olivolja på ett fat. Fördela grillade grönsaker och pannoumi ovanpå."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera pannoumisalladen med zucchini- tzatziki."
+    }
+  ],
+  "images": {
+    "large": "images/59026-large.jpg",
+    "small": "images/59026-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59026/pannoumisallad-med-bulgur-och-zucchini-tzatziki",
+    "harvestedAt": "2026-07-18T20:32:11.734Z"
+  }
+}

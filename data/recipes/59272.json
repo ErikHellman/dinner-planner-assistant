@@ -1,0 +1,234 @@
+{
+  "recipeId": 59272,
+  "mainRecipeId": null,
+  "name": "Chévre chaud med rödbetor och valnötter",
+  "headline": "Chévre chaud",
+  "subheadline": "med rödbetor och valnötter",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Sesamfrön",
+    "Ägg",
+    "Vete",
+    "Nötter",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 727,
+    "protein": 24.27,
+    "carbs": 91.54,
+    "fat": 29.32
+  },
+  "co2eKgPerServing": 0.536,
+  "rating": {
+    "average": 3.91,
+    "count": 200
+  },
+  "ingredients": [
+    {
+      "section": "Rödbetor",
+      "name": "kokt rödbeta",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kokt rödbeta",
+      "isBasis": false
+    },
+    {
+      "section": "Rödbetor",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rödbetor",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rödbetor",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rödbetor",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Chévre chaud",
+      "name": "chèvre",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g chèvre",
+      "isBasis": false
+    },
+    {
+      "section": "Chévre chaud",
+      "name": "hamburgerbröd (2 halvor)",
+      "amount": null,
+      "unit": "st",
+      "raw": "st hamburgerbröd (2 halvor)",
+      "isBasis": false
+    },
+    {
+      "section": "Chévre chaud",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "matvete",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g matvete",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "romansallad",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st romansallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Topping",
+      "name": "päron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st päron",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "valnötter",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g valnötter",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Sallad: Koka matvete enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelser: Skär kokta rödbetor i mindre bitar, ca 2x2 cm. Strimla rödlök. Skär eller bryt romansallad i mindre bitar. Grovhacka valnötter. Dela ch&egrave;vre i 2 skivor."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Rödbetor: Lägg rödbetor på ena sidan av en ugnsplåt med bakplåtspapper. Blanda med lite olivolja, nymald svartpeppar och salt. Rosta högt upp i ugnen ca 15 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Chévre chaud: Hetta upp en stekpanna. Rosta 2 halvor hamburgerbröd ca 1 min per sida."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Sallad: Lägg kokt matvete i en salladsskål. Blanda med balsamvinäger, flytande honung, salt och lite olivolja. Tillsätt rödlök och romansallad."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Chévre chaud: Ta ut plåten med rödbetorna. Lägg bröden med snittytan uppåt på ugnsplåten. Lägg på ch&egrave;vre och ringla över lite flytande honung. Gratinera allt högt uppe i ugnen ca 5 min, tills osten har fått fin färg."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Topping: Tärna päron. Servera chévre chaud med sallad och rostade rödbetor. Toppa med valnötter, päron och lite flingsalt."
+    }
+  ],
+  "images": {
+    "large": "images/59272-large.jpg",
+    "small": "images/59272-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59272/chevre-chaud-med-rodbetor-och-valnotter",
+    "harvestedAt": "2026-07-18T20:32:12.996Z"
+  }
+}

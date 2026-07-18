@@ -1,0 +1,236 @@
+{
+  "recipeId": 90328,
+  "mainRecipeId": null,
+  "name": "Risotto med ugnsrostade gulbetor, champinjoner och mandel",
+  "headline": "Risotto med ugnsrostade gulbetor",
+  "subheadline": "champinjoner och mandel",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pistaschmandel",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 541,
+    "protein": 15.46,
+    "carbs": 81.27,
+    "fat": 17.09
+  },
+  "co2eKgPerServing": 0.694,
+  "rating": {
+    "average": 4.13,
+    "count": 521
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsrostade gulbetor",
+      "name": "gulbeta",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st gulbeta",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade gulbetor",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade gulbetor",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade gulbetor",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitt matlagningsvin",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vitt matlagningsvin",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "mandelspån",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g mandelspån",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "champinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ugnsrostade gulbetor: Skala och klyfta gulbetor. Lägg på en ugnsplåt med bakplåtspapper och blanda med olivolja och lite salt. Rosta högt upp i ugnen ca 25 min, tills de mjuknat och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Risotto: Koka upp vatten och grönsaksbuljong i en kastrull. Dra från värmen. Finhacka schalottenlök och vitlök."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp olivolja i en rymlig stekgryta. Fräs lök, vitlök och risottoris ca 1 min. Tillsätt vitt matlagningsvin och låt koka in något."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Späd riset med buljongen, lite i taget. När det kokat in, tillsätt mer buljong och fortsätt så tills all buljong är slut eller riset känns mjukt, rör om då och då. Blanda ner riven grande premium i risotton precis innan servering. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Till servering: Rosta mandelspån i en torr och het stekpanna, ca 2 min. Lägg i en skål och spara stekpannan."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Skär champinjonerna i mindre bitar. Hetta upp smör i den använda stekpannan och stek svampen ca 3 min. Krydda med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Grovhacka bladpersilja. Servera risotton med gulbetor och svamp. Toppa med mandelspån och persilja."
+    }
+  ],
+  "images": {
+    "large": "images/90328-large.jpg",
+    "small": "images/90328-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90328/risotto-med-ugnsrostade-gulbetor-champinjoner-och-mandel",
+    "harvestedAt": "2026-07-18T20:32:20.612Z"
+  }
+}

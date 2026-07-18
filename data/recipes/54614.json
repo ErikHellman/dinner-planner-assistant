@@ -1,0 +1,234 @@
+{
+  "recipeId": 54614,
+  "mainRecipeId": null,
+  "name": "Saffransrisotto med dillmarinerade räkor, fänkål och brynt smör",
+  "headline": "Saffransrisotto",
+  "subheadline": "med dillmarinerade räkor, fänkål och brynt smör",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 599,
+    "protein": 30.51,
+    "carbs": 71.04,
+    "fat": 21.44
+  },
+  "co2eKgPerServing": 1.762,
+  "rating": {
+    "average": 4.17,
+    "count": 112
+  },
+  "ingredients": [
+    {
+      "section": "Risotto",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "saffran",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp saffran",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "riven parmesan",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g riven parmesan",
+      "isBasis": false
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dillmarinerade räkor",
+      "name": "räkor (300g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor (300g)",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Fänkålssallad",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Brynt smör",
+      "name": "smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g smör",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp vatten, grönsaksbuljong och vitvinsvinäger i en liten kastrull. Dra från värmen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Risotto: Finhacka gul lök och vitlök. Hetta upp lite olivolja i en rymlig stekgryta. Fräs lök, vitlök och risottoris ca 2 min. Tillsätt tomatpuré och saffran. Späd riset med buljongen, lite i taget. När det kokat in, tillsätt mer buljong och fortsätt så tills all buljong är slut eller riset känns mjukt, rör om då och då."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dillmarinerade räkor: Finhacka dill (spara eventuellt några dillvippor till garnering). Blanda dill, pressad vitlök och lite olivolja i en bunke. Häll av räkorna. Blanda ner räkorna i bunken."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fänkålssallad: Strimla eller hyvla (gärna på mandolin) fänkål så tunt som möjligt. Lägg i en skål och blanda med vitvinsvinäger, lite olivolja och salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Brynt smör: Hetta upp smör i en liten kastrull. När smöret \"tystnar\" börjar det att brynas, vispa då hela tiden. När det har en gyllenbrun färg är det klart."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Risotto: Blanda ner riven parmesanost i risotton precis innan servering. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera saffransrisotto i två tallrikar. Toppa med marinerade räkor och fänkålssallad. Ringla över brynt smör och garnera eventuellt med några dillvippor."
+    }
+  ],
+  "images": {
+    "large": "images/54614-large.jpg",
+    "small": "images/54614-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/54614/saffransrisotto-med-dillmarinerade-rakor-fankal-och-brynt-smor",
+    "harvestedAt": "2026-07-18T20:32:09.147Z"
+  }
+}

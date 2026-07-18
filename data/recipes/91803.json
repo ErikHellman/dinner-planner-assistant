@@ -1,0 +1,173 @@
+{
+  "recipeId": 91803,
+  "mainRecipeId": null,
+  "name": "Laxwrap med teriyakisås och grönsaksfräs",
+  "headline": "Laxwrap",
+  "subheadline": "med teriyakisås och grönsaksfräs",
+  "description": null,
+  "chefTip": "Värm gärna tortillabröden i en torr och het stekpanna innan servering! ",
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Fisk",
+    "Sojabönor",
+    "Sesamfrön",
+    "Vete",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 546,
+    "protein": 33.33,
+    "carbs": 44.27,
+    "fat": 26.14
+  },
+  "co2eKgPerServing": 0.888,
+  "rating": {
+    "average": 3.92,
+    "count": 551
+  },
+  "ingredients": [
+    {
+      "section": "Teriyakilax",
+      "name": "laxfilé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st laxfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Teriyakilax",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Teriyakilax",
+      "name": "teriyakisås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp teriyakisås",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "zucchini",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "teriyakisås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp teriyakisås",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mixsallad",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "tortillabröd",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tortillabröd",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Teriyakilax: Lägg laxfiléerna i en ugnsform och krydda med salt, låt stå ca 5 min. Pensla teriyakisås på fisken. Tillaga mitt i ugnen ca 10 min, tills fisken är klar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Grönsaker: Skala morötter. Strimla morötter, zucchini och rödlök tunt. Hetta upp neutral olja i en rymlig stekpanna. Fräs morot ca 3 min. Tillsätt zucchini, rödlök och pressad vitlök, fräs ytterligare ca 2 min, tills allt mjuknat. Blanda ner teriyakisås och smaka av med lite salt och chili flakes."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Lägg mixsallad, teriyakilax och frästa grönsaker på tortillabröden (se tips). Rulla ihop och ät direkt!"
+    }
+  ],
+  "images": {
+    "large": "images/91803-large.jpg",
+    "small": "images/91803-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91803/laxwrap-med-teriyakisas-och-gronsaksfras",
+    "harvestedAt": "2026-07-18T20:32:24.495Z"
+  }
+}

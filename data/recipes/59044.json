@@ -1,0 +1,258 @@
+{
+  "recipeId": 59044,
+  "mainRecipeId": null,
+  "name": "Nötfärsbiffar med vitlökssky och honungsglaserade morötter",
+  "headline": "Nötfärsbiffar med vitlökssky",
+  "subheadline": "och honungsglaserade morötter",
+  "description": null,
+  "chefTip": "Har du tid? Skala potatisen och gör ett härligt potatisstomp!",
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Sojabönor"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 556,
+    "protein": 33.56,
+    "carbs": 65.53,
+    "fat": 17.78
+  },
+  "co2eKgPerServing": 4.291,
+  "rating": {
+    "average": 4.09,
+    "count": 380
+  },
+  "ingredients": [
+    {
+      "section": "Honungsglaserade morötter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Honungsglaserade morötter",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Honungsglaserade morötter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Honungsglaserade morötter",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Honungsglaserade morötter",
+      "name": "flytande honung",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Honungsglaserade morötter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Honungsglaserade morötter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärsbiffar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärsbiffar",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärsbiffar",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssky",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssky",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssky",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssky",
+      "name": "oxbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp oxbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssky",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssky",
+      "name": "socker",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssky",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten (se tips!)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelser: Skala morötter och skär i mindre bitar. Klyfta rödlök."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Honungsglaserade morötter: Lägg morötter och rödlök på en ugnsplåt med bakplåtspapper. Blanda med lite neutral olja, flytande honung, lite salt och nymald svartpeppar. Rosta mitt i ugnen ca 20 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Nötfärsbiffar: Blanda ströbröd, mjölk, salt och lite nymald svartpeppar i en bunke. Blanda ner nötfärs och forma färsen till 4 mindre biffar. Hetta upp lite neutral olja i en stekpanna och stek färsbiffarna ca 4 min per sida på medelvärme. Lägg upp på en tallrik och täck med lock. Spara stekpannan."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Vitlökssky: Hetta upp lite neutral olja i den använda stekpannan. Tillsätt pressad vitlök och fräs ca 1 min. Pudra över vetemjöl. Vispa ner vatten, oxbuljong, kinesisk soja och socker. Koka upp. Lägg tillbaka biffarna i stekpannan och sjud ca 7 min (under lock), tills biffarna är helt genomstekta. Smaka av skyn med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Blanda morötterna med babyspenat direkt på plåten. Servera nötfärsbiffar med honungsrostade morötter, vitlökssky och kokt potatis."
+    }
+  ],
+  "images": {
+    "large": "images/59044-large.jpg",
+    "small": "images/59044-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59044/notfarsbiffar-med-vitlokssky-och-honungsglaserade-morotter",
+    "harvestedAt": "2026-07-18T20:32:11.987Z"
+  }
+}

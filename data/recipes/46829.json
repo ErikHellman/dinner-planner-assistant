@@ -1,0 +1,229 @@
+{
+  "recipeId": 46829,
+  "mainRecipeId": null,
+  "name": "Mozzarellabakad portabello med oliver och krämig risoni",
+  "headline": "Mozzarellabakad portabello",
+  "subheadline": "med oliver och krämig risoni",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 647,
+    "protein": 28.42,
+    "carbs": 64.45,
+    "fat": 30.58
+  },
+  "co2eKgPerServing": 0.956,
+  "rating": {
+    "average": 3.92,
+    "count": 185
+  },
+  "ingredients": [
+    {
+      "section": "Bakad portabello",
+      "name": "riven mozzarella",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g riven mozzarella",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad portabello",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad portabello",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad portabello",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad portabello",
+      "name": "portabello",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g portabello",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad portabello",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "socker",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "snacksoliver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp snacksoliver",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "vatten",
+      "amount": 7,
+      "unit": "dl",
+      "raw": "7 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "risoni",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risoni",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "färskost",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp färskost",
+      "isBasis": false
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Krämig risoni",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Bakad portabello: Blanda riven mozzarella, pressad vitlök, salt och lite nymald svartpeppar i en skål. Lägg portabello med foten uppåt på ena sidan av en plåt med bakplåtspapper. Fördela mozzarellablandningen i svamparna."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tomatsallad: Halvera cocktailtomater. Lägg på andra sidan plåten och ringla över lite olivolja. Strö på lite salt, socker och nymald svartpeppar. Baka grönsakerna högt upp i ugnen ca 10 min, tills osten smält och fått fin färg."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Krämig risoni: Koka upp vatten och grönsaksbuljong i en kastrull. Tillsätt risoni och låt koka ca 10 min. Rör om då och då. Häll av risonin och rör ner färskost. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tomatsallad: Blanda bakade tomater med ruccola och snacksoliver."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera krämig risoni med mozzarellabakad portabello och tomatsallad."
+    }
+  ],
+  "images": {
+    "large": "images/46829-large.jpg",
+    "small": "images/46829-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46829/mozzarellabakad-portabello-med-oliver-och-kramig-risoni",
+    "harvestedAt": "2026-07-18T20:32:02.923Z"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "recipeId": 100989,
+  "mainRecipeId": null,
+  "name": "Kycklingfilé med krämigt citron- och örtris och tomatsallad",
+  "headline": "Kycklingfilé med krämigt citron- och örtris",
+  "subheadline": "och tomatsallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 25,
+    "max": 35
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Selleri",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 542,
+    "protein": 44.81,
+    "carbs": 68.85,
+    "fat": 9.69
+  },
+  "co2eKgPerServing": 0.931,
+  "rating": {
+    "average": 3.79,
+    "count": 233
+  },
+  "ingredients": [
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "vatten",
+      "amount": 4,
+      "unit": "dl",
+      "raw": "4 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "grande premium",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g grande premium",
+      "isBasis": false
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Krämigt citron- och örtris",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingfilé",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfilé",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingfilé",
+      "name": "örtmix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfilé",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 175&deg;C (varmluft) eller 200&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Kycklingfilé: Krydda kycklingfilé med salt och örtmix. Hetta upp smör i en stekpanna och bryn kycklingen ca 2 min per sida. Lägg över i en ugnsform och tillaga klart i ugnen ca 15 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Krämigt citron- och örtris: Koka upp vatten och kycklingbuljong i en kastrull. Tillsätt risottoris och sjud ca 15 min, tills riset är mjukt. Rör om då och då."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tomatsallad: Tärna tomat och grovhacka ruccola. Lägg allt i en skål och blanda ner vitvinsvinäger. Smaka av med salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Krämigt citron- och örtris: Strimla bladpersilja. Tvätta citron och finriv skalet. Blanda ner allt i riset tillsammans med en klick smör och riven grande premium, smaka av med pressad citronsaft, salt och nymald svartpeppar. Späd med lite vatten om det blir för tjockt, det ska vara krämigt som en risotto."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera stekt kycklingfilé med krämigt citron- och örtris. Toppa med tomatsallad."
+    }
+  ],
+  "images": {
+    "large": "images/100989-large.jpg",
+    "small": "images/100989-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/100989/kycklingfile-med-kramigt-citron-och-ortris-och-tomatsallad",
+    "harvestedAt": "2026-07-18T20:32:31.018Z"
+  }
+}

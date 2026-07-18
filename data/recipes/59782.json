@@ -1,0 +1,267 @@
+{
+  "recipeId": 59782,
+  "mainRecipeId": null,
+  "name": "Turkiska köttbullar med dill- och gurksallad, haydari och rostad potatis",
+  "headline": "Turkiska köttbullar",
+  "subheadline": "med dill- och gurksallad, haydari och rostad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött"
+  ],
+  "allergies": [
+    "Vete",
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 525,
+    "protein": 35.46,
+    "carbs": 49.5,
+    "fat": 20.59
+  },
+  "co2eKgPerServing": 4.402,
+  "rating": {
+    "average": 4.14,
+    "count": 204
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": null,
+      "unit": "st",
+      "raw": "st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Turkiska köttbullar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Turkiska köttbullar",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Turkiska köttbullar",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Turkiska köttbullar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Turkiska köttbullar",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Turkiska köttbullar",
+      "name": "torkad oregano",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Turkiska köttbullar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Haydari",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Haydari",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Haydari",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Haydari",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dill- och gurksallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Dill- och gurksallad",
+      "name": "gurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Dill- och gurksallad",
+      "name": "dill",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dill- och gurksallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dill- och gurksallad",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Dill- och gurksallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dill- och gurksallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.6666666666666666,
+      "unit": "påse",
+      "raw": "⅔ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Klyfta potatis. Lägg på en ugnsplåt med bakplåtspapper och blanda med lite olivolja, salt och nymald svartpeppar. Rosta mitt i ugnen ca 25 min, tills potatisen är mjuk och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Turkiska köttbullar: Blanda ströbröd, mjölk, pressad vitlök, salt, spiskummin, torkad oregano och nötfärs i en bunke. Ställ in i kylen och låt vila minst 15 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Haydari: Finhacka dill och vitlök. Lägg i en skål och blanda med matyoghurt och salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Turkiska köttbullar: Forma färsen till 6 köttbullar. Stek köttbullarna runtom, ca 2 min. Lägg över i en ugnsform och tillaga klart i nedre delen av ugnen ca 8 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Dill- och gurksallad: Tärna tomat och gurka. Grovhacka dill. Lägg allt i en skål och blanda med salt, chili flakes, olivolja och vitvinsvinäger."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera turkiska köttbullar med rostad potatis, dill- och gurksallad och haydari."
+    }
+  ],
+  "images": {
+    "large": "images/59782-large.jpg",
+    "small": "images/59782-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59782/turkiska-kottbullar-med-dill-och-gurksallad-haydari-och-rostad-potatis",
+    "harvestedAt": "2026-07-18T20:32:13.358Z"
+  }
+}

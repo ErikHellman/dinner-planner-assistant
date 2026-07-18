@@ -1,0 +1,188 @@
+{
+  "recipeId": 91824,
+  "mainRecipeId": null,
+  "name": "Pasta med kyckling, svamp och soltorkade tomater",
+  "headline": "Pasta med kyckling",
+  "subheadline": "svamp og soltorkade tomater",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 25,
+    "max": 35
+  },
+  "categories": [
+    "Fågel"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Sojabönor",
+    "Senap",
+    "Vete",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 513,
+    "protein": 46.11,
+    "carbs": 49.52,
+    "fat": 14.48
+  },
+  "co2eKgPerServing": 0.889,
+  "rating": {
+    "average": null,
+    "count": 0
+  },
+  "ingredients": [
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "soltorkade tomater, (50 g)",
+      "amount": 0.5,
+      "unit": "burk",
+      "raw": "½ burk soltorkade tomater, (50 g)",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "champinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "kycklinginnerfilé",
+      "amount": 280,
+      "unit": "g",
+      "raw": "280 g kycklinginnerfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "1+1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "salt",
+      "amount": 0.25,
+      "unit": "tsk",
+      "raw": "¼ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling med soltorkade tomater",
+      "name": "minifraiche",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl minifraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "casarecce",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g casarecce",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ruccola",
+      "amount": 60,
+      "unit": "g",
+      "raw": "60 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp rikligt med lättsaltat vatten i en kastrull till pastakoket i steg 3."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Häll av soltorkade tomater. Strimla soltorkade tomater och gul lök. Kvarta champinjoner. Dela kycklinginnerfilé på hälften."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Till servering: Koka casarecce enligt anvisning på förpackningen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kyckling med soltorkade tomater: Hetta upp olivolja i en stekgryta. Stek gul lök och champinjoner ca 3 min, lägg på ett fat. Spara grytan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp lite extra olivolja i den använda stekgrytan. Bryn kycklingbitarna runt om, ca 3 min. Lägg tillbaka lök och svamp, krydda allt med salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Tillsätt vatten, kycklingbuljong och soltorkad tomat. Koka upp och sjud ca 5 min, tills kycklingen är genomstekt. Rör ner minifraiche och låt allt bli varmt. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera kycklinggryta med soltorkade tomater, casarecce och ruccola. Toppa med chili flakes."
+    }
+  ],
+  "images": {
+    "large": "images/91824-large.jpg",
+    "small": "images/91824-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91824/pasta-med-kyckling-svamp-och-soltorkade-tomater",
+    "harvestedAt": "2026-07-18T20:32:26.826Z"
+  }
+}

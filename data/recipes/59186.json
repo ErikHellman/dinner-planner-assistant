@@ -1,0 +1,307 @@
+{
+  "recipeId": 59186,
+  "mainRecipeId": null,
+  "name": "Kalkonfärsbiffar med persilja, vitlöksås och patatas bravas",
+  "headline": "Kalkonfärsbiffar med persilja",
+  "subheadline": "vitlöksås och patatas bravas",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel"
+  ],
+  "allergies": [
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Vete",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 599,
+    "protein": 37.91,
+    "carbs": 61.64,
+    "fat": 22.31
+  },
+  "co2eKgPerServing": 0.884,
+  "rating": {
+    "average": null,
+    "count": 6
+  },
+  "ingredients": [
+    {
+      "section": "Patatas bravas",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Patatas bravas",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Patatas bravas",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Patatas bravas",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "chili flakes",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsås",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsås",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Persiljebiffar",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Persiljebiffar",
+      "name": "ströbröd",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Persiljebiffar",
+      "name": "mjölk",
+      "amount": 0.75,
+      "unit": "dl",
+      "raw": "¾ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Persiljebiffar",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Persiljebiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Persiljebiffar",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": null,
+      "unit": "påse",
+      "raw": "påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Patatas bravas: Skär potatisen i små tärningar (1x1 cm). Lägg på en plåt med bakplåtspapper. Blanda med olivolja och salt. Rosta mitt i ugnen ca 20 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tomatsås: Tärna tomater. Finhacka vitlök och gul lök. Hetta upp olivolja i en kastrull och fräs alltca 2 min. Tillsätt tomatpuré och paprikapulver, fräs ytterligare ca 1 min. Blanda ner salt, chili flakes, socker och vatten. Låt sjuda på låg värme ca 15 min. Smaka av med lite salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Vitlökssås: Blanda gräddfil med pressad vitlök och salt i en liten skål."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Persiljebiffar: Finhacka bladpersilja. Blanda ströbröd och mjölk i en bunke. Blanda ner kalkonfärs, persilja och salt. Forma färsen till 2 biffar. Hetta upp lite olivolja i en stekpanna och stek ca 5 min per sida, tills biffarna är helt genomstekta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Sallad: Lägg upp mixsallad på en tallrik. Blanda med lite olivolja, vitvinsvinäger, salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Blanda ihop den rostade potatisen med tomatsås. Servera med kalkonfärsbiffar, vitlökssås och mixsallad."
+    }
+  ],
+  "images": {
+    "large": "images/59186-large.jpg",
+    "small": "images/59186-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59186/kalkonfarsbiffar-med-persilja-vitloksas-och-patatas-bravas",
+    "harvestedAt": "2026-07-18T20:32:12.497Z"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "recipeId": 46858,
+  "mainRecipeId": null,
+  "name": "Sallad med rostade rotfrukter, mozzarella och citroncrème",
+  "headline": "Sallad med rostade rotfrukter",
+  "subheadline": "mozzarella och citroncrème",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 519,
+    "protein": 19.25,
+    "carbs": 56.57,
+    "fat": 23.95
+  },
+  "co2eKgPerServing": 0.754,
+  "rating": {
+    "average": 3.9,
+    "count": 251
+  },
+  "ingredients": [
+    {
+      "section": "Rostade rotfrukter",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "polkabeta",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st polkabeta",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "msk",
+      "raw": "3 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "ättiksprit (12%)",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Citroncrème",
+      "name": "citron, saft+skal",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron, saft+skal",
+      "isBasis": false
+    },
+    {
+      "section": "Citroncrème",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Citroncrème",
+      "name": "flytande honung",
+      "amount": 0.25,
+      "unit": "förp",
+      "raw": "¼ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Citroncrème",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "citron, saft+skal",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron, saft+skal",
+      "isBasis": false
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "flytande honung",
+      "amount": 0.25,
+      "unit": "förp",
+      "raw": "¼ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "rädisor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rädisor",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "babyspenat",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mozzarella",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp mozzarella",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "krasse",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krasse",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostade rotfrukter: Dela morötter på längden. Klyfta polkabeta smått. Lägg tillsammans med potatis på en ugnsplåt med bakplåtspapper. Ringla över olivolja och strö på salt. Rosta mitt i ugnen ca 20 min, tills potatisen är mjuk."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Picklad rödlök: Klyfta rödlök tunt. Koka upp vatten, socker och ättiksprit i en liten kastrull. Ta från värmen och vänd ner löken. Låt stå till servering."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Citroncr&egrave;me: Skölj citronerna i ljummet vatten och finriv skalet till både citronyoghurt och salladsdressing. Blanda gräddfil, citronskal, pressad citronsaft, flytande honung och salt i en skål."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Salladsdressing: Blanda citronskal, pressad citronsaft, olivolja, flytande honung, salt och lite nymald svartpeppar i en skål."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Sallad: Kvarta rädisor. Blanda med babyspenat, rostade rotfrukter och picklad rödlök i en salladsskål. Ringla över salladsdressingen."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Riv mozzarella i mindre bitar. Toppa salladen med mozzarella och klippt krasse. Servera med citroncr&egrave;me."
+    }
+  ],
+  "images": {
+    "large": "images/46858-large.jpg",
+    "small": "images/46858-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46858/sallad-med-rostade-rotfrukter-mozzarella-och-citroncreme",
+    "harvestedAt": "2026-07-18T20:32:03.395Z"
+  }
+}

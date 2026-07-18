@@ -1,0 +1,192 @@
+{
+  "recipeId": 90750,
+  "mainRecipeId": null,
+  "name": "BBQ-burgare med stekt lök och rostade morötter",
+  "headline": "BBQ-burgare",
+  "subheadline": "med stekt lök och rostade morötter",
+  "description": null,
+  "chefTip": "Hetta upp en stekpanna och rosta hamburgerbröden med snittytan nedåt, tills de fått fin färg!",
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 550,
+    "protein": 33.86,
+    "carbs": 54.51,
+    "fat": 21.86
+  },
+  "co2eKgPerServing": 4.402,
+  "rating": {
+    "average": 3.95,
+    "count": 402
+  },
+  "ingredients": [
+    {
+      "section": "Stekt lök",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt lök",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt lök",
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "krm",
+      "raw": "1½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt lök",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Hamburgare",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Hamburgare",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Hamburgare",
+      "name": "svartpeppar",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Hamburgare",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mixsallad",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "hamburgerbröd",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st hamburgerbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "BBQ-sås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp BBQ-sås",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "morot",
+      "amount": 3,
+      "unit": "st",
+      "raw": "3 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade morötter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostade morötter: Skala morötter och skär i stavar. Lägg på en ugnsplåt med bakplåtspapper. Blanda med neutral olja och lite salt. Rosta högt upp i ugnen ca 12 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Stekt lök: Halvera gul lök och skär i skivor. Hetta upp neutral olja i en rymlig stekpanna. Stek löken med salt ca 5 min, tills den har fått fin färg. Tillsätt vatten och låt koka in. Lägg upp på en tallrik och spara stekpannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hamburgare: Lägg nötfärs i en bunke och krydda med salt och nymald svartpeppar. Forma till 2 hamburgare. Hetta upp neutral olja i den sparade stekpannan. Stek burgarna ca 6 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Skiva tomat. Fyll hamburgerbröd (se tips) med mixsallad, tomat, hamburgare, stekt lök och BBQ-sås. Servera med rostade morötter."
+    }
+  ],
+  "images": {
+    "large": "images/90750-large.jpg",
+    "small": "images/90750-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90750/bbq-burgare-med-stekt-lok-och-rostade-morotter",
+    "harvestedAt": "2026-07-18T20:32:22.375Z"
+  }
+}

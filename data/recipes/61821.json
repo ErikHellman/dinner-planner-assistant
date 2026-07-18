@@ -1,0 +1,195 @@
+{
+  "recipeId": 61821,
+  "mainRecipeId": null,
+  "name": "Kalkonfärscurry med kokosmjölk",
+  "headline": "Kalkonfärscurry med kokosmjölk",
+  "subheadline": null,
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 661,
+    "protein": 36.91,
+    "carbs": 70.5,
+    "fat": 25.66
+  },
+  "co2eKgPerServing": 0.943,
+  "rating": {
+    "average": 4.08,
+    "count": 186
+  },
+  "ingredients": [
+    {
+      "section": "Kalkonfärscurry",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "strimlad vitkål",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g strimlad vitkål",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "malen ingefära",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse malen ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "curry",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp curry",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärscurry",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "jasminris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g jasminris",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Klyfta bananschalottenlök. Tärna röd paprika."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kalkonfärscurry: Hetta upp lite olja i en stekgryta. Fräs kalkonfärs med salt på hög värme ca 3 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Sänk till medelvärme. Tillsätt strimlad vitkål, lök, pressad vitlök och röd paprika, fräs allt ytterligare ca 2 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Blanda ner malen ingefära, curry, tomatpuré, vitvinsvinäger, coconut cream, vatten och kycklingbuljong. Låt koka ihop ca 4 min, tills färsen är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera kalkonfärscurry med nykokt jasminris."
+    }
+  ],
+  "images": {
+    "large": "images/61821-large.jpg",
+    "small": "images/61821-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61821/kalkonfarscurry-med-kokosmjolk",
+    "harvestedAt": "2026-07-18T20:32:15.961Z"
+  }
+}

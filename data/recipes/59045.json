@@ -1,0 +1,249 @@
+{
+  "recipeId": 59045,
+  "mainRecipeId": null,
+  "name": "Risotto med ugnsrostad kyckling, parmesan och ruccola",
+  "headline": "Risotto med ugnsrostad kyckling",
+  "subheadline": "parmesan och ruccola",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 578,
+    "protein": 38.82,
+    "carbs": 70.71,
+    "fat": 15.51
+  },
+  "co2eKgPerServing": 0.916,
+  "rating": {
+    "average": null,
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "section": "Risotto",
+      "name": "vatten",
+      "amount": 4,
+      "unit": "dl",
+      "raw": "4 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "gul lök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Risotto",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Risotto",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad kyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad kyckling",
+      "name": "grön paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grön paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad kyckling",
+      "name": "gul lök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad kyckling",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad kyckling",
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "krm",
+      "raw": "1 ½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad kyckling",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccolasallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Risottobuljong: Koka upp vatten, kycklingbuljong och vitvinsvinäger i en kastrull. Dra från värmen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelser: Hacka hälften av den gula löken och klyfta resten. Skär grön paprika i mindre bitar. Riv parmesanost."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Ugnsrostad kyckling: Lägg kycklinglårfilé, grön paprika och klyftad gul lök i en smord ugnsform. Blanda med lite olivolja, salt och chili flakes. Tillaga mitt i ugnen ca 20 min, tills kycklingen är helt genomstekt. Använd gärna grillfunktionen på slutet av tillagningstiden, så att kycklingen får fin färg."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Risotto: Hetta upp lite olivolja i en stekgryta. Fräs hackad gul lök och pressad vitlök med risottoris ca 1 min. Späd riset med buljongen, lite i taget. När det kokat in, tillsätt mer buljong och fortsätt så tills all buljong är slut eller riset känns mjukt, ca 20 min. Rör om då och då. Blanda ner riven parmesan i risotton precis innan servering. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Ruccolasallad: Lägg ruccola i en skål och blanda med vitvinsvinäger, lite olivolja, salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Lägg upp risotton i djupa tallrikar. Servera med ugnsrostad kyckling och grönsaker. Toppa med ruccolasallad."
+    }
+  ],
+  "images": {
+    "large": "images/59045-large.jpg",
+    "small": "images/59045-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59045/risotto-med-ugnsrostad-kyckling-parmesan-och-ruccola",
+    "harvestedAt": "2026-07-18T20:32:12.179Z"
+  }
+}

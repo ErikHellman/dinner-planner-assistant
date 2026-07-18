@@ -1,0 +1,202 @@
+{
+  "recipeId": 61661,
+  "mainRecipeId": null,
+  "name": "Grillkryddad kyckling med bulgursallad",
+  "headline": "Grillkryddad kyckling",
+  "subheadline": "med bulgursallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 580,
+    "protein": 46.4,
+    "carbs": 41.88,
+    "fat": 25.24
+  },
+  "co2eKgPerServing": 0.869,
+  "rating": {
+    "average": null,
+    "count": 10
+  },
+  "ingredients": [
+    {
+      "section": "Grillkryddad kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Grillkryddad kyckling",
+      "name": "three spices",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse three spices",
+      "isBasis": false
+    },
+    {
+      "section": "Grillkryddad kyckling",
+      "name": "persillade",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Grillkryddad kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grillkryddad kyckling",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Grillkryddad kyckling",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tillbehör",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Grillkryddad kyckling: Skär ett snitt i kycklingfiléernas tjockaste del. Lägg ner kycklingen i en bunke och krydda med salt, three spices, persillade och olivolja. Gnid in kryddorna ordentligt och lägg över kycklingen på en ugnsplåt med bakplåtspapper. Tillaga mitt i ugnen ca 20 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Bulgursallad: Koka bulgur enligt anvisning på förpackningen, men byt ut salt mot grönsaksbuljong."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Bulgursallad: Grovhacka bladpersilja. Tärna tomat och snackgurka. Blanda nykokt bulgur med tomat, gurka, mixsallad, olivolja, vitvinsvinäger och lite salt. Toppa bulgursalladen med hackad persilja."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera grillkryddad kyckling med bulgursallad och en klick gräddfil."
+    }
+  ],
+  "images": {
+    "large": "images/61661-large.jpg",
+    "small": "images/61661-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61661/grillkryddad-kyckling-med-bulgursallad",
+    "harvestedAt": "2026-07-18T20:32:15.139Z"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "recipeId": 100988,
+  "mainRecipeId": null,
+  "name": "Asiatisk wokad färs med ingefära, koriander, sesamfrön och nudlar",
+  "headline": "Asiatisk wokad färs med ingefära",
+  "subheadline": "koriander, sesamfrön och nudlar",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Sesamfrön",
+    "Vete",
+    "Nötter",
+    "Ägg"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 556,
+    "protein": 36.1,
+    "carbs": 58.46,
+    "fat": 19.75
+  },
+  "co2eKgPerServing": 4.45,
+  "rating": {
+    "average": 4.01,
+    "count": 132
+  },
+  "ingredients": [
+    {
+      "section": "Ingefära- och koriandersås",
+      "name": "ingefära",
+      "amount": 0.5,
+      "unit": "bit",
+      "raw": "½ bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Ingefära- och koriandersås",
+      "name": "teriyakisås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp teriyakisås",
+      "isBasis": false
+    },
+    {
+      "section": "Ingefära- och koriandersås",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Ingefära- och koriandersås",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Ingefära- och koriandersås",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Wok",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Wok",
+      "name": "coleslawmix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coleslawmix",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "sesamfrön",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sesamfrön",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "äggnudlar",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp rikligt med lättsaltat vatten i en kastrull till nudlarna i steg 5."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Skär champinjoner i mindre bitar. Rosta sesamfrön i en torr och het stekpanna."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ingefära- och koriandersås: Skala och grovhacka ingefära. Lägg ingefära, teriyakisås, chili flakes, koriander och vatten i en mixerbunke. Mixa ihop till en sås med stavmixer."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Wok: Hetta upp en rymlig stekpanna eller wok och fräs champinjon ca 3 min, tills vätskan kokat in. Tillsätt olja till pannan och coleslawmix, fräs ytterligare ca 3 min. Lägg upp på ett fat. Tillsätt nötfärs till pannan och fräs ca 5 min, tillsätt pressad vitlök efter vätskan kokat bort. Fräs ytterligare ca 1 min, tills färsen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Till servering: Koka nudlarna enligt anvisningen på förpackningen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Wok: Lägg tillbaka alla grönsaker i pannan. Blanda ner avhällda nudlar och ingefära- och koriandersåsen, låt allt bli varmt. Smaka av med lite salt och chili flakes."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Toppa woken med sesamfrön, servera och ät direkt."
+    }
+  ],
+  "images": {
+    "large": "images/100988-large.jpg",
+    "small": "images/100988-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/100988/asiatisk-wokad-fars-med-ingefara-koriander-sesamfron-och-nudlar",
+    "harvestedAt": "2026-07-18T20:32:30.865Z"
+  }
+}

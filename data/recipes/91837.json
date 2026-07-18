@@ -1,0 +1,199 @@
+{
+  "recipeId": 91837,
+  "mainRecipeId": null,
+  "name": "Ljummen kycklingsallad med avokado och krämig dressing",
+  "headline": "Ljummen kycklingsallad",
+  "subheadline": "med avokado och krämig dressing",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Sommar",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid",
+    "Sojabönor",
+    "Ägg",
+    "Senap",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 476,
+    "protein": 43.44,
+    "carbs": 24.67,
+    "fat": 22.62
+  },
+  "co2eKgPerServing": 1.032,
+  "rating": {
+    "average": null,
+    "count": 48
+  },
+  "ingredients": [
+    {
+      "section": "Kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "persillade",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "haricots verts",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp haricots verts",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "avokado",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st avokado",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Krutonger",
+      "name": "krutonger",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krutonger",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Kyckling: Hetta upp neutral olja i en stekpanna. Stek kycklingfiléerna runt om, ca 6 min per sida tills de är helt genomstekta. Krydda med salt och nymald svartpeppar. Lägg upp på skärbrädan och skiva upp dem till servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Dressing: Blanda matyoghurt och persillade i en skål. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Grönsaker: Skär bort de yttersta ändarna på haricots vertes. Hetta upp lite neutral olja i en stekpanna. Fräs haricots vertes tills de har fått fin färg, ca 3 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Skala, kärna ur och skiva avokado. Halvera cocktailtomater."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Lägg upp ruccola på ett fat, lägg på haricots vertes, avokado, cocktailtomater, kycklingskivor och krutonger. Ringla över dressingen."
+    }
+  ],
+  "images": {
+    "large": "images/91837-large.jpg",
+    "small": "images/91837-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91837/ljummen-kycklingsallad-med-avokado-och-kramig-dressing",
+    "harvestedAt": "2026-07-18T20:32:27.028Z"
+  }
+}

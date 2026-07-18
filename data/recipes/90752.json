@@ -1,0 +1,216 @@
+{
+  "recipeId": 90752,
+  "mainRecipeId": null,
+  "name": "Stekt kycklingfilé med ugnsrostade rotfrukter och kall chilisås",
+  "headline": "Stekt kycklingfilé",
+  "subheadline": "med ugnsrostade rotfrukter och kall chilisås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 520,
+    "protein": 42.32,
+    "carbs": 64.26,
+    "fat": 10.38
+  },
+  "co2eKgPerServing": 0.597,
+  "rating": {
+    "average": 4.23,
+    "count": 116
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "palsternacka",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g palsternacka",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Chilisås",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Chilisås",
+      "name": "sweet chilisås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp sweet chilisås",
+      "isBasis": false
+    },
+    {
+      "section": "Chilisås",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Chilisås",
+      "name": "srirachasås",
+      "amount": null,
+      "unit": "förp",
+      "raw": "förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Chilisås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Chilisås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ugnsrostade rotfrukter: Klyfta potatis och rödlök. Skala och skär morötter och palsternacka i stavar. Lägg potatis, morot och palsternacka på en ugnsplåt med bakplåtspapper och blanda med neutral olja, lite salt och nymald svartpeppar. Tillaga högt upp i ugnen ca 25 min. Lägg rödlöken på plåten med rotfrukterna efter halva tillagningstiden."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kyckling: Krydda kycklingfilé med salt och lite nymald svartpeppar. Hetta upp neutral olja i en rymlig stekpanna. Stek kycklingen ca 7 min per sida, tills den är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Chilisås: Lägg gräddfil i en skål. Blanda med sweet chilisås och pressad vitlök. Smaka av med srirachasås, lite salt och nymalen svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servering: Servera kycklingen med ugnsrostade rotfrukter, chilisås och ruccola."
+    }
+  ],
+  "images": {
+    "large": "images/90752-large.jpg",
+    "small": "images/90752-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90752/stekt-kycklingfile-med-ugnsrostade-rotfrukter-och-kall-chilisas",
+    "harvestedAt": "2026-07-18T20:32:22.762Z"
+  }
+}

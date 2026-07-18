@@ -1,0 +1,140 @@
+{
+  "recipeId": 91820,
+  "mainRecipeId": null,
+  "name": "Laxwok med teriyakisås och jasminris",
+  "headline": "Laxwok med teriyakisås",
+  "subheadline": "och jasminris",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klassiker",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Fisk",
+    "Sojabönor",
+    "Sesamfrön",
+    "Vete",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 544,
+    "protein": 36.78,
+    "carbs": 43.86,
+    "fat": 24.61
+  },
+  "co2eKgPerServing": 0.94,
+  "rating": {
+    "average": 4.12,
+    "count": 1645
+  },
+  "ingredients": [
+    {
+      "section": "Laxwok",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Laxwok",
+      "name": "röd paprika",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Laxwok",
+      "name": "laxfilé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st laxfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Laxwok",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Laxwok",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "½+½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Laxwok",
+      "name": "teriyakisås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp teriyakisås",
+      "isBasis": false
+    },
+    {
+      "section": "Laxwok",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "jasminris (ca 1 dl)",
+      "amount": 85,
+      "unit": "g",
+      "raw": "85 g jasminris (ca 1 dl)",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Dela broccoli i buketter och skiva stammen tunt. Skär röd paprika i mindre bitar, ca 2x2 cm. Skär laxfilén i ca 3x2 cm stora bitar och krydda med salt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Laxwok: Hetta upp &frac12; tsk neutral olja i en rymlig stekpanna eller wok. Stek laxbitarna på hög värme ca 2 min runt om. Lägg över på en tallrik. Spara stekpannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp &frac12; tsk neutral olja i den sparade stekpannan. Fräs broccoli och röd paprika ca 3 min, krydda med lite salt. Tillsätt teriyakisås och lägg tillbaka laxbitarna. Låt allt bli varmt ca 1 min. Smaka av med lite chili flakes."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera laxwok teriyaki med jasminris."
+    }
+  ],
+  "images": {
+    "large": "images/91820-large.jpg",
+    "small": "images/91820-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91820/laxwok-med-teriyakisas-och-jasminris",
+    "harvestedAt": "2026-07-18T20:32:25.102Z"
+  }
+}

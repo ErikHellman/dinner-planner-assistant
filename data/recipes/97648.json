@@ -1,0 +1,192 @@
+{
+  "recipeId": 97648,
+  "mainRecipeId": null,
+  "name": "Citronbräserad koljafilé med dillstekt spetskål och potatis",
+  "headline": "Citronbräserad koljafilé",
+  "subheadline": "med dillstekt spetskål och potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klassiker",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 479,
+    "protein": 35.85,
+    "carbs": 48.83,
+    "fat": 15.56
+  },
+  "co2eKgPerServing": 0.473,
+  "rating": {
+    "average": 4.23,
+    "count": 404
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "smör",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Citronsås",
+      "name": "vetemjöl",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Citronsås",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Citronsås",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Citronbräserad kolja",
+      "name": "koljafilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g koljafilé",
+      "isBasis": false
+    },
+    {
+      "section": "Citronbräserad kolja",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillstekt spetskål",
+      "name": "spetskål",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g spetskål",
+      "isBasis": false
+    },
+    {
+      "section": "Dillstekt spetskål",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dillstekt spetskål",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillstekt spetskål",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Dillstekt spetskål",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 175&deg;C (varmluft) eller 200&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Citronsås: Smält smör i en liten kastrull. Blanda ner vetemjöl. Vispa ner vatten, vispgrädde och grönsaksbuljong. Låt sjuda ca 2 min. Tvätta citron i ljummet vatten och finriv det yttersta skalet. Blanda ner citronskal och pressad saft från halva citronen (ca 2 tsk) i såsen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Citronbräserad kolja: Skär koljafilé i portionsbitar och lägg i en ugnsform. Krydda fisken med salt. Häll citronsåsen över fisken och tillaga mitt i ugnen ca 12-15 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Dillstekt spetskål: Skär spetskål i grova bitar. Finstrimla rödlök och grovhacka dill. Hetta upp smör i en stekpanna. Fräs spetskål och rödlök ca 2 min. Krydda med salt. Dra från värmen och blanda ner dill."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera citronbräserad kolja med dillstekt spetskål och kokt potatis."
+    }
+  ],
+  "images": {
+    "large": "images/97648-large.jpg",
+    "small": "images/97648-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/97648/citronbraserad-koljafile-med-dillstekt-spetskal-och-potatis",
+    "harvestedAt": "2026-07-18T20:32:29.872Z"
+  }
+}

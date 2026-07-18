@@ -1,0 +1,199 @@
+{
+  "recipeId": 36553,
+  "mainRecipeId": null,
+  "name": "Morotssoppa med kokosmjölk och nygräddat bröd",
+  "headline": "Morotssoppa med kokosmjölk",
+  "subheadline": "och nygräddat bröd",
+  "description": null,
+  "chefTip": "Det går även bra att ha bönorna hela i soppan! ",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 498,
+    "protein": 15.39,
+    "carbs": 64.77,
+    "fat": 19.66
+  },
+  "co2eKgPerServing": 0.309,
+  "rating": {
+    "average": 3.85,
+    "count": 584
+  },
+  "ingredients": [
+    {
+      "section": "Morotssoppa",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "vita bönor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp vita bönor",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "riven ingefära",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "vatten",
+      "amount": 4,
+      "unit": "dl",
+      "raw": "4 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Morotssoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig). Grädda surdegspavé enligt anvisning på förpackningen, lagom till servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Morotssoppa: Skala och slanta morötter. Häll av och skölj vita bönor."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp rikligt med olja i en kastrull och fräs morot, riven ingefära och pressad vitlök ca 3 min. Tillsätt vatten, coconut cream och grönsaksbuljong. Sjud under lock ca 10 min, tills morötterna är mjuka."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt bönor till soppan och mixa slät med stavmixer direkt i kastrullen. Blir den för tjock, späd med lite vatten. Smaka av med pressad limesaft, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tärna snackgurka och tomat. Grovhacka bladpersilja."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Toppa morotssoppan med gurka, tomat och persilja. Servera med nygräddad baguette."
+    }
+  ],
+  "images": {
+    "large": "images/36553-large.jpg",
+    "small": "images/36553-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/36553/morotssoppa-med-kokosmjolk-och-nygraddat-brod",
+    "harvestedAt": "2026-07-18T19:55:43.179Z"
+  }
+}

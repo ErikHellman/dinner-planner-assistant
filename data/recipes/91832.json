@@ -1,0 +1,221 @@
+{
+  "recipeId": 91832,
+  "mainRecipeId": null,
+  "name": "Cevapcici med ajvar, rostad potatis, paprika och persilja",
+  "headline": "Cevapcici med ajvar, rostad potatis",
+  "subheadline": "paprika och persilja",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [],
+  "nutritionPerServing": {
+    "energyKcal": 496,
+    "protein": 30.61,
+    "carbs": 49.37,
+    "fat": 19.53
+  },
+  "co2eKgPerServing": 4.323,
+  "rating": {
+    "average": 4.08,
+    "count": 521
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Cevapcici",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Cevapcici",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "grön paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grön paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ajvar relish",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp ajvar relish",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Halvera potatis. Skala och skär morötter i mindre bitar. Lägg allt på en ugnsplåt med bakplåtspapper och blanda med olivolja, salt och lite nymald svartpeppar. Rosta mitt i ugnen ca 25 min, tills potatisen är mjuk och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Cevapcici: Grovriv bananschalottenlök och grovhacka all bladpersilja (hälften är till servering), lägg i en bunke. Blanda med nötfärs, pressad vitlök, spiskummin, paprikapulver, salt, rikligt med nymald svartpeppar och vatten. Forma till 4 st avlånga biffar. Hetta upp olivolja i en stekpanna. Stek biffarna runt om ca 10 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tärna grön paprika smått."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera cevapcici med rostad potatis, morot och ajvar relish. Toppa med persilja och grön paprika."
+    }
+  ],
+  "images": {
+    "large": "images/91832-large.jpg",
+    "small": "images/91832-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91832/cevapcici-med-ajvar-rostad-potatis-paprika-och-persilja",
+    "harvestedAt": "2026-07-18T20:32:26.735Z"
+  }
+}

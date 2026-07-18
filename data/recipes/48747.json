@@ -1,0 +1,252 @@
+{
+  "recipeId": 48747,
+  "mainRecipeId": null,
+  "name": "BBQ-marinerad kyckling med rotfrukter - allt på en plåt",
+  "headline": "BBQ-marinerad kyckling",
+  "subheadline": "med rotfrukter - allt på en plåt",
+  "description": null,
+  "chefTip": "Det går givetvis lika bra att lägga kyckling och grönsaker på varsin plåt!",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 569,
+    "protein": 37.73,
+    "carbs": 65.03,
+    "fat": 17.54
+  },
+  "co2eKgPerServing": 0.798,
+  "rating": {
+    "average": 4.07,
+    "count": 253
+  },
+  "ingredients": [
+    {
+      "section": "BBQ-marinerad kyckling",
+      "name": "BBQ-sås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp BBQ-sås",
+      "isBasis": false
+    },
+    {
+      "section": "BBQ-marinerad kyckling",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "BBQ-marinerad kyckling",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "BBQ-marinerad kyckling",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "BBQ-marinerad kyckling",
+      "name": "rökt chilimix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "BBQ-marinerad kyckling",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "BBQ-marinerad kyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfrukter & grönsaker",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Citronsås",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "matyoghurt",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Citronsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Citronsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "BBQ-marinerad kyckling: Blanda bbq-sås, balsamvinäger, socker, pressad vitlök, rökt chili krydda och salt i en stor bunke. Blanda ner kycklinglårfilé och låt marinera ca 15 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rotfrukter och grönsaker: Halvera potatis. Dela morot, paprika och tomat i grova bitar. Lägg allt på en ugnsplåt med bakplåtspapper. Ringla över lite olivolja och krydda med lite salt och nymald svartpeppar. Rosta i mitten av ugnen ca 10 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Ta ut plåten ur ugnen (se tips!) och lägg på den marinerade kycklingen. Rosta allt ytterligare ca 20 min tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Citronsås: Skölj citronen i ljummet vatten och finriv skalet. Lägg i en skål och blanda med matyoghurt, gräddfil och pressad vitlök. Smaka av med lite salt och nymald svartpeppar. Klyfta den använda citronen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Finhacka bladpersilja och strö över ugnsplåten. Servera BBQ-marinerad kyckling med rostade rotfrukter och grönsaker, citronsås och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/48747-large.jpg",
+    "small": "images/48747-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/48747/bbq-marinerad-kyckling-med-rotfrukter-allt-pa-en-plat",
+    "harvestedAt": "2026-07-18T20:32:06.908Z"
+  }
+}

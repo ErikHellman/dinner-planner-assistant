@@ -1,0 +1,248 @@
+{
+  "recipeId": 90474,
+  "mainRecipeId": null,
+  "name": "Asiatisk linsgryta med blomkål, äpple och basmatiris",
+  "headline": "Asiatisk linsgryta",
+  "subheadline": "med blomkål, äpple och basmatiris",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Senap",
+    "Svaveldioxid",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 540,
+    "protein": 20.58,
+    "carbs": 92.2,
+    "fat": 9.87
+  },
+  "co2eKgPerServing": 0.791,
+  "rating": {
+    "average": 3.83,
+    "count": 519
+  },
+  "ingredients": [
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "rött äpple",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rött äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "riven ingefära",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "garam masala",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp garam masala",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "coconut cream",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "röda linser 1 dl",
+      "amount": null,
+      "unit": "g",
+      "raw": "g röda linser 1 dl",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "förp",
+      "raw": "0 förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Asiatisk linsgryta",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Basmatiris",
+      "name": "basmatiris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g basmatiris",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad blomkål",
+      "name": "blomkål",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st blomkål",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad blomkål",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad blomkål",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad blomkål",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad blomkål",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Finhacka schalottenlök och vitlök. Skär rött äpple i små tärningar. Dela blomkål i mindre buketter."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Basmatiris: Koka basmatiris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Asiatisk linsgryta: Hetta upp neutral olja i en stekgryta. Fräs lök med garam masala ca 3 min. Tillsätt vitlök, riven äpple, ingefära, coconut cream, vatten och grönsaksbuljong. Koka upp och sjud ca 2 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Blanda ner röda linser och krossade tomater, koka upp och sjud ca 15 min, tills linserna är mjuka. Rör om då och då, späd eventuellt med lite vatten om vätskan kokat in."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Ugnsrostad blomkål: Lägg blomkål på en ugnsplåt med bakplåtspapper och blanda med neutral olja, lite salt och nymald svartpeppar. Rosta mitt i ugnen ca 15 min, tills blomkålen är mjuk och fått fin färg."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Asiatisk linsgryta: Tillsätt babyspenat till grytan. Smaka av med lite salt och chili flakes."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servera asiatisk linsgryta med ugnsrostad blomkål och basmatiris."
+    }
+  ],
+  "images": {
+    "large": "images/90474-large.jpg",
+    "small": "images/90474-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90474/asiatisk-linsgryta-med-blomkal-apple-och-basmatiris",
+    "harvestedAt": "2026-07-18T20:32:21.316Z"
+  }
+}

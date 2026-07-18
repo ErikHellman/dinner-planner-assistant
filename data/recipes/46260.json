@@ -1,0 +1,279 @@
+{
+  "recipeId": 46260,
+  "mainRecipeId": null,
+  "name": "Peruansk kyckling med tomat- och koriandersalsa, rostad sötpotatis och vitlökssås",
+  "headline": "Peruansk kyckling med tomat- och koriandersalsa",
+  "subheadline": "rostad sötpotatis och vitlökssås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Sommar",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 643,
+    "protein": 44.27,
+    "carbs": 67.8,
+    "fat": 21.67
+  },
+  "co2eKgPerServing": 1.126,
+  "rating": {
+    "average": 4.35,
+    "count": 69
+  },
+  "ingredients": [
+    {
+      "section": "Peruansk kyckling",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Peruansk kyckling",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Peruansk kyckling",
+      "name": "three spices",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse three spices",
+      "isBasis": false
+    },
+    {
+      "section": "Peruansk kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Peruansk kyckling",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Peruansk kyckling",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Peruansk kyckling",
+      "name": "minutfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g minutfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad sötpotatis",
+      "name": "sötpotatis",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st sötpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad sötpotatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad sötpotatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad sötpotatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "salt",
+      "amount": 0.75,
+      "unit": "krm",
+      "raw": "¾ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomat- & koriandersalsa",
+      "name": "röd chili",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- & koriandersalsa",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- & koriandersalsa",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- & koriandersalsa",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- & koriandersalsa",
+      "name": "lime, tvättad",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime, tvättad",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- & koriandersalsa",
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "krm",
+      "raw": "1 ½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomat- & koriandersalsa",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt romansallad",
+      "name": "romansallad",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st romansallad",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt romansallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt romansallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Peruansk kyckling: Blanda pressad saft från limen, pressad vitlök, three spices, salt, socker och olivolja i en bunke. Lägg ner minutfilé i marinaden och låt marinera minst 15 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostad sötpotatis: Skär sötpotatis i mindre bitar och lägg på en ugnsplåt med bakplåtspapper. Blanda med lite olivolja och krydda med lite salt. Rosta i övre delen av ugnen ca 20 min, tills potatisen fått fin färg."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Vitlökssås: Blanda gräddfil, pressad vitlök och salt i en liten skål."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tomat- och koriandersalsa: Finhacka röd chili (för en mildare salsa - ta bort frön och fröfäste) och lägg i en skål. Finhacka bananschalottenlök och koriander. Tärna tomat. Lägg allt i en skål. Finriv det yttersta skalet på limen. Blanda ner det rivna skalet och pressad saft från halva limen, salt och olivolja."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Peruansk kyckling: Hetta upp en grill- eller stekpanna. Grilla kycklingen ca 3 min per sida, tills den är helt genomstekt. Lägg upp kycklingen på en skärbräda eller ett fat och låt vila några minuter innan servering."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Stekt romansallad: Dela romansallad på längden. Krydda snittytan med lite salt. Stek i en stekpanna med olivolja eller grilla i grillpanna på snittytan ca 1 min."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servera grillad kyckling med rostad sötpotatis, tomat- och koriandersalsa, vitlökssås och romansallad."
+    }
+  ],
+  "images": {
+    "large": "images/46260-large.jpg",
+    "small": "images/46260-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46260/peruansk-kyckling-med-tomat-och-koriandersalsa-rostad-sotpotatis-och-vitlokssas",
+    "harvestedAt": "2026-07-18T20:31:58.821Z"
+  }
+}

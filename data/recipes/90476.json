@@ -1,0 +1,242 @@
+{
+  "recipeId": 90476,
+  "mainRecipeId": null,
+  "name": "Raggmunk med fräst svamp och krämig kålsallad med lingon",
+  "headline": "Raggmunk med fräst svamp",
+  "subheadline": "krämig kålsallad och lingon",
+  "description": null,
+  "chefTip": "Det går lika bra att servera matyoghurten och lingonen separat.",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Ägg",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 499,
+    "protein": 18.74,
+    "carbs": 79.31,
+    "fat": 11.88
+  },
+  "co2eKgPerServing": 0.504,
+  "rating": {
+    "average": 3.97,
+    "count": 491
+  },
+  "ingredients": [
+    {
+      "section": "Raggmunkar",
+      "name": "ägg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Raggmunkar",
+      "name": "vetemjöl",
+      "amount": 0.75,
+      "unit": "dl",
+      "raw": "¾ dl vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunkar",
+      "name": "mjölk",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1½ dl mjölk",
+      "isBasis": false
+    },
+    {
+      "section": "Raggmunkar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunkar",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Raggmunkar",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kålsallad",
+      "name": "vitkål",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g vitkål",
+      "isBasis": false
+    },
+    {
+      "section": "Kålsallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kålsallad",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Kålsallad",
+      "name": "rårörda lingon",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rårörda lingon",
+      "isBasis": false
+    },
+    {
+      "section": "Kålsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "champinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fräst svamp",
+      "name": "citronskal",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citronskal",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 125&deg;C (varmluft) eller 150&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Raggmunkar: Knäck ägg i en bunke. Vispa ner vetemjöl och hälften av mjölken till en slät smet. Blanda ner resterande mjölk och salt. Riv potatisen, krama ur den och blanda ner i smeten direkt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp neutral olja i en rymlig stekpanna och klicka ut små klickar av smeten. Stek i omgångar ca 5 min per sida tills de stelnat och fått fin färg. Lägg de stekta raggmunkarna på en ugnsplåt och sätt in i ugnen, till servering. Spara stekpannan."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Kålsallad: Strimla vitkål tunt, gärna på mandolin. Lägg i en bunke, tillsätt salt och krama kålen mjuk med händerna. Blanda ner matyoghurt och rårörda lingon (se tips!). Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fräst svamp: Kvarta champinjoner, strimla rödlök och hacka bladpersilja. Hetta upp smör i den använda stekpannan. Fräs svampen ca 4 min, krydda med torkad timjan, lite salt och nymald svartpeppar. Tillsätt rödlök och fräs ytterligare ca 2 min. Ta från värmen och rör ner persilja."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Skölj citron i ljummet vatten och finriv skalet över svampen. Skär citronen i klyftor."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Toppa raggmunkarna med svampfräs. Servera med kålsallad och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/90476-large.jpg",
+    "small": "images/90476-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90476/raggmunk-med-frast-svamp-och-kramig-kalsallad-med-lingon",
+    "harvestedAt": "2026-07-18T20:32:21.738Z"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "recipeId": 105174,
+  "mainRecipeId": null,
+  "name": "Fiskgratäng med potatisstomp, dill, fänkål och parmesan",
+  "headline": "Fiskgratäng med potatisstomp",
+  "subheadline": "dill, fänkål och parmesan",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Barnvänligt",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 664,
+    "protein": 39.86,
+    "carbs": 47.29,
+    "fat": 35.06
+  },
+  "co2eKgPerServing": 0.941,
+  "rating": {
+    "average": 3.75,
+    "count": 238
+  },
+  "ingredients": [
+    {
+      "section": "Potatisstomp",
+      "name": "mospotatis",
+      "amount": 450,
+      "unit": "g",
+      "raw": "450 g mospotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatisstomp",
+      "name": "fänkål",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Potatisstomp",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Potatisstomp",
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "krm",
+      "raw": "1½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatisstomp",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "dill",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "crème fraiche",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g crème fraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "alaska pollock",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g alaska pollock",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskgratäng",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Potatisstomp: Koka upp lättsaltat vatten i en rymlig kastrull. Skala och dela mospotatis i små bitar. Strimla fänkål. Koka potatisen mjuk i vattnet, ca 10 min. Dra åt sidan och lägg i fänkål. Låt stå ca 2 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Häll av vattnet. Tillsätt smör och salt, mosa allt lätt med en potatisstöt. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Förberedelse fiskgratäng: Skölj citron i ljummen vatten och finriv skalet. Hacka dill. Lägg allt i en skål. Blanda ner cr&egrave;me fraiche, mjölk, &frac12; krm salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Skär alaska pollock i mindre bitar, ca 3x3 cm. Pressa över citronsaft från halva citronen. Krydda med salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fiskgratäng: Lägg potatisstomp längst med kanterna i en ugnsform (ca 15x20 cm). Lägg fisken i mitten och täck allt med cr&egrave;me fraiche blandningen. Finriv parmesanost över. Gratinera högt upp i ugnen ca 12 min, tills fisken är klar och gratängen fått fin färg."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Grönsallad: Skär tomat och snackgurka i mindre bitar och lägg i en skål. Blanda ner mixsallad."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Dela den använda citronen i klyftor. Servera fiskgratäng med grönsallad och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/105174-large.jpg",
+    "small": "images/105174-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/105174/fiskgratang-med-potatisstomp-dill-fankal-och-parmesan",
+    "harvestedAt": "2026-07-18T20:32:32.167Z"
+  }
+}

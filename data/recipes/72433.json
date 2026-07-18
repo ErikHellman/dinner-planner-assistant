@@ -1,0 +1,221 @@
+{
+  "recipeId": 72433,
+  "mainRecipeId": null,
+  "name": "Fiskburgare med lime och koriander",
+  "headline": "Fiskburgare",
+  "subheadline": "med lime och koriander",
+  "description": null,
+  "chefTip": "Stek gärna ett litet smakprov på den kryddade färsen. Öka sedan kryddning efter smak.",
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klassiker",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Fisk",
+    "Mjölk",
+    "Laktos",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 550,
+    "protein": 32.36,
+    "carbs": 65.65,
+    "fat": 17.55
+  },
+  "co2eKgPerServing": 0.717,
+  "rating": {
+    "average": 3.92,
+    "count": 546
+  },
+  "ingredients": [
+    {
+      "section": "Fiskburgare",
+      "name": "lime, (limeskal)",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime, (limeskal)",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskburgare",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskburgare",
+      "name": "koriander",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskburgare",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskburgare",
+      "name": "clariasfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g clariasfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskburgare",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Fiskburgare",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fiskburgare",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "sweet chilisås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sweet chilisås",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "lime, (limesaft)",
+      "amount": null,
+      "unit": "st",
+      "raw": "st lime, (limesaft)",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "röd paprika",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "hamburgerbröd",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st hamburgerbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Fiskburgare: Skölj lime i ljummet vatten och finriv skalet. Grovriv rödlök. Grovhacka koriander. Lägg allt i en skål. Blanda ner pressad vitlök, clariasfärs, srirachasås (börja ev med mindre mängd sriracha, se tips!) och salt. Blanda väl och forma till 2 burgare."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Dressing: Lägg gräddfil i en skål. Blanda med sweet chilisås, pressad vitlök och lite pressad limesaft från den använda limen. Smaka av med lite salt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fiskburgare: Hetta upp olja i en rymlig stekpanna. Stek burgarna ca 4 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillbehör: Skiva röd paprika och rödlök. Skär snackgurka i stavar. Hetta upp en torr stekpanna och rosta hamburgerbröden med snittytan nedåt, tills de fått fin färg."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fyll hamburgerbröd med ruccola, fiskburgare, röd paprika, rödlök och dressing. Servera med gurkstavar."
+    }
+  ],
+  "images": {
+    "large": "images/72433-large.jpg",
+    "small": "images/72433-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/72433/fiskburgare-med-lime-och-koriander",
+    "harvestedAt": "2026-07-18T20:32:18.029Z"
+  }
+}

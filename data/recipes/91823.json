@@ -1,0 +1,189 @@
+{
+  "recipeId": 91823,
+  "mainRecipeId": null,
+  "name": "Stekt fläskkotlett med gräddsås, potatis och pressgurka",
+  "headline": "Stekt fläskkotlett med gräddsås",
+  "subheadline": "potatis och pressgurka",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 545,
+    "protein": 36.68,
+    "carbs": 52.41,
+    "fat": 20.95
+  },
+  "co2eKgPerServing": 1.119,
+  "rating": {
+    "average": 4.3,
+    "count": 341
+  },
+  "ingredients": [
+    {
+      "section": "Pressgurka",
+      "name": "gurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Pressgurka",
+      "name": "salt",
+      "amount": 3,
+      "unit": "krm",
+      "raw": "3 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "socker",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "ättiksprit (12%)",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "smör",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "vetemjöl",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett med sås",
+      "name": "oxbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp oxbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "haricots verts",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp haricots verts",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Pressgurka: Skiva gurkan tunt, gärna med osthyvel och lägg i en skål. Blanda ner salt, socker, ättiksprit och vatten, låt stå till servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Till servering: Koka potatis mjuk i lättsaltat vatten. Tillsätt haricots verts när 2 min av koktiden återstår."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Fläskkotlett med sås: Skär fläskkotlett i jämntjocka skivor. Krydda med salt och nymald svartpeppar. Hetta upp smör i en rymlig stekpanna. Stek fläskkotlett ca 2 min per sida, lägg över kotletterna på en tallrik. Pudra vetemjöl i stekpannan och vispa ner vatten, grädde och oxbuljong. Låt koka upp och lägg tillbaka fläskkotletterna i såsen. Sjud ca 5 min, tills köttet är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Servera fläskkotlett med sås, potatis, haricots verts och pressgurka."
+    }
+  ],
+  "images": {
+    "large": "images/91823-large.jpg",
+    "small": "images/91823-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91823/stekt-flaskkotlett-med-graddsas-potatis-och-pressgurka",
+    "harvestedAt": "2026-07-18T20:32:25.560Z"
+  }
+}

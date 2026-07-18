@@ -1,0 +1,223 @@
+{
+  "recipeId": 50698,
+  "mainRecipeId": null,
+  "name": "Asiatisk kalkonfärs med kimchi och risnudlar",
+  "headline": "Asiatisk kalkonfärs med kimchi",
+  "subheadline": "och risnudlar",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Nötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 554,
+    "protein": 34.08,
+    "carbs": 60.09,
+    "fat": 19.7
+  },
+  "co2eKgPerServing": 0.774,
+  "rating": {
+    "average": 3.94,
+    "count": 343
+  },
+  "ingredients": [
+    {
+      "section": "Kimchi",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "malen ingefära",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse malen ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "förp",
+      "raw": "½-1 förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kimchi",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kimchi",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kimchi",
+      "name": "salladskål",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g salladskål",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "salladslök",
+      "amount": 0.75,
+      "unit": "förp",
+      "raw": "¾ förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "olja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "malen ingefära",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse malen ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärs",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "risnudlar",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp risnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp vatten i en kastrull till nudelkoket i steg 3."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Kimchi: Blanda tomatpuré, vitvinsvinäger, malen ingefära, chili flakes (efter smak), pressad vitlök, socker och salt i en bunke. Strimla salladskål och lägg i bunken med dressing. Blanda väl."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Koka risnudlar enligt anvisning på förpackningen. Spola sedan kallt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kalkonfärs: Skär salladslök i stavar. Hetta upp neutral olja i en stekpanna. Fräs kalkonfärs med salt på hög värme ca 4 min. Tillsätt salladslök, malen ingefära, pressad vitlök, vatten, kycklingbuljong och socker. Fräs ytterligare ca 3 min, tills färsen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera asiatisk kalkonfärs med kimchi och risnudlar. Toppa med koriander."
+    }
+  ],
+  "images": {
+    "large": "images/50698-large.jpg",
+    "small": "images/50698-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/50698/asiatisk-kalkonfars-med-kimchi-och-risnudlar",
+    "harvestedAt": "2026-07-18T20:32:08.336Z"
+  }
+}

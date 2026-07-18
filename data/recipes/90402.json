@@ -1,0 +1,239 @@
+{
+  "recipeId": 90402,
+  "mainRecipeId": null,
+  "name": "Enkel pannbiff med stekt lök, potatismos och rårörda lingon",
+  "headline": "Enkel pannbiff med stekt lök",
+  "subheadline": "potatismos och rårörda lingon",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Svaveldioxid",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 634,
+    "protein": 33.99,
+    "carbs": 76.24,
+    "fat": 21.42
+  },
+  "co2eKgPerServing": 4.383,
+  "rating": {
+    "average": 4.17,
+    "count": 1263
+  },
+  "ingredients": [
+    {
+      "section": "Potatismos",
+      "name": "mospotatis",
+      "amount": 450,
+      "unit": "g",
+      "raw": "450 g mospotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Potatismos",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Potatismos",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt lök",
+      "name": "gul lök",
+      "amount": 1.5,
+      "unit": "st",
+      "raw": "1½ st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt lök",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt lök",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt lök",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt lök",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "ströbröd",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "mjölk",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "äggula",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st äggula",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Gurksallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Gurksallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "rårörda lingon",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rårörda lingon",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Potatismos: Skala och koka mospotatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Stekt lök: Skala och skiva gul lök tunt. Hetta upp olja i en rymlig stekpanna. Stek löken på medelvärme tills den mjuknat, ca 5 min. Tillsätt vitvinsvinäger och låt vätskan koka in. Smaka av med lite salt och socker."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Pannbiffar: Blanda ströbröd, mjölk, äggula, salt och lite nymald svartpeppar i en bunke. Blanda ner nötfärs och forma till 4 biffar. Hetta upp olja i en stekpanna och stek biffarna ca 5 min per sida, tills de är helt genomstekta."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Gurksallad: Halvera snackgurkan på längden och skiva tunt. Finhacka bladpersilja. Blanda allt i en salladsskål med lite salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Potatismos: Värm mjölk i en kastrull. Häll av potatisen och mosa med elvisp eller potatisstöt. Tillsätt mjölken och vispa till ett mos. Krydda med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera pannbiffar med stekt lök, potatismos, gurksallad och en klick rårörda lingon."
+    }
+  ],
+  "images": {
+    "large": "images/90402-large.jpg",
+    "small": "images/90402-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90402/enkel-pannbiff-med-stekt-lok-potatismos-och-rarorda-lingon",
+    "harvestedAt": "2026-07-18T20:32:21.126Z"
+  }
+}

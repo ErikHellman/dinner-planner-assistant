@@ -1,0 +1,192 @@
+{
+  "recipeId": 90430,
+  "mainRecipeId": null,
+  "name": "Medelhavskyckling med citronrisoni och tzatziki",
+  "headline": "Medelhavskyckling",
+  "subheadline": "med citronrisoni och tzatziki",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Vete",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 548,
+    "protein": 47.52,
+    "carbs": 71.51,
+    "fat": 7.95
+  },
+  "co2eKgPerServing": 0.781,
+  "rating": {
+    "average": 3.99,
+    "count": 798
+  },
+  "ingredients": [
+    {
+      "section": "Tzatziki",
+      "name": "gurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Citronrisoni",
+      "name": "risoni",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risoni",
+      "isBasis": false
+    },
+    {
+      "section": "Citronrisoni",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "persillade",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Medelhavskyckling",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Förberedelser: Strimla röd paprika och rödlök. Dela kycklingfilé i mindre bitar, ca 2x2 cm."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tzatziki: Grovriv hälften av gurkan, pressa ur vätska och lägg i en skål. Blanda ner gräddfil och pressad vitlök. Smaka av med lite salt. Skär resten av gurkan i tärningar. Servera gurkan separat eller blanda ner den i risonin."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Citronrisoni: Koka all risoni enligt anvisning på förpackningen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Medelhavskyckling: Hetta upp neutral olja i en stekpanna. Stek kycklingbitarna runt om ca 5 min, krydda med persillade, salt och nymald svartpeppar. Tillsätt röd paprika, rödlök och pressad vitlök, fräs ytterligare ca 2 min, tills kycklingen är genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Citronrisoni: Skölj citron i ljummet vatten och finriv skalet. Blanda ihop avhälld risoni med citronskal och lite pressad citronsaft efter smak, klyfta resten."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera medelhavskyckling med grönsaker, citronrisoni, tzatziki och citronklyfta."
+    }
+  ],
+  "images": {
+    "large": "images/90430-large.jpg",
+    "small": "images/90430-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90430/medelhavskyckling-med-citronrisoni-och-tzatziki",
+    "harvestedAt": "2026-07-18T20:32:21.260Z"
+  }
+}

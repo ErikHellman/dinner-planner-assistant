@@ -1,0 +1,205 @@
+{
+  "recipeId": 90657,
+  "mainRecipeId": null,
+  "name": "Asia pork noodles - wokad fläskkotlett med nudlar och pak choy",
+  "headline": "Asia pork noodles - wokad fläskkotlett",
+  "subheadline": "med nudlar och pak choy",
+  "description": "Asiatiska smaker med sting från sriracha och fräschör från lime. Snabb vardagsmiddag med fläsk, pak choy och nudlar.",
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Svaveldioxid",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 511,
+    "protein": 40.45,
+    "carbs": 61.95,
+    "fat": 11.29
+  },
+  "co2eKgPerServing": 0.885,
+  "rating": {
+    "average": 3.86,
+    "count": 863
+  },
+  "ingredients": [
+    {
+      "section": "Woksås",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "majsstärkelse",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Woksås",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Woksås",
+      "name": "srirachasås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "riven ingefära",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fläsk",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläsk",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Fläsk",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaker",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaker",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "äggnudlar",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g äggnudlar",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp rikligt med lättsaltat vatten i en kastrull till nudelkoket i steg 6."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Woksås: Tvätta limen i ljummet vatten och finriv skalet. Häll japansk soja i en skål och blanda ner majsstärkelse, rör tills det löser sig. Tillsätt vatten, socker, srirachasås, riven ingefära, pressad vitlök, limeskal och pressad saft från limen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelser: Skär pak choy i mindre bitar. Klyfta rödlök. Skär fläskkotlett i tunna skivor och strimla sedan skivorna."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fläsk: Hetta upp olja i en wok eller rymlig stekpanna. Fräs köttet ca 3-4 min, tills köttet har fått fin stekyta och krydda med lite salt. Lägg upp köttet på en tallrik."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grönsaker: Tillsätt mer olja i woken och fräs pak choy och rödlök ca 2&ndash;3 min. Blanda ner det stekta köttet och woksåsen och koka ihop ca 1 min. Smaka av med lite japansk soja om det behövs."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Koka nudlar enligt anvisning på förpackningen."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servering: Blanda nudlar med grönsaker, fläskkött och woksås. Servera direkt!"
+    }
+  ],
+  "images": {
+    "large": "images/90657-large.jpg",
+    "small": "images/90657-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90657/asia-pork-noodles-wokad-flaskkotlett-med-nudlar-och-pak-choy",
+    "harvestedAt": "2026-07-18T20:32:21.784Z"
+  }
+}

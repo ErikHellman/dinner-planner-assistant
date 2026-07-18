@@ -1,0 +1,151 @@
+{
+  "recipeId": 91777,
+  "mainRecipeId": null,
+  "name": "Torsk med riven pepparrot, ugnsrostade gulbetor och spenat",
+  "headline": "Torsk med riven pepparrot",
+  "subheadline": "ugnsrostade gulbetor och spenat",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 25,
+    "max": 35
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Fisk",
+    "Mjölk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 470,
+    "protein": 34.92,
+    "carbs": 54.64,
+    "fat": 12.46
+  },
+  "co2eKgPerServing": 0.41,
+  "rating": {
+    "average": null,
+    "count": 59
+  },
+  "ingredients": [
+    {
+      "section": "Rostade gulbetor",
+      "name": "gulbetor",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g gulbetor",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade gulbetor",
+      "name": "olja",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade gulbetor",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "pepparrot",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st pepparrot",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "babyspenat",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Torskfilé",
+      "name": "torskfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g torskfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Torskfilé",
+      "name": "smör",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g smör",
+      "isBasis": true
+    },
+    {
+      "section": "Torskfilé",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Torskfilé",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostade gulbetor: Skala och klyfta gulbetor, lägg i en ugnsform. Blanda med neutral olja och krydda med lite salt. Rosta högt upp i ugnen ca 25 min, tills betorna är klara men har kvar lite tuggmotstånd."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Till servering: Koka potatis mjuk i lättsaltat vatten. Skala och riv pepparrot."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Torskfilé: Hetta upp smör i en stekpanna. Stek torskfilé ca 2 min per sida, tills den skivar sig lätt och precis är klar. Krydda med salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Lägg upp fisken på tallrikar. Ringla över smöret och strö över riven pepparrot. Servera med kokt potatis, ugnsrostade gulbetor och babyspenat."
+    }
+  ],
+  "images": {
+    "large": "images/91777-large.jpg",
+    "small": "images/91777-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91777/torsk-med-riven-pepparrot-ugnsrostade-gulbetor-och-spenat",
+    "harvestedAt": "2026-07-18T20:32:24.430Z"
+  }
+}

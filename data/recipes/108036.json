@@ -1,0 +1,216 @@
+{
+  "recipeId": 108036,
+  "mainRecipeId": null,
+  "name": "Italiensk bondsoppa med nötfärs, parmesan och färsk basilika",
+  "headline": "Italiensk bondsoppa med nötfärs",
+  "subheadline": "parmesan, färsk basilika och surdegsbröd",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Selleri",
+    "Svaveldioxid",
+    "Mjölk",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 552,
+    "protein": 38.53,
+    "carbs": 49.2,
+    "fat": 22.31
+  },
+  "co2eKgPerServing": 4.381,
+  "rating": {
+    "average": 4.15,
+    "count": 217
+  },
+  "ingredients": [
+    {
+      "section": "Bondsoppa",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "selleristjälk",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st selleristjälk",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "salt",
+      "amount": 0.75,
+      "unit": "tsk",
+      "raw": "¾ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "örtmix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "vatten",
+      "amount": 4,
+      "unit": "dl",
+      "raw": "4 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Bondsoppa",
+      "name": "riven parmesan",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g riven parmesan",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "basilika",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g basilika",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 180&deg;C (varmluft) eller 200&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tillaga surdegspavé enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelse soppa: Skala och skär morötter i sneda skivor, ca 2 cm tjocka. Grovhacka gul lök och skär selleristjälk i tunna skivor. Finhacka vitlök och tärna tomat."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Bondsoppa: Hetta upp olivolja i en stekgryta. Fräs nötfärs ca 2 min. Tillsätt morot, lök, selleri och vitlök, fräs ytterligare 1 min. Krydda med salt, svartpeppar och örtmix. Blanda ner tomatpuré, tomater, vitvinsvinäger, vatten och kycklingbuljong. Låt sjuda på medelvärme ca 10 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Dra grytan från värmen och blanda ner riven parmesanost. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Strimla färsk basilika. Häll upp soppa i djupa skålar. Toppa soppan med basilika och servera med surdegspavé."
+    }
+  ],
+  "images": {
+    "large": "images/108036-large.jpg",
+    "small": "images/108036-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/108036/italiensk-bondsoppa-med-notfars-parmesan-och-farsk-basilika",
+    "harvestedAt": "2026-07-18T20:32:33.639Z"
+  }
+}

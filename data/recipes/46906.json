@@ -1,0 +1,250 @@
+{
+  "recipeId": 46906,
+  "mainRecipeId": null,
+  "name": "Kyckling i sötsyrlig dillsås med rimmad gurka och dillrostade morötter",
+  "headline": "Kyckling i sötsyrlig dillsås",
+  "subheadline": "med rimmad gurka och dillrostade morötter",
+  "description": null,
+  "chefTip": "Putsa inte bort fettet från kycklingen, det smälter i stekpannan och ger en god smak.",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Vete",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 561,
+    "protein": 35.29,
+    "carbs": 57.59,
+    "fat": 21.05
+  },
+  "co2eKgPerServing": 0.641,
+  "rating": {
+    "average": 4.04,
+    "count": 84
+  },
+  "ingredients": [
+    {
+      "section": "Rimmad gurka",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Rimmad gurka",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rimmad gurka",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Dillrostade morötter",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Dillrostade morötter",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dillrostade morötter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillrostade morötter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Dillrostade morötter",
+      "name": "dill",
+      "amount": 5,
+      "unit": "g",
+      "raw": "5 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "salt",
+      "amount": 1.5,
+      "unit": "krm",
+      "raw": "1 ½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "vetemjöl",
+      "amount": 0.75,
+      "unit": "msk",
+      "raw": "¾ msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "vatten",
+      "amount": 1.75,
+      "unit": "dl",
+      "raw": "1 ¾ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "dill",
+      "amount": 15,
+      "unit": "g",
+      "raw": "15 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling i dillsås",
+      "name": "ättiksprit (12%)",
+      "amount": 0.75,
+      "unit": "msk",
+      "raw": "¾ msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Kokt potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rimmad gurka: Skär tunna skivor av gurkan med en vass kniv eller osthyvel. Lägg i en skål och blanda med salt och socker. Låt stå tills servering."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kokt potatis: Koka potatis i lättsaltat vatten."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Dillrostade morötter: Skala morötter och skär i stavar. Lägg i en ugnsform och blanda med lite olivolja, salt och nymald svartpeppar. Rosta i övre delen av ugnen ca 20 min. Plocka dill och blanda med de rostade morötterna precis innan servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Kyckling i dillsås: Finhacka gul lök. Halvera kycklinglårfilé, se tips. Hetta upp lite smör i en stekgryta och fräs kyckling och lök ca 2 min, krydda med salt och lite nymald svartpeppar. Pudra över vetemjöl. Tillsätt vatten, vispgrädde och kycklingbuljong. Låt sjuda ca 10 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Finhacka dill. Blanda ner socker, ättiksprit och dill i kycklinggrytan. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Häll bort vätskan från den rimmade gurkan. Servera kyckling i sötsyrlig dillsås med dillrostade morötter, rimmad gurka och kokt potatis."
+    }
+  ],
+  "images": {
+    "large": "images/46906-large.jpg",
+    "small": "images/46906-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46906/kyckling-i-sotsyrlig-dillsas-med-rimmad-gurka-och-dillrostade-morotter",
+    "harvestedAt": "2026-07-18T20:32:05.539Z"
+  }
+}

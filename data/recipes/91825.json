@@ -1,0 +1,198 @@
+{
+  "recipeId": 91825,
+  "mainRecipeId": null,
+  "name": "Sweet and sour chicken - sötsur kycklingwok med färsk ingefära",
+  "headline": "Sweet and sour chicken",
+  "subheadline": "sötsur kycklingwok med färsk ingefära",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klassiker",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Sesamfrön"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 549,
+    "protein": 48.67,
+    "carbs": 73.95,
+    "fat": 6.52
+  },
+  "co2eKgPerServing": 0.764,
+  "rating": {
+    "average": 3.9,
+    "count": 699
+  },
+  "ingredients": [
+    {
+      "section": "Woksås",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Woksås",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Woksås",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "majsstärkelse",
+      "amount": 1.5,
+      "unit": "tsk",
+      "raw": "1½ tsk majsstärkelse",
+      "isBasis": false
+    },
+    {
+      "section": "Woksås",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Wok",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "ingefära",
+      "amount": 0.5,
+      "unit": "bit",
+      "raw": "½ bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "sesamolja",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "salt",
+      "amount": 0.25,
+      "unit": "tsk",
+      "raw": "¼ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "jasminris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g jasminris",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka jasminris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Woksås: Blanda japansk soja, vatten, socker, tomatpuré, srirachasås (efter egen smak), majsstärkelse och balsamvinäger i en skål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Wok: Finhacka vitlök och ingefära. Dela broccoli i mindre buketter och skiva stammen tunt. Skär salladslök i mindre bitar. Skär kycklingfilé i mindre bitar, ca 2x2 cm."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp sesamolja i en wok eller rymlig stekpanna. Stek kycklingen med salt ca 5 min, tills den fått fin färg och är helt genomstekt. Lägg på ett fat. Tillsätt broccoli till wokpannan och fräs ca 3 min. Rör ner salladslök och fräs ytterligare ca 1 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Lägg tillbaka kycklingen i wokpannan. Tillsätt vitlök, ingefära och woksåsen, blanda runt och låt allt bli varmt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera sötstark kyckling- och broccoliwok med jasminris."
+    }
+  ],
+  "images": {
+    "large": "images/91825-large.jpg",
+    "small": "images/91825-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91825/sweet-and-sour-chicken-sotsur-kycklingwok-med-farsk-ingefara",
+    "harvestedAt": "2026-07-18T20:32:26.308Z"
+  }
+}

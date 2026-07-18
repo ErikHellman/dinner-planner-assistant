@@ -1,0 +1,288 @@
+{
+  "recipeId": 62282,
+  "mainRecipeId": null,
+  "name": "Pannbiffar med rostad fänkål, löksky och picklad rödlök",
+  "headline": "Pannbiffar med rostad fänkål",
+  "subheadline": "löksky och picklad rödlök",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Senap",
+    "Mjölk",
+    "Vete",
+    "Sojabönor"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 556,
+    "protein": 34.91,
+    "carbs": 59.17,
+    "fat": 19.91
+  },
+  "co2eKgPerServing": 4.265,
+  "rating": {
+    "average": null,
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad fänkål",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad fänkål",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad fänkål",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad fänkål",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "ättiksprit (12%)",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Picklad rödlök",
+      "name": "vatten",
+      "amount": 0.75,
+      "unit": "dl",
+      "raw": "¾ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "mjölk",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "dijonsenap",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Pannbiffar",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Löksky",
+      "name": "vatten",
+      "amount": 2.5,
+      "unit": "dl",
+      "raw": "2 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Löksky",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Löksky",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Löksky",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Till servering: Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Rostad fänkål: Klyfta fänkål och lägg i en ugnsform. Ringla över olivolja. Krydda med lite salt och nymald svartpeppar. Rosta högt upp i ugnen ca 20 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Picklad rödlök: Skiva rödlök tunt och lägg i en skål. Blanda socker, ättikssprit och vatten i en kastrull och låt koka upp. Häll den varma lagen över löken. Låt stå till servering."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Pannbiffar: Lägg nötfärs i en bunke. Blanda med ströbröd, mjölk, torkad timjan, salt och dijonsenap. Forma till 4 biffar. Hetta upp lite olivolja i en stekpanna. Stek biffarna ca 6 min per sida, tills de är helt genomstekta. Lägg över på ett fat, spara pannan."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Löksky: Skiva gul lök tunt. Hetta upp lite olivolja i den använda stekpannan. Stek löken ca 3 min på medelvärme. Tillsätt vatten, socker, kinesisk soja, balsamvinäger och kycklingbuljong. Sjud ca 4 min. Smaka av med lite salt."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Grovhacka bladpersilja och strö över pannbiffarna. Servera med rostad fänkål, löksky, picklad rödlök och nykokt potatis."
+    }
+  ],
+  "images": {
+    "large": "images/62282-large.jpg",
+    "small": "images/62282-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/62282/pannbiffar-med-rostad-fankal-loksky-och-picklad-rodlok",
+    "harvestedAt": "2026-07-18T20:32:16.337Z"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "recipeId": 91815,
+  "mainRecipeId": null,
+  "name": "Stekt fläskkotlett i skysås med parmesan- och timjanrostad potatis",
+  "headline": "Stekt fläskkotlett i skysås",
+  "subheadline": "med parmesan- och timjanrostad potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Vete",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 522,
+    "protein": 39.24,
+    "carbs": 45.03,
+    "fat": 20.55
+  },
+  "co2eKgPerServing": 1.001,
+  "rating": {
+    "average": 3.95,
+    "count": 398
+  },
+  "ingredients": [
+    {
+      "section": "Krossad potatis",
+      "name": "mospotatis",
+      "amount": 450,
+      "unit": "g",
+      "raw": "450 g mospotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Krossad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "msk",
+      "raw": "½+½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Krossad potatis",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Krossad potatis",
+      "name": "parmesanost, (20 g)",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost, (20 g)",
+      "isBasis": false
+    },
+    {
+      "section": "Krossad potatis",
+      "name": "citron, skal",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron, skal",
+      "isBasis": false
+    },
+    {
+      "section": "Krossad potatis",
+      "name": "timjan",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Krossad potatis",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Krossad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "rosmarin/timjan mix",
+      "amount": 0.25,
+      "unit": "förp",
+      "raw": "¼ förp rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "kycklingbuljong",
+      "amount": 0.25,
+      "unit": "förp",
+      "raw": "¼ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett i skysås",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Parmesan- och timjanrostad potatis: Lägg mospotatis på en plåt med bakplåtspapper. Ringla över &frac12; msk olivolja och strö på salt. Rosta högt upp i ugnen ca 25 min, tills potatisen mjuknat."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Finriv parmesanost. Skölj citron i ljummet vatten och finriv skalet. Repa timjan (dra av bladen). Blanda riven parmesan, citronskal, timjan och pressad vitlök i en skål."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Ta ut potatisen och krossa dem lätt med baksidan av en slev eller undersidan av en kastrull. Fördela parmesanblandningen över potatisen. Ringla över &frac12; msk olivolja. Tillaga högt upp i ugnen ytterligare ca 5 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Tärna snackgurka och tomat. Lägg i en salladsskål och blanda med mixsallad."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fläskkotlett i skysås: Skär fläskkotlett i 2 jämntjocka skivor. Krydda med rosmarin/timjan mix, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Hetta upp olivolja i en stekpanna. Stek fläskkotlett ca 3 min per sida, tills köttet är helt genomstekt. Lägg upp på ett fat."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Pudra vetemjöl över stekpannan. Vispa ner vatten och kycklingbuljong. Koka upp och sjud ca 3 min. Smaka av med balsamvinäger. Lägg tillbaka köttet och låt bli varmt."
+    },
+    {
+      "step": 9,
+      "section": null,
+      "text": "Servera fläskkotlett i skysås med parmesan- och timjanrostad potatis och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/91815-large.jpg",
+    "small": "images/91815-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91815/stekt-flaskkotlett-i-skysas-med-parmesan-och-timjanrostad-potatis",
+    "harvestedAt": "2026-07-18T20:32:25.251Z"
+  }
+}

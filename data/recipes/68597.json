@@ -1,0 +1,187 @@
+{
+  "recipeId": 68597,
+  "mainRecipeId": null,
+  "name": "Grillad kyckling och gemsallad med majs- och fetaostsalsa",
+  "headline": "Grillad kyckling och gemsallad",
+  "subheadline": "med majs- och fetaostsalsa",
+  "description": null,
+  "chefTip": "Vill du inte grilla? Byt ut grillen mot en stek- eller grillpanna och följ receptet.",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik",
+    "Grill"
+  ],
+  "allergies": [
+    "Ägg",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 701,
+    "protein": 47.27,
+    "carbs": 61.05,
+    "fat": 29.71
+  },
+  "co2eKgPerServing": 0.746,
+  "rating": {
+    "average": 4.04,
+    "count": 135
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "majskolv",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st majskolv",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "röd chili",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grillad majssalsa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "På grillen",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "På grillen",
+      "name": "gemsallad",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp gemsallad",
+      "isBasis": false
+    },
+    {
+      "section": "På grillen",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig). Om du vill grilla, tänd grillen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Lägg potatis på en ugnsplåt (om de är stora, dela potatisen) och blanda med lite olivolja och salt. Rosta i mitten av ugnen ca 20 min, tills potatisen är mjuk."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "På grillen: Krydda kycklingfilé med salt och nymald svartpeppar. Grilla ca 4 min per sida, tills den är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grillad majssalsa: Grilla majskolvar ca 5 min runt om, tills de fått fin färg. Skär bort majskornen från kolven med en vass kniv och lägg i en bunke, det gör inget om det blir lite större bitar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tvätta lime i ljummet vatten, finriv det yttersta skalet och pressa saften. Blanda ner i bunken med majs. Finhacka vitlök och röd chili (tänk på att färsk chili kan variera i styrka, använd efter smak). Grovhacka koriander och smula fetaost. Blanda ner allt i bunken med majs. Rör ner majonnäs, salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "På grillen: Halvera gemsallad och citron. Grilla citronen på snittytan ca 3 min, tills den fått ordentligt med färg. Grilla salladen ca 1 min på snittytan."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera grillad kyckling med majssalsa, rostad potatis, grillad gemsallad och citron."
+    }
+  ],
+  "images": {
+    "large": "images/68597-large.jpg",
+    "small": "images/68597-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/68597/grillad-kyckling-och-gemsallad-med-majs-och-fetaostsalsa",
+    "harvestedAt": "2026-07-18T20:32:17.209Z"
+  }
+}

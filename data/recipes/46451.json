@@ -1,0 +1,252 @@
+{
+  "recipeId": 46451,
+  "mainRecipeId": null,
+  "name": "Köttfärslimpa med skysås och pressgurka",
+  "headline": "Köttfärslimpa med skysås",
+  "subheadline": "och pressgurka",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Sojabönor",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 542,
+    "protein": 31.72,
+    "carbs": 53.35,
+    "fat": 22.44
+  },
+  "co2eKgPerServing": 4.3,
+  "rating": {
+    "average": 4.18,
+    "count": 253
+  },
+  "ingredients": [
+    {
+      "section": "Tillbehör",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Tillbehör",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärslimpa",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärslimpa",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärslimpa",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärslimpa",
+      "name": "kinesisk soja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärslimpa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärslimpa",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Pressgurka",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Pressgurka",
+      "name": "ättiksprit (12%)",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Skysås",
+      "name": "smör",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Skysås",
+      "name": "vetemjöl",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Skysås",
+      "name": "vatten",
+      "amount": 2.5,
+      "unit": "dl",
+      "raw": "2 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Skysås",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk balsamvinäger",
+      "isBasis": true
+    },
+    {
+      "section": "Skysås",
+      "name": "oxbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp oxbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Skysås",
+      "name": "kinesisk soja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Skysås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Skysås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Köttfärslimpa: Finhacka bananschalottenlök. Lägg löken i en bunke och blanda ner mjölk, salt, kinesisk soja, lite nymald svartpeppar och nötfärs."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Forma färsen till en smal limpa och lägg i en smord ugnsform. Tillaga mitt i ugnen ca 30 min, tills limpan är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Koka potatis i lättsaltat vatten. Dela morötter i stubbar. Låt koka med potatisen ca 5 min mot slutet av tillagningstiden."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Pressgurka: Skär gurka i tunna skivor, gärna med osthyvel. Lägg i en bunke och tillsätt ättiksprit, socker och vatten. Blanda och låt stå till servering."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Skysås: Smält smör i en liten kastrull. Pudra över vetemjöl. Vispa ner skyn från formen med köttfärslimpa, vatten, balsamvinäger, oxbuljong och kinesisk soja. Koka upp och sjud, ca 5 min tills skyn tjocknat något. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Grovhacka bladpersilja. Servera köttfärslimpa med nykokt potatis, skysås, pressgurka och morötter. Toppa med persilja."
+    }
+  ],
+  "images": {
+    "large": "images/46451-large.jpg",
+    "small": "images/46451-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46451/kottfarslimpa-med-skysas-och-pressgurka",
+    "harvestedAt": "2026-07-18T20:32:00.508Z"
+  }
+}

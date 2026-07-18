@@ -1,0 +1,230 @@
+{
+  "recipeId": 46729,
+  "mainRecipeId": null,
+  "name": "Svampsoppa med grönkålschips och getostgratinerat bröd",
+  "headline": "Svampsoppa med grönkålschips",
+  "subheadline": "och getostgratinerat bröd",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Sojabönor",
+    "Svaveldioxid",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 561,
+    "protein": 26.69,
+    "carbs": 50.22,
+    "fat": 28.19
+  },
+  "co2eKgPerServing": 0.831,
+  "rating": {
+    "average": 4.14,
+    "count": 284
+  },
+  "ingredients": [
+    {
+      "section": "Svampsoppa",
+      "name": "skogschampinjoner",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g skogschampinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "mjölk",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl mjölk",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "japansk soja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Svampsoppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Getostgratinerat bröd",
+      "name": "chèvre",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g chèvre",
+      "isBasis": false
+    },
+    {
+      "section": "Getostgratinerat bröd",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Getostgratinerat bröd",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Grönkålschips",
+      "name": "strimlad grönkål",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g strimlad grönkål",
+      "isBasis": false
+    },
+    {
+      "section": "Grönkålschips",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Grönkålschips",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönkålschips",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Svampsoppa: Kvarta skogschampinjoner. Grovhacka gul lök och vitlök."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp lite smör i en rymlig kastrull och fräs svamp, lök och vitlök ca 2 min. Tillsätt vatten, mjölk, vispgrädde och grönsaksbuljong. Låt koka upp och sjud ca 15 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grönkålschips: Lägg strimlad grönkål på en plåt med bakplåtspapper och blanda med lite olivolja och salt. Rosta i nedre delen av ugnen ca 8 min, tills kålen blivit krispig. Passa noga så att den inte bränns."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Getostgratinerat bröd: Smula getost. Skiva surdegspavé och lägg på en plåt med bakplåtspapper. Strö osten över brödet och gratinera högt upp i ugnen ca 8 min, tills osten fått fin färg."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Ta soppan från värmen och mixa slätt. Smaka av med japansk soja, vitvinsvinäger och rikligt med nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Toppa svampsoppan med grönkålschips. Servera med getostgratinerat bröd."
+    }
+  ],
+  "images": {
+    "large": "images/46729-large.jpg",
+    "small": "images/46729-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46729/svampsoppa-med-gronkalschips-och-getostgratinerat-brod",
+    "harvestedAt": "2026-07-18T20:32:01.664Z"
+  }
+}

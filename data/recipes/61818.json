@@ -1,0 +1,228 @@
+{
+  "recipeId": 61818,
+  "mainRecipeId": null,
+  "name": "Kalkonfärsbiffar med vitlökssås och bulgur",
+  "headline": "Kalkonfärsbiffar med vitlökssås",
+  "subheadline": "och bulgur",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 551,
+    "protein": 38.46,
+    "carbs": 42.12,
+    "fat": 25.45
+  },
+  "co2eKgPerServing": 0.945,
+  "rating": {
+    "average": 4,
+    "count": 367
+  },
+  "ingredients": [
+    {
+      "section": "Kalkonfärsbiffar",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärsbiffar",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärsbiffar",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärsbiffar",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärsbiffar",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonfärsbiffar",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonfärsbiffar",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "vitlök",
+      "amount": null,
+      "unit": "klyfta",
+      "raw": "½-1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgur",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Bulgur: Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kalkonfärsbiffar: Lägg kalkonfärs i en bunke. Blanda med torkad oregano, salt, chili flakes, pressad vitlök och lite nymald svartpeppar. Forma färsen till 2 biffar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp lite olivolja i en stekpanna och stek biffarna ca 2 min per sida. Lägg biffarna i en ugnsform och tillaga klart mitt i ugnen ca 10 min, tills biffarna är helt genomstekta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Vitlökssås: Blanda gräddfil och pressad vitlök i en liten skål. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Sallad: Halvera cocktailtomater. Lägg cocktailtomater och mixsallad i en salladsskål. Dressa med olivolja, vitvinsvinäger, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera kalkonfärsbiffar med nykokt bulgur, vitlökssås och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/61818-large.jpg",
+    "small": "images/61818-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61818/kalkonfarsbiffar-med-vitlokssas-och-bulgur",
+    "harvestedAt": "2026-07-18T20:32:15.858Z"
+  }
+}

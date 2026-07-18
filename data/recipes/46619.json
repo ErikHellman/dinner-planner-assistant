@@ -1,0 +1,243 @@
+{
+  "recipeId": 46619,
+  "mainRecipeId": null,
+  "name": "BBQ-chicken wraps med coleslaw",
+  "headline": "BBQ-chicken wraps",
+  "subheadline": "med coleslaw",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Sommar",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Svaveldioxid",
+    "Senap",
+    "Mjölk",
+    "Laktos",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 738,
+    "protein": 41.04,
+    "carbs": 61.54,
+    "fat": 36.36
+  },
+  "co2eKgPerServing": 0.666,
+  "rating": {
+    "average": null,
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "section": "Marinad",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Marinad",
+      "name": "japansk soja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Marinad",
+      "name": "paprikapulver",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Marinad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Marinad",
+      "name": "flytande honung",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Marinad",
+      "name": "spiskummin",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Marinad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "BBQ-chicken",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "BBQ-chicken",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "BBQ-chicken",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "BBQ-chicken",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Coleslaw",
+      "name": "coleslawmix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coleslawmix",
+      "isBasis": false
+    },
+    {
+      "section": "Coleslaw",
+      "name": "matyoghurt",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Coleslaw",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Coleslaw",
+      "name": "senap",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk senap",
+      "isBasis": false
+    },
+    {
+      "section": "Coleslaw",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Coleslaw",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Coleslaw",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "tortillabröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tortillabröd",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Marinad: Lägg tomatpuré i en bunke. Blanda med japansk soja, paprikapulver, vitvinsvinäger, honung, spiskummin och salt."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "BBQ-chicken: Skiva bananschalottenlök och skär kycklinglårfilé i mindre bitar. Blanda med marinaden i bunken."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Coleslaw: Lägg coleslawmix i en bunke. Blanda med matyoghurt, majonnäs, senap, pressad vitlök, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "BBQ-chicken: Hetta upp lite olivolja i en rymlig stekpanna. Stek kyckling, lök och marinad ca 5 min. Tillsätt vatten och stek ytterligare ca 4 min, tills kycklingen är helt genomstekt. Tillsätt eventuellt lite mer vatten om pannan blir torr, så att marinaden inte bränner."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Skiva tomat. Lägg upp i en skål. Värm gärna tortillabröden i en torr och het stekpanna."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Fyll varma tortillabröd med BBQ-chicken, coleslaw och tomat. Servera direkt!"
+    }
+  ],
+  "images": {
+    "large": "images/46619-large.jpg",
+    "small": "images/46619-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46619/bbq-chicken-wraps-med-coleslaw",
+    "harvestedAt": "2026-07-18T20:32:01.430Z"
+  }
+}

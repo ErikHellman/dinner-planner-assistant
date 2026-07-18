@@ -1,0 +1,232 @@
+{
+  "recipeId": 46929,
+  "mainRecipeId": null,
+  "name": "Grillad fläskkotlett med ruccola- och citronrostad potatis, tzatziki och grillad citron",
+  "headline": "Grillad fläskkotlett med ruccola- och citronrostad potatis",
+  "subheadline": "tzatziki och grillad citron",
+  "description": null,
+  "chefTip": "Vill du grilla, tänd grillen!",
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Sommar",
+    "Kalorisnål",
+    "Klassiker",
+    "Grill"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 492,
+    "protein": 38.29,
+    "carbs": 45.4,
+    "fat": 17.52
+  },
+  "co2eKgPerServing": 0.874,
+  "rating": {
+    "average": 3.97,
+    "count": 192
+  },
+  "ingredients": [
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Ruccola- & citronrostad potatis",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitvinsvinäger 15ml",
+      "amount": null,
+      "unit": "påse",
+      "raw": "⅕ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grillad fläskkotlett",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grillad fläskkotlett",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ruccola- och citronrostad potatis: Halvera potatis och skär morötter i grova bitar. Lägg allt på en ugnsplåt med bakplåtspapper och blanda med lite olivolja, salt och nymald svartpeppar. Rosta i mitten av ugnen ca 25 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Grovhacka ruccola. Skölj citronen i ljummet vatten och finriv skalet. Lägg citronskal och ruccola i en skål. Halvera citronen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tzatziki: Grovriv gurka. Pressa ur vätskan och lägg gurkan i en skål. Blanda ner matyoghurt, salt, vitvinsvinäger, olivolja, nymald svartpeppar och pressad vitlök."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grillad fläskkotlett: Skär fläskkotlett i 2 jämntjocka skivor. Krydda med salt och nymald svartpeppar. Smörj in köttet med lite olivolja. Grilla köttet i en grillpanna eller stek i en stekpanna ca 3 min per sida, tills det är helt genomstekt. Grilla eller stek samtidigt citronen på snittytan, tills den fått en grillad yta."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Blanda den rostade potatisen och morötterna med ruccola och citronskal. Servera tillsammans med grillade fläskkotletter, tzatziki och grillad citron."
+    }
+  ],
+  "images": {
+    "large": "images/46929-large.jpg",
+    "small": "images/46929-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46929/grillad-flaskkotlett-med-ruccola-och-citronrostad-potatis-tzatziki-och-grillad-citron",
+    "harvestedAt": "2026-07-18T20:32:05.495Z"
+  }
+}

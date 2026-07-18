@@ -1,0 +1,225 @@
+{
+  "recipeId": 52525,
+  "mainRecipeId": null,
+  "name": "Citronrisotto med getostbakad fänkål och mandelspån",
+  "headline": "Citronsrisotto med getostbakad fänkål",
+  "subheadline": "och mandelspån",
+  "description": null,
+  "chefTip": "Rosta gärna mandelspånen i en torr stekpanna ca 1 min!",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 25,
+    "max": 35
+  },
+  "categories": [
+    "Vegetariskt"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pistaschmandel",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 659,
+    "protein": 27.29,
+    "carbs": 69.8,
+    "fat": 30.04
+  },
+  "co2eKgPerServing": 0.792,
+  "rating": {
+    "average": 3.96,
+    "count": 340
+  },
+  "ingredients": [
+    {
+      "section": "Getostbakad fänkål",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Getostbakad fänkål",
+      "name": "chèvre",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g chèvre",
+      "isBasis": false
+    },
+    {
+      "section": "Getostbakad fänkål",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Getostbakad fänkål",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Getostbakad fänkål",
+      "name": "salt",
+      "amount": null,
+      "unit": "dl",
+      "raw": "dl salt",
+      "isBasis": true
+    },
+    {
+      "section": "Getostbakad fänkål",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "vatten",
+      "amount": 7,
+      "unit": "dl",
+      "raw": "7 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "chèvre",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g chèvre",
+      "isBasis": false
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "salt",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Citronrisotto",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "mandelspån",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g mandelspån",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Getostbakad fänkål: Skär fänkål i tunna skivor. Lägg fänkål på en plåt med bakplåtspapper. Smula över getost och ringla över lite olivolja. Krydda med lite salt och nymald svartpeppar. Baka mitt i ugnen ca 15 min, tills fänkålen är mjuk och har fått färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Förberedelse citronrisotto: Koka upp vatten och grönsaksbuljong i en kastrull. Finhacka schalottenlök och vitlök."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Citronrisotto: Hetta upp lite olivolja i en stekgryta och fräs lök, vitlök och risottoris ca 3 min. Späd riset med den varma buljongen, lite i taget. När buljongen kokat in, tillsätt mer och fortsätt så tills all buljong kokat in eller riset känns mjukt. Rör om då och då."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Skölj citron i ljummet vatten och finriv skalet. Finriv getost. Ta risotton från värmen och rör ner getost, citronskal och pressad citronsaft (ca 1 msk). Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera citronrisotto toppad med getostbakad fänkål, mandelspån (se tips!) och ruccola."
+    }
+  ],
+  "images": {
+    "large": "images/52525-large.jpg",
+    "small": "images/52525-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/52525/citronrisotto-med-getostbakad-fankal-och-mandelspan",
+    "harvestedAt": "2026-07-18T20:32:08.257Z"
+  }
+}

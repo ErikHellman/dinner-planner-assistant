@@ -1,0 +1,241 @@
+{
+  "recipeId": 46596,
+  "mainRecipeId": null,
+  "name": "Ugnsbakad kyckling med senapssås och tomatsallad",
+  "headline": "Ugnsbakad kyckling med senapssås",
+  "subheadline": "och tomatsallad",
+  "description": null,
+  "chefTip": "Om du har, använd gärna en stektermometer.",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Vete",
+    "Laktos",
+    "Senap",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 621,
+    "protein": 49.33,
+    "carbs": 50.8,
+    "fat": 24.54
+  },
+  "co2eKgPerServing": 0.976,
+  "rating": {
+    "average": 4.13,
+    "count": 1041
+  },
+  "ingredients": [
+    {
+      "section": "Senapssås",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Senapssås",
+      "name": "vetemjöl",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Senapssås",
+      "name": "mjölk",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Senapssås",
+      "name": "vispgrädde",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Senapssås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Senapssås",
+      "name": "torkad dragon",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Senapssås",
+      "name": "dijonsenap",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Senapssås",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Senapssås",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsbakad kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsbakad kyckling",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsbakad kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsbakad kyckling",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tomatsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka potatis mjuk i lättsaltat vatten. Skär broccoli i små buketter och låt koka med potatisen de sista 2 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Senapssås: Smält lite smör i en kastrull. Pudra över vetemjöl. Vispa ner mjölk (lite i taget), vispgrädde, kycklingbuljong, torkad dragon, dijonsenap, socker och vitvinsvinäger. Sjud ca 4 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Ugnsbakad kyckling: Dela kycklingfilé på längden. Krydda med salt och lite nymald svartpeppar. Hetta upp lite olivolja i en stekpanna. Bryn kycklingen på hög värme ca 2 min per sida. Lägg i en smord ugnsform och häll över senapssåsen. Tillaga mitt i ugnen ca 8 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tomatsallad: Tärna tomat och finhacka bananschalottenlök. Lägg allt i en skål. Blanda med vitvinsvinäger, lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera ugnsbakad kyckling med senapssås, kokt potatis, broccoli och tomatsallad."
+    }
+  ],
+  "images": {
+    "large": "images/46596-large.jpg",
+    "small": "images/46596-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46596/ugnsbakad-kyckling-med-senapssas-och-tomatsallad",
+    "harvestedAt": "2026-07-18T20:32:00.752Z"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "recipeId": 47431,
+  "mainRecipeId": null,
+  "name": "Mustig grönsaksgryta med couscous och fetaost",
+  "headline": "Mustig grönsaksgryta",
+  "subheadline": "med couscous och fetaost",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 533,
+    "protein": 26.86,
+    "carbs": 67.98,
+    "fat": 17.12
+  },
+  "co2eKgPerServing": 0.558,
+  "rating": {
+    "average": 3.75,
+    "count": 68
+  },
+  "ingredients": [
+    {
+      "section": "Grönsaksgryta",
+      "name": "kidneybönor (380g)",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kidneybönor (380g)",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "cocktailtomater",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g cocktailtomater",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "flytande honung",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "spiskummin",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grönsaksgryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Couscous",
+      "name": "couscous",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g couscous",
+      "isBasis": false
+    },
+    {
+      "section": "Couscous",
+      "name": "vatten",
+      "amount": 2.5,
+      "unit": "dl",
+      "raw": "2 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Couscous",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Topping",
+      "name": "fetaost",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g fetaost",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Grönsaksgryta: Häll av och skölj kidneybönor. Halvera och skär bort rotfästet på fänkålen. Skär fänkål och morot i cm-stora bitar."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Hetta upp olivolja i en stekgryta. Fräs fänkål, morot, cocktailtomater och pressad vitlök ca 5 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tillsätt tomatpuré, flytande honung, paprikapulver, spiskummin, chili flakes, vatten och grönsaksbuljong. Låt koka under lock ca 10 min. Lägg ner bönorna när ca 2 min av koktiden återstår. Smaka av grytan med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Couscous: Häll couscous i en bunke. Koka upp vatten och grönsaksbuljong. Häll den varma buljongen över couscousen och låt stå ca 10 min. Fluffa grynen med en gaffel."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Topping: Finstrimla salladslök. Bryt fetaost i mindre bitar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Strö fetaost och salladslök över grytan. Servera mustig grönsaksgryta med nykokt couscous."
+    }
+  ],
+  "images": {
+    "large": "images/47431-large.jpg",
+    "small": "images/47431-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/47431/mustig-gronsaksgryta-med-couscous-och-fetaost",
+    "harvestedAt": "2026-07-18T20:32:06.407Z"
+  }
+}

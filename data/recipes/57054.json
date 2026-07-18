@@ -1,0 +1,242 @@
+{
+  "recipeId": 57054,
+  "mainRecipeId": null,
+  "name": "Köttfärssoppa med vitlöksbröd",
+  "headline": "Köttfärssoppa med vitlöksbröd",
+  "subheadline": null,
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Senap",
+    "Nötter",
+    "Svaveldioxid",
+    "Mjölk",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 760,
+    "protein": 40.48,
+    "carbs": 86.64,
+    "fat": 27.99
+  },
+  "co2eKgPerServing": 4.71,
+  "rating": {
+    "average": 3.85,
+    "count": 110
+  },
+  "ingredients": [
+    {
+      "section": "Köttfärssoppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "vitkål",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g vitkål",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "paprikapulver",
+      "amount": 1.5,
+      "unit": "tsk",
+      "raw": "1½ tsk paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "peppar- och fänkålsmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp peppar- och fänkålsmix",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "socker",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Köttfärssoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "surdegsbaguette",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st surdegsbaguette",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "vitlök",
+      "amount": null,
+      "unit": "klyfta",
+      "raw": "½-1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g smör",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksbröd",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Hacka gul lök. Skär vitkål i ca 2x2 cm stora bitar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Köttfärssoppa: Hetta upp lite neutral olja i en rymlig stekgryta. Fräs vitkål och gul lök ca 3 min. Tillsätt nötfärs, pressad vitlök, tomatpuré, paprikapulver och peppar- och fänkålsmix, fräs ytterligare ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt vatten, krossade tomater, vitvinsvinäger, lite chili flakes (efter egen smak) och kycklingbuljong. Koka upp och sjud ca 15 min eller till servering. Smaka av med lite socker, salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Vitlöksbröd: Blanda pressad vitlök med rumstempererat smör på en tallrik. Dela surdegsbaguetten på mitten och dela till fyra halvor. Fördela vitlökssmöret på brödhalvorna toppa med lite salt. Tillaga högt upp i ugnen ca 10 min, tills brödet har fått fin färg."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera köttfärssoppa med vitlöksbröd."
+    }
+  ],
+  "images": {
+    "large": "images/57054-large.jpg",
+    "small": "images/57054-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/57054/kottfarssoppa-med-vitloksbrod",
+    "harvestedAt": "2026-07-18T20:32:09.405Z"
+  }
+}

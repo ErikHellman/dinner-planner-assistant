@@ -1,0 +1,263 @@
+{
+  "recipeId": 58024,
+  "mainRecipeId": null,
+  "name": "Halstrad torsk med brynt smörvinaigrette, parmesan och bakade tomater",
+  "headline": "Halstrad torsk med brynt smörvinaigrette",
+  "subheadline": "parmesan och bakade tomater",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Svaveldioxid",
+    "Vete",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 566,
+    "protein": 42.28,
+    "carbs": 48.75,
+    "fat": 22.44
+  },
+  "co2eKgPerServing": 0.628,
+  "rating": {
+    "average": null,
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "section": "Brynt smörvinaigrette",
+      "name": "smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g smör",
+      "isBasis": true
+    },
+    {
+      "section": "Brynt smörvinaigrette",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "potatisgnocchi",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g potatisgnocchi",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gnocchi",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gnocchi",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gnocchi",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad tomat",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad tomat",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad tomat",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad tomat",
+      "name": "socker",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad tomat",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Halstrad torsk",
+      "name": "torskfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g torskfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Halstrad torsk",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Halstrad torsk",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "riven parmesan",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g riven parmesan",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Gnocchi: Lägg potatisgnocchi i en bunke med kallt vatten. Låt ligga minst 10 min. Gnocchin tillagas klart i punkt 7."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Brynt smörvinaigrette: Hetta upp smör i en liten kastrull. När smöret \"tystnar\" börjar det att brynas, vispa då hela tiden. När det har en gyllenbrun färg är det klart. Dra kastrullen från värmen och vispa ner vitvinsvinäger."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Bakad tomat: Klyfta tomater. Lägg på en ugnsplåt med bakplåtspapper. Krydda med salt, socker och ringla över lite olivolja. Tillaga mitt i ugnen ca 10 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Finstrimla bananschalottenlök. Lägg i en skål och blanda med salladsmix, olivolja, vitvinsvinäger, salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Halstrad torsk: Skär torskfilé i 2 portionsbitar. Krydda med salt. Hetta upp lite olivolja i en stekpanna och stek fisken ca 2 min per sida, tills den är klar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Gnocchi: Häll av gnocchin. Hetta upp lite olivolja i en stekpanna och stek gnocchin ca 2 min. Tillsätt pressad vitlök och krydda med lite salt och nymald svartpeppar. Stek ytterligare ca 3 min."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servera nystekt torsk med vitlöksstekt gnocchi, bakad tomat och sallad. Ringla över brynt smörvinaigrette och toppa med riven parmesan."
+    }
+  ],
+  "images": {
+    "large": "images/58024-large.jpg",
+    "small": "images/58024-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/58024/halstrad-torsk-med-brynt-smorvinaigrette-parmesan-och-bakade-tomater",
+    "harvestedAt": "2026-07-18T20:32:10.151Z"
+  }
+}

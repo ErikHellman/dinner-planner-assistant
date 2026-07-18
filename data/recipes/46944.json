@@ -1,0 +1,197 @@
+{
+  "recipeId": 46944,
+  "mainRecipeId": null,
+  "name": "Moqueca - Brasiliansk fiskgryta med paprika, kokos och lime",
+  "headline": "Moqueca - Brasiliansk fiskgryta",
+  "subheadline": "med paprika, kokos och lime",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 25,
+    "max": 35
+  },
+  "categories": [
+    "Fisk och skaldjur"
+  ],
+  "allergies": [
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 614,
+    "protein": 38.81,
+    "carbs": 77.67,
+    "fat": 16.48
+  },
+  "co2eKgPerServing": 1.076,
+  "rating": {
+    "average": null,
+    "count": 37
+  },
+  "ingredients": [
+    {
+      "section": "Moqueca",
+      "name": "torskfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g torskfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "grön chili",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grön chili",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Moqueca",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Moqueca",
+      "name": "paprikapulver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "coconut cream",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp coconut cream",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Moqueca",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "basmatiris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g basmatiris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "grön paprika",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st grön paprika",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka basmatiris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Moqueca: Skär torskfilé i mindre bitar och lägg i en skål. Tvätta limen i ljummet vatten och finriv skalet. Skiva grön chili tunt. Blanda ner limeskal, chili, salt och pressad saft från halva limen i skålen. Klyfta resten av den använda limen till servering."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Finhacka bananschalottenlök och vitlök. Tärna röd paprika. Hetta upp olivolja i en stekgryta och fräs lök, vitlök och paprika ca 2 min. Tillsätt paprikapulver, krossade tomater, coconut cream, grönsaksbuljong och nymald svartpeppar. Koka ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Vänd ner fisken i grytan och sjud ca 2 min, tills fisken är klar. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Till servering: Tärna grön paprika smått. Grovhacka koriander. Servera moqueca med basmatiris och limeklyfta. Toppa med grön paprika och koriander!"
+    }
+  ],
+  "images": {
+    "large": "images/46944-large.jpg",
+    "small": "images/46944-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46944/moqueca-brasiliansk-fiskgryta-med-paprika-kokos-och-lime",
+    "harvestedAt": "2026-07-18T20:32:06.225Z"
+  }
+}

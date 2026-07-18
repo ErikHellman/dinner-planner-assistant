@@ -1,0 +1,270 @@
+{
+  "recipeId": 90764,
+  "mainRecipeId": null,
+  "name": "Stekt fläskkotlett med örtrostad potatis och mild chilisås",
+  "headline": "Stekt fläskkotlett med örtrostad potatis",
+  "subheadline": "och mild chilisås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Selleri",
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 542,
+    "protein": 36.76,
+    "carbs": 56.72,
+    "fat": 18.71
+  },
+  "co2eKgPerServing": 0.935,
+  "rating": {
+    "average": 4.13,
+    "count": 446
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "örtmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Chilisås",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Chilisås",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Chilisås",
+      "name": "sweet chilisås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp sweet chilisås",
+      "isBasis": false
+    },
+    {
+      "section": "Chilisås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Chilisås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "rödlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "rädisor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rädisor",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fläskkotlett",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Halvera potatis och lägg på en ugnsplåt med bakplåtspapper. Blanda med olja, örtmix, salt och lite nymald svartpeppar. Tillaga högt upp i ugnen ca 25 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Chilisås: Lägg gräddfil i en skål. Blanda med sweet chilisås och pressad vitlök. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Sallad: Blanda ihop vitvinsvinäger, olivolja, vatten, salt och lite nymald svartpeppar i en salladsskål. Finstrimla rödlök och kvarta rädisor. Tärna tomat. Lägg ner i salladsskålen. Blanda ner mixsallad vid servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fläskkotlett: Dela fläskkotlett i jämntjocka skivor. Krydda med salt och nymald svartpeppar. Hetta upp olja i en rymlig stekpanna. Stek köttet ca 3 min per sida, tills det är helt genomstekt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera stekt fläskkotlett med rostad potatis, chilisås och sallad."
+    }
+  ],
+  "images": {
+    "large": "images/90764-large.jpg",
+    "small": "images/90764-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90764/stekt-flaskkotlett-med-ortrostad-potatis-och-mild-chilisas",
+    "harvestedAt": "2026-07-18T20:32:23.722Z"
+  }
+}

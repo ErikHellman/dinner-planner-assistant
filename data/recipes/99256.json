@@ -1,0 +1,167 @@
+{
+  "recipeId": 99256,
+  "mainRecipeId": null,
+  "name": "Asiatisk kalkonbowl med fullkornsris",
+  "headline": "Asiatisk kalkonbowl",
+  "subheadline": "med fullkornsris",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 554,
+    "protein": 35.71,
+    "carbs": 68.37,
+    "fat": 15.33
+  },
+  "co2eKgPerServing": 0.829,
+  "rating": {
+    "average": 4.07,
+    "count": 727
+  },
+  "ingredients": [
+    {
+      "section": "Kalkonbowl",
+      "name": "morot",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "kalkonfärs",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kalkonfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "soja- och ingefärssås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp soja- och ingefärssås",
+      "isBasis": false
+    },
+    {
+      "section": "Kalkonbowl",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "fullkornsris",
+      "amount": 135,
+      "unit": "g",
+      "raw": "135 g fullkornsris",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "lime",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st lime",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka fullkornsris enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Skala och grovriv morot. Finhacka schalottenlök och finriv vitlök. Skiva snackgurka tunt, gärna på mandolin. Grovhacka koriander."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Kalkonbowl: Hetta upp lite olja i en rymlig stekpanna. Fräs schalottenlök ca 2 min. Blanda ner vitlök, kalkonfärs och morötter, fräs ytterligare ca 5 min, tills färsen är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt vatten, soja- och ingefärssås och srirachasås (efter egen smak). Koka upp och låt sjuda tills vätskan kokat in något. Ta från plattan och blanda ner hackad koriander."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Klyfta lime. Fördela fullkornsris, färs och gurka i två skålar. Servera med limeklyftor."
+    }
+  ],
+  "images": {
+    "large": "images/99256-large.jpg",
+    "small": "images/99256-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/99256/asiatisk-kalkonbowl-med-fullkornsris",
+    "harvestedAt": "2026-07-18T20:32:30.278Z"
+  }
+}

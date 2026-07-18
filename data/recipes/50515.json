@@ -1,0 +1,201 @@
+{
+  "recipeId": 50515,
+  "mainRecipeId": null,
+  "name": "Koreansk svamppasta med portabello, salladslök och sesamolja",
+  "headline": "Koreansk svamppasta",
+  "subheadline": "portabello, salladslök och sesamolja",
+  "description": null,
+  "chefTip": "Tänk på att chili varierar i styrka. Smaka dig fram till lagom hetta! ",
+  "mainIngredient": "Vegan",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Vegan",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Senap",
+    "Vete",
+    "Sesamfrön",
+    "Havre",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 577,
+    "protein": 19.66,
+    "carbs": 85.65,
+    "fat": 17.33
+  },
+  "co2eKgPerServing": 0.381,
+  "rating": {
+    "average": 3.89,
+    "count": 639
+  },
+  "ingredients": [
+    {
+      "section": "Till servering",
+      "name": "pak choy",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st pak choy",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mezze maniche rigate",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g mezze maniche rigate",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "portabello",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g portabello",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "röd chili",
+      "amount": null,
+      "unit": "st",
+      "raw": "½-1 st röd chili",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "riven ingefära",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp riven ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "tomatpuré",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "japansk soja",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1 ½ msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "imat fraiche",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl imat fraiche",
+      "isBasis": false
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Koreansk portabellosås",
+      "name": "svartpeppar",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp lättsaltat vatten i en rymlig kastrull till pastakoket i punkt 3."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelser: Skär portabello i mindre bitar. Finhacka vitlök. Strimla pak choy och skär salladslök och röd chili tunt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Koka mezze maniche enligt anvisning på förpackningen. Spara ca &frac12; dl av pastavattnet när du häller av pastan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Koreansk portabellosås: Hetta upp olja i en rymlig stekpanna. Fräs portabellosvamp, riven ingefära, vitlök och ca hälften av den röda chilin ca 5 min, tills svampen mjuknat. Tillsätt tomatpur&egrave;, sesamolja, japansk soja, imat fraiche och socker. Låt koka ihop ca 2 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Blanda kokt pasta med pak choy, portabellosås och pastavatten. Smaka av med lite nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Toppa svamppasta med salladslök och resten av den röda chilin."
+    }
+  ],
+  "images": {
+    "large": "images/50515-large.jpg",
+    "small": "images/50515-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/50515/koreansk-svamppasta-med-portabello-salladslok-och-sesamolja",
+    "harvestedAt": "2026-07-18T20:32:08.474Z"
+  }
+}

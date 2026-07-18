@@ -1,0 +1,229 @@
+{
+  "recipeId": 74599,
+  "mainRecipeId": null,
+  "name": "Grillad kycklingfilé med ugnsrostade rotsaker och kryddsmör",
+  "headline": "Grillad kycklingfilé",
+  "subheadline": "med ugnsrostade rotsaker och kryddsmör",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Selleri",
+    "Mjölk",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 515,
+    "protein": 40.86,
+    "carbs": 47.78,
+    "fat": 17.88
+  },
+  "co2eKgPerServing": 0.738,
+  "rating": {
+    "average": null,
+    "count": 21
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "rotselleri",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g rotselleri",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostade rotfrukter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grillad kycklingfilé",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Grillad kycklingfilé",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grillad kycklingfilé",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddsmör",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddsmör",
+      "name": "rumstempererat  smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g rumstempererat  smör",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddsmör",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddsmör",
+      "name": "rökt chilimix",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddsmör",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "balsamvinäger",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp balsamvinäger",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ugnsrostade rotfrukter: Skala rotselleri. Skär potatis, rotselleri och morot i grova bitar och lägg på en ugnsplåt med bakplåtspapper. Blanda med olivolja, salt och nymald svartpeppar. Tillaga mitt i ugnen ca 25 min, tills rotfrukterna är mjuka och fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Grillad kycklingfilé: Krydda kycklingfilé med salt och nymald svartpeppar. Grilla kycklingen ca 3 min per sida i en grillpanna. Har du ingen grillpanna stek kycklingen i en stekpanna med lite olivolja. Lägg över i en ugnsform och tillaga klart längst ner i ugnen ca 10 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kryddsmör: Finhacka schalottenlök och lägg i en skål. Blanda ner smör, salt, rökt chilikrydda och lite nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Tärna tomat. Lägg tomat och mixsallad i en salladsskål. Blanda ner olivolja och balsamvinäger. Smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera grillad kycklingfilé med ugnsrostad potatis, rotfrukter, sallad och toppa med en klick kryddsmör."
+    }
+  ],
+  "images": {
+    "large": "images/74599-large.jpg",
+    "small": "images/74599-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/74599/grillad-kycklingfile-med-ugnsrostade-rotsaker-och-kryddsmor",
+    "harvestedAt": "2026-07-18T20:32:18.332Z"
+  }
+}

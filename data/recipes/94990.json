@@ -1,0 +1,226 @@
+{
+  "recipeId": 94990,
+  "mainRecipeId": null,
+  "name": "Smörstekt uerfilé med sauce verts på gröna ärtor, pepparrot och potatis",
+  "headline": "Smörstekt uerfilé",
+  "subheadline": "med sauce verts på gröna ärtor, pepparrot och potatis",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klassiker",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 572,
+    "protein": 42.25,
+    "carbs": 52.57,
+    "fat": 21.42
+  },
+  "co2eKgPerServing": 2.478,
+  "rating": {
+    "average": 4.04,
+    "count": 481
+  },
+  "ingredients": [
+    {
+      "section": "Sauce verts",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sauce verts",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Sauce verts",
+      "name": "gröna ärtor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp gröna ärtor",
+      "isBasis": false
+    },
+    {
+      "section": "Sauce verts",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Sauce verts",
+      "name": "mjölk",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Sauce verts",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Sauce verts",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Sauce verts",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Sauce verts",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Sauce verts",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sauce verts",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Smörstekt uer",
+      "name": "uerfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g uerfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Smörstekt uer",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Smörstekt uer",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Smörstekt uer",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "pepparrot",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st pepparrot",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka potatis mjuk i lättsaltat vatten. Dela broccoli i mindre buketter. Avslutat med att koka med broccolin de sista 2 minuterna."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Sauce verts: Hacka schalottenlök. Hetta upp lite smör i en kastrull och fräs lök ca 2 min. Tillsätt gröna ärtor, vispgrädde, mjölk, vitvinsvinäger och grönsaksbuljong. Koka upp och sjud ca 5 min. Mixa med stavmixer och smaka av med lite pressad citronsaft, salt och nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Smörstekt uer: Krydda uerfilé med salt och lite nymald svartpeppar. Hetta upp smör i en rymlig stekpanna. Stek fisken ca 2-3 min per sida, tills den är klar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Till servering: Skala och finriv pepparrot. Klyfta resten av citronen."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera smörstekt uer med kokt potatis, broccoli, sauce verts och citronklyfta. Toppa med riven pepparrot."
+    }
+  ],
+  "images": {
+    "large": "images/94990-large.jpg",
+    "small": "images/94990-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/94990/smorstekt-uerfile-med-sauce-verts-pa-grona-artor-pepparrot-och-potatis",
+    "harvestedAt": "2026-07-18T20:32:28.400Z"
+  }
+}

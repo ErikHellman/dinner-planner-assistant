@@ -1,0 +1,204 @@
+{
+  "recipeId": 46790,
+  "mainRecipeId": null,
+  "name": "Torskfilé med dragonaioli och ljummen fänkålssallad",
+  "headline": "Torskfilé med dragonaioli",
+  "subheadline": "och ljummen fänkålssallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fisk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Ägg",
+    "Fisk"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 509,
+    "protein": 35.64,
+    "carbs": 40.22,
+    "fat": 22.81
+  },
+  "co2eKgPerServing": 0.463,
+  "rating": {
+    "average": 3.94,
+    "count": 333
+  },
+  "ingredients": [
+    {
+      "section": "Dragonaioli",
+      "name": "majonnäs",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonaioli",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonaioli",
+      "name": "torkad dragon",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonaioli",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonaioli",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ljummen fänkålssallad",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Ljummen fänkålssallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Ljummen fänkålssallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Ljummen fänkålssallad",
+      "name": "flytande honung",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Ljummen fänkålssallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ljummen fänkålssallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Ljummen fänkålssallad",
+      "name": "babyspenat",
+      "amount": 65,
+      "unit": "g",
+      "raw": "65 g babyspenat",
+      "isBasis": false
+    },
+    {
+      "section": "Halstrad torsk",
+      "name": "torskfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g torskfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Halstrad torsk",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Halstrad torsk",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka småpotatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Dragonaioli: Blanda majonnäs, pressad vitlök, torkad dragon, salt och lite nymald svartpeppar i en skål."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Ljummen fänkålssallad: Strimla fänkål och bananschalottenlök. Fräs grönsakerna i lite olivolja i en stekpanna ca 2 min, tills fänkålen blivit mjuk. Tillsätt honung och krydda med lite salt och nymald svartpeppar. Lägg över på ett fat."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Halstrad torsk: Skär torskfilé i portionsbitar. Torka av med lite hushållspapper. Gnid in fisken med lite olivolja och krydda med salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Hetta upp en grillpanna eller stekpanna. Grilla eller stek fisken ca 2 min per sida, tills fisken är klar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Blanda de frästa grönsakerna med babyspenat. Servera till halstrad torsk, dragonaioli och kokt potatis."
+    }
+  ],
+  "images": {
+    "large": "images/46790-large.jpg",
+    "small": "images/46790-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46790/torskfile-med-dragonaioli-och-ljummen-fankalssallad",
+    "harvestedAt": "2026-07-18T20:32:02.317Z"
+  }
+}

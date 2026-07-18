@@ -1,0 +1,260 @@
+{
+  "recipeId": 50470,
+  "mainRecipeId": null,
+  "name": "Kycklingfilé med brynt smör- och morotscrème, rostade rotfrukter och dragonsky",
+  "headline": "Kycklingfilé med brynt smör- och morotscrème",
+  "subheadline": "rostade rotfrukter och dragonsky",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Klassiker"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Vete",
+    "Svaveldioxid",
+    "Sojabönor"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 516,
+    "protein": 40.61,
+    "carbs": 55.65,
+    "fat": 14.52
+  },
+  "co2eKgPerServing": 0.639,
+  "rating": {
+    "average": 4.34,
+    "count": 1923
+  },
+  "ingredients": [
+    {
+      "section": "Brynt smör- & morotscrème",
+      "name": "smör",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g smör",
+      "isBasis": true
+    },
+    {
+      "section": "Brynt smör- & morotscrème",
+      "name": "morötter",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Brynt smör- & morotscrème",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "morötter",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rostade rotfrukter",
+      "name": "ruccola",
+      "amount": 30,
+      "unit": "g",
+      "raw": "30 g ruccola",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kyckling",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kyckling",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsky",
+      "name": "vetemjöl",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsky",
+      "name": "torkad dragon",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsky",
+      "name": "balsamvinäger",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp balsamvinäger",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsky",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsky",
+      "name": "kinesisk soja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk kinesisk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsky",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "dl",
+      "raw": "2 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsky",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostade rotfrukter: Halvera potatis. Skär morötter i grova bitar. Lägg allt på en plåt med bakplåtspapper. Blanda med olivolja, lite salt och nymald svartpeppar. Rosta i övre delen av ugnen ca 15 min. Klyfta rödlök och blanda med de rostade rotfrukterna. Rosta allt ytterligare ca 10 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Brynt morotscr&egrave;me: Skala och skär morötter i mindre bitar. Koka mjuka i en liten kastrull med lättsaltat vatten."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Brynt morotscr&egrave;men: Smält smör i en liten kastrull. När smöret \"tystnar\" börjar det att brynas, vispa då hela tiden. När det har en gyllenbrun färg och nötaktig doft är det klart. Häll av morötterna och lägg i en mixerbunke. Tillsätt det brynta smöret och salt. Mixa helt slät med stavmixer."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Kyckling: Krydda kycklingfilé med salt och nymald svartpeppar. Stek kycklingen ca 2 min per sida i en stekpanna med lite smör. Lägg över i en ugnsform och tillaga klart längst ner i ugnen ca 10 min, tills kycklingen är helt genomstekt. Låt stekpannan stå till skysåsen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Dragonsky: Tillsätt eventuellt lite extra smör till stekpannan. Vispa ner vetemjöl, torkad dragon, balsamvinäger, socker, kinesisk soja, vatten och smulad kycklingbuljong. Låt sjuda ca 5 min."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Blanda de rostade rotfrukterna med ruccola. Servera till kycklingfilé, dragonsky och brynt smör- och morotscr&egrave;me."
+    }
+  ],
+  "images": {
+    "large": "images/50470-large.jpg",
+    "small": "images/50470-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/50470/kycklingfile-med-brynt-smor-och-morotscreme-rostade-rotfrukter-och-dragonsky",
+    "harvestedAt": "2026-07-18T20:32:07.548Z"
+  }
+}

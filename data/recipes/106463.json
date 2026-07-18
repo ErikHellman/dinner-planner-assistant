@@ -1,0 +1,237 @@
+{
+  "recipeId": 106463,
+  "mainRecipeId": null,
+  "name": "Kinesisk nudelsoppa med tofu, chiliolja, svamp och ägg",
+  "headline": "Kinesisk nudelsoppa med tofu",
+  "subheadline": "chiliolja, svamp och ägg",
+  "description": "Kinesisk soppa inspirerad av suānlà tāng. Soppa med tofu, shiitake, vispat ägg och chiliolja i syrlig, smakrik buljong.",
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Sojabönor",
+    "Sesamfrön",
+    "Svaveldioxid",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 728,
+    "protein": 35.59,
+    "carbs": 61.85,
+    "fat": 37.56
+  },
+  "co2eKgPerServing": 0.69,
+  "rating": {
+    "average": 3.56,
+    "count": 63
+  },
+  "ingredients": [
+    {
+      "section": "Chiliolja",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Chiliolja",
+      "name": "ingefära",
+      "amount": 0.5,
+      "unit": "bit",
+      "raw": "½ bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Chiliolja",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Chiliolja",
+      "name": "paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Chiliolja",
+      "name": "olja",
+      "amount": 3,
+      "unit": "msk",
+      "raw": "3 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Soppa",
+      "name": "shiitake",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g shiitake",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "ingefära",
+      "amount": 0.5,
+      "unit": "bit",
+      "raw": "½ bit ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "tofu",
+      "amount": 230,
+      "unit": "g",
+      "raw": "230 g tofu",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "sesamolja",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse sesamolja",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "vatten",
+      "amount": 6,
+      "unit": "dl",
+      "raw": "6 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Soppa",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Soppa",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "förp",
+      "raw": "2 förp japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "äggnudlar",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "salladslök",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "ägg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st ägg",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Chiliolja: Finhacka vitlök. Skala och finriv all ingefära. Lägg vitlök, ingefära (ca 1 msk), chili flakes, paprikapulver och olja i en liten kastrull. Värm allt på medelvärme ca 5 min tills vitlöken börjar få lite färg (rör om och då). Ställ åt sidan och låt stå till servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Soppa: Skiva shiitake och champinjoner. Strimla gul lök. Skär tofu i mindre tärningar (ca 1x1 cm)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp lite olja i en rymlig kastrull. Fräs all svamp ca 3 min. Tillsätt sesamolja, gul lök, pressad vitlök och resten av den rivna ingefäran, fräs ytterligare ca 1 min. Tillsätt tofu och blanda runt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt vatten, vitvinsvinäger, grönsaksbuljong och japansk soja till kastrullen. Koka upp och sjud ca 12 min."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Till servering: Koka äggnudlar enligt anvisning på förpackningen. Strimla salladslök."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Vispa ihop ägget med 1 tsk vatten i en liten skål. Rör om försiktigt i kastrullen medan ägget hälls sakta ner i den varma soppan, låt sjuda (ej koka) ytterligare ca 1 min. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Lägg nudlarna i serveringsskålar och häll den varma soppan över. Toppa med salladslök. Ringla över lite chiliolja."
+    }
+  ],
+  "images": {
+    "large": "images/106463-large.jpg",
+    "small": "images/106463-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/106463/kinesisk-nudelsoppa-med-tofu-chiliolja-svamp-och-agg",
+    "harvestedAt": "2026-07-18T20:32:32.927Z"
+  }
+}

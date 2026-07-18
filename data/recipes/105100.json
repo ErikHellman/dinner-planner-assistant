@@ -1,0 +1,251 @@
+{
+  "recipeId": 105100,
+  "mainRecipeId": null,
+  "name": "Marockansk sötpotatisgryta med kryddstekta kikärtor och granatäpple",
+  "headline": "Marockansk sötpotatisgryta med kryddstekta kikärtor",
+  "subheadline": "och granatäpple",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 558,
+    "protein": 21.73,
+    "carbs": 99.71,
+    "fat": 7.99
+  },
+  "co2eKgPerServing": 0.774,
+  "rating": {
+    "average": 3.83,
+    "count": 105
+  },
+  "ingredients": [
+    {
+      "section": "Sötpotatisgryta",
+      "name": "sötpotatis",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st sötpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "zucchini",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st zucchini",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "ras el hanout",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk ras el hanout",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "three spices",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk three spices",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "tomatpuré",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp tomatpuré",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "rökt paprikapulver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rökt paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "socker",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Sötpotatisgryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grantäppelsallad",
+      "name": "granatäpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st granatäpple",
+      "isBasis": false
+    },
+    {
+      "section": "Grantäppelsallad",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddstekta kikärtor",
+      "name": "kikärtor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kikärtor",
+      "isBasis": false
+    },
+    {
+      "section": "Kryddstekta kikärtor",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddstekta kikärtor",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kryddstekta kikärtor",
+      "name": "three spices",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk three spices",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Till servering: Koka bulgur enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Sötpotatisgryta: Skala sötpotatis och gul lök. Skär sötpotatis och zucchini i jämnstora bitar (ca 2x2 cm). Hacka gul lök. Hetta upp olja i en stekgryta och fräs sötpotatis, lök och pressad vitlök ca 3 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tillsätt ras el hanout, three spices och tomatpuré. Fräs ytterligare ca 1 min. Blanda ner vatten, krossade tomater, rökt paprikapulver och grönsaksbuljong. Koka upp och sjud under lock ca 20 min, tills sötpotatisen är mjuk. Smaka av med lite socker, salt och nymald svartpeppar. Tillsätt zucchini när det återstår ca 5 min av tillagningstiden."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Grantäppelsallad: Kvarta granatäpple och slå ur kärnorna i en skål. Hacka bladpersilja och blanda ner i skålen."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Kryddstekta kikärtor: Häll av och skölj kikärtor. Rosta kikärtorna i en stekpanna utan stekfett ca 5 min. Tillsätt lite olja och stek ytterligare ca 2 min under omrörning. Krydda med lite salt och three spices."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera sötpotatisgryta med kryddstekta kikärtor, granatäppelsallad och bulgur."
+    }
+  ],
+  "images": {
+    "large": "images/105100-large.jpg",
+    "small": "images/105100-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/105100/marockansk-sotpotatisgryta-med-kryddstekta-kikartor-och-granatapple",
+    "harvestedAt": "2026-07-18T20:32:31.684Z"
+  }
+}

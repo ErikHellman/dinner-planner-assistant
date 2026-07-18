@@ -1,0 +1,212 @@
+{
+  "recipeId": 46315,
+  "mainRecipeId": null,
+  "name": "Barbequekyckling med morotssallad och rostad timjanpotatis",
+  "headline": "Barbequekyckling",
+  "subheadline": "med morotssallad och rostad timjanpotatis",
+  "description": null,
+  "chefTip": "Putsa inte bort fettet från kycklingen, det smälter i stekpannan och ger en god smak.",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 569,
+    "protein": 36.38,
+    "carbs": 57.45,
+    "fat": 21.57
+  },
+  "co2eKgPerServing": 0.703,
+  "rating": {
+    "average": 3.89,
+    "count": 185
+  },
+  "ingredients": [
+    {
+      "section": "Rostad timjanpotatis",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad timjanpotatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad timjanpotatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad timjanpotatis",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad timjanpotatis",
+      "name": "torkad timjan",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Barbequekyckling",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Barbequekyckling",
+      "name": "kycklinglårfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklinglårfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Barbequekyckling",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Barbequekyckling",
+      "name": "BBQ-sås",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp BBQ-sås",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "torkad timjan",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Morotssallad",
+      "name": "morötter",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g morötter",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Morotssallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Morotssallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad timjanpotatis: Lägg potatis på en ugnsplåt med bakplåtspapper. Blanda med lite olivolja, salt och torkad timjan. Rosta högt upp i ugnen ca 25 min, tills potatisen är klar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Barbequekyckling: Hetta upp lite olja i en stekpanna. Krydda kycklinglårfilé med salt och stek ca 5 min per sida, tills den är helt genomstekt. Blanda ner bbq-sås i stekpannan."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Morotssallad: Skala morötter och fortsätt hyvla tunna remsor med potatisskalaren. Lägg i en salladsskål och blanda med mixsallad, lite olivolja och salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Vitlökssås: Blanda gräddfil, pressad vitlök, torkad timjan och lite salt i en skål."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera barbequekyckling med rostad timjanpotatis, morotssallad och vitlökssås."
+    }
+  ],
+  "images": {
+    "large": "images/46315-large.jpg",
+    "small": "images/46315-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46315/barbequekyckling-med-morotssallad-och-rostad-timjanpotatis",
+    "harvestedAt": "2026-07-18T20:31:59.039Z"
+  }
+}

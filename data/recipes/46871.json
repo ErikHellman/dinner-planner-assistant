@@ -1,0 +1,213 @@
+{
+  "recipeId": 46871,
+  "mainRecipeId": null,
+  "name": "Krämig rotfruktssoppa med pepparrotscrème",
+  "headline": "Krämig rotfruktssoppa",
+  "subheadline": "med pepparrotscrème",
+  "description": null,
+  "chefTip": "Har du ont om tid? Grovriv rotfrukterna istället för att tärna dem.",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Selleri",
+    "Sesamfrön",
+    "Ägg",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 534,
+    "protein": 17.49,
+    "carbs": 62.9,
+    "fat": 23.63
+  },
+  "co2eKgPerServing": 0.355,
+  "rating": {
+    "average": 3.52,
+    "count": 124
+  },
+  "ingredients": [
+    {
+      "section": "Rotfruktssoppa",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "rotselleri",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g rotselleri",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "palsternacka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st palsternacka",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "purjolök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st purjolök",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "vatten",
+      "amount": 5,
+      "unit": "dl",
+      "raw": "5 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "färskost",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp färskost",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Rotfruktssoppa",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Pepparrotscrème",
+      "name": "pepparrot",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st pepparrot",
+      "isBasis": false
+    },
+    {
+      "section": "Pepparrotscrème",
+      "name": "färskost",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp färskost",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "frömix",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp frömix",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rotfruktssoppa: Skala och tärna morötter, rotselleri och palsternacka smått (eller se tips). Strimla purjolök. Skiva vitlök tunt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Hetta upp olivolja i en stekgryta och fräs allt ca 3 min. Tillsätt vatten, torkad timjan och grönsaksbuljong. Sjud under lock ca 15 min, tills rotfrukterna är mjuka."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Pepparrotscr&egrave;me: Skala och finriv 1-2 msk pepparrot. Lägg i en skål och blanda med färskost. Tänk på att färsk pepparrot varierar i styrka, så smaka dig fram."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Värm surdegspavé enligt anvisning på förpackningen."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Rotfruktssoppa: Ta soppan från värmen och rör ner färskost. Smaka av med pressad citronsaft (ca 1 msk) och lite nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Toppa rotfruktssoppan med frömix. Servera med surdegspavé och pepparrotscr&egrave;me."
+    }
+  ],
+  "images": {
+    "large": "images/46871-large.jpg",
+    "small": "images/46871-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46871/kramig-rotfruktssoppa-med-pepparrotscreme",
+    "harvestedAt": "2026-07-18T20:32:03.595Z"
+  }
+}

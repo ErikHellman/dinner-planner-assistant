@@ -1,0 +1,216 @@
+{
+  "recipeId": 106217,
+  "mainRecipeId": null,
+  "name": "Tostadas - krispiga tortillabröd med räkor, mangosalsa och avokadoröra",
+  "headline": "Tostadas",
+  "subheadline": "med räkor, mangosalsa och avokadoröra",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Vete",
+    "Nötter",
+    "Mjölk",
+    "Laktos",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 521,
+    "protein": 23.74,
+    "carbs": 66.6,
+    "fat": 17.71
+  },
+  "co2eKgPerServing": 1.455,
+  "rating": {
+    "average": 4.48,
+    "count": 94
+  },
+  "ingredients": [
+    {
+      "section": "Tostadadas",
+      "name": "tortillabröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp tortillabröd",
+      "isBasis": false
+    },
+    {
+      "section": "Tostadadas",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Tostadadas",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Mangosalsa",
+      "name": "mango",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st mango",
+      "isBasis": false
+    },
+    {
+      "section": "Mangosalsa",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Mangosalsa",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Mangosalsa",
+      "name": "lime",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Mangosalsa",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Mangosalsa",
+      "name": "chili flakes",
+      "amount": null,
+      "unit": "förp",
+      "raw": "förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadoröra",
+      "name": "avokado",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st avokado",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadoröra",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadoröra",
+      "name": "vitlök",
+      "amount": null,
+      "unit": "klyfta",
+      "raw": "½-1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadoröra",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rödkål",
+      "name": "strimlad rödkål",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g strimlad rödkål",
+      "isBasis": false
+    },
+    {
+      "section": "Rödkål",
+      "name": "lime",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st lime",
+      "isBasis": false
+    },
+    {
+      "section": "Rödkål",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "räkor (300 g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor (300 g)",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tostadas: Kvarta tortillabröd. Lägg på en ugnsplåt med bakplåtspapper. Pensla bröden med lite olja. Rosta mitt i ugnen ca 5-7 min, eller tills bröden är krispiga."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Mangosalsa: Skala och tärna mango. Finhacka rödlök och koriander. Lägg allt i en skål. Tillsätt pressad saft från en halv lime. Smaka av med salt och chili flakes."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Avokadoröra: Skala och lägg avokado i en skål. Mosa sönder med en gaffel. Blanda ner gräddfil, pressad vitlök och salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Rödkål: Lägg strimlad rödkål i en skål och blanda med pressad limesaft och salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Häll av räkor. Servera genom att breda lite avokadoröra på de krispiga bröden. Lägg på lite strimlad rödkål, mangosalsa och räkor."
+    }
+  ],
+  "images": {
+    "large": "images/106217-large.jpg",
+    "small": "images/106217-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/106217/tostadas-krispiga-tortillabrod-med-rakor-mangosalsa-och-avokadorora",
+    "harvestedAt": "2026-07-18T20:32:32.271Z"
+  }
+}

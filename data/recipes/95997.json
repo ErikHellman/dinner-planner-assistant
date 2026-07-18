@@ -1,0 +1,218 @@
+{
+  "recipeId": 95997,
+  "mainRecipeId": null,
+  "name": "Frasig raggmunk med räkor, avokado och dillyoghurt",
+  "headline": "Frasig raggmunk med räkor",
+  "subheadline": "avokado och dillyoghurt",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Ägg",
+    "Mjölk",
+    "Vete",
+    "Kräftdjur",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 529,
+    "protein": 26.72,
+    "carbs": 54.04,
+    "fat": 22.9
+  },
+  "co2eKgPerServing": 1.482,
+  "rating": {
+    "average": 4.19,
+    "count": 430
+  },
+  "ingredients": [
+    {
+      "section": "Raggmunk",
+      "name": "vetemjöl",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunk",
+      "name": "mjölk",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl mjölk",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunk",
+      "name": "ägg",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st ägg",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunk",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunk",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Raggmunk",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "½+½ tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunk",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "½+½ tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Raggmunk",
+      "name": "salladslök",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Räkor",
+      "name": "citronskal",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citronskal",
+      "isBasis": false
+    },
+    {
+      "section": "Räkor",
+      "name": "räkor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor",
+      "isBasis": false
+    },
+    {
+      "section": "Räkor",
+      "name": "avokado",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st avokado",
+      "isBasis": false
+    },
+    {
+      "section": "Räkor",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Räkor",
+      "name": "salladslök",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp salladslök",
+      "isBasis": false
+    },
+    {
+      "section": "Dillyoghurt",
+      "name": "dill",
+      "amount": null,
+      "unit": "g",
+      "raw": "10+10 g dill",
+      "isBasis": false
+    },
+    {
+      "section": "Dillyoghurt",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Dillyoghurt",
+      "name": "citronsaft",
+      "amount": null,
+      "unit": "st",
+      "raw": "st citronsaft",
+      "isBasis": false
+    },
+    {
+      "section": "Dillyoghurt",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dillyoghurt",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Raggmunk: Vispa vetemjöl med mjölk till en slät smet. Vispa sedan ner ägg och salt. Grovriv potatis och krama ur lite vätska och vänd ner potatisen i äggsmeten. Strimla all salladslök (hälften är till steg 2) och blanda ner i smeten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Räkor: Skölj citron i ljummet vatten och finriv skalet. Häll av räkor. Skär avokado och snackgurka i tärningar. Blanda ihop allt i en skål tillsammans med salladslöken och ställ i kyl."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Dillyoghurt: Finhacka all dill (hälften är till servering). Blanda dill och matyoghurt i en skål. Smaka av med lite pressad citronsaft, salt och nymald svartpeppar. Skär resten av citronen i klyftor."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Raggmunk: Hetta upp olja och smör i två stekpannor. Fördela smeten i stekpannorna. Stek på medelvärme ca 4 min per sida, tills de har fått fin färg och är genomstekta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera raggmunk med dillyoghurt och räkor. Toppa med resten av dillen."
+    }
+  ],
+  "images": {
+    "large": "images/95997-large.jpg",
+    "small": "images/95997-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/95997/frasig-raggmunk-med-rakor-avokado-och-dillyoghurt",
+    "harvestedAt": "2026-07-18T20:32:29.227Z"
+  }
+}

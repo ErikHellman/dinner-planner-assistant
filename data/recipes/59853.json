@@ -1,0 +1,273 @@
+{
+  "recipeId": 59853,
+  "mainRecipeId": null,
+  "name": "Bakad fetaaubergine med bulgursallad och myntayoghurt",
+  "headline": "Bakad fetaaubergine",
+  "subheadline": "med bulgursallad och myntayoghurt",
+  "description": null,
+  "chefTip": "Rosta mandelspån i en torr och het stekpanna tills de är gyllene! ",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Vegetariskt",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid",
+    "Vete",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pistaschmandel",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 513,
+    "protein": 19.47,
+    "carbs": 53.54,
+    "fat": 24.55
+  },
+  "co2eKgPerServing": 0.739,
+  "rating": {
+    "average": 3.89,
+    "count": 151
+  },
+  "ingredients": [
+    {
+      "section": "Bakad fetaaubergine",
+      "name": "aubergine",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st aubergine",
+      "isBasis": false
+    },
+    {
+      "section": "Bakad fetaaubergine",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad fetaaubergine",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad fetaaubergine",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad fetaaubergine",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Bakad fetaaubergine",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "spiskummin",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "flytande honung",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk flytande honung",
+      "isBasis": false
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "olivolja",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Salladsdressing",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "bulgur",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g bulgur",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "grönsaksbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "torkade tranbär",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse torkade tranbär",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "mynta",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Bulgursallad",
+      "name": "mandelspån",
+      "amount": 25,
+      "unit": "g",
+      "raw": "25 g mandelspån",
+      "isBasis": false
+    },
+    {
+      "section": "Myntayoghurt",
+      "name": "matyoghurt",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Myntayoghurt",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Myntayoghurt",
+      "name": "mynta",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Myntayoghurt",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Myntayoghurt",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Bakad fetaaubergine: Halvera aubergine på längden. Lägg med snittytan uppåt på en ugnsplåt med bakplåtspapper. Ringla över lite olivolja och krydda med lite salt och nymald svartpeppar. Rosta auberginen i mitten av ugnen ca 22 min, tills den är mjuk och fått fin färg. Ta ut plåten och strö över smulad fetaost och ringla över lite mer olivolja. Rosta ytterligare ca 8 min, tills fetaosten fått fin färg."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Salladsdressing: Blanda spiskummin, flytande honung, olivolja, vitvinsvinäger, vatten och lite salt i en skål."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Bulgursallad: Koka upp vatten och grönsaksbuljong i en kastrull. Häll ner bulgur och koka enligt anvisning på förpackningen."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Finhacka all mynta. Tärna tomat. Lägg tomat, tranbär, bulgur och hälften av myntan i en salladsskål. Blanda med salladsdressing och mandelspån (se tips!)."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Myntayoghurt: Blanda matyoghurt och gräddfil med resten av den hackade myntan i en skål. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servering: Servera bulgursallad med bakad fetaaubergine och myntayoghurt."
+    }
+  ],
+  "images": {
+    "large": "images/59853-large.jpg",
+    "small": "images/59853-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/59853/bakad-fetaaubergine-med-bulgursallad-och-myntayoghurt",
+    "harvestedAt": "2026-07-18T20:32:13.616Z"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "recipeId": 68823,
+  "mainRecipeId": null,
+  "name": "Gazpacho med rostad paprika och fetaosttopping",
+  "headline": "Gazpacho",
+  "subheadline": "med rostad paprika och fetaosttopping",
+  "description": null,
+  "chefTip": "Rosta gärna mandelspånen hastigt i en torr och het stekpanna! ",
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Sommar",
+    "Kalorisnål"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Sesamfrön",
+    "Ägg",
+    "Vete",
+    "Nötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pistaschmandel",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 492,
+    "protein": 18.42,
+    "carbs": 57.73,
+    "fat": 20.8
+  },
+  "co2eKgPerServing": 0.529,
+  "rating": {
+    "average": null,
+    "count": 29
+  },
+  "ingredients": [
+    {
+      "section": "Gazpacho",
+      "name": "rostad paprika",
+      "amount": 0.75,
+      "unit": "burk",
+      "raw": "¾ burk rostad paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Gazpacho",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "olivolja",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1 ½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gazpacho",
+      "name": "srirachasås",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp srirachasås",
+      "isBasis": false
+    },
+    {
+      "section": "Gazpacho",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fetaosttopping",
+      "name": "svarta bönor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp svarta bönor",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaosttopping",
+      "name": "rostad paprika",
+      "amount": 0.25,
+      "unit": "burk",
+      "raw": "¼ burk rostad paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaosttopping",
+      "name": "bananschalottenlök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaosttopping",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaosttopping",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "surdegspavé",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st surdegspavé",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mandelspån",
+      "amount": 15,
+      "unit": "g",
+      "raw": "15 g mandelspån",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 200&deg;C (varmluft) eller 225&deg;C (vanlig). Värm surdegspavé mitt i ugnen enligt anvisning på förpackningen."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Gazpacho: Häll av rostad paprika. Skär hälften av paprikan i mindre bitar (spara resten till steg 4). Skär snackgurka och tomat i mindre bitar. Finhacka bananschalottenlök och vitlök."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Lägg alla skurna grönsaker, vatten, vitvinsvinäger, olivolja, srirachasås och salt i en rymlig bunke. Mixa allt till en slät soppa med stavmixer. Smaka eventuellt av med lite mer salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Fetaosttopping: Häll av och skölj svarta bönor. Tärna rostad paprika smått. Finhacka bananschalottenlök och bladpersilja. Smula fetaost. Blanda allt i en skål."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Servera gazpachon kall (eller värm hastigt i en kastrull) tillsammans med nygräddat bröd. Toppa med fetaosttopping och mandelspån (se tips!)."
+    }
+  ],
+  "images": {
+    "large": "images/68823-large.jpg",
+    "small": "images/68823-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/68823/gazpacho-med-rostad-paprika-och-fetaosttopping",
+    "harvestedAt": "2026-07-18T20:32:17.562Z"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "recipeId": 87732,
+  "mainRecipeId": null,
+  "name": "Höstig fläskgryta med grädde, svamp, äpple och pressgurka",
+  "headline": "Höstig fläskgryta",
+  "subheadline": "med grädde, svamp, äpple och pressgurka",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Kött",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Klassiker",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Senap",
+    "Mjölk",
+    "Laktos",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 547,
+    "protein": 37.25,
+    "carbs": 53.18,
+    "fat": 20.63
+  },
+  "co2eKgPerServing": 0.968,
+  "rating": {
+    "average": 3.67,
+    "count": 431
+  },
+  "ingredients": [
+    {
+      "section": "Potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "champinjoner",
+      "amount": 100,
+      "unit": "g",
+      "raw": "100 g champinjoner",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "fläskkotlett",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g fläskkotlett",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "smör",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Höstgryta",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Höstgryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Höstgryta",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Höstgryta",
+      "name": "vatten",
+      "amount": 3,
+      "unit": "dl",
+      "raw": "3 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Höstgryta",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "rött äpple",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st rött äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Höstgryta",
+      "name": "dijonsenap",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Pressgurka",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "ättiksprit (12%)",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk ättiksprit (12%)",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "msk",
+      "raw": "1 ½ msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Pressgurka",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Potatis: Koka potatis mjuk i lättsaltat vatten."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelse: Halvera champinjoner och klyfta gul lök. Skär fläskkotlett i ca 3x3 stora bitar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Höstgryta: Hetta upp lite smör i en stekgryta. Fräs fläskbitarna runtom tills de fått fin stekyta, ca 3 min. Krydda med torkad timjan, salt och lite nymald svartpeppar. Tillsätt svampen och löken, fräs ytterligare ca 3 min. Pudra över vetemjöl och blanda runt. Tillsätt vatten, vispgrädde och kycklingbuljong, sjud ca 5 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Pressgurka: Blanda socker, ättiksprit och vatten i en bunke. Rör så att sockret löser sig. Hyvla tunna skivor av snackgurka med en osthyvel. Blanda ner i bunken och låt dra till servering."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Höstgryta: Tärna rött äpple. Tillsätt äpple och dijonsenap till grytan. Låt sjuda ytterligare ca 1 min. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera krämig höstgryta med kokt potatis och pressgurka."
+    }
+  ],
+  "images": {
+    "large": "images/87732-large.jpg",
+    "small": "images/87732-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/87732/hostig-flaskgryta-med-gradde-svamp-apple-och-pressgurka",
+    "harvestedAt": "2026-07-18T20:32:20.346Z"
+  }
+}

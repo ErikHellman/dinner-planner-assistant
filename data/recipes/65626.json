@@ -1,0 +1,219 @@
+{
+  "recipeId": 65626,
+  "mainRecipeId": null,
+  "name": "Mojito shrimp salad - räksallad med lime, mynta, mango och avokadocréme",
+  "headline": "Mojito shrimp salad",
+  "subheadline": "räksallad med lime, mynta, mango och avokadocréme",
+  "description": null,
+  "chefTip": "Använd gärna mandolin för att skiva extra tunt! ",
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 25,
+    "max": 35
+  },
+  "categories": [
+    "Fisk och skaldjur"
+  ],
+  "allergies": [
+    "Ägg",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 764,
+    "protein": 27.5,
+    "carbs": 64.3,
+    "fat": 44.08
+  },
+  "co2eKgPerServing": 2.558,
+  "rating": {
+    "average": 3.91,
+    "count": 262
+  },
+  "ingredients": [
+    {
+      "section": "Avokadocréme",
+      "name": "lime, zest",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st lime, zest",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadocréme",
+      "name": "avokado",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st avokado",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadocréme",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadocréme",
+      "name": "majonnäs",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp majonnäs",
+      "isBasis": false
+    },
+    {
+      "section": "Avokadocréme",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Avokadocréme",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Mojitodressing",
+      "name": "mynta",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g mynta",
+      "isBasis": false
+    },
+    {
+      "section": "Mojitodressing",
+      "name": "lime, saft",
+      "amount": 1.5,
+      "unit": "st",
+      "raw": "1½ st lime, saft",
+      "isBasis": false
+    },
+    {
+      "section": "Mojitodressing",
+      "name": "olja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Mojitodressing",
+      "name": "socker",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Sallad",
+      "name": "quinoamix",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g quinoamix",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "rödkål",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g rödkål",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mango",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st mango",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "romansallad",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st romansallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "räkor (300g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor (300g)",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "röd chili",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd chili",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Koka quinoamix enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Avokadocréme: Gröp ur avokado och lägg i en mixerbunke. Tvätta lime i ljummet vatten och finrviv det yttersta skalet. Tillsätt limeskal, pressad saft från &frac12; lime, pressad vitlök, majonnäs, vatten och salt. Mixa ihop till en slät créme med stavmixer."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Mojitodressing: Lägg mynta i en mixerbunke. Tillsätt pressad limesaft från de använda limefrukterna (1&frac12; st), neutral olja och socker. Mixa ihop med stavmixer."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Sallad: Finstrimla rödkål och rödlök (se tips). Skala och skär mango i mindre bitar. Skär romansallad i mindre bitar. Blanda allt i en rymlig bunke tillsammans med quinoan och mojitodressingen. Smaka av med salt. Lägg upp på ett serveringsfat."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servering: Skiva röd chili tunt. Häll av räkor. Toppa salladen med räkor och röd chili. Servera med avokadocr&egrave;me."
+    }
+  ],
+  "images": {
+    "large": "images/65626-large.jpg",
+    "small": "images/65626-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/65626/mojito-shrimp-salad-raksallad-med-lime-mynta-mango-och-avokadocreme",
+    "harvestedAt": "2026-07-18T20:32:17.026Z"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "recipeId": 94298,
+  "mainRecipeId": null,
+  "name": "Tomat- och saffransrisotto med fänkål och gremolatamarinerade räkor",
+  "headline": "Tomat- och saffransrisotto",
+  "subheadline": "med fänkål och gremolatamarinerade räkor",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Skaldjur",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fisk och skaldjur",
+    "Kalorisnål",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Svaveldioxid",
+    "Kräftdjur"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 547,
+    "protein": 25.59,
+    "carbs": 71.48,
+    "fat": 17.61
+  },
+  "co2eKgPerServing": 1.675,
+  "rating": {
+    "average": 3.95,
+    "count": 116
+  },
+  "ingredients": [
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "fänkål",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st fänkål",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "vatten",
+      "amount": 6,
+      "unit": "dl",
+      "raw": "6 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "grönsaksbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp grönsaksbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "risottoris",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g risottoris",
+      "isBasis": false
+    },
+    {
+      "section": "Tomat- och saffransrisotto",
+      "name": "saffran",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp saffran",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatamarinerade räkor",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatamarinerade räkor",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatamarinerade räkor",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    },
+    {
+      "section": "Gremolatamarinerade räkor",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Gremolatamarinerade räkor",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "krm",
+      "raw": "½ krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Gremolatamarinerade räkor",
+      "name": "räkor (300g)",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp räkor (300g)",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g bladpersilja",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Förberedelse: Strimla fänkål. Finhacka schalottenlök och vitlök. Tärna tomat. Finriv parmesanost. Koka upp vatten, grönsaksbuljong och vitvinsvinäger i en liten kastrull. Ställ åt sidan."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Tomat- och saffransrisotto: Hetta upp olivolja i en rymlig stekgryta. Fräs fänkål, lök, vitlök och risottoris ca 2 min. Tillsätt saffran och tomat, stek ytterligare ca 1 min. Späd riset med buljongen, lite i taget. När det kokat in, tillsätt mer buljong och fortsätt så tills all buljong är slut eller riset känns mjukt, rör om då och då. Blanda ner riven parmesanost i risotton precis innan servering. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Gremolatamarinerade räkor: Tvätta citron i ljummet vatten. Finriv vitlök och det yttersta skalet på citronen. Lägg i en rymlig skål. Finhacka bladpersilja. Blanda ner persilja, olivolja, pressad saft från halva citronen och salt i skålen. Häll av räkor och blanda ner i skålen med gremolata."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Servering: Klyfta resten av den använda citronen. Servera tomat- och saffransrisotto med gremolatamarinerade räkor och citronklyfta. Toppa med bladpersilja."
+    }
+  ],
+  "images": {
+    "large": "images/94298-large.jpg",
+    "small": "images/94298-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/94298/tomat-och-saffransrisotto-med-fankal-och-gremolatamarinerade-rakor",
+    "harvestedAt": "2026-07-18T20:32:27.925Z"
+  }
+}

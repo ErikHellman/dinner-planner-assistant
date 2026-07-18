@@ -1,0 +1,230 @@
+{
+  "recipeId": 65550,
+  "mainRecipeId": null,
+  "name": "Grillade järpar med rostad potatissallad och ajvar",
+  "headline": "Grillade järpar",
+  "subheadline": "med rostad potatissallad och ajvar",
+  "description": null,
+  "chefTip": "Vill du grilla, tänd grillen i god tid!",
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Grill"
+  ],
+  "allergies": [
+    "Senap",
+    "Svaveldioxid",
+    "Selleri",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 558,
+    "protein": 32.26,
+    "carbs": 52.82,
+    "fat": 24.14
+  },
+  "co2eKgPerServing": 4.325,
+  "rating": {
+    "average": null,
+    "count": 18
+  },
+  "ingredients": [
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "tomat",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "rädisor",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rädisor",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "dijonsenap",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk dijonsenap",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "olja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 1,
+      "unit": "påse",
+      "raw": "1 påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "socker",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm socker",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "örtmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Ugnsrostad potatissallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Järpar",
+      "name": "ströbröd",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp ströbröd",
+      "isBasis": false
+    },
+    {
+      "section": "Järpar",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Järpar",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Järpar",
+      "name": "örtmix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp örtmix",
+      "isBasis": false
+    },
+    {
+      "section": "Järpar",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Järpar",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "ajvar relish",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp ajvar relish",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Ugnsrostad potatissallad: Skiva potatis och lägg på en ugnsplåt med bakplåtspapper. Blanda med lite neutral olja, salt och lite nymald svartpeppar. Rosta högt upp i ugnen ca 15 min. Rör om efter halva tillagningstiden."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Järpar: Blanda ströbröd, vatten, örtmix, salt och lite nymald svartpeppar i en bunke. Blanda ner nötfärs och forma till 4 st järpar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Hetta upp en grillpanna eller stekpanna och grilla järparna ca 2 min runt om. Lägg över järparna i en ugnsform och tillaga klart i ugnen under potatisen ca 8 min, tills de är helt genomstekta."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Ugnsrostad potatissallad: Vispa samman dijonsenap, neutral olja, vitvinsvinäger och socker i en salladsskål. Tärna tomat och finhacka rödlök. Kvarta rädisor. Lägg grönsakerna i skålen. Blanda ner den rostade potatisen och örtmix. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera grillade järpar med ugnsrostad potatissallad och en klick ajvar."
+    }
+  ],
+  "images": {
+    "large": "images/65550-large.jpg",
+    "small": "images/65550-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/65550/grillade-jarpar-med-rostad-potatissallad-och-ajvar",
+    "harvestedAt": "2026-07-18T20:32:16.534Z"
+  }
+}

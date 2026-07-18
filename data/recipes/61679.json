@@ -1,0 +1,216 @@
+{
+  "recipeId": 61679,
+  "mainRecipeId": null,
+  "name": "Grönsakswok med nudlar, stekt ägg, koriander och jordnötter",
+  "headline": "Grönsakswok med nudlar",
+  "subheadline": "stekt ägg, koriander och jordnötter",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Vegetariskt",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Vegetariskt",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Sojabönor",
+    "Nötter",
+    "Svaveldioxid",
+    "Ägg",
+    "Vete",
+    "Jordnötter",
+    "Cashewnötter",
+    "Hasselnötter",
+    "Mandel",
+    "Pekannötter",
+    "Valnötter"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 647,
+    "protein": 31.3,
+    "carbs": 63.07,
+    "fat": 29.99
+  },
+  "co2eKgPerServing": 0.549,
+  "rating": {
+    "average": null,
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "section": "Dressing",
+      "name": "japansk soja",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk japansk soja",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "chili flakes",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "socker",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk socker",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "vitvinsvinäger 30ml",
+      "amount": 0.75,
+      "unit": "påse",
+      "raw": "¾ påse vitvinsvinäger 30ml",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "vatten",
+      "amount": 2,
+      "unit": "msk",
+      "raw": "2 msk vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Dressing",
+      "name": "malen ingefära",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse malen ingefära",
+      "isBasis": false
+    },
+    {
+      "section": "Dressing",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "broccoli",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st broccoli",
+      "isBasis": false
+    },
+    {
+      "section": "Wok",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Wok",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "äggnudlar",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp äggnudlar",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "koriander",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g koriander",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "hackade jordnötter",
+      "amount": 2,
+      "unit": "förp",
+      "raw": "2 förp hackade jordnötter",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt ägg",
+      "name": "ägg",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st ägg",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt ägg",
+      "name": "olja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olja",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Dressing: Häll japansk soja i en liten skål. Blanda med chili flakes (efter egen smak), neutral olja, socker, vitvinsvinäger, vatten, malen ingefära och pressad vitlök."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelse wok: Strimla röd paprika. Skär broccoli i buketter och skiva stammen tunt. Koka äggnudlar enligt anvisning på förpackningen. Spola sedan kallt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Stekt ägg: Hetta upp lite neutral olja i en stekpanna. Stek ägg ca 3 min på medelvärme. Låt gärna gulan vara lite lös. Lägg över på ett fat."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Wok: Hetta upp lite neutral olja i en stekpanna. Fräs broccoli och paprika på hög värme ca 3 min. Häll ner hälften av dressingen, fräs ytterligare ca 2 min. Smaka av med lite salt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Rör ner nudlar och resten av dressingen i woken. Servera toppad med koriander, hackade jordnötter och stekt ägg."
+    }
+  ],
+  "images": {
+    "large": "images/61679-large.jpg",
+    "small": "images/61679-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/61679/gronsakswok-med-nudlar-stekt-agg-koriander-och-jordnotter",
+    "harvestedAt": "2026-07-18T20:32:15.291Z"
+  }
+}

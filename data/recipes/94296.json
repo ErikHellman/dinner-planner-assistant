@@ -1,0 +1,201 @@
+{
+  "recipeId": 94296,
+  "mainRecipeId": null,
+  "name": "Katalansk kycklinggryta med matvete och persilja",
+  "headline": "Katalansk kycklinggryta",
+  "subheadline": "med matvete och persilja",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 526,
+    "protein": 45.86,
+    "carbs": 60.93,
+    "fat": 10.96
+  },
+  "co2eKgPerServing": 0.993,
+  "rating": {
+    "average": 4.06,
+    "count": 238
+  },
+  "ingredients": [
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "purjolök",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st purjolök",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "gul paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "olja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "rökt paprikapulver",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp rökt paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "vatten",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "kycklingbuljong",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Katalansk kycklinggryta",
+      "name": "rökt chilimix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rökt chilimix",
+      "isBasis": false
+    },
+    {
+      "section": "Gryn",
+      "name": "matvete",
+      "amount": 125,
+      "unit": "g",
+      "raw": "125 g matvete",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "bladpersilja",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g bladpersilja",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Katalansk kycklinggryta: Skär purjolök och gul paprika i mindre bitar. Skär kycklingfilé i ca 2x2 cm stora bitar."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Gryn: Koka matvete enligt anvisning på förpackningen."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Katalansk kycklinggryta: Hetta upp olja i en rymlig stekgryta. Fräs kycklingbitarna ca 5 min, krydda med salt och nymald svartpeppar. Tillsätt purjolök, pressad vitlök, rökt paprikapulver och torkad timjan, fräs ytterligare ca 3 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Tillsätt paprika, krossade tomater, vatten, vitvinsvinäger och kycklingbuljong. Koka upp och sjud ca 5 min. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Grovhacka bladpersilja. Servera katalansk kycklinggryta med matvete. Toppa med persilja."
+    }
+  ],
+  "images": {
+    "large": "images/94296-large.jpg",
+    "small": "images/94296-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/94296/katalansk-kycklinggryta-med-matvete-och-persilja",
+    "harvestedAt": "2026-07-18T20:32:27.348Z"
+  }
+}

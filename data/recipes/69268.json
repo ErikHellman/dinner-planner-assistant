@@ -1,0 +1,241 @@
+{
+  "recipeId": 69268,
+  "mainRecipeId": null,
+  "name": "Kycklingsouvlaki med citron, timjan, tzatziki och rostad potatis",
+  "headline": "Kycklingsouvlaki",
+  "subheadline": "med citron, timjan, tzatziki och rostad potatis",
+  "description": null,
+  "chefTip": "Om ni vill och har tid! Trä upp kycklingen på grillspett och servera som kycklingspett!",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 511,
+    "protein": 42.8,
+    "carbs": 45.66,
+    "fat": 17.49
+  },
+  "co2eKgPerServing": 0.89,
+  "rating": {
+    "average": 4.14,
+    "count": 863
+  },
+  "ingredients": [
+    {
+      "section": "Kycklingsouvlaki",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "msk",
+      "raw": "1 msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingsouvlaki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingsouvlaki",
+      "name": "citron",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingsouvlaki",
+      "name": "torkad timjan",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk torkad timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingsouvlaki",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingsouvlaki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingsouvlaki",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "småpotatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g småpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": 2,
+      "unit": "tsk",
+      "raw": "2 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "romansallad",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st romansallad",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Läs igenom receptet, ta fram alla ingredienser och skölj de grönsaker som behöver sköljas."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Rostad potatis: Lägg potatis på en plåt med bakplåtspapper (halvera eventuellt stora potatisar för kortare tillagningstid). Blanda med olivolja, lite salt och nymald svartpeppar. Rosta mitt i ugnen ca 20 min."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Kycklingsouvlaki: Blanda olivolja, pressad vitlök, pressad saft från citronen, torkad timjan, salt och lite nymald svartpeppar i en bunke. Dela kycklingfilé i bitar. Lägg ner kycklingen i bunken och blanda runt ordentligt. Låt marinera till steg 6."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Tzatziki: Grovriv snackgurka. Lägg i en skål och blanda med pressad vitlök, gräddfil, salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Strimla romansallad och rödlök."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Kycklingsouvlaki: Hetta upp olivolja i en stekpanna. Stek den marinerade kycklingen ca 5 min, tills den är helt genomstekt."
+    },
+    {
+      "step": 8,
+      "section": null,
+      "text": "Servering: Servera nystekt kycklingsouvlaki med tzatziki, rostad potatis och grönsaker."
+    }
+  ],
+  "images": {
+    "large": "images/69268-large.jpg",
+    "small": "images/69268-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/69268/kycklingsouvlaki-med-citron-timjan-tzatziki-och-rostad-potatis",
+    "harvestedAt": "2026-07-18T20:32:17.603Z"
+  }
+}

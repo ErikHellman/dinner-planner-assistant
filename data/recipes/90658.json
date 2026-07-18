@@ -1,0 +1,175 @@
+{
+  "recipeId": 90658,
+  "mainRecipeId": null,
+  "name": "Nötfärs- och rotfruktsgryta med timjan",
+  "headline": "Nötfärs- och rotfruktsgryta",
+  "subheadline": "timjan",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Nötkött",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Kött",
+    "Kalorisnål"
+  ],
+  "allergies": [],
+  "nutritionPerServing": {
+    "energyKcal": 481,
+    "protein": 32.31,
+    "carbs": 49.46,
+    "fat": 17.07
+  },
+  "co2eKgPerServing": 4.514,
+  "rating": {
+    "average": 3.84,
+    "count": 93
+  },
+  "ingredients": [
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "bakpotatis",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakpotatis",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "palsternacka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st palsternacka",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "morot",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st morot",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "nötfärs",
+      "amount": 250,
+      "unit": "g",
+      "raw": "250 g nötfärs",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "krossade tomater",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp krossade tomater",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "rosmarin/timjan mix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "oxbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp oxbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Nötfärs- och rotfruktsgryta",
+      "name": "timjan",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g timjan",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Förberedelser: Skala och tärna bakpotatis, palsternacka och morötter. Finhacka schalottenlök och vitlök. Repa timjan och spar till servering."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Nötfärs- och rotfruktsgryta: Hetta upp olja i en stekgryta. Bryn nötfärs och schalottenlök ca 5 min och krydda med salt."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Blanda ner vitlök, potatis, palsternacka och morot, fräs ytterligare ca 2 min. Tillsätt vatten, krossade tomater, rosmarin/timjan mix och köttbuljong. Koka upp och sjud ca 25 min, tills rotfrukterna är mjuka. Smaka av med lite salt och nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Servera nötfärs- och rotfruktsgryta rykande varm. Toppa med timjan."
+    }
+  ],
+  "images": {
+    "large": "images/90658-large.jpg",
+    "small": "images/90658-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90658/notfars-och-rotfruktsgryta-med-timjan",
+    "harvestedAt": "2026-07-18T20:32:22.112Z"
+  }
+}

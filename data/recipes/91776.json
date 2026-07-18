@@ -1,0 +1,276 @@
+{
+  "recipeId": 91776,
+  "mainRecipeId": null,
+  "name": "Stekt kycklingfilé med parmesanrostad potatis och dragonsås",
+  "headline": "Stekt kycklingfilé",
+  "subheadline": "med parmesanrostad potatis och dragonsås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Vete",
+    "Svaveldioxid",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 538,
+    "protein": 43.35,
+    "carbs": 40.17,
+    "fat": 22.71
+  },
+  "co2eKgPerServing": 0.81,
+  "rating": {
+    "average": null,
+    "count": 59
+  },
+  "ingredients": [
+    {
+      "section": "Parmesanrostad potatis",
+      "name": "timjan",
+      "amount": 10,
+      "unit": "g",
+      "raw": "10 g timjan",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesanrostad potatis",
+      "name": "parmesanost, (20 g)",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost, (20 g)",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesanrostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Parmesanrostad potatis",
+      "name": "olivolja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Parmesanrostad potatis",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Parmesanrostad potatis",
+      "name": "paprikapulver",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Parmesanrostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "snackgurka",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st snackgurka",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Sallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "smör",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk smör",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "vetemjöl",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk vetemjöl",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "vatten",
+      "amount": 1.5,
+      "unit": "dl",
+      "raw": "1 ½ dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "torkad dragon",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp torkad dragon",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    },
+    {
+      "section": "Dragonsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Dragonsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Parmesanrostad potatis: Repa timjan genom att dra av bladen från stammen. Finriv parmesan. Lägg ett bakplåtspapper på en ugnsplåt och smörj in med olivolja. Strö riven parmesan, salt, paprikapulver och blad från timjan jämnt över bakplåtspappret. Halvera potatis. Lägg potatisen sida vid sida med snittytan ned mot ostblandningen. Tillaga i mitten av ugnen ca 22 min, tills potatisen är mjuk."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Stekt kycklingfilé: Krydda kycklingfilé med salt och nymald svartpeppar. Hetta upp olivolja i en rymlig stekpanna. Stek kycklingen ca 3 min per sida."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Lägg över den stekta kycklingen i en ugnsform. Tillaga klart i nedre delen av ugnen (under potatisen) ca 10 min, tills den är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Dragonsås: Smält smör i en liten kastrull. Pudra över vetemjöl. Rör ner vatten, vispgrädde, kycklingbuljong och torkad dragon. Låt sjuda ca 4 min, rör om då och då. Smaka av med vitvinsvinäger, salt och nymald svartpeppar."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Sallad: Tärna gurka och tomat. Lägg allt i en salladsskål tillsammans med mixsallad. Ringla över lite olivolja."
+    },
+    {
+      "step": 7,
+      "section": null,
+      "text": "Servera stekt kyckling med parmesanrostad potatis, sallad och dragonsås."
+    }
+  ],
+  "images": {
+    "large": "images/91776-large.jpg",
+    "small": "images/91776-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91776/stekt-kycklingfile-med-parmesanrostad-potatis-och-dragonsas",
+    "harvestedAt": "2026-07-18T20:32:23.994Z"
+  }
+}

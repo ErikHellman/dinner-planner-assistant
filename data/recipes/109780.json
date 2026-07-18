@@ -1,0 +1,195 @@
+{
+  "recipeId": 109780,
+  "mainRecipeId": null,
+  "name": "Mezze maniche med prosciutto, paprika- och tomatsås och basilika",
+  "headline": "Mezze maniche med prosciutto",
+  "subheadline": "paprika- och tomatsås och basilika",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fläsk",
+  "servings": 2,
+  "cookingTime": {
+    "min": 15,
+    "max": 20
+  },
+  "categories": [
+    "0,6 kg CO2e",
+    "Kött",
+    "Klart på 20 min"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Sojabönor",
+    "Senap",
+    "Vete"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 636,
+    "protein": 28.27,
+    "carbs": 85.92,
+    "fat": 19.96
+  },
+  "co2eKgPerServing": 0.641,
+  "rating": {
+    "average": 3.79,
+    "count": 264
+  },
+  "ingredients": [
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "ajvar relish",
+      "amount": 1,
+      "unit": "förp",
+      "raw": "1 förp ajvar relish",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "vispgrädde",
+      "amount": 0.5,
+      "unit": "dl",
+      "raw": "½ dl vispgrädde",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "vatten",
+      "amount": 1,
+      "unit": "dl",
+      "raw": "1 dl vatten",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "kycklingbuljong",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp kycklingbuljong",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "parmesanost",
+      "amount": 1,
+      "unit": "bit",
+      "raw": "1 bit parmesanost",
+      "isBasis": false
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Paprika- och tomatsås",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Till servering",
+      "name": "mezze maniche rigate",
+      "amount": 200,
+      "unit": "g",
+      "raw": "200 g mezze maniche rigate",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "prosciutto",
+      "amount": 0.75,
+      "unit": "förp",
+      "raw": "¾ förp prosciutto",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "basilika",
+      "amount": 20,
+      "unit": "g",
+      "raw": "20 g basilika",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Koka upp rikligt med lättsaltat vatten i en kastrull till pastakoket i steg 3."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Förberedelse: Tärna röd paprika och grovhacka bananschalottenlök. Tärna tomat."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Koka mezze maniche enligt tidsangivelsen på förpackningen."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Paprika- och tomatsås: Hetta upp olivolja i en kastrull. Fräs paprika, lök och pressad vitlök ca 2 min. Tillsätt tomat, ajvar relish, vispgrädde, vatten och kycklingbuljong. Låt sjuda ca 5 min. Finriv parmesanost och blanda ner i såsen. Om ni vill, mixa såsen lite grovt med stavmixer. Smaka av med salt och nymald svartpeppar."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Häll av pastan och blanda med paprika- och tomatsås. Servera toppad med prosciutto och färsk basilika."
+    }
+  ],
+  "images": {
+    "large": "images/109780-large.jpg",
+    "small": "images/109780-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/109780/mezze-maniche-med-prosciutto-paprika-och-tomatsas-och-basilika",
+    "harvestedAt": "2026-07-18T20:32:34.168Z"
+  }
+}

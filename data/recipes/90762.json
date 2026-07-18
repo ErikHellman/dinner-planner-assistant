@@ -1,0 +1,231 @@
+{
+  "recipeId": 90762,
+  "mainRecipeId": null,
+  "name": "Grekisk kyckling med äppeltzatziki och vitlöksrostade rotfrukter",
+  "headline": "Grekisk kyckling med äppeltzatziki",
+  "subheadline": "vitlöksrostade rotfrukter",
+  "description": "En grekisk favorit gjord på kycklingfilé med persillade och citron. Tzatziki med rivet äpple ger fräsch syrlighet.",
+  "chefTip": "Om du har, använd gärna en stektermometer.",
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Kalorisnål",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Svaveldioxid",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 510,
+    "protein": 41.75,
+    "carbs": 59.74,
+    "fat": 11.52
+  },
+  "co2eKgPerServing": 0.581,
+  "rating": {
+    "average": 4.03,
+    "count": 983
+  },
+  "ingredients": [
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "rödbeta",
+      "amount": 2,
+      "unit": "st",
+      "raw": "2 st rödbeta",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "rosmarin/timjan mix",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rosmarin/timjan mix",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "vitlök",
+      "amount": 2,
+      "unit": "klyfta",
+      "raw": "2 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlöksrostade rotfrukter",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grekisk kyckling",
+      "name": "rödlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st rödlök",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk kyckling",
+      "name": "citron",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st citron",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk kyckling",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk kyckling",
+      "name": "persillade",
+      "amount": 0.5,
+      "unit": "påse",
+      "raw": "½ påse persillade",
+      "isBasis": false
+    },
+    {
+      "section": "Grekisk kyckling",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Grekisk kyckling",
+      "name": "svartpeppar",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Grekisk kyckling",
+      "name": "olja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "grönt äpple",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st grönt äpple",
+      "isBasis": false
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "gräddfil",
+      "amount": 75,
+      "unit": "g",
+      "raw": "75 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "vitlök",
+      "amount": 0.5,
+      "unit": "klyfta",
+      "raw": "½ klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Äppeltzatziki",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "krm salt",
+      "isBasis": true
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Vitlöksrostade rotfrukter: Skala rödbetor. Klyfta rödbetor och potatis. Lägg alla rotfrukter på en ugnsplåt med bakplåtspapper och blanda med neutral olja, rosmarin/timjan mix, lite salt och nymald svartpeppar. Lägg på oskalade vitlöksklyftor på grönsakerna och sätt in plåten i mitten av ugnen ca 25 min."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Grekisk kyckling: Klyfta rödlök och citron. Krydda kycklingfilé runt om med persillade, salt och nymald svartpeppar. Hetta upp lite neutral olja i en rymlig stekpanna. Bryn kycklingen ca 3 min per sida."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Lägg stekt kycklingfilé, rödlök och citron på ugnsplåten med rotfrukterna, när det återstår ca 10 min av tillagningstiden. Tillaga allt tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Äppeltzatziki: Riv grönt äpple och lägg i en bunke. Blanda ner gräddfil och finriven vitlök. Smaka av med lite salt."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servering: Servera kyckling med vitlöksrostade rotfrukter och äppeltzatziki."
+    }
+  ],
+  "images": {
+    "large": "images/90762-large.jpg",
+    "small": "images/90762-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/90762/grekisk-kyckling-med-appeltzatziki-och-vitloksrostade-rotfrukter",
+    "harvestedAt": "2026-07-18T20:32:23.413Z"
+  }
+}

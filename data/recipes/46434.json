@@ -1,0 +1,254 @@
+{
+  "recipeId": 46434,
+  "mainRecipeId": null,
+  "name": "Stekt kycklingfilé med rostad potatis, tzatziki och fetaostsallad",
+  "headline": "Stekt kycklingfilé med rostad potatis",
+  "subheadline": "tzatziki och fetaostsallad",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 30,
+    "max": 40
+  },
+  "categories": [
+    "Fågel",
+    "Barnvänligt",
+    "Proteinrik"
+  ],
+  "allergies": [
+    "Mjölk",
+    "Laktos",
+    "Svaveldioxid"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 494,
+    "protein": 46.55,
+    "carbs": 42.04,
+    "fat": 15.55
+  },
+  "co2eKgPerServing": 0.752,
+  "rating": {
+    "average": 4.14,
+    "count": 84
+  },
+  "ingredients": [
+    {
+      "section": "Rostad potatis",
+      "name": "potatis",
+      "amount": 400,
+      "unit": "g",
+      "raw": "400 g potatis",
+      "isBasis": false
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "bakplåtspapper",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bakplåtspapper",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Rostad potatis",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "gurka",
+      "amount": 0.5,
+      "unit": "st",
+      "raw": "½ st gurka",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "matyoghurt",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g matyoghurt",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Tzatziki",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Tzatziki",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "salt",
+      "amount": 2,
+      "unit": "krm",
+      "raw": "2 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Stekt kycklingfilé",
+      "name": "olivolja",
+      "amount": 1,
+      "unit": "tsk",
+      "raw": "1 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Fetaostsallad",
+      "name": "tomat",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st tomat",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaostsallad",
+      "name": "bananschalottenlök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st bananschalottenlök",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaostsallad",
+      "name": "fetaost",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g fetaost",
+      "isBasis": false
+    },
+    {
+      "section": "Fetaostsallad",
+      "name": "olivolja",
+      "amount": null,
+      "unit": "tsk",
+      "raw": "0 tsk olivolja",
+      "isBasis": true
+    },
+    {
+      "section": "Fetaostsallad",
+      "name": "salt",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Fetaostsallad",
+      "name": "svartpeppar",
+      "amount": null,
+      "unit": "krm",
+      "raw": "0 krm svartpeppar",
+      "isBasis": true
+    },
+    {
+      "section": "Fetaostsallad",
+      "name": "vitvinsvinäger 15ml",
+      "amount": 0.3333333333333333,
+      "unit": "påse",
+      "raw": "⅓ påse vitvinsvinäger 15ml",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Värm ugnen till 225&deg;C (varmluft) eller 250&deg;C (vanlig)."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Rostad potatis: Dela potatis och lägg på en ugnsplåt med bakplåtspapper. Ringla över lite olivolja. Krydda med salt och nymald svartpeppar. Rosta högt upp i ugnen ca 20 min, tills potatisen är klar."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Tzatziki: Grovriv gurka. Pressa ur lite av vätskan och lägg den rivna gurkan i en skål. Blanda med matyoghurt, olivolja, pressad vitlök, salt och lite nymald svartpeppar."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Stekt kycklingfilé: Krydda kycklingfilé med salt och rikligt med nymald svartpeppar. Hetta upp olivolja i en rymlig stekpanna. Stek kycklingen ca 2 min per sida. Lägg över kycklingen på plåten med potatis. Tillaga klart i ugnen ca 8 min, tills kycklingen är helt genomstekt."
+    },
+    {
+      "step": 5,
+      "section": null,
+      "text": "Fetaostsallad: Skiva tomat och bananschalottenlök tunt. Smula fetaost. Lägg allt på ett fat. Blanda med lite olivolja, salt, nymald svartpeppar och vitvinsvinäger."
+    },
+    {
+      "step": 6,
+      "section": null,
+      "text": "Servera stekt kycklingfilé med rostad potatis, tzatziki och fetaostsallad."
+    }
+  ],
+  "images": {
+    "large": "images/46434-large.jpg",
+    "small": "images/46434-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/46434/stekt-kycklingfile-med-rostad-potatis-tzatziki-och-fetaostsallad",
+    "harvestedAt": "2026-07-18T20:31:59.241Z"
+  }
+}

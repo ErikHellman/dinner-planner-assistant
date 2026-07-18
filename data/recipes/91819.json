@@ -1,0 +1,189 @@
+{
+  "recipeId": 91819,
+  "mainRecipeId": null,
+  "name": "Kycklingfajitas med paprika och vitlökssås",
+  "headline": "Kycklingfajitas",
+  "subheadline": "med paprika och vitlökssås",
+  "description": null,
+  "chefTip": null,
+  "mainIngredient": "Fågel",
+  "servings": 2,
+  "cookingTime": {
+    "min": 20,
+    "max": 30
+  },
+  "categories": [
+    "Fågel",
+    "Proteinrik",
+    "Klart på 30 min"
+  ],
+  "allergies": [
+    "Nötter",
+    "Vete",
+    "Mjölk",
+    "Laktos"
+  ],
+  "nutritionPerServing": {
+    "energyKcal": 579,
+    "protein": 46.03,
+    "carbs": 56.85,
+    "fat": 18.62
+  },
+  "co2eKgPerServing": 0.849,
+  "rating": {
+    "average": 3.95,
+    "count": 166
+  },
+  "ingredients": [
+    {
+      "section": "Kycklingfajitas",
+      "name": "gul lök",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st gul lök",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "röd paprika",
+      "amount": 1,
+      "unit": "st",
+      "raw": "1 st röd paprika",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "kycklingfilé",
+      "amount": 300,
+      "unit": "g",
+      "raw": "300 g kycklingfilé",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "olja",
+      "amount": 0.5,
+      "unit": "msk",
+      "raw": "½ msk olja",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "rökt paprikapulver",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp rökt paprikapulver",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "spiskummin",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk spiskummin",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "torkad oregano",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk torkad oregano",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "chili flakes",
+      "amount": 0.5,
+      "unit": "förp",
+      "raw": "½ förp chili flakes",
+      "isBasis": false
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "salt",
+      "amount": 0.5,
+      "unit": "tsk",
+      "raw": "½ tsk salt",
+      "isBasis": true
+    },
+    {
+      "section": "Kycklingfajitas",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "mixsallad",
+      "amount": 50,
+      "unit": "g",
+      "raw": "50 g mixsallad",
+      "isBasis": false
+    },
+    {
+      "section": "Till servering",
+      "name": "tortillabröd",
+      "amount": 4,
+      "unit": "st",
+      "raw": "4 st tortillabröd",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "gräddfil",
+      "amount": 150,
+      "unit": "g",
+      "raw": "150 g gräddfil",
+      "isBasis": false
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "salt",
+      "amount": 1,
+      "unit": "krm",
+      "raw": "1 krm salt",
+      "isBasis": true
+    },
+    {
+      "section": "Vitlökssås",
+      "name": "vitlök",
+      "amount": 1,
+      "unit": "klyfta",
+      "raw": "1 klyfta vitlök",
+      "isBasis": false
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "section": null,
+      "text": "Förberedelser: Strimla gul lök och röd paprika. Dela kycklingfilé i bitar."
+    },
+    {
+      "step": 2,
+      "section": null,
+      "text": "Kycklingfajitas: Hetta upp neutral olja i en rymlig stekpanna och bryn kycklingen ca 2 min. Tillsätt grönsakerna och krydda med rökt paprikapulver, spiskummin, torkad oregano, chili flakes (efter egen smak) och salt. Fräs allt ytterligare ca 4 min, tills kycklingen är helt genomstekt. Rör ner pressad vitlök på slutet."
+    },
+    {
+      "step": 3,
+      "section": null,
+      "text": "Vitlökssås: Blanda ihop gräddfil, pressad vitlök och salt."
+    },
+    {
+      "step": 4,
+      "section": null,
+      "text": "Värm tortillabröden och servera med kycklingfajitas och mixsallad. Toppa med vitlökssås och rulla ihop, ät direkt."
+    }
+  ],
+  "images": {
+    "large": "images/91819-large.jpg",
+    "small": "images/91819-small.jpg"
+  },
+  "source": {
+    "url": "https://www.linasmatkasse.se/recept/91819/kycklingfajitas-med-paprika-och-vitlokssas",
+    "harvestedAt": "2026-07-18T20:32:25.301Z"
+  }
+}
