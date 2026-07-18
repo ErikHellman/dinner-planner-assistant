@@ -52,6 +52,9 @@
 		display: flex;
 		gap: 0.5rem;
 		align-items: flex-end;
+		/* Auto margins disable flex stretch, so claim the width explicitly:
+		   without it the form shrink-wraps and the row shifts while typing. */
+		width: 100%;
 		max-width: 52rem;
 		margin: 0 auto;
 		padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
@@ -78,6 +81,8 @@
 	}
 
 	button {
+		/* Don't let a growing textarea squeeze or displace the button. */
+		flex-shrink: 0;
 		font: inherit;
 		font-weight: 600;
 		border: none;
