@@ -66,8 +66,9 @@ async function init(): Promise<AgentBundle> {
 		);
 	}
 
-	// Pure chat assistant for now: no coding tools, and no skills/extensions/context
-	// files from disk. Later milestones register curated dinner-planning tools here.
+	// Grocery tools (Willys search + cart) are registered below via customTools; the
+	// agent runs with noTools:'builtin' so it has these and no shell/file tools. No
+	// skills/extensions/context files are loaded from disk.
 	const resourceLoader = new DefaultResourceLoader({
 		cwd,
 		agentDir,

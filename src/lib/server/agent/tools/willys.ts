@@ -15,6 +15,14 @@ function fail(err: unknown): { content: { type: 'text'; text: string }[]; detail
 	return { content: [{ type: 'text', text: message }], details: { error: message } };
 }
 
+async function guarded(run: () => Promise<unknown>) {
+	try {
+		return ok(await run());
+	} catch (err) {
+		return fail(err);
+	}
+}
+
 /** Build the native Pi tools that expose the Willys client to the agent. */
 export function createWillysTools(client: WillysClient): ToolDefinition[] {
 	return [
@@ -29,13 +37,8 @@ export function createWillysTools(client: WillysClient): ToolDefinition[] {
 				page: Type.Optional(Type.Number({ description: '0-based page', default: 0 })),
 				size: Type.Optional(Type.Number({ description: 'Results per page (max 30)', default: 30 }))
 			}),
-			async execute(_id, params) {
-				try {
-					return ok(await client.search(params.query, params.page ?? 0, params.size ?? 30));
-				} catch (err) {
-					return fail(err);
-				}
-			}
+			execute: (_id, params) =>
+				guarded(() => client.search(params.query, params.page ?? 0, params.size ?? 30))
 		}),
 		defineTool({
 			name: 'willys_product',
@@ -43,14 +46,10 @@ export function createWillysTools(client: WillysClient): ToolDefinition[] {
 			description:
 				'Get detailed info for one Willys product by its productId (e.g. "101233933_ST").',
 			promptSnippet: 'willys_product(productId): product detail',
-			parameters: Type.Object({ productId: Type.String() }),
-			async execute(_id, params) {
-				try {
-					return ok(await client.product(params.productId));
-				} catch (err) {
-					return fail(err);
-				}
-			}
+			parameters: Type.Object({
+				productId: Type.String({ description: 'Willys productId, e.g. "101233933_ST"' })
+			}),
+			execute: (_id, params) => guarded(() => client.product(params.productId))
 		}),
 		defineTool({
 			name: 'willys_cart_view',
@@ -58,13 +57,7 @@ export function createWillysTools(client: WillysClient): ToolDefinition[] {
 			description: 'View the current Willys shopping cart (lines, quantities, totals).',
 			promptSnippet: 'willys_cart_view(): show the cart',
 			parameters: Type.Object({}),
-			async execute() {
-				try {
-					return ok(await client.getCart());
-				} catch (err) {
-					return fail(err);
-				}
-			}
+			execute: () => guarded(() => client.getCart())
 		}),
 		defineTool({
 			name: 'willys_cart_add',
@@ -73,35 +66,34 @@ export function createWillysTools(client: WillysClient): ToolDefinition[] {
 				'Add a product to the Willys cart. quantity is absolute for that product. pickUnit is "pieces" (default) or "kilogram".',
 			promptSnippet: 'willys_cart_add(productId, quantity): add to cart',
 			parameters: Type.Object({
-				productId: Type.String(),
-				quantity: Type.Number({ description: 'Absolute quantity to set', default: 1 }),
+				productId: Type.String({ description: 'Willys productId, e.g. "101233933_ST"' }),
+				quantity: Type.Number({
+					description: 'Absolute quantity to set for this product (0 removes it)',
+					default: 1,
+					minimum: 0
+				}),
 				pickUnit: Type.Optional(
 					Type.Union([Type.Literal('pieces'), Type.Literal('kilogram')], { default: 'pieces' })
 				)
 			}),
-			async execute(_id, params) {
-				try {
-					return ok(
-						await client.setQuantity(params.productId, params.quantity, params.pickUnit ?? 'pieces')
-					);
-				} catch (err) {
-					return fail(err);
-				}
-			}
+			execute: (_id, params) =>
+				guarded(() =>
+					client.setQuantity(params.productId, params.quantity, params.pickUnit ?? 'pieces')
+				)
 		}),
 		defineTool({
 			name: 'willys_cart_remove',
 			label: 'Willys remove from cart',
 			description: 'Remove a product from the Willys cart by productId.',
 			promptSnippet: 'willys_cart_remove(productId): remove from cart',
-			parameters: Type.Object({ productId: Type.String() }),
-			async execute(_id, params) {
-				try {
-					return ok(await client.removeFromCart(params.productId));
-				} catch (err) {
-					return fail(err);
-				}
-			}
+			parameters: Type.Object({
+				productId: Type.String({ description: 'Willys productId, e.g. "101233933_ST"' }),
+				pickUnit: Type.Optional(
+					Type.Union([Type.Literal('pieces'), Type.Literal('kilogram')], { default: 'pieces' })
+				)
+			}),
+			execute: (_id, params) =>
+				guarded(() => client.removeFromCart(params.productId, params.pickUnit ?? 'pieces'))
 		}),
 		defineTool({
 			name: 'willys_cart_clear',
@@ -109,13 +101,7 @@ export function createWillysTools(client: WillysClient): ToolDefinition[] {
 			description: 'Remove all products from the Willys cart.',
 			promptSnippet: 'willys_cart_clear(): empty the cart',
 			parameters: Type.Object({}),
-			async execute() {
-				try {
-					return ok(await client.clearCart());
-				} catch (err) {
-					return fail(err);
-				}
-			}
+			execute: () => guarded(() => client.clearCart())
 		})
 	];
 }

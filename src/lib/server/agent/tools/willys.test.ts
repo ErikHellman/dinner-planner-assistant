@@ -24,13 +24,12 @@ describe('createWillysTools', () => {
 		expect(tools.map((t) => t.name)).toEqual(EXPECTED_NAMES);
 	});
 
-	it('gives every tool a parameters object and an execute function', () => {
-		const tools = createWillysTools(mockClient());
-		for (const tool of tools) {
-			expect(tool.parameters).toBeTypeOf('object');
-			expect(tool.parameters).not.toBeNull();
-			expect(tool.execute).toBeTypeOf('function');
-		}
+	it.each(EXPECTED_NAMES)('%s has a parameters object and an execute function', (name) => {
+		const tool = createWillysTools(mockClient()).find((t) => t.name === name);
+		expect(tool).toBeDefined();
+		expect(tool!.parameters).toBeTypeOf('object');
+		expect(tool!.parameters).not.toBeNull();
+		expect(tool!.execute).toBeTypeOf('function');
 	});
 
 	it('willys_search.execute wraps the client result in content + details', async () => {
@@ -63,5 +62,23 @@ describe('createWillysTools', () => {
 		expect(result.content[0]).toMatchObject({ type: 'text' });
 		expect((result.content[0] as { text: string }).text).toBe(new WillysConfigError().message);
 		expect(result.details).toEqual({ error: new WillysConfigError().message });
+	});
+
+	it('returns a fail result prefixed "Willys tool error:" on a generic Error (does not throw)', async () => {
+		const tools = createWillysTools(
+			mockClient({
+				getCart: async () => {
+					throw new Error('boom');
+				}
+			})
+		);
+		const view = tools.find((t) => t.name === 'willys_cart_view');
+
+		const result = await view!.execute('id', {}, undefined, undefined, {} as never);
+
+		const text = (result.content[0] as { text: string }).text;
+		expect(text.startsWith('Willys tool error:')).toBe(true);
+		expect(text).toContain('boom');
+		expect(result.details).toEqual({ error: text });
 	});
 });
