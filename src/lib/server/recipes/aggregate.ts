@@ -58,6 +58,12 @@ const VOLUME_DISPLAY: readonly { unit: string; ml: number }[] = [
 	{ unit: 'krm', ml: 1 }
 ];
 
+function assertValidServings(servings: number): void {
+	if (!Number.isInteger(servings) || servings < 1) {
+		throw new RecipeAggregateError(`servings must be a positive integer, got ${servings}`);
+	}
+}
+
 const round2 = (v: number): number => Math.round(v * 100) / 100;
 
 const isQuarterMultiple = (v: number): boolean => Math.abs(v * 4 - Math.round(v * 4)) < 1e-9;
@@ -93,9 +99,7 @@ export function aggregateIngredients(
 	lists: RecipeIngredientList[],
 	servings: number
 ): { items: ShoppingListItem[]; pantryStaples: ShoppingListItem[] } {
-	if (!Number.isInteger(servings) || servings < 1) {
-		throw new RecipeAggregateError(`servings must be a positive integer, got ${servings}`);
-	}
+	assertValidServings(servings);
 	const scale = servings / 2;
 
 	const groups = new Map<string, Group>();
@@ -181,6 +185,7 @@ export async function buildShoppingList(
 	recipeIds: number[],
 	servings: number
 ): Promise<ShoppingList> {
+	assertValidServings(servings);
 	const lists = await store.ingredients(recipeIds);
 	const { items, pantryStaples } = aggregateIngredients(lists, servings);
 	return {

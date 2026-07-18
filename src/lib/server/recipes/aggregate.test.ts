@@ -245,4 +245,20 @@ describe('saveShoppingList', () => {
 		expect(JSON.parse(content)).toEqual(emptyList);
 		expect(await readdir(path.join(dir, 'plans'))).toEqual(['shopping-list.json']);
 	});
+
+	it('concurrent saves to the same path both succeed and leave one complete list', async () => {
+		const dir = await mkdtemp(path.join(os.tmpdir(), 'aggregate-save-test-'));
+		const target = path.join(dir, 'shopping-list.json');
+		const a: ShoppingList = { ...emptyList, servings: 4 };
+		const b: ShoppingList = { ...emptyList, servings: 6 };
+
+		const results = await Promise.allSettled(
+			Array.from({ length: 10 }, (_, i) => saveShoppingList(i % 2 ? a : b, target))
+		);
+
+		expect(results.every((r) => r.status === 'fulfilled')).toBe(true);
+		const final = JSON.parse(await readFile(target, 'utf8')) as ShoppingList;
+		expect([4, 6]).toContain(final.servings);
+		expect(await readdir(dir)).toEqual(['shopping-list.json']); // no stray tmps
+	});
 });
