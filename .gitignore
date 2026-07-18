@@ -27,6 +27,9 @@ Thumbs.db
 # Willys session cache (contains auth cookies)
 /data/willys/
 
+# Latest aggregated shopping list (written by "recipes aggregate" / recipe_aggregate)
+/data/plans/
+
 # Atomic-write temp files (recipe harvest writes tmp+rename; a crash mid-write can leave these)
 /data/recipes/**/*.tmp
 

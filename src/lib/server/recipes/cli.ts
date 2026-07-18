@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { harvest } from './harvest';
+import { buildShoppingList, saveShoppingList } from './aggregate';
 import { defaultRecipesDir, RecipeStore, type RecipeSearchFilters } from './query';
 
 function log(msg: string): void {
@@ -16,7 +17,8 @@ function usage(): number {
 			'  recipes harvest [--force] [--limit N]',
 			'  recipes search [--query q] [--category c] [--max-time minutes] [--max-kcal kcal]',
 			'  recipes get <recipeId>',
-			'  recipes ingredients <recipeId...>'
+			'  recipes ingredients <recipeId...>',
+			'  recipes aggregate <recipeId...> [--servings N]'
 		].join('\n')
 	);
 	return 64;
@@ -103,6 +105,33 @@ async function main(argv: string[]): Promise<number> {
 				return 64;
 			}
 			out(await store.ingredients(recipeIds));
+			return 0;
+		}
+		if (command === 'aggregate' && rest.length > 0) {
+			const flagStart = rest.findIndex((a) => a.startsWith('--'));
+			const idArgs = flagStart === -1 ? rest : rest.slice(0, flagStart);
+			const flags = parseFlags(
+				flagStart === -1 ? [] : rest.slice(flagStart),
+				new Set(['servings'])
+			);
+			if (!flags || idArgs.length === 0) return usage();
+			const recipeIds = idArgs.map(Number);
+			if (recipeIds.some((n) => !Number.isInteger(n))) {
+				log('recipeIds must be integers');
+				return 64;
+			}
+			let servings = 2;
+			if (flags.has('servings')) {
+				servings = Number(flags.get('servings'));
+				if (!Number.isInteger(servings) || servings < 1) {
+					log('--servings must be a positive integer');
+					return 64;
+				}
+			}
+			const shoppingList = await buildShoppingList(store, recipeIds, servings);
+			const saved = await saveShoppingList(shoppingList);
+			log(`Saved shopping list to ${saved}`);
+			out(shoppingList);
 			return 0;
 		}
 		return usage();
