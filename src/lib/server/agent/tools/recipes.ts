@@ -56,7 +56,7 @@ export function createRecipeTools(store: RecipeStore): ToolDefinition[] {
 				'Get one full recipe by recipeId: ingredients for 2 servings, step-by-step instructions, nutrition, allergies, categories.',
 			promptSnippet: 'recipe_get(recipeId): full recipe',
 			parameters: Type.Object({
-				recipeId: Type.Number({ description: 'Numeric recipeId from recipe_search' })
+				recipeId: Type.Integer({ minimum: 1, description: 'Numeric recipeId from recipe_search' })
 			}),
 			execute: (_id, params) => guarded(() => store.get(params.recipeId))
 		}),
@@ -67,7 +67,7 @@ export function createRecipeTools(store: RecipeStore): ToolDefinition[] {
 				'Ingredient lists (2 servings per recipe) for one or more recipes — use when collecting groceries to buy. Ingredients with isBasis=true are pantry staples the user likely has.',
 			promptSnippet: 'recipe_ingredients(recipeIds): ingredients per recipe',
 			parameters: Type.Object({
-				recipeIds: Type.Array(Type.Number(), {
+				recipeIds: Type.Array(Type.Integer({ minimum: 1 }), {
 					description: 'recipeIds from recipe_search',
 					minItems: 1
 				})
