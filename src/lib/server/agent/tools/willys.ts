@@ -63,7 +63,7 @@ export function createWillysTools(client: WillysClient): ToolDefinition[] {
 			name: 'willys_cart_add',
 			label: 'Willys add to cart',
 			description:
-				'Add a product to the Willys cart. quantity is absolute for that product. pickUnit is "pieces" (default) or "kilogram".',
+				'Add a product to the Willys cart. quantity is absolute for that product. pickUnit is "pieces" (default) or "kilogram". The returned cart reflects the change but can briefly lag; call willys_cart_view to confirm if unsure.',
 			promptSnippet: 'willys_cart_add(productId, quantity): add to cart',
 			parameters: Type.Object({
 				productId: Type.String({ description: 'Willys productId, e.g. "101233933_ST"' }),
@@ -84,7 +84,8 @@ export function createWillysTools(client: WillysClient): ToolDefinition[] {
 		defineTool({
 			name: 'willys_cart_remove',
 			label: 'Willys remove from cart',
-			description: 'Remove a product from the Willys cart by productId.',
+			description:
+				'Remove a product from the Willys cart by productId. Pass the same pickUnit the item was added with ("kilogram" for KG-priced products, else "pieces") — removing with the wrong pickUnit will not match the line. The returned cart can briefly lag; re-check with willys_cart_view if unsure.',
 			promptSnippet: 'willys_cart_remove(productId): remove from cart',
 			parameters: Type.Object({
 				productId: Type.String({ description: 'Willys productId, e.g. "101233933_ST"' }),
