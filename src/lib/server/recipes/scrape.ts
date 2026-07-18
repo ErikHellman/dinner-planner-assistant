@@ -5,16 +5,21 @@ const CATEGORY_PATH = '/receptbank/kalorisnal';
 const USER_AGENT =
 	'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 
-export class RecipeScrapeError extends Error {}
+export class RecipeScrapeError extends Error {
+	constructor(message: string, options?: ErrorOptions) {
+		super(message, options);
+		this.name = 'RecipeScrapeError';
+	}
+}
 
 /** Pull the embedded Next.js JSON out of a page. The script tag carries extra attributes (nonce). */
 export function extractNextData(html: string): unknown {
-	const match = html.match(/<script id="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s);
+	const match = html.match(/<script[^>]*\bid="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s);
 	if (!match) throw new RecipeScrapeError('No __NEXT_DATA__ payload found in page');
 	try {
 		return JSON.parse(match[1]);
-	} catch {
-		throw new RecipeScrapeError('Failed to parse __NEXT_DATA__ JSON');
+	} catch (err) {
+		throw new RecipeScrapeError('Failed to parse __NEXT_DATA__ JSON', { cause: err });
 	}
 }
 
@@ -79,7 +84,10 @@ export async function fetchImage(
 	url: string,
 	fetchImpl: typeof fetch = fetch
 ): Promise<Uint8Array> {
-	const res = await fetchImpl(url, { headers: { 'user-agent': USER_AGENT } });
+	const res = await fetchImpl(url, {
+		headers: { 'user-agent': USER_AGENT },
+		redirect: 'follow'
+	});
 	if (!res.ok) throw new RecipeScrapeError(`GET ${url} failed: HTTP ${res.status}`);
 	return new Uint8Array(await res.arrayBuffer());
 }

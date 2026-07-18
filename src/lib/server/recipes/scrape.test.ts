@@ -4,6 +4,7 @@ import recipeFixture from './fixtures/recipe-and-steps.json';
 import { fakeFetch, listingHtml, nextDataHtml, recipeHtml } from './fixtures/helpers';
 import {
 	extractNextData,
+	fetchImage,
 	fetchListingPage,
 	fetchRecipeDetail,
 	listingFromNextData,
@@ -19,6 +20,12 @@ describe('extractNextData', () => {
 		expect(data).toEqual({ props: { pageProps: { page: 1 } } });
 	});
 
+	it('extracts when id is not the first script attribute', () => {
+		const html =
+			'<script type="application/json" id="__NEXT_DATA__" nonce="">{"props":{"pageProps":{"page":2}}}</script>';
+		expect(extractNextData(html)).toEqual({ props: { pageProps: { page: 2 } } });
+	});
+
 	it('throws RecipeScrapeError when the marker is missing', () => {
 		expect(() => extractNextData('<html><body>nope</body></html>')).toThrow(RecipeScrapeError);
 	});
@@ -27,6 +34,18 @@ describe('extractNextData', () => {
 		expect(() =>
 			extractNextData('<script id="__NEXT_DATA__" type="application/json">{oops</script>')
 		).toThrow(RecipeScrapeError);
+	});
+
+	it('names the error and preserves the JSON parse cause', () => {
+		let caught: unknown;
+		try {
+			extractNextData('<script id="__NEXT_DATA__" type="application/json">{oops</script>');
+		} catch (err) {
+			caught = err;
+		}
+		expect(caught).toBeInstanceOf(RecipeScrapeError);
+		expect((caught as Error).name).toBe('RecipeScrapeError');
+		expect((caught as Error).cause).toBeInstanceOf(SyntaxError);
 	});
 });
 
@@ -86,5 +105,23 @@ describe('fetching', () => {
 
 	it('throws RecipeScrapeError with the status on HTTP errors', async () => {
 		await expect(fetchRecipeDetail(1, fakeFetch({}))).rejects.toThrow(/HTTP 404/);
+	});
+
+	it('throws RecipeScrapeError with the status when a listing page 404s', async () => {
+		await expect(fetchListingPage(1, fakeFetch({}))).rejects.toThrow(/HTTP 404/);
+	});
+
+	it('fetches image bytes', async () => {
+		const bytes = new Uint8Array([137, 80, 78, 71]);
+		const fetchImpl = fakeFetch({ 'https://example.com/img.jpg': bytes });
+		const result = await fetchImage('https://example.com/img.jpg', fetchImpl);
+		expect(result).toBeInstanceOf(Uint8Array);
+		expect(Array.from(result)).toEqual([137, 80, 78, 71]);
+	});
+
+	it('throws RecipeScrapeError with the status on image HTTP errors', async () => {
+		await expect(fetchImage('https://example.com/missing.jpg', fakeFetch({}))).rejects.toThrow(
+			/HTTP 404/
+		);
 	});
 });
