@@ -22,13 +22,17 @@ function usage(): number {
 	return 64;
 }
 
-/** --force -> true; --name value -> "value". Returns null on malformed input. */
-function parseFlags(args: string[]): Map<string, string | true> | null {
+/** --force -> true; --name value -> "value". Returns null on malformed or unknown flags. */
+function parseFlags(
+	args: string[],
+	allowed: ReadonlySet<string>
+): Map<string, string | true> | null {
 	const flags = new Map<string, string | true>();
 	for (let i = 0; i < args.length; i++) {
 		const arg = args[i];
 		if (!arg.startsWith('--')) return null;
 		const name = arg.slice(2);
+		if (!allowed.has(name)) return null;
 		if (name === 'force') {
 			flags.set(name, true);
 			continue;
@@ -47,7 +51,7 @@ async function main(argv: string[]): Promise<number> {
 
 	try {
 		if (command === 'harvest') {
-			const flags = parseFlags(rest);
+			const flags = parseFlags(rest, new Set(['force', 'limit']));
 			if (!flags) return usage();
 			let limit: number | undefined;
 			if (flags.has('limit')) {
@@ -63,7 +67,7 @@ async function main(argv: string[]): Promise<number> {
 			return 0;
 		}
 		if (command === 'search') {
-			const flags = parseFlags(rest);
+			const flags = parseFlags(rest, new Set(['query', 'category', 'max-time', 'max-kcal']));
 			if (!flags) return usage();
 			const filters: RecipeSearchFilters = {};
 			if (flags.has('query')) filters.query = String(flags.get('query'));
