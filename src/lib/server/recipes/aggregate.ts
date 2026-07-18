@@ -1,4 +1,8 @@
+import { mkdir } from 'node:fs/promises';
+import path from 'node:path';
+import { writeFileAtomic } from './atomic-write';
 import { foldText } from './normalize';
+import type { RecipeStore } from './query';
 import type { RecipeIngredientList } from './types';
 
 export class RecipeAggregateError extends Error {
@@ -165,4 +169,39 @@ export function aggregateIngredients(
 	items.sort(byName);
 	pantryStaples.sort(byName);
 	return { items, pantryStaples };
+}
+
+/**
+ * Load the selected recipes and aggregate them into a shopping list. Unknown ids fail
+ * the whole call (RecipeQueryError from the store) — a hard failure naming the bad id
+ * beats a silently incomplete shopping list.
+ */
+export async function buildShoppingList(
+	store: RecipeStore,
+	recipeIds: number[],
+	servings: number
+): Promise<ShoppingList> {
+	const lists = await store.ingredients(recipeIds);
+	const { items, pantryStaples } = aggregateIngredients(lists, servings);
+	return {
+		servings,
+		recipes: lists.map((l) => ({ recipeId: l.recipeId, name: l.name })),
+		items,
+		pantryStaples,
+		generatedAt: new Date().toISOString()
+	};
+}
+
+export function defaultShoppingListPath(): string {
+	return path.resolve(process.cwd(), 'data/plans/shopping-list.json');
+}
+
+/** Persist the latest shopping list (atomic write) for the future web UI. */
+export async function saveShoppingList(
+	list: ShoppingList,
+	filePath: string = defaultShoppingListPath()
+): Promise<string> {
+	await mkdir(path.dirname(filePath), { recursive: true });
+	await writeFileAtomic(filePath, JSON.stringify(list, null, 2) + '\n');
+	return filePath;
 }

@@ -1,6 +1,16 @@
+import { mkdtemp, readdir, readFile, writeFile } from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { aggregateIngredients, RecipeAggregateError } from './aggregate';
-import type { RecipeIngredient, RecipeIngredientList } from './types';
+import {
+	aggregateIngredients,
+	buildShoppingList,
+	RecipeAggregateError,
+	saveShoppingList,
+	type ShoppingList
+} from './aggregate';
+import { RecipeQueryError, RecipeStore } from './query';
+import type { RecipeDoc, RecipeIngredient, RecipeIngredientList } from './types';
 
 function ing(
 	name: string,
@@ -155,5 +165,84 @@ describe('aggregateIngredients', () => {
 	it('handles a null unit as its own bucket with a bare-number display', () => {
 		const { items } = aggregateIngredients([list(1, 'A', [ing('ägg', 2, null)])], 2);
 		expect(items[0].amounts).toEqual([{ value: 2, unit: null, display: '2' }]);
+	});
+});
+
+function doc(recipeId: number, name: string, ingredients: RecipeIngredient[]): RecipeDoc {
+	return {
+		recipeId,
+		mainRecipeId: null,
+		name,
+		headline: null,
+		subheadline: null,
+		description: null,
+		chefTip: null,
+		mainIngredient: null,
+		servings: 2,
+		cookingTime: { min: null, max: null },
+		categories: [],
+		allergies: [],
+		nutritionPerServing: null,
+		co2eKgPerServing: null,
+		rating: { average: null, count: null },
+		ingredients,
+		instructions: [],
+		images: { large: null, small: null },
+		source: { url: 'https://example.test', harvestedAt: '2026-07-18T00:00:00.000Z' }
+	};
+}
+
+async function storeWith(...docs: RecipeDoc[]): Promise<RecipeStore> {
+	const dir = await mkdtemp(path.join(os.tmpdir(), 'aggregate-store-test-'));
+	for (const d of docs) {
+		await writeFile(path.join(dir, `${d.recipeId}.json`), JSON.stringify(d));
+	}
+	return new RecipeStore(dir);
+}
+
+describe('buildShoppingList', () => {
+	it('loads recipes, aggregates, and stamps metadata (input order, duplicates repeated)', async () => {
+		const store = await storeWith(
+			doc(1, 'Laxpanna', [ing('gul lök', 150, 'g')]),
+			doc(2, 'Kycklinggryta', [ing('gul lök', 150, 'g')])
+		);
+		const listResult = await buildShoppingList(store, [2, 1, 2], 4);
+		expect(listResult.servings).toBe(4);
+		expect(listResult.recipes).toEqual([
+			{ recipeId: 2, name: 'Kycklinggryta' },
+			{ recipeId: 1, name: 'Laxpanna' },
+			{ recipeId: 2, name: 'Kycklinggryta' }
+		]);
+		// 150 + 150 + 150 (recipe 2 twice) scaled x2 = 900
+		expect(listResult.items[0].amounts[0]).toEqual({ value: 900, unit: 'g', display: '900 g' });
+		expect(Number.isNaN(Date.parse(listResult.generatedAt))).toBe(false);
+	});
+
+	it('propagates store errors for unknown recipeIds', async () => {
+		const store = await storeWith(doc(1, 'Laxpanna', [ing('gul lök', 150, 'g')]));
+		await expect(buildShoppingList(store, [1, 999], 2)).rejects.toThrow(RecipeQueryError);
+	});
+});
+
+describe('saveShoppingList', () => {
+	const emptyList: ShoppingList = {
+		servings: 2,
+		recipes: [],
+		items: [],
+		pantryStaples: [],
+		generatedAt: '2026-07-18T00:00:00.000Z'
+	};
+
+	it('creates parent directories, writes pretty JSON + newline, returns the path', async () => {
+		const dir = await mkdtemp(path.join(os.tmpdir(), 'aggregate-save-test-'));
+		const target = path.join(dir, 'plans', 'shopping-list.json');
+
+		const written = await saveShoppingList(emptyList, target);
+
+		expect(written).toBe(target);
+		const content = await readFile(target, 'utf8');
+		expect(content.endsWith('\n')).toBe(true);
+		expect(JSON.parse(content)).toEqual(emptyList);
+		expect(await readdir(path.join(dir, 'plans'))).toEqual(['shopping-list.json']);
 	});
 });
