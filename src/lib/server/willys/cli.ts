@@ -19,7 +19,7 @@ async function main(argv: string[]): Promise<number> {
 
 	try {
 		if (group === 'search') {
-			const query = rest.join(' ') || action;
+			const query = argv.slice(1).join(' ');
 			if (!query) return usage();
 			log(`Searching Willys for "${query}"…`);
 			out(await client.search(query));
@@ -36,7 +36,11 @@ async function main(argv: string[]): Promise<number> {
 			}
 			if (action === 'add' && rest[0]) {
 				const qty = rest[1] ? Number(rest[1]) : 1;
-				log(`Adding ${rest[0]} ×${qty}…`);
+				if (!Number.isFinite(qty) || qty < 0) {
+					log('qty must be a non-negative number');
+					return 64;
+				}
+				log(`Setting ${rest[0]} to ×${qty}…`);
 				out(await client.addToCart(rest[0], qty));
 				return 0;
 			}
@@ -66,8 +70,8 @@ function usage(): number {
 			'Usage:',
 			'  willys search <query>',
 			'  willys product <code>',
-			'  willys cart list',
-			'  willys cart add <code> [qty]',
+			'  willys cart list               (default for "cart")',
+			'  willys cart add <code> [qty]   (sets exact quantity)',
 			'  willys cart remove <code>',
 			'  willys cart clear'
 		].join('\n')
@@ -75,4 +79,9 @@ function usage(): number {
 	return 64;
 }
 
-main(process.argv.slice(2)).then((code) => process.exit(code));
+main(process.argv.slice(2))
+	.then((code) => process.exit(code))
+	.catch((err) => {
+		process.stderr.write(`Fatal: ${err instanceof Error ? err.message : String(err)}\n`);
+		process.exit(1);
+	});
