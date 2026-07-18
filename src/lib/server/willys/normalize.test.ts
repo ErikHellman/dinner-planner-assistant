@@ -85,7 +85,7 @@ describe('normalizeCart', () => {
 				}
 			]
 		};
-		const cart = normalizeCart(rawCart as never, '2583');
+		const cart = normalizeCart(rawCart, '2583');
 		expect(cart.itemCount).toBe(1);
 		expect(cart.totalQuantity).toBe(2);
 		expect(cart.subtotal).toEqual({ amount: 31.8, formatted: '31,80 kr', currency: 'SEK' });
@@ -98,8 +98,20 @@ describe('normalizeCart', () => {
 		});
 	});
 
+	it('formats a nonzero discount total as Swedish currency', () => {
+		const rawCart = {
+			totalItems: 0,
+			subTotalPrice: '',
+			totalDiscountValue: 3.5,
+			products: []
+		};
+		const cart = normalizeCart(rawCart, null);
+		expect(cart.discountTotal).toEqual({ amount: 3.5, formatted: '3,50 kr', currency: 'SEK' });
+	});
+
 	it('normalizes an empty cart', () => {
-		const cart = normalizeCart({ totalItems: 0, subTotalPrice: '', products: [] } as never, null);
+		const rawCart = { totalItems: 0, subTotalPrice: '', products: [] };
+		const cart = normalizeCart(rawCart, null);
 		expect(cart.itemCount).toBe(0);
 		expect(cart.lines).toEqual([]);
 	});

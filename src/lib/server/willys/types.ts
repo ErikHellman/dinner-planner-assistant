@@ -35,7 +35,7 @@ export interface NormalizedCartLine {
 	name: string;
 	brand: string | null;
 	quantity: number;
-	pickUnit: string;
+	pickUnit: 'pieces' | 'kilogram';
 	unitPrice: Money;
 	lineTotal: Money;
 	categories: string[];
@@ -74,6 +74,7 @@ export interface RawProduct {
 	categoryCode?: string | null;
 	quantity?: number | null;
 	totalPrice?: string | null;
+	pickUnit?: { code?: string } | null;
 	image?: { url?: string } | null;
 	thumbnail?: { url?: string } | null;
 }

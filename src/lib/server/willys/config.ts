@@ -1,5 +1,7 @@
 export class WillysConfigError extends Error {
-	constructor(message = 'Willys credentials missing: set WILLYS_USERNAME and WILLYS_PASSWORD in .env') {
+	constructor(
+		message = 'Willys credentials missing: set WILLYS_USERNAME and WILLYS_PASSWORD in .env'
+	) {
 		super(message);
 		this.name = 'WillysConfigError';
 	}

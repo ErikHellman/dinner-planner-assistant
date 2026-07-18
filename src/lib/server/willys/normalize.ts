@@ -19,6 +19,20 @@ function money(formatted?: string | null): Money {
 	return { amount: parseAmount(formatted), formatted: formatted?.trim() || '', currency: 'SEK' };
 }
 
+/** Money that prefers the authoritative numeric field, falling back to the parsed string. */
+function moneyWith(amount: number | null | undefined, formatted?: string | null): Money {
+	return {
+		amount: amount ?? parseAmount(formatted),
+		formatted: formatted?.trim() || '',
+		currency: 'SEK'
+	};
+}
+
+/** Format a number as Swedish currency, e.g. 3.5 → "3,50 kr". */
+function formatSek(amount: number): string {
+	return `${amount.toFixed(2).replace('.', ',')} kr`;
+}
+
 function pickUnitOf(raw: RawProduct): 'pieces' | 'kilogram' {
 	return raw.productBasketType?.code === 'KG' ? 'kilogram' : 'pieces';
 }
@@ -38,7 +52,7 @@ export function normalizeProduct(raw: RawProduct, categories: string[]): Normali
 		brand: raw.manufacturer ?? null,
 		displaySize: raw.displayVolume ?? raw.productLine2 ?? null,
 		pickUnit: pickUnitOf(raw),
-		price: money(raw.price),
+		price: moneyWith(raw.priceValue, raw.price),
 		unitPrice: unit,
 		categories,
 		categoryCode: raw.categoryCode ?? null,
@@ -64,9 +78,8 @@ export function normalizeCart(raw: RawCart, storeId: string | null): NormalizedC
 		name: p.name,
 		brand: p.manufacturer ?? null,
 		quantity: p.quantity ?? 0,
-		pickUnit:
-			(p as { pickUnit?: { code?: string } }).pickUnit?.code ?? pickUnitOf(p),
-		unitPrice: money(p.price),
+		pickUnit: (p.pickUnit?.code as 'pieces' | 'kilogram') ?? pickUnitOf(p),
+		unitPrice: moneyWith(p.priceValue, p.price),
 		lineTotal: money(p.totalPrice),
 		categories: p.categoryName ? [p.categoryName] : [],
 		displaySize: p.displayVolume ?? p.productLine2 ?? null
@@ -80,7 +93,7 @@ export function normalizeCart(raw: RawCart, storeId: string | null): NormalizedC
 		deposit: money(raw.totalDepositSum),
 		discountTotal: {
 			amount: raw.totalDiscountValue ?? 0,
-			formatted: raw.totalDiscountValue ? `${raw.totalDiscountValue} kr` : '0,00 kr',
+			formatted: formatSek(raw.totalDiscountValue ?? 0),
 			currency: 'SEK'
 		}
 	};
