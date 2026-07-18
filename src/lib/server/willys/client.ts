@@ -1,5 +1,5 @@
 import { WillysSession } from './session';
-import { normalizeCart, normalizeProduct } from './normalize';
+import { normalizeCart, normalizeProduct, type RawCart } from './normalize';
 import type { NormalizedCart, NormalizedProduct, RawBreadcrumb, RawProduct } from './types';
 
 const MAX_SIZE = 30;
@@ -11,19 +11,28 @@ export class WillysClient {
 
 	constructor(private readonly session: WillysSession) {}
 
+	private extractCategories(breadcrumbs?: RawBreadcrumb[]): string[] {
+		return (breadcrumbs ?? [])
+			.filter((b) => b.categoryCode && b.categoryCode !== 'N00')
+			.map((b) => b.name);
+	}
+
 	private async categoriesFor(code: string): Promise<string[]> {
 		const cached = this.categoryCache.get(code);
 		if (cached) return cached;
-		const res = await this.session.read(`/axfood/rest/v1/p/${encodeURIComponent(code)}`);
-		let categories: string[] = [];
-		if (res.ok) {
+		try {
+			const res = await this.session.read(`/axfood/rest/v1/p/${encodeURIComponent(code)}`);
+			if (!res.ok) return []; // don't cache transient failures
 			const body = (await res.json()) as { breadcrumbs?: RawBreadcrumb[] };
-			categories = (body.breadcrumbs ?? [])
-				.filter((b) => b.categoryCode && b.categoryCode !== 'N00')
-				.map((b) => b.name);
+			const categories = this.extractCategories(body.breadcrumbs);
+			this.categoryCache.set(code, categories); // cache only on success
+			return categories;
+		} catch (err) {
+			console.warn(
+				`Willys category enrichment failed for ${code}: ${err instanceof Error ? err.message : String(err)}`
+			);
+			return []; // best-effort: never fail the whole search on one product
 		}
-		this.categoryCache.set(code, categories);
-		return categories;
 	}
 
 	/** Search products, enriching each hit with its category breadcrumb. */
@@ -32,7 +41,7 @@ export class WillysClient {
 		const res = await this.session.read(
 			`/axfood/rest/v1/search?q=${encodeURIComponent(query)}&page=${page}&size=${capped}`
 		);
-		if (!res.ok) throw new Error(`Willys search failed (${res.status})`);
+		if (!res.ok) throw new Error(`Willys search failed for "${query}" (${res.status})`);
 		const body = (await res.json()) as { results?: RawProduct[] };
 		const raw = body.results ?? [];
 		return this.enrich(raw);
@@ -54,11 +63,9 @@ export class WillysClient {
 	/** Single product detail (normalized, category-enriched). */
 	async product(productId: string): Promise<NormalizedProduct> {
 		const res = await this.session.read(`/axfood/rest/v1/p/${encodeURIComponent(productId)}`);
-		if (!res.ok) throw new Error(`Willys product lookup failed (${res.status})`);
+		if (!res.ok) throw new Error(`Willys product lookup failed for ${productId} (${res.status})`);
 		const raw = (await res.json()) as RawProduct & { breadcrumbs?: RawBreadcrumb[] };
-		const categories = (raw.breadcrumbs ?? [])
-			.filter((b) => b.categoryCode && b.categoryCode !== 'N00')
-			.map((b) => b.name);
+		const categories = this.extractCategories(raw.breadcrumbs);
 		this.categoryCache.set(productId, categories);
 		return normalizeProduct(raw, categories);
 	}
@@ -66,7 +73,7 @@ export class WillysClient {
 	async getCart(): Promise<NormalizedCart> {
 		const res = await this.session.read('/axfood/rest/v1/cart');
 		if (!res.ok) throw new Error(`Willys cart read failed (${res.status})`);
-		const raw = (await res.json()) as Parameters<typeof normalizeCart>[0];
+		const raw = (await res.json()) as RawCart;
 		const storeId = await this.activeStoreId();
 		return normalizeCart(raw, storeId);
 	}
@@ -95,11 +102,18 @@ export class WillysClient {
 		return this.getCart();
 	}
 
-	addToCart(productId: string, quantity = 1, pickUnit: 'pieces' | 'kilogram' = 'pieces') {
+	async addToCart(
+		productId: string,
+		quantity = 1,
+		pickUnit: 'pieces' | 'kilogram' = 'pieces'
+	): Promise<NormalizedCart> {
 		return this.setQuantity(productId, quantity, pickUnit);
 	}
 
-	removeFromCart(productId: string, pickUnit: 'pieces' | 'kilogram' = 'pieces') {
+	async removeFromCart(
+		productId: string,
+		pickUnit: 'pieces' | 'kilogram' = 'pieces'
+	): Promise<NormalizedCart> {
 		return this.setQuantity(productId, 0, pickUnit);
 	}
 

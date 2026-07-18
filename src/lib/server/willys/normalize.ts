@@ -63,7 +63,7 @@ export function normalizeProduct(raw: RawProduct, categories: string[]): Normali
 	};
 }
 
-interface RawCart {
+export interface RawCart {
 	totalItems?: number;
 	subTotalPrice?: string;
 	totalDepositSum?: string;
