@@ -28,6 +28,9 @@ SDK's requirement (>=22.19). Prefix commands with
 - `npm run dev` — dev server on :5173 (also via `.claude/launch.json` "dev")
 - `npm run check` / `npm run lint` / `npm test` — types, style, unit tests
 - `npm run build` then `npm start` — production build + serve (loads `.env`)
+- `npm run recipes -- <harvest|search|get|ingredients …>` — recipe database CLI
+  (use `npm run --silent recipes -- …` when piping JSON). `npm run test:recipes`
+  runs the live site-contract tests (network).
 
 ## Configuration
 
@@ -57,6 +60,14 @@ the tools fail with a clear "credentials missing" error.
   encryption, product search with category enrichment, and cart management
   (view/add/remove/clear). Also exposed as a CLI (`cli.ts`, see Commands)
   independent of the agent tools.
+- `src/lib/server/recipes/` — Linas matkasse recipe database. `harvest.ts`
+  scrapes the public "Kalorisnål" receptbank (Next.js `__NEXT_DATA__` payloads,
+  no login) into `data/recipes/` (one JSON doc per recipe, 2 servings each,
+  hero images under `images/`; committed to git). `query.ts` (`RecipeStore`)
+  serves search/get/ingredients to both the CLI (`cli.ts`) and the agent tools.
+- `src/lib/server/agent/tools/recipes.ts` — read-only native Pi tools
+  (`recipe_search`, `recipe_get`, `recipe_ingredients`). Harvesting is CLI-only,
+  deliberately not an agent tool.
 - `src/lib/server/agent/events.ts` — maps Pi events to the wire protocol.
   Gotcha: Pi does NOT reject `prompt()` on provider errors; failures arrive
   as `message_end` with `stopReason: "error"`.
@@ -67,9 +78,11 @@ the tools fail with a clear "credentials missing" error.
   `health/` reports config without leaking secrets.
 - `data/sessions/` (git-ignored) — Pi session JSONL files; read these when
   debugging agent turns. `data/willys/session.json` (git-ignored) caches the
-  app/agent's authenticated Willys session (auth cookies). `data/recipes/`,
-  `data/preferences/`, `.agents/skills/` are placeholders for future
-  milestones.
+  app/agent's authenticated Willys session (auth cookies). `data/recipes/`
+  holds the harvested recipe database (JSON docs + images) and, unlike
+  `data/sessions/`/`data/willys/`, is tracked in git. `data/preferences/` is
+  still a placeholder for a future milestone. `.agents/skills/` now contains
+  the `recipes` skill (`.agents/skills/recipes/SKILL.md`).
 
 ## Willys grocery CLI
 
@@ -84,8 +97,11 @@ the app's `data/willys/session.json`).
 
 ## Future milestones (not yet built)
 
-Recipe database + query tools and ingredient aggregation are still to come.
-Willys grocery search/cart is done (see Architecture above); a working
-Hemköp CLI also exists on this machine (`~/.local/bin/hemkop`, Claude skill
-in `~/.claude/skills/hemkop`) that could similarly be wrapped as a Pi skill
-if Hemköp support is wanted alongside Willys.
+Ingredient aggregation is still to come. Recipe database + query tools are
+done (see Architecture above and the `recipes` skill), but the database
+currently only covers the kalorisnål category (~200 recipes); re-run
+`npm run recipes -- harvest` to refresh it. Willys grocery search/cart is
+done (see Architecture above); a working Hemköp CLI also exists on this
+machine (`~/.local/bin/hemkop`, Claude skill in `~/.claude/skills/hemkop`)
+that could similarly be wrapped as a Pi skill if Hemköp support is wanted
+alongside Willys.
