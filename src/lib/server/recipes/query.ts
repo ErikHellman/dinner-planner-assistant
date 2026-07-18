@@ -36,7 +36,16 @@ export class RecipeStore {
 		}
 		const docs: RecipeDoc[] = [];
 		for (const file of files.filter((f) => /^\d+\.json$/.test(f))) {
-			docs.push(JSON.parse(await readFile(path.join(this.dir, file), 'utf8')) as RecipeDoc);
+			let doc: RecipeDoc;
+			try {
+				doc = JSON.parse(await readFile(path.join(this.dir, file), 'utf8')) as RecipeDoc;
+			} catch (err) {
+				throw new RecipeQueryError(`Failed to read recipe document ${file}`, { cause: err });
+			}
+			if (typeof doc.recipeId !== 'number' || typeof doc.name !== 'string') {
+				throw new RecipeQueryError(`Invalid recipe document ${file}: missing recipeId or name`);
+			}
+			docs.push(doc);
 		}
 		if (docs.length === 0) {
 			throw new RecipeQueryError(
@@ -85,18 +94,26 @@ export class RecipeStore {
 				energyKcalPerServing: doc.nutritionPerServing?.energyKcal ?? null,
 				rating: doc.rating
 			}))
-			.sort((a, b) => a.name.localeCompare(b.name, 'sv'));
+			.sort((a, b) => a.name.localeCompare(b.name, 'sv') || a.recipeId - b.recipeId);
 	}
 
 	async get(recipeId: number): Promise<RecipeDoc> {
-		try {
-			const file = path.join(this.dir, `${recipeId}.json`);
-			return JSON.parse(await readFile(file, 'utf8')) as RecipeDoc;
-		} catch {
+		if (!Number.isInteger(recipeId) || recipeId <= 0) {
 			throw new RecipeQueryError(`Recipe ${recipeId} not found in the local database`);
+		}
+		const file = path.join(this.dir, `${recipeId}.json`);
+		try {
+			return JSON.parse(await readFile(file, 'utf8')) as RecipeDoc;
+		} catch (err) {
+			if ((err as NodeJS.ErrnoException).code === 'ENOENT') {
+				throw new RecipeQueryError(`Recipe ${recipeId} not found in the local database`);
+			}
+			throw new RecipeQueryError(`Recipe ${recipeId} could not be read`, { cause: err });
 		}
 	}
 
+	// Deliberately all-or-nothing: for shopping-list building, a hard failure naming the
+	// bad id beats a silently incomplete ingredient list.
 	async ingredients(recipeIds: number[]): Promise<RecipeIngredientList[]> {
 		return Promise.all(
 			recipeIds.map(async (id) => {

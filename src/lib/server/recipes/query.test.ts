@@ -74,6 +74,14 @@ const BOWL = doc({
 	]
 });
 
+const SOPPA = doc({
+	recipeId: 3,
+	name: 'Örtig köttsoppa',
+	mainIngredient: 'Kött',
+	categories: ['Soppa'],
+	cookingTime: { min: 30, max: 45 }
+});
+
 let store: RecipeStore;
 
 beforeAll(async () => {
@@ -81,6 +89,7 @@ beforeAll(async () => {
 	await mkdir(path.join(dir, 'images'), { recursive: true });
 	await writeFile(path.join(dir, '1.json'), JSON.stringify(LAX));
 	await writeFile(path.join(dir, '2.json'), JSON.stringify(BOWL));
+	await writeFile(path.join(dir, '3.json'), JSON.stringify(SOPPA));
 	await writeFile(path.join(dir, 'notes.txt'), 'not a recipe');
 	store = new RecipeStore(dir);
 });
@@ -88,7 +97,8 @@ beforeAll(async () => {
 describe('search', () => {
 	it('returns all recipes as compact hits when no filters given', async () => {
 		const hits = await store.search();
-		expect(hits.map((h) => h.recipeId)).toEqual([2, 1]); // sorted by name (sv)
+		// Swedish collation: T < V < Ö (Ö sorts after Z, not near O as in the default locale).
+		expect(hits.map((h) => h.recipeId)).toEqual([2, 1, 3]);
 		expect(hits[1]).toEqual({
 			recipeId: 1,
 			name: 'Varmrökt lax med dillsås',
@@ -127,6 +137,13 @@ describe('get / ingredients', () => {
 		await expect(store.get(999)).rejects.toThrow(/999/);
 	});
 
+	it('rejects non-positive and non-integer ids without touching the filesystem', async () => {
+		await expect(store.get(-1)).rejects.toThrow(RecipeQueryError);
+		await expect(store.get(-1)).rejects.toThrow(/not found/);
+		await expect(store.get(1.5)).rejects.toThrow(RecipeQueryError);
+		await expect(store.get(1.5)).rejects.toThrow(/not found/);
+	});
+
 	it('returns ingredient lists for multiple recipes', async () => {
 		const lists = await store.ingredients([1, 2]);
 		expect(lists).toHaveLength(2);
@@ -139,9 +156,48 @@ describe('get / ingredients', () => {
 	});
 });
 
+describe('corrupt documents', () => {
+	it('names the offending file when a document fails to parse', async () => {
+		const dir = await mkdtemp(path.join(os.tmpdir(), 'recipes-corrupt-'));
+		await writeFile(path.join(dir, '7.json'), '{"recipeId": 7, "name": "trunc');
+		const broken = new RecipeStore(dir);
+		await expect(broken.search()).rejects.toThrow(RecipeQueryError);
+		await expect(broken.search()).rejects.toThrow(/7\.json/);
+	});
+
+	it('rejects documents missing required fields', async () => {
+		const dir = await mkdtemp(path.join(os.tmpdir(), 'recipes-invalid-'));
+		await writeFile(path.join(dir, '8.json'), '{}');
+		const broken = new RecipeStore(dir);
+		await expect(broken.search()).rejects.toThrow(RecipeQueryError);
+		await expect(broken.search()).rejects.toThrow(/8\.json/);
+	});
+
+	it('distinguishes unreadable documents from missing ones in get()', async () => {
+		const dir = await mkdtemp(path.join(os.tmpdir(), 'recipes-get-corrupt-'));
+		await writeFile(path.join(dir, '9.json'), 'not json at all');
+		const broken = new RecipeStore(dir);
+		const err = await broken.get(9).then(
+			() => {
+				throw new Error('expected get(9) to reject');
+			},
+			(e: unknown) => e
+		);
+		expect(err).toBeInstanceOf(RecipeQueryError);
+		expect((err as Error).message).toMatch(/could not be read/);
+		expect((err as Error).message).not.toMatch(/not found/);
+	});
+});
+
 describe('missing database', () => {
 	it('explains how to build the database when the directory is absent', async () => {
 		const empty = new RecipeStore(path.join(os.tmpdir(), 'recipes-does-not-exist'));
 		await expect(empty.search()).rejects.toThrow(/harvest/);
+	});
+
+	it('explains how to build the database when the directory is empty', async () => {
+		const dir = await mkdtemp(path.join(os.tmpdir(), 'recipes-empty-'));
+		const empty = new RecipeStore(dir);
+		await expect(empty.search()).rejects.toThrow(/No recipes found/);
 	});
 });
