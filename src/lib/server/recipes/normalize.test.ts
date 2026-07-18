@@ -40,6 +40,14 @@ describe('decodeHtmlText', () => {
 	it('decodes numeric entities and collapses whitespace', () => {
 		expect(decodeHtmlText('a&#229;  b&#xE4;\n c')).toBe('aå bä c');
 	});
+
+	it('keeps bare angle brackets in prose (only strips known formatting tags)', () => {
+		expect(decodeHtmlText('5 < 10 men 10 > 5')).toBe('5 < 10 men 10 > 5');
+	});
+
+	it('leaves unknown named entities literal', () => {
+		expect(decodeHtmlText('&frac12; msk')).toBe('&frac12; msk');
+	});
 });
 
 describe('parseAmount', () => {
@@ -48,13 +56,15 @@ describe('parseAmount', () => {
 		['1,5', 1.5],
 		['½', 0.5],
 		['1½', 1.5],
+		['2½', 2.5],
+		[2, 2],
 		['0', null],
 		['null', null],
 		[null, null],
 		[undefined, null],
 		['efter smak', null]
 	])('parses %j to %j', (input, expected) => {
-		expect(parseAmount(input as string | null | undefined)).toBe(expected);
+		expect(parseAmount(input as string | number | null | undefined)).toBe(expected);
 	});
 });
 
@@ -87,6 +97,41 @@ describe('normalizeRecipe', () => {
 
 	it('keeps only visible allergies', () => {
 		expect(doc.allergies).toEqual(['Fisk', 'Mjölk']);
+	});
+
+	it('sorts ingredients within a section by their order field', () => {
+		const shuffled: RawRecipeAndSteps = {
+			...fixture,
+			instructions: {
+				portions: [
+					{
+						size: '2',
+						ingredientSections: [
+							{
+								sectionTitle: null,
+								ingredients: [
+									{ order: '1', name: 'dill', amount: '1', ingredientAmountType: 'kruka' },
+									{ order: '0', name: 'lax', amount: '250', ingredientAmountType: 'g' }
+								]
+							}
+						]
+					}
+				]
+			}
+		};
+		const sorted = normalizeRecipe(shuffled, OPTS);
+		expect(sorted.ingredients.map((i) => i.name)).toEqual(['lax', 'dill']);
+	});
+
+	it('normalizes a bare 2-portion variant to empty arrays', () => {
+		const bare: RawRecipeAndSteps = {
+			...fixture,
+			instructions: { portions: [{ size: '2' }] }
+		};
+		const empty = normalizeRecipe(bare, OPTS);
+		expect(empty.ingredients).toEqual([]);
+		expect(empty.instructions).toEqual([]);
+		expect(empty.allergies).toEqual([]);
 	});
 
 	it('normalizes ingredients with section, parsed amount, unit, raw, and isBasis', () => {

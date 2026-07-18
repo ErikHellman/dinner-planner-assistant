@@ -16,7 +16,10 @@ export class RecipeNormalizeError extends Error {
 
 /** Lowercase and strip diacritics: "Kalorisnål" -> "kalorisnal". */
 export function foldText(text: string): string {
-	return text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+	return text
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLowerCase();
 }
 
 export function slugify(name: string): string {
@@ -46,10 +49,10 @@ const NAMED_ENTITIES: Record<string, string> = {
 	Uuml: 'Ü'
 };
 
-/** Strip tags, decode the entities Linas actually uses, collapse whitespace. */
+/** Strip the formatting tags Linas actually uses, decode entities, collapse whitespace. */
 export function decodeHtmlText(html: string): string {
 	return html
-		.replace(/<[^>]*>/g, '')
+		.replace(/<\/?(?:strong|em|b|i|br|span|p)\s*\/?>/gi, '')
 		.replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)))
 		.replace(/&#x([0-9a-fA-F]+);/g, (_, hex: string) => String.fromCodePoint(parseInt(hex, 16)))
 		.replace(/&([a-zA-Z]+);/g, (match, name: string) => NAMED_ENTITIES[name] ?? match)
@@ -136,7 +139,10 @@ export function normalizeRecipe(
 
 	const ingredients: RecipeIngredient[] = [];
 	for (const s of portion.ingredientSections ?? []) {
-		for (const i of s.ingredients ?? []) {
+		const sorted = [...(s.ingredients ?? [])].sort(
+			(a, b) => (toNumber(a.order) ?? 0) - (toNumber(b.order) ?? 0)
+		);
+		for (const i of sorted) {
 			ingredients.push(normalizeIngredient(i, s.sectionTitle?.trim() || null));
 		}
 	}

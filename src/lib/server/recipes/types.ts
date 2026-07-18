@@ -82,6 +82,7 @@ export interface RawTaxonomy {
 }
 
 export interface RawIngredient {
+	order?: string | number | null;
 	name?: string | null;
 	amount?: string | number | null;
 	ingredientAmountType?: string | null;
