@@ -14,6 +14,8 @@ import { SYSTEM_PROMPT } from './prompt';
 import { WillysSession } from '../willys/session';
 import { WillysClient } from '../willys/client';
 import { createWillysTools } from './tools/willys';
+import { RecipeStore } from '../recipes/query';
+import { createRecipeTools } from './tools/recipes';
 
 const SESSIONS_DIR = path.resolve(process.cwd(), 'data/sessions');
 
@@ -66,9 +68,9 @@ async function init(): Promise<AgentBundle> {
 		);
 	}
 
-	// Grocery tools (Willys search + cart) are registered below via customTools; the
-	// agent runs with noTools:'builtin' so it has these and no shell/file tools. No
-	// skills/extensions/context files are loaded from disk.
+	// Grocery tools (Willys search + cart) and recipe-database tools are registered below
+	// via customTools; the agent runs with noTools:'builtin' so it has these and no
+	// shell/file tools. No skills/extensions/context files are loaded from disk.
 	const resourceLoader = new DefaultResourceLoader({
 		cwd,
 		agentDir,
@@ -85,13 +87,14 @@ async function init(): Promise<AgentBundle> {
 	const willys = new WillysClient(
 		new WillysSession(env, path.resolve(process.cwd(), 'data/willys/session.json'))
 	);
+	const recipes = new RecipeStore(path.resolve(process.cwd(), 'data/recipes'));
 
 	const { session } = await createAgentSession({
 		cwd,
 		modelRuntime,
 		model,
 		noTools: 'builtin',
-		customTools: createWillysTools(willys),
+		customTools: [...createWillysTools(willys), ...createRecipeTools(recipes)],
 		resourceLoader,
 		sessionManager: SessionManager.create(cwd, SESSIONS_DIR)
 	});
