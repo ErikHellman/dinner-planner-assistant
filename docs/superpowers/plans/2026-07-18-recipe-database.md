@@ -258,6 +258,7 @@ export interface RawListingPage {
 		{ "name": "Fisk och skaldjur", "type": "category_tag" },
 		{ "name": "Kalorisnål", "type": "category_tag" },
 		{ "name": "Kalorisnål", "type": "marketing_tag" },
+		{ "name": "Utan laktos", "type": "special_food_tag" },
 		{ "name": "Low calorie", "type": "onesub" },
 		{ "name": "Mediterranean", "type": "recipe" },
 		{ "name": "Summer", "type": "menu_planner_seasons" },
@@ -678,7 +679,7 @@ describe('normalizeRecipe', () => {
 	});
 
 	it('keeps only category-like taxonomies, deduplicated in order', () => {
-		expect(doc.categories).toEqual(['Fisk och skaldjur', 'Kalorisnål', 'Low calorie', 'Mediterranean']);
+		expect(doc.categories).toEqual(['Fisk och skaldjur', 'Kalorisnål', 'Utan laktos', 'Low calorie', 'Mediterranean']);
 	});
 
 	it('keeps only visible allergies', () => {
