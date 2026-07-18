@@ -1,4 +1,4 @@
-import { mkdtemp, writeFile } from 'node:fs/promises';
+import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { beforeAll, describe, expect, it } from 'vitest';
@@ -6,7 +6,7 @@ import { createRecipeTools } from './recipes';
 import { RecipeStore } from '../../recipes/query';
 import type { RecipeDoc } from '../../recipes/types';
 
-const EXPECTED_NAMES = ['recipe_search', 'recipe_get', 'recipe_ingredients'];
+const EXPECTED_NAMES = ['recipe_search', 'recipe_get', 'recipe_ingredients', 'recipe_aggregate'];
 
 const LAX: RecipeDoc = {
 	recipeId: 1,
@@ -24,18 +24,41 @@ const LAX: RecipeDoc = {
 	nutritionPerServing: null,
 	co2eKgPerServing: null,
 	rating: { average: null, count: null },
-	ingredients: [],
+	ingredients: [
+		{
+			section: null,
+			name: 'Gul lök',
+			amount: 150,
+			unit: 'g',
+			raw: '150 g gul lök',
+			isBasis: false
+		},
+		{ section: null, name: 'salt', amount: null, unit: null, raw: 'salt', isBasis: true }
+	],
 	instructions: [],
 	images: { large: null, small: null },
 	source: { url: 'https://example.test', harvestedAt: '2026-07-18T00:00:00.000Z' }
 };
 
+const KYCKLING: RecipeDoc = {
+	...LAX,
+	recipeId: 2,
+	name: 'Kycklinggryta',
+	mainIngredient: 'Kött',
+	categories: ['Kött'],
+	ingredients: [
+		{ section: null, name: 'gul lök', amount: 100, unit: 'g', raw: '100 g gul lök', isBasis: false }
+	]
+};
+
 let store: RecipeStore;
+let tmpDir: string;
 
 beforeAll(async () => {
-	const dir = await mkdtemp(path.join(os.tmpdir(), 'recipe-tools-test-'));
-	await writeFile(path.join(dir, '1.json'), JSON.stringify(LAX));
-	store = new RecipeStore(dir);
+	tmpDir = await mkdtemp(path.join(os.tmpdir(), 'recipe-tools-test-'));
+	await writeFile(path.join(tmpDir, '1.json'), JSON.stringify(LAX));
+	await writeFile(path.join(tmpDir, '2.json'), JSON.stringify(KYCKLING));
+	store = new RecipeStore(tmpDir);
 });
 
 /** Minimal stub of RecipeStore — only the methods a given test exercises. */
@@ -44,9 +67,9 @@ function stubStore(overrides: Partial<RecipeStore> = {}): RecipeStore {
 }
 
 describe('createRecipeTools', () => {
-	it('returns three tools with the exact expected names', () => {
+	it('returns four tools with the exact expected names', () => {
 		const tools = createRecipeTools(stubStore());
-		expect(tools).toHaveLength(3);
+		expect(tools).toHaveLength(4);
 		expect(tools.map((t) => t.name)).toEqual(EXPECTED_NAMES);
 	});
 
@@ -97,5 +120,85 @@ describe('createRecipeTools', () => {
 		expect(text.startsWith('Recipe tool error:')).toBe(true);
 		expect(text).toContain('boom');
 		expect(result.details).toEqual({ error: text });
+	});
+
+	it('recipe_aggregate merges ingredients, scales servings, and writes the list file', async () => {
+		const outPath = path.join(tmpDir, 'out', 'shopping-list.json');
+		const tools = createRecipeTools(store, { shoppingListPath: outPath });
+		const aggregate = tools.find((t) => t.name === 'recipe_aggregate');
+
+		const result = await aggregate!.execute(
+			'id',
+			{ recipeIds: [1, 2], servings: 4 },
+			undefined,
+			undefined,
+			{} as never
+		);
+
+		const details = result.details as {
+			servings: number;
+			items: { name: string; amounts: { value: number; unit: string }[] }[];
+			pantryStaples: { name: string }[];
+		};
+		expect(details.servings).toBe(4);
+		expect(details.items).toHaveLength(1);
+		expect(details.items[0].name).toBe('Gul lök');
+		expect(details.items[0].amounts[0]).toMatchObject({ value: 500, unit: 'g' });
+		expect(details.pantryStaples.map((i) => i.name)).toEqual(['salt']);
+		expect(JSON.parse(await readFile(outPath, 'utf8'))).toEqual(details);
+	});
+
+	it('recipe_aggregate defaults to 2 servings', async () => {
+		const outPath = path.join(tmpDir, 'out2', 'shopping-list.json');
+		const tools = createRecipeTools(store, { shoppingListPath: outPath });
+		const aggregate = tools.find((t) => t.name === 'recipe_aggregate');
+
+		const result = await aggregate!.execute(
+			'id',
+			{ recipeIds: [1] },
+			undefined,
+			undefined,
+			{} as never
+		);
+
+		expect((result.details as { servings: number }).servings).toBe(2);
+	});
+
+	it('recipe_aggregate returns store errors verbatim (no generic prefix)', async () => {
+		const tools = createRecipeTools(store, {
+			shoppingListPath: path.join(tmpDir, 'out3', 'shopping-list.json')
+		});
+		const aggregate = tools.find((t) => t.name === 'recipe_aggregate');
+
+		const result = await aggregate!.execute(
+			'id',
+			{ recipeIds: [999] },
+			undefined,
+			undefined,
+			{} as never
+		);
+
+		const text = (result.content[0] as { text: string }).text;
+		expect(text).toContain('not found');
+		expect(text.startsWith('Recipe tool error:')).toBe(false);
+	});
+
+	it('recipe_aggregate returns RecipeAggregateError messages verbatim', async () => {
+		const tools = createRecipeTools(store, {
+			shoppingListPath: path.join(tmpDir, 'out4', 'shopping-list.json')
+		});
+		const aggregate = tools.find((t) => t.name === 'recipe_aggregate');
+
+		const result = await aggregate!.execute(
+			'id',
+			{ recipeIds: [1], servings: 0 },
+			undefined,
+			undefined,
+			{} as never
+		);
+
+		const text = (result.content[0] as { text: string }).text;
+		expect(text).toContain('servings must be a positive integer');
+		expect(text.startsWith('Recipe tool error:')).toBe(false);
 	});
 });

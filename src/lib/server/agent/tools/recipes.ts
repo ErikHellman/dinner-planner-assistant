@@ -1,5 +1,6 @@
 import { defineTool, type ToolDefinition } from '@earendil-works/pi-coding-agent';
 import { Type } from 'typebox';
+import { buildShoppingList, RecipeAggregateError, saveShoppingList } from '../../recipes/aggregate';
 import { RecipeQueryError, RecipeStore } from '../../recipes/query';
 
 function ok(data: unknown): { content: { type: 'text'; text: string }[]; details: unknown } {
@@ -8,7 +9,7 @@ function ok(data: unknown): { content: { type: 'text'; text: string }[]; details
 
 function fail(err: unknown): { content: { type: 'text'; text: string }[]; details: unknown } {
 	const message =
-		err instanceof RecipeQueryError
+		err instanceof RecipeQueryError || err instanceof RecipeAggregateError
 			? err.message
 			: `Recipe tool error: ${err instanceof Error ? err.message : String(err)}`;
 	return { content: [{ type: 'text', text: message }], details: { error: message } };
@@ -22,8 +23,12 @@ async function guarded(run: () => Promise<unknown>) {
 	}
 }
 
-/** Native Pi tools over the local Linas matkasse recipe database. Read-only: no harvest tool. */
-export function createRecipeTools(store: RecipeStore): ToolDefinition[] {
+/** Native Pi tools over the local Linas matkasse recipe database. Read-only except for
+ * recipe_aggregate persisting the latest shopping list; no harvest tool. */
+export function createRecipeTools(
+	store: RecipeStore,
+	options: { shoppingListPath?: string } = {}
+): ToolDefinition[] {
 	return [
 		defineTool({
 			name: 'recipe_search',
@@ -64,7 +69,7 @@ export function createRecipeTools(store: RecipeStore): ToolDefinition[] {
 			name: 'recipe_ingredients',
 			label: 'Recipe ingredients',
 			description:
-				'Ingredient lists (2 servings per recipe) for one or more recipes — use when collecting groceries to buy. Ingredients with isBasis=true are pantry staples the user likely has.',
+				'Raw per-recipe ingredient lists (2 servings each, not merged or scaled) for one or more recipes. For a combined shopping list use recipe_aggregate instead. Ingredients with isBasis=true are pantry staples the user likely has.',
 			promptSnippet: 'recipe_ingredients(recipeIds): ingredients per recipe',
 			parameters: Type.Object({
 				recipeIds: Type.Array(Type.Integer({ minimum: 1 }), {
@@ -73,6 +78,28 @@ export function createRecipeTools(store: RecipeStore): ToolDefinition[] {
 				})
 			}),
 			execute: (_id, params) => guarded(() => store.ingredients(params.recipeIds))
+		}),
+		defineTool({
+			name: 'recipe_aggregate',
+			label: 'Shopping list',
+			description:
+				'Aggregate the chosen recipes into ONE shopping list scaled to the requested servings (recipes are stored for 2; duplicates count double). Same-name ingredients merge; volume units (krm/tsk/msk/dl) sum together in ml with a human-readable display, other units sum per unit. Returns items (groceries to buy) and pantryStaples (assumed at home — skip when filling the cart unless asked). Also saves the list to data/plans/shopping-list.json. Call it once with the FULL set of chosen recipeIds — each call recomputes and overwrites the previous list; it does not merge across calls.',
+			promptSnippet: 'recipe_aggregate(recipeIds, servings?): build the shopping list',
+			parameters: Type.Object({
+				recipeIds: Type.Array(Type.Integer({ minimum: 1 }), {
+					description: 'recipeIds of the chosen recipes, from recipe_search',
+					minItems: 1
+				}),
+				servings: Type.Optional(
+					Type.Integer({ minimum: 1, description: 'Servings per recipe (default 2)' })
+				)
+			}),
+			execute: (_id, params) =>
+				guarded(async () => {
+					const list = await buildShoppingList(store, params.recipeIds, params.servings ?? 2);
+					await saveShoppingList(list, options.shoppingListPath);
+					return list;
+				})
 		})
 	];
 }
