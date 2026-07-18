@@ -1,0 +1,122 @@
+{
+	"language": "SE",
+	"recipeId": 125524,
+	"mainRecipeId": 46441,
+	"recipeName": "Varmrökt lax med äppelsallad och dillsås",
+	"recipeNameHeadline": "Varmrökt lax",
+	"recipeNameSubheadline": "med äppelsallad och dillsås",
+	"mainIngredient": "Fisk",
+	"recipeDescription": null,
+	"chefTip": null,
+	"cookingTimeMin": "15",
+	"cookingTimeMax": "20",
+	"averageRating": 4.06,
+	"numberOfRatings": 584,
+	"images": {
+		"urls": [
+			{ "size": "small", "url": "https://pimimages.azureedge.net/images/resized/aaa.jpg" },
+			{ "size": "large", "url": "https://pimimages.azureedge.net/images/largeResized/aaa.jpg" }
+		]
+	},
+	"taxonomies": [
+		{ "name": "Fisk och skaldjur", "type": "category_tag" },
+		{ "name": "Kalorisnål", "type": "category_tag" },
+		{ "name": "Kalorisnål", "type": "marketing_tag" },
+		{ "name": "Low calorie", "type": "onesub" },
+		{ "name": "Mediterranean", "type": "recipe" },
+		{ "name": "Summer", "type": "menu_planner_seasons" },
+		{ "name": "ulp", "type": "menu_planning" },
+		{ "name": "kyckling", "type": "recipe_chefs_internal" }
+	],
+	"instructions": {
+		"portions": [
+			{
+				"size": "4",
+				"allergies": [],
+				"stepSections": [],
+				"ingredientSections": [],
+				"nutritionFacts": null,
+				"co2eKgPerPortion": null
+			},
+			{
+				"size": "2",
+				"allergies": [
+					{ "name": "Fisk", "showAllergy": true },
+					{ "name": "Mjölk", "showAllergy": true },
+					{ "name": "Gluten", "showAllergy": false }
+				],
+				"stepSections": [
+					{
+						"sectionTitle": null,
+						"steps": [
+							{ "order": 1, "step": "Koka potatis i l&auml;ttsaltat vatten." },
+							{
+								"order": 2,
+								"step": "<strong>Dills&aring;s: </strong>Blanda gr&auml;ddfil &amp; dill."
+							}
+						]
+					}
+				],
+				"ingredientSections": [
+					{
+						"sectionTitle": "Dillsås",
+						"ingredients": [
+							{
+								"order": "0",
+								"name": "gräddfil",
+								"amount": "150",
+								"ingredientAmountType": "g",
+								"isBasis": false
+							},
+							{
+								"order": "1",
+								"name": "salt",
+								"amount": null,
+								"ingredientAmountType": "krm",
+								"isBasis": true
+							}
+						]
+					},
+					{
+						"sectionTitle": null,
+						"ingredients": [
+							{
+								"order": "0",
+								"name": "gurka",
+								"amount": "½",
+								"ingredientAmountType": "st",
+								"isBasis": false
+							},
+							{
+								"order": "1",
+								"name": "grädde",
+								"amount": "1,5",
+								"ingredientAmountType": "dl",
+								"isBasis": false
+							},
+							{
+								"order": "2",
+								"name": "svartpeppar",
+								"amount": "0",
+								"ingredientAmountType": "krm",
+								"isBasis": true
+							}
+						]
+					}
+				],
+				"nutritionFacts": {
+					"totalWeight": 1251,
+					"kcal": 1113,
+					"kcalPerPortion": 556,
+					"recipeNutritionPerPortion": {
+						"carbs": 53.42,
+						"energyKcal": 556,
+						"fat": 24.96,
+						"protein": 29.53
+					}
+				},
+				"co2eKgPerPortion": 1.05
+			}
+		]
+	}
+}

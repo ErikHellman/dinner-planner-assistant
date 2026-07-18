@@ -16,7 +16,9 @@
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
 		"willys": "node --env-file=.env --import tsx src/lib/server/willys/cli.ts",
-		"test:willys": "WILLYS_LIVE=1 node --env-file=.env node_modules/vitest/vitest.mjs run src/lib/server/willys"
+		"test:willys": "WILLYS_LIVE=1 node --env-file=.env node_modules/vitest/vitest.mjs run src/lib/server/willys",
+		"recipes": "node --import tsx src/lib/server/recipes/cli.ts",
+		"test:recipes": "RECIPES_LIVE=1 node node_modules/vitest/vitest.mjs run src/lib/server/recipes"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",

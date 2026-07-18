@@ -1,0 +1,25 @@
+{
+	"page": 1,
+	"totalPages": 2,
+	"recipes": [
+		{
+			"recipeId": 125524,
+			"recipeName": "Varmrökt lax med äppelsallad och dillsås",
+			"cookingTimeMin": "15",
+			"cookingTimeMax": "20",
+			"images": {
+				"urls": [
+					{ "size": "small", "url": "https://pimimages.azureedge.net/images/resized/aaa.jpg" },
+					{ "size": "large", "url": "https://pimimages.azureedge.net/images/largeResized/aaa.jpg" }
+				]
+			}
+		},
+		{
+			"recipeId": 36553,
+			"recipeName": "Morotssoppa med kokosmjölk och nygräddat bröd",
+			"cookingTimeMin": "20",
+			"cookingTimeMax": "30",
+			"images": { "urls": [] }
+		}
+	]
+}
