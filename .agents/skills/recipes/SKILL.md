@@ -41,7 +41,7 @@ energyKcalPerServing, rating}` — pass `recipeId` to `get`/`ingredients`.
 (minutes), `categories`, `allergies`, `nutritionPerServing` (kcal + macros),
 `ingredients` (`{section, name, amount, unit, raw, isBasis}` — `isBasis` marks
 pantry staples like salt and oil; `amount: null` means "to taste"), and
-`instructions` (`{step, text}`).
+`instructions` (`{step, section, text}`).
 
 `ingredients` returns `{recipeId, name, servings, ingredients}` per recipe.
 
