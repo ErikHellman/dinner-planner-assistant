@@ -27,6 +27,9 @@ Thumbs.db
 # Willys session cache (contains auth cookies)
 /data/willys/
 
+# Atomic-write temp files (harvest writes tmp+rename; a crash mid-write can leave these)
+*.tmp
+
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
