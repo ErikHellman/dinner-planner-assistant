@@ -28,7 +28,7 @@ SDK's requirement (>=22.19). Prefix commands with
 - `npm run dev` — dev server on :5173 (also via `.claude/launch.json` "dev")
 - `npm run check` / `npm run lint` / `npm test` — types, style, unit tests
 - `npm run build` then `npm start` — production build + serve (loads `.env`)
-- `npm run recipes -- <harvest|search|get|ingredients …>` — recipe database CLI
+- `npm run recipes -- <harvest|search|get|ingredients|aggregate …>` — recipe database CLI
   (use `npm run --silent recipes -- …` when piping JSON). `npm run test:recipes`
   runs the live site-contract tests (network).
 
@@ -46,9 +46,10 @@ the tools fail with a clear "credentials missing" error.
 - `src/lib/server/agent/` — everything Pi. Deliberately isolated so it could
   be extracted into a standalone service later. `session.ts` holds a
   globalThis-cached session singleton (survives Vite HMR) and wires up the
-  Willys tools below. The agent runs with `noTools: 'builtin'` plus the six
-  Willys `customTools` (no shell/file tools) and a custom system prompt
-  (`prompt.ts`); future dinner-planning tools/skills get registered here.
+  Willys and recipe tools below. The agent runs with `noTools: 'builtin'` plus
+  the Willys and recipe `customTools` (ten native tools, no shell/file tools)
+  and a custom system prompt (`prompt.ts`); future dinner-planning tools/skills
+  get registered here.
 - `src/lib/server/agent/tools/willys.ts` — wraps `WillysClient` as native Pi
   tools (`willys_search`, `willys_product`, `willys_cart_view`,
   `willys_cart_add`, `willys_cart_remove`, `willys_cart_clear`). Checkout is
@@ -65,9 +66,14 @@ the tools fail with a clear "credentials missing" error.
   no login) into `data/recipes/` (one JSON doc per recipe, 2 servings each,
   hero images under `images/`; committed to git). `query.ts` (`RecipeStore`)
   serves search/get/ingredients to both the CLI (`cli.ts`) and the agent tools.
-- `src/lib/server/agent/tools/recipes.ts` — read-only native Pi tools
-  (`recipe_search`, `recipe_get`, `recipe_ingredients`). Harvesting is CLI-only,
-  deliberately not an agent tool.
+  `aggregate.ts` builds the deterministic shopping list from selected recipes
+  (volume units merge in ml, pantry staples split out, amounts scaled from the
+  stored 2 servings) and persists the latest one to `data/plans/shopping-list.json`
+  (git-ignored).
+- `src/lib/server/agent/tools/recipes.ts` — native Pi tools (`recipe_search`,
+  `recipe_get`, `recipe_ingredients`, `recipe_aggregate` — the latter also
+  writes `data/plans/shopping-list.json`). Harvesting is CLI-only, deliberately
+  not an agent tool.
 - `src/lib/server/agent/events.ts` — maps Pi events to the wire protocol.
   Gotcha: Pi does NOT reject `prompt()` on provider errors; failures arrive
   as `message_end` with `stopReason: "error"`.
@@ -80,9 +86,10 @@ the tools fail with a clear "credentials missing" error.
   debugging agent turns. `data/willys/session.json` (git-ignored) caches the
   app/agent's authenticated Willys session (auth cookies). `data/recipes/`
   holds the harvested recipe database (JSON docs + images) and, unlike
-  `data/sessions/`/`data/willys/`, is tracked in git. `data/preferences/` is
-  still a placeholder for a future milestone. `.agents/skills/` now contains
-  the `recipes` skill (`.agents/skills/recipes/SKILL.md`).
+  `data/sessions/`/`data/willys/`, is tracked in git. `data/plans/`
+  (git-ignored) holds the latest aggregated shopping list. `data/preferences/`
+  is still a placeholder for a future milestone. `.agents/skills/` contains
+  the `recipes` and `shopping-list` skills.
 
 ## Willys grocery CLI
 
@@ -97,7 +104,9 @@ the app's `data/willys/session.json`).
 
 ## Future milestones (not yet built)
 
-Ingredient aggregation is still to come. Recipe database + query tools are
+Ingredient aggregation is done (`recipes aggregate` CLI + `recipe_aggregate`
+tool + the `shopping-list` skill); remaining: food-preference documents and a
+web UI for the weekly plan/shopping list. Recipe database + query tools are
 done (see Architecture above and the `recipes` skill), but the database
 currently only covers the kalorisnål category (~200 recipes); re-run
 `npm run recipes -- harvest` to refresh it. Willys grocery search/cart is

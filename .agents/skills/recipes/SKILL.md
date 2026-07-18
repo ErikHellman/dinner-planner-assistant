@@ -22,10 +22,13 @@ npm run --silent recipes -- search --query lax
 npm run --silent recipes -- search --category vegetariskt --max-time 30 --max-kcal 600
 
 # Full recipe by id (ids come from search hits)
-npm run --silent recipes -- get 125524
+npm run --silent recipes -- get 36553
 
-# Ingredient lists for one or more recipes (for building a shopping list)
-npm run --silent recipes -- ingredients 125524 36553
+# Ingredient lists for one or more recipes (per recipe, unmerged)
+npm run --silent recipes -- ingredients 36553 100988
+
+# Aggregate chosen recipes into ONE shopping list (see the shopping-list skill)
+npm run --silent recipes -- aggregate 36553 100988 --servings 4
 
 # Refresh the database from linasmatkasse.se (idempotent; --force refetches)
 npm run recipes -- harvest
@@ -44,6 +47,10 @@ pantry staples like salt and oil; `amount: null` means "to taste"), and
 `instructions` (`{step, section, text}`).
 
 `ingredients` returns `{recipeId, name, servings, ingredients}` per recipe.
+
+`aggregate` returns `{servings, recipes, items, pantryStaples, generatedAt}` and
+also writes `data/plans/shopping-list.json` — see the shopping-list skill for
+the full shape and the Willys cart workflow.
 
 ## Notes
 

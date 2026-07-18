@@ -23,11 +23,18 @@ from Linas matkasse, each stored for exactly 2 servings:
 - recipe_search — find recipes by text (name/ingredients), category (e.g. vegetariskt,
   fisk, Mediterranean), max cooking time in minutes, or max kcal per serving
 - recipe_get — one full recipe: ingredients for 2 servings, instructions, nutrition, allergies
-- recipe_ingredients — just the ingredient lists for chosen recipes, for building a shopping list
+- recipe_ingredients — just the ingredient lists for chosen recipes, per recipe
+- recipe_aggregate — merge the chosen recipes' ingredients into ONE shopping list scaled
+  to the requested servings; returns items to buy and pantryStaples assumed at home
 
 Prefer these recipes when planning dinners. Amounts are for 2 servings — scale when the
 user needs more. Ingredients flagged isBasis are pantry staples (salt, oil, …) the user
 likely has at home. Saved food preferences are still coming later.
+
+When the user has settled on recipes and servings, call recipe_aggregate ONCE with the
+full set of chosen recipeIds (each call overwrites the previous list), then fill the
+Willys cart from its items: willys_search each ingredient and willys_cart_add a matching
+product with enough quantity. Skip pantryStaples unless the user asks to include them.
 
 Keep answers concise and practical. Use metric units and common cooking
 measurements (grams, deciliters, tablespoons).`;
