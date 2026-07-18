@@ -1,5 +1,6 @@
 import { mkdir } from 'node:fs/promises';
 import path from 'node:path';
+import { env } from '$env/dynamic/private';
 import {
 	createAgentSession,
 	DefaultResourceLoader,
@@ -10,6 +11,9 @@ import {
 } from '@earendil-works/pi-coding-agent';
 import { AgentConfigError, getAgentConfig } from './config';
 import { SYSTEM_PROMPT } from './prompt';
+import { WillysSession } from '../willys/session';
+import { WillysClient } from '../willys/client';
+import { createWillysTools } from './tools/willys';
 
 const SESSIONS_DIR = path.resolve(process.cwd(), 'data/sessions');
 
@@ -77,11 +81,16 @@ async function init(): Promise<AgentBundle> {
 	});
 	await resourceLoader.reload();
 
+	const willys = new WillysClient(
+		new WillysSession(env, path.resolve(process.cwd(), 'data/willys/session.json'))
+	);
+
 	const { session } = await createAgentSession({
 		cwd,
 		modelRuntime,
 		model,
-		noTools: 'all',
+		noTools: 'builtin',
+		customTools: createWillysTools(willys),
 		resourceLoader,
 		sessionManager: SessionManager.create(cwd, SESSIONS_DIR)
 	});
