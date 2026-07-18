@@ -1,4 +1,4 @@
-import { access, mkdir, writeFile } from 'node:fs/promises';
+import { access, mkdir, rename, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { normalizeRecipe, RecipeNormalizeError } from './normalize';
 import { fetchImage, fetchListingPage, fetchRecipeDetail, RecipeScrapeError } from './scrape';
@@ -33,6 +33,23 @@ async function exists(file: string): Promise<boolean> {
 
 function imageUrl(raw: RawRecipeAndSteps, size: 'small' | 'large'): string | null {
 	return raw.images?.urls?.find((u) => u?.size === size)?.url || null;
+}
+
+/**
+ * Write via tmp+rename so an interrupted run never leaves a truncated file: a partial
+ * `{id}.json` would poison the query layer's loadAll AND satisfy the skip-if-exists check.
+ * The tmp lives in the same directory (rename is POSIX-atomic only within a filesystem)
+ * and `101.json.tmp` never matches the query layer's /^\d+\.json$/ doc filter.
+ */
+async function writeFileAtomic(file: string, data: Uint8Array | string): Promise<void> {
+	const tmp = `${file}.tmp`;
+	try {
+		await writeFile(tmp, data);
+		await rename(tmp, file);
+	} catch (error) {
+		await unlink(tmp).catch(() => {});
+		throw error;
+	}
 }
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -93,7 +110,8 @@ export async function harvest(dir: string, options: HarvestOptions = {}): Promis
 					try {
 						const file = path.join(imagesDir, `${recipeId}-${size}.jpg`);
 						if (force || !(await exists(file))) {
-							await writeFile(file, await fetchImage(url, fetchImpl));
+							// No extra delay here: images come off the Azure CDN, not the scraped site.
+							await writeFileAtomic(file, await fetchImage(url, fetchImpl));
 						}
 						images[size] = `images/${recipeId}-${size}.jpg`;
 					} catch (error) {
@@ -103,7 +121,10 @@ export async function harvest(dir: string, options: HarvestOptions = {}): Promis
 					}
 				}
 				const doc = normalizeRecipe(raw, { images, harvestedAt: new Date().toISOString() });
-				await writeFile(path.join(dir, `${recipeId}.json`), JSON.stringify(doc, null, 2) + '\n');
+				await writeFileAtomic(
+					path.join(dir, `${recipeId}.json`),
+					JSON.stringify(doc, null, 2) + '\n'
+				);
 				summary.harvested++;
 				log(`Harvested ${recipeId}: ${doc.name} (${summary.harvested}/${queue.length})`);
 			} catch (error) {
@@ -116,6 +137,9 @@ export async function harvest(dir: string, options: HarvestOptions = {}): Promis
 			}
 		}
 	};
+	// Each worker sleeps delayMs before its own request, so the aggregate rate is roughly
+	// `concurrency` requests per (delayMs + response latency) window — intentional politeness
+	// knob. Non-positive concurrency clamps to a single worker.
 	await Promise.all(
 		Array.from({ length: Math.max(1, Math.min(concurrency, queue.length)) }, worker)
 	);

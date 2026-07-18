@@ -1,4 +1,4 @@
-import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, readdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -59,6 +59,10 @@ describe('harvest', () => {
 		expect(doc.images).toEqual({ large: 'images/101-large.jpg', small: 'images/101-small.jpg' });
 		expect(existsSync(path.join(dir, 'images/101-large.jpg'))).toBe(true);
 		expect(existsSync(path.join(dir, '103.json'))).toBe(false);
+
+		// Atomic-write hygiene: docs and images land via tmp+rename, nothing left behind.
+		expect((await readdir(dir)).filter((f) => f.endsWith('.tmp'))).toEqual([]);
+		expect((await readdir(path.join(dir, 'images'))).filter((f) => f.endsWith('.tmp'))).toEqual([]);
 	});
 
 	it('keeps the recipe when image downloads fail', async () => {
@@ -84,5 +88,57 @@ describe('harvest', () => {
 		expect(summary.harvested).toBe(1);
 		expect(summary.failed).toEqual([]);
 		expect(existsSync(path.join(dir, '103.json'))).toBe(false);
+	});
+
+	it('re-fetches and overwrites existing docs with force', async () => {
+		const routes = {
+			[`${BASE}/receptbank/kalorisnal`]: listing(1, 1, [101]),
+			[`${BASE}/recept/101/recept`]: recipeHtml(101, recipeWithId(101)),
+			[IMG_SMALL]: new Uint8Array([1, 2, 3]),
+			[IMG_LARGE]: new Uint8Array([4, 5, 6])
+		};
+		await harvest(dir, { fetchImpl: fakeFetch(routes), delayMs: 0 });
+
+		const renamed = { ...recipeWithId(101), recipeName: 'Uppdaterat recept' };
+		const summary = await harvest(dir, {
+			fetchImpl: fakeFetch({ ...routes, [`${BASE}/recept/101/recept`]: recipeHtml(101, renamed) }),
+			delayMs: 0,
+			force: true
+		});
+
+		expect(summary.skipped).toBe(0);
+		expect(summary.harvested).toBe(1);
+		const doc = JSON.parse(await readFile(path.join(dir, '101.json'), 'utf8')) as RecipeDoc;
+		expect(doc.name).toBe('Uppdaterat recept');
+	});
+
+	it('does not re-download images that already exist on disk', async () => {
+		const seeded = new Uint8Array([9, 9, 9]);
+		await mkdir(path.join(dir, 'images'), { recursive: true });
+		await writeFile(path.join(dir, 'images/101-large.jpg'), seeded);
+		await writeFile(path.join(dir, 'images/101-small.jpg'), seeded);
+		const fetchImpl = fakeFetch({
+			[`${BASE}/receptbank/kalorisnal`]: listing(1, 1, [101]),
+			[`${BASE}/recept/101/recept`]: recipeHtml(101, recipeWithId(101))
+			// image URLs unrouted: any download attempt would 404 and null out the paths
+		});
+
+		const summary = await harvest(dir, { fetchImpl, delayMs: 0 });
+
+		expect(summary.harvested).toBe(1);
+		const doc = JSON.parse(await readFile(path.join(dir, '101.json'), 'utf8')) as RecipeDoc;
+		expect(doc.images).toEqual({ large: 'images/101-large.jpg', small: 'images/101-small.jpg' });
+		expect(Array.from(await readFile(path.join(dir, 'images/101-large.jpg')))).toEqual([9, 9, 9]);
+		expect(Array.from(await readFile(path.join(dir, 'images/101-small.jpg')))).toEqual([9, 9, 9]);
+	});
+
+	it('aborts the whole run when a listing page fails', async () => {
+		const fetchImpl = fakeFetch({
+			[`${BASE}/receptbank/kalorisnal`]: listing(1, 2, [101]),
+			[`${BASE}/recept/101/recept`]: recipeHtml(101, recipeWithId(101))
+			// page 2 unrouted -> 404 during the listing phase, before any detail fetching
+		});
+		await expect(harvest(dir, { fetchImpl, delayMs: 0 })).rejects.toThrow(/HTTP 404/);
+		expect((await readdir(dir)).filter((f) => f.endsWith('.json'))).toEqual([]);
 	});
 });
