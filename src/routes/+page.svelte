@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import Chat from '$lib/components/Chat.svelte';
+</script>
+
+<svelte:head>
+	<title>Dinner Planner</title>
+</svelte:head>
+
+<Chat />

@@ -1,20 +1,19 @@
 Planning dinners involve the following steps that we can automate:
 
-- Decide which recipes to cook  
+- Decide which recipes to cook
 - Decide which grocery products to buy
 
 Deciding which recipes to cook requires the following input:
 
-- A set of recipes in a structured and searchable format  
-- Food preferences of the user  
+- A set of recipes in a structured and searchable format
+- Food preferences of the user
 - Constraints for what kind of recipes it should use (time, calories, main ingredients, vegetarian/vegan, allergies, etc.)
 
 Deciding which grocery products to buy requires the following:
 
-- Collection of ingredients from the chosen recipes  
-- A method for aggregating the ingredients   
+- Collection of ingredients from the chosen recipes
+- A method for aggregating the ingredients
 - Access to an online grocery store, including login credentials for persisting an online shopping cart
-
 
 A system that consistently can both create a weekly dinner plan and populate an online shopping cart, needs tools for performing the tasks above. These tools should be deterministic to reduce the risk for hallucination by LLMs (and cut cost for running the system). The tools would be used by an LLM to run the overall system.
 
@@ -36,8 +35,7 @@ The system will be based on the Pi agent harness (see [https://pi.dev/](https://
 
 The output from running a dinner planning session are the following:
 
-- Copy of the shopping list created in the online grocery store  
+- Copy of the shopping list created in the online grocery store
 - The recipes for this week
 
 The app must be responsive and support both desktop and mobile.
-

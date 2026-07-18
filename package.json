@@ -34,5 +34,8 @@
 		"typescript-eslint": "^8.60.1",
 		"vite": "^8.0.16",
 		"vitest": "^4.1.8"
+	},
+	"dependencies": {
+		"@earendil-works/pi-coding-agent": "^0.80.10"
 	}
 }
