@@ -21,6 +21,7 @@ interface PersistedSession {
 export class WillysSession {
 	private jar = new Map<string, string>();
 	private csrfToken: string | null = null;
+	private authPromise: Promise<void> | null = null;
 
 	constructor(
 		private readonly env: Record<string, string | undefined>,
@@ -40,7 +41,7 @@ export class WillysSession {
 	}
 
 	/** Low-level request with cookie jar. Does NOT ensure auth — callers do. */
-	async request(pathname: string, init: RequestInit = {}): Promise<Response> {
+	private async request(pathname: string, init: RequestInit = {}): Promise<Response> {
 		const res = await fetch(BASE + pathname, {
 			...init,
 			headers: {
@@ -64,18 +65,18 @@ export class WillysSession {
 	}
 
 	private persist(): void {
-		fs.mkdirSync(path.dirname(this.sessionFile), { recursive: true });
+		fs.mkdirSync(path.dirname(this.sessionFile), { recursive: true, mode: 0o700 });
 		const data: PersistedSession = { cookies: Object.fromEntries(this.jar) };
 		fs.writeFileSync(this.sessionFile, JSON.stringify(data), { mode: 0o600 });
 		fs.chmodSync(this.sessionFile, 0o600);
 	}
 
-	/** GET /customer → uid (or "anonymous"). */
+	/** GET /customer → uid (or "anonymous"). A non-OK response is a real error. */
 	async getUid(): Promise<string> {
 		const res = await this.request('/axfood/rest/v1/customer');
-		if (!res.ok) return 'anonymous';
-		const body = (await res.json()) as { uid?: string };
-		return body.uid ?? 'anonymous';
+		if (!res.ok) throw new WillysAuthError(`Willys customer check failed (${res.status})`);
+		const body = (await res.json().catch(() => null)) as { uid?: string } | null;
+		return body?.uid ?? 'anonymous';
 	}
 
 	private async login(config: WillysConfig): Promise<void> {
@@ -115,11 +116,26 @@ export class WillysSession {
 	/**
 	 * Guarantee an authenticated session. Reuses the persisted session when still
 	 * valid; otherwise logs in. Throws WillysConfigError if credentials are absent.
+	 * Concurrent callers share a single in-flight authentication.
 	 */
 	async ensureAuthenticated(): Promise<void> {
+		if (this.authPromise) return this.authPromise;
+		this.authPromise = this.doAuthenticate().finally(() => {
+			this.authPromise = null;
+		});
+		return this.authPromise;
+	}
+
+	private async doAuthenticate(): Promise<void> {
 		const config = loadWillysConfig(this.env); // throws WillysConfigError if missing
 		if (this.jar.size === 0) this.loadPersisted();
-		if (this.jar.size > 0 && (await this.getUid()) !== 'anonymous') return;
+		if (this.jar.size > 0) {
+			try {
+				if ((await this.getUid()) !== 'anonymous') return;
+			} catch {
+				/* transient error checking persisted session → fresh login */
+			}
+		}
 		await this.login(config);
 	}
 
@@ -127,9 +143,11 @@ export class WillysSession {
 	private async getCsrfToken(): Promise<string> {
 		if (this.csrfToken) return this.csrfToken;
 		const res = await this.request('/axfood/rest/v1/csrf-token');
-		const text = (await res.text()).replace(/["\s]/g, '');
+		const text = (await res.text()).trim().replace(/["\s]/g, '');
 		if (!text) throw new WillysAuthError('Could not obtain CSRF token');
 		this.csrfToken = text;
+		// The CSRF fetch rotates JSESSIONID; persist so the rotated cookies survive.
+		this.persist();
 		return text;
 	}
 
