@@ -10,9 +10,6 @@ ingredients into a deterministic shopping list, and fills your Willys
 recipes and lets you adjust quantities in the cart before you check out
 yourself — checkout is deliberately **not** something the agent can do.
 
-The longer-term product thinking behind this lives in
-[Project plan and description - Dinner planner assistant.md](Project%20plan%20and%20description%20-%20Dinner%20planner%20assistant.md).
-
 ## Demo
 
 [▶ Watch the demo video](dinner-planner-demo.mp4)
