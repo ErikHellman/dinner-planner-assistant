@@ -12,7 +12,7 @@ yourself — checkout is deliberately **not** something the agent can do.
 
 ## Demo
 
-[▶ Watch the demo video](dinner-planner-demo.mp4)
+https://github.com/user-attachments/assets/4bd39dbe-0713-435f-bafd-c2690c52d92f
 
 ## What's in the app
 
