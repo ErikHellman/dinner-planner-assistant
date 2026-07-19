@@ -95,7 +95,10 @@ the tools fail with a clear "credentials missing" error.
 - `src/lib/chat/` — wire types (`types.ts`), SSE parser (`sse.ts`), the
   runes-based `ChatStore` (`chat.svelte.ts`, incl. draft + Swedish
   tool-activity labels from `activity.ts`) and its module singleton
-  (`store.svelte.ts`). All client stores are module singletons so state
+  (`store.svelte.ts`). `phase.ts` is the pure `idle → thinking → tool →
+writing` state machine behind every "the agent is working" affordance
+  (status row above the input, caret on the streaming message, disabled
+  `Skicka`); the store owns `phase` and `busy`/`statusLabel` derive from it. All client stores are module singletons so state
   survives tab navigation (`$lib/cart/cart.svelte.ts`,
   `$lib/recipes/browse.svelte.ts`, `$lib/plans/plan-view.svelte.ts`).
 - `src/routes/` — pages `/` (chat), `/varukorg`, `/veckans-recept`, `/recept`,

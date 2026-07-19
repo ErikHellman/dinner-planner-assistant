@@ -1,11 +1,11 @@
 <script lang="ts">
 	import type { ChatMessage } from '$lib/chat/types';
 
-	let { message }: { message: ChatMessage } = $props();
+	let { message, streaming = false }: { message: ChatMessage; streaming?: boolean } = $props();
 </script>
 
 <div class="message {message.role}" class:error={message.error}>
-	{message.content}
+	{message.content}{#if streaming}<span class="caret" aria-hidden="true">▍</span>{/if}
 </div>
 
 <style>
@@ -35,5 +35,16 @@
 	.error {
 		border-color: var(--error);
 		color: var(--error);
+	}
+
+	/* Marks the message as unfinished — more output is still coming. */
+	.caret {
+		animation: blink 1s step-end infinite;
+	}
+
+	@keyframes blink {
+		50% {
+			opacity: 0;
+		}
 	}
 </style>

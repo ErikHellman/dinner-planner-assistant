@@ -2,11 +2,7 @@
 	import type { ChatMessage } from '$lib/chat/types';
 	import Message from './Message.svelte';
 
-	let {
-		messages,
-		streaming,
-		activity = null
-	}: { messages: ChatMessage[]; streaming: boolean; activity?: string | null } = $props();
+	let { messages, streaming }: { messages: ChatMessage[]; streaming: boolean } = $props();
 
 	let viewport = $state<HTMLElement>();
 
@@ -27,12 +23,13 @@
 		</div>
 	{:else}
 		<div class="list">
+			<!-- The caret on the last assistant message says "unfinished"; what the
+			     agent is doing is spelled out in the status row above the input. -->
 			{#each messages as message, i (i)}
-				{#if message.role === 'assistant' && message.content === '' && streaming && i === messages.length - 1}
-					<div class="thinking">{activity ?? '…'}</div>
-				{:else}
-					<Message {message} />
-				{/if}
+				<Message
+					{message}
+					streaming={streaming && i === messages.length - 1 && message.role === 'assistant'}
+				/>
 			{/each}
 		</div>
 	{/if}
@@ -68,18 +65,5 @@
 		font-size: 1.4rem;
 		font-weight: 600;
 		color: var(--text);
-	}
-
-	.thinking {
-		align-self: flex-start;
-		color: var(--muted);
-		padding: 0.6rem 0.9rem;
-		animation: pulse 1.2s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		50% {
-			opacity: 0.3;
-		}
 	}
 </style>

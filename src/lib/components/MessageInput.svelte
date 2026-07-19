@@ -34,6 +34,7 @@
 		submit();
 	}}
 >
+	<!-- Stays editable while busy so you can type ahead; submit() ignores Enter. -->
 	<textarea
 		bind:value
 		{onkeydown}
@@ -42,9 +43,8 @@
 		{disabled}></textarea>
 	{#if busy}
 		<button type="button" class="stop" onclick={onstop}>Stopp</button>
-	{:else}
-		<button type="submit" disabled={disabled || value.trim() === ''}>Skicka</button>
 	{/if}
+	<button type="submit" disabled={busy || disabled || value.trim() === ''}>Skicka</button>
 </form>
 
 <style>
@@ -91,6 +91,14 @@
 	button:disabled {
 		opacity: 0.5;
 		cursor: default;
+	}
+
+	/* Two buttons plus the field is a tight fit on a phone; claw back the
+	   padding so the placeholder still fits on one line. */
+	@media (max-width: 480px) {
+		button {
+			padding: 0.6rem 0.7rem;
+		}
 	}
 
 	.stop {

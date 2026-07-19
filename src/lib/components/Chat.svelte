@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { chat } from '$lib/chat/store.svelte';
+	import ChatStatus from './ChatStatus.svelte';
 	import MessageInput from './MessageInput.svelte';
 	import MessageList from './MessageList.svelte';
 
@@ -42,7 +43,9 @@
 		</div>
 	{/if}
 
-	<MessageList messages={chat.messages} streaming={chat.busy} activity={chat.activity} />
+	<MessageList messages={chat.messages} streaming={chat.busy} />
+
+	<ChatStatus label={chat.statusLabel} />
 
 	<MessageInput
 		busy={chat.busy}

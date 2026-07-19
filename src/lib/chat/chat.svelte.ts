@@ -1,12 +1,12 @@
 import { activityLabel } from './activity';
+import { phaseFor, phaseLabel, type ChatPhase } from './phase';
 import { createSseParser } from './sse';
 import type { ChatMessage } from './types';
 
-export type ChatStatus = 'idle' | 'streaming';
-
 export class ChatStore {
 	messages = $state<ChatMessage[]>([]);
-	status = $state<ChatStatus>('idle');
+	/** What the agent is doing right now; drives every "is it working" affordance. */
+	phase = $state<ChatPhase>('idle');
 	/** Unsent input text; lives here so it survives tab navigation. */
 	draft = $state('');
 	/** Swedish label for the tool the agent is currently running, if any. */
@@ -14,7 +14,12 @@ export class ChatStore {
 	#controller: AbortController | null = null;
 
 	get busy(): boolean {
-		return this.status === 'streaming';
+		return this.phase !== 'idle';
+	}
+
+	/** Swedish status text for the current phase, or null when idle. */
+	get statusLabel(): string | null {
+		return phaseLabel(this.phase, this.activity);
 	}
 
 	async send(text: string): Promise<void> {
@@ -25,7 +30,7 @@ export class ChatStore {
 		this.messages.push({ role: 'assistant', content: '' });
 		// Re-read through the $state proxy so mutations below are reactive.
 		const reply = this.messages[this.messages.length - 1];
-		this.status = 'streaming';
+		this.phase = phaseFor({ type: 'start' });
 		this.#controller = new AbortController();
 
 		try {
@@ -51,8 +56,11 @@ export class ChatStore {
 				for (const event of parser.push(value)) {
 					if (event.type === 'text') {
 						reply.content += event.delta;
+						this.phase = phaseFor({ type: 'text' });
 					} else if (event.type === 'tool') {
-						this.activity = event.phase === 'start' ? activityLabel(event.name) : null;
+						const start = event.phase === 'start';
+						this.activity = start ? activityLabel(event.name) : null;
+						this.phase = phaseFor({ type: start ? 'tool-start' : 'tool-end' });
 					} else if (event.type === 'error') {
 						reply.content = reply.content || event.message;
 						reply.error = true;
@@ -68,7 +76,7 @@ export class ChatStore {
 			}
 		} finally {
 			this.#controller = null;
-			this.status = 'idle';
+			this.phase = phaseFor({ type: 'end' });
 			this.activity = null;
 		}
 	}
