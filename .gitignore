@@ -41,3 +41,6 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Per-recipe verdicts set from the recipe pages (user data, machine-local)
+/data/verdicts.json

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { RecipeDetails } from '$lib/recipes/types';
 	import Icon from '../icons/Icon.svelte';
+	import VerdictButtons from './VerdictButtons.svelte';
 
 	let { recipe }: { recipe: RecipeDetails } = $props();
 
@@ -75,6 +76,10 @@
 				</li>
 			{/if}
 		</ul>
+
+		<div class="verdicts">
+			<VerdictButtons recipeId={recipe.recipeId} />
+		</div>
 
 		{#if recipe.categories.length > 0}
 			<ul class="chips">
@@ -208,6 +213,10 @@
 		display: inline-flex;
 		align-items: center;
 		gap: var(--space-1);
+	}
+
+	.verdicts {
+		margin: var(--space-1) 0;
 	}
 
 	.chips {
@@ -359,6 +368,7 @@
 	   chips, rating, description, tips, nutrition table or source line. */
 	@media print {
 		.hero,
+		.verdicts,
 		.chips,
 		.rating,
 		.co2,

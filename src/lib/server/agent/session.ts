@@ -17,6 +17,7 @@ import { createRecipeTools } from './tools/recipes';
 import { PlanStore } from '../plans/store';
 import { createPlanTools } from './tools/plans';
 import { getSettingsSnapshot } from '../settings/shared';
+import { VerdictStore } from '../verdicts/store';
 
 const SESSIONS_DIR = path.resolve(process.cwd(), 'data/sessions');
 
@@ -75,11 +76,17 @@ async function init(): Promise<AgentBundle> {
 	// from disk. The system prompt is built per session so its week context is current
 	// and it carries the food preferences saved in the Inställningar tab (a settings
 	// save calls resetAgent(), so the next session picks up the change).
+	// The recipe verdicts are read here too. A verdict set mid-conversation
+	// therefore applies from the next "Ny chatt" — resetting the session on every
+	// thumbs-up would throw away the user's chat, which is the worse trade.
 	const settings = getSettingsSnapshot();
+	const verdicts = await new VerdictStore().summary().catch(() => ({ liked: [], vetoed: [] }));
 	const systemPrompt = buildSystemPrompt(new Date(), {
 		foodPreferences: settings.foodPreferences,
 		dislikesAllergies: settings.dislikesAllergies,
-		extraInstructions: settings.extraInstructions
+		extraInstructions: settings.extraInstructions,
+		likedRecipes: verdicts.liked,
+		vetoedRecipes: verdicts.vetoed
 	});
 	const resourceLoader = new DefaultResourceLoader({
 		cwd,

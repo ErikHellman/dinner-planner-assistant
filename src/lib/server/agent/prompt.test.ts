@@ -50,5 +50,33 @@ describe('buildSystemPrompt', () => {
 		expect(prompt).toContain('fisk');
 		expect(prompt).not.toContain('Extra instructions');
 		expect(prompt).not.toContain('Disliked food');
+		expect(prompt).not.toContain('has judged');
+	});
+
+	it('lists judged recipes, vetoes worded as a prohibition', () => {
+		const prompt = buildSystemPrompt(NOW, {
+			likedRecipes: ['Laxwok med teriyakisås'],
+			vetoedRecipes: ['Grillad fläskkotlett']
+		});
+		expect(prompt).toContain('Recipes the user has judged');
+		expect(prompt).toContain('- Laxwok med teriyakisås');
+		expect(prompt).toContain('- Grillad fläskkotlett');
+		expect(prompt).toContain('Never suggest or plan them');
+	});
+
+	it('omits the half of the verdict block that is empty', () => {
+		const liked = buildSystemPrompt(NOW, { likedRecipes: ['Laxwok'] });
+		expect(liked).toContain('Favoriter');
+		expect(liked).not.toContain('Aldrig igen');
+
+		const vetoed = buildSystemPrompt(NOW, { vetoedRecipes: ['Fläskkotlett'] });
+		expect(vetoed).toContain('Aldrig igen');
+		expect(vetoed).not.toContain('Favoriter');
+	});
+
+	it('ignores empty verdict lists entirely', () => {
+		expect(buildSystemPrompt(NOW, { likedRecipes: [], vetoedRecipes: [] })).toBe(
+			coreSystemPrompt(NOW)
+		);
 	});
 });

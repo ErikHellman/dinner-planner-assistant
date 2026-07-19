@@ -10,6 +10,10 @@ export interface PromptPreferences {
 	foodPreferences?: string;
 	dislikesAllergies?: string;
 	extraInstructions?: string;
+	/** Recipe names the user marked as favourites / never again, from the
+	 * verdict store. */
+	likedRecipes?: string[];
+	vetoedRecipes?: string[];
 }
 
 /** The fixed part of the prompt: what the agent is and what it can do. The
@@ -125,6 +129,24 @@ recipe is otherwise a good fit, say what would have to be swapped out.
 
 ${dislikes}`);
 	}
+	const liked = preferences.likedRecipes?.filter((name) => name.trim()) ?? [];
+	const vetoed = preferences.vetoedRecipes?.filter((name) => name.trim()) ?? [];
+	if (liked.length > 0 || vetoed.length > 0) {
+		const lines = ['## Recipes the user has judged', ''];
+		if (liked.length > 0) {
+			lines.push(
+				`Favoriter — dishes the user liked. Prefer these and things like them:\n${liked.map((name) => `- ${name}`).join('\n')}`
+			);
+		}
+		if (vetoed.length > 0) {
+			if (liked.length > 0) lines.push('');
+			lines.push(
+				`Aldrig igen — the user does NOT want these again. Never suggest or plan them:\n${vetoed.map((name) => `- ${name}`).join('\n')}`
+			);
+		}
+		blocks.push(lines.join('\n'));
+	}
+
 	if (extra) {
 		blocks.push(`## Extra instructions from the user
 

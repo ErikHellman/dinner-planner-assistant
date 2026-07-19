@@ -40,6 +40,8 @@ const MESSAGES: Record<string, string> = {
 	recipes_unavailable: 'Receptdatabasen är inte tillgänglig.',
 	plan_error: 'Kunde inte läsa veckoplanen.',
 	settings_error: 'Kunde inte läsa eller spara inställningarna.',
+	verdicts_corrupt: 'Filen med dina receptomdömen går inte att läsa.',
+	io_error: 'Kunde inte läsa eller spara på disk.',
 	network: 'Kunde inte nå servern. Kontrollera att den är igång.',
 	unknown: 'Något gick fel.'
 };

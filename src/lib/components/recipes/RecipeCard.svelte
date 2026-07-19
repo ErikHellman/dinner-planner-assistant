@@ -2,6 +2,7 @@
 	import { resolve } from '$app/paths';
 	import type { BrowseRecipe } from '$lib/recipes/types';
 	import Icon from '../icons/Icon.svelte';
+	import VerdictButtons from './VerdictButtons.svelte';
 
 	let { recipe }: { recipe: BrowseRecipe } = $props();
 
@@ -24,28 +25,35 @@
 	);
 </script>
 
-<a class="card" href={resolve('/recept/[id]', { id: String(recipe.recipeId) })}>
-	{#if recipe.imageSmall}
-		<img src={recipe.imageSmall} alt="" loading="lazy" />
-	{:else}
-		<span class="noimg" aria-hidden="true"><Icon name="book" size={32} /></span>
-	{/if}
-	<div class="body">
-		<p class="name">{recipe.name}</p>
-		{#if facts}
-			<p class="facts">{facts}</p>
+<article class="card">
+	<!-- The verdict buttons sit outside the anchor: interactive controls cannot
+	     be nested inside a link. -->
+	<a class="link" href={resolve('/recept/[id]', { id: String(recipe.recipeId) })}>
+		{#if recipe.imageSmall}
+			<img src={recipe.imageSmall} alt="" loading="lazy" />
+		{:else}
+			<span class="noimg" aria-hidden="true"><Icon name="book" size={32} /></span>
 		{/if}
-		{#if recipe.rating.average !== null}
-			<p class="rating">
-				<Icon name="star" size={14} />
-				{ratingFormat.format(recipe.rating.average)}
-				{#if recipe.rating.count !== null}
-					<span class="count">({recipe.rating.count})</span>
-				{/if}
-			</p>
-		{/if}
+		<div class="body">
+			<p class="name">{recipe.name}</p>
+			{#if facts}
+				<p class="facts">{facts}</p>
+			{/if}
+			{#if recipe.rating.average !== null}
+				<p class="rating">
+					<Icon name="star" size={14} />
+					{ratingFormat.format(recipe.rating.average)}
+					{#if recipe.rating.count !== null}
+						<span class="count">({recipe.rating.count})</span>
+					{/if}
+				</p>
+			{/if}
+		</div>
+	</a>
+	<div class="actions">
+		<VerdictButtons recipeId={recipe.recipeId} size="compact" />
 	</div>
-</a>
+</article>
 
 <style>
 	.card {
@@ -56,13 +64,24 @@
 		border-radius: var(--radius);
 		box-shadow: var(--shadow-1);
 		overflow: hidden;
-		text-decoration: none;
 		color: var(--text);
 		transition: transform 120ms ease;
 	}
 
 	.card:hover {
 		transform: translateY(-2px);
+	}
+
+	.link {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.actions {
+		padding: 0 var(--space-3) var(--space-3);
 	}
 
 	img,

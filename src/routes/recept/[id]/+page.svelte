@@ -8,6 +8,7 @@
 	import Spinner from '$lib/components/ui/Spinner.svelte';
 	import Icon from '$lib/components/icons/Icon.svelte';
 	import type { RecipeDetails } from '$lib/recipes/types';
+	import { verdictStore } from '$lib/verdicts/verdicts.svelte';
 
 	let recipe = $state.raw<RecipeDetails | null>(null);
 	let notFound = $state(false);
@@ -17,6 +18,7 @@
 	// $effect re-runs on client-side navigation between recipe ids.
 	$effect(() => {
 		const id = page.params.id;
+		verdictStore.load();
 		recipe = null;
 		notFound = false;
 		error = null;

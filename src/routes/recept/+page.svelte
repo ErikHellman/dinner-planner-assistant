@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browseStore } from '$lib/recipes/browse.svelte';
+	import { verdictStore } from '$lib/verdicts/verdicts.svelte';
 	import RecipeCard from '$lib/components/recipes/RecipeCard.svelte';
 	import Banner from '$lib/components/ui/Banner.svelte';
 	import EmptyState from '$lib/components/ui/EmptyState.svelte';
@@ -9,6 +10,7 @@
 
 	onMount(() => {
 		browseStore.load();
+		verdictStore.load();
 	});
 </script>
 
