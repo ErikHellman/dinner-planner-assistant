@@ -1,11 +1,16 @@
 <script lang="ts">
-	import EmptyState from '$lib/components/ui/EmptyState.svelte';
+	import { onMount } from 'svelte';
+	import { planViewStore } from '$lib/plans/plan-view.svelte';
+	import PlanView from '$lib/components/plan/PlanView.svelte';
+
+	// Always refetch on mount: the agent rewrites plan documents mid-chat.
+	onMount(() => {
+		planViewStore.load();
+	});
 </script>
 
 <svelte:head>
 	<title>Veckans recept – Middagsplaneraren</title>
 </svelte:head>
 
-<EmptyState icon="calendar" title="Veckans recept">
-	<p>Veckoplansvyn är på väg.</p>
-</EmptyState>
+<PlanView />
