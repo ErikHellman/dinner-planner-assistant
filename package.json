@@ -30,6 +30,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.19.0",
 		"globals": "^17.6.0",
+		"jsdom": "^29.1.1",
 		"prettier": "^3.8.3",
 		"prettier-plugin-svelte": "^4.1.0",
 		"svelte": "^5.56.1",
@@ -42,6 +43,8 @@
 	},
 	"dependencies": {
 		"@earendil-works/pi-coding-agent": "^0.80.10",
+		"dompurify": "^3.4.12",
+		"marked": "^18.0.6",
 		"typebox": "^1.1.38"
 	}
 }

@@ -17,7 +17,9 @@ plans), Alla recept (recipe browser) — with the Pi agent harness
   inside the package under `docs/` and `examples/sdk/`)
 - Plain CSS: global custom properties in `src/app.css`, scoped styles in
   components. Responsive, mobile-first.
-- Vitest for unit tests, eslint + prettier
+- `marked` + `dompurify` render the agent's markdown in the chat thread
+- Vitest for unit tests, eslint + prettier. Two projects: `server` (node) and
+  `client` (jsdom, for `*.dom.test.ts` — code that needs a DOM).
 
 ## Node version
 
@@ -98,7 +100,11 @@ the tools fail with a clear "credentials missing" error.
   (`store.svelte.ts`). `phase.ts` is the pure `idle → thinking → tool →
 writing` state machine behind every "the agent is working" affordance
   (status row above the input, caret on the streaming message, disabled
-  `Skicka`); the store owns `phase` and `busy`/`statusLabel` derive from it. All client stores are module singletons so state
+  `Skicka`); the store owns `phase` and `busy`/`statusLabel` derive from it.
+  `markdown.ts` renders assistant messages (marked + GFM, then DOMPurify —
+  agent output is untrusted, so it is never inserted raw; user text and error
+  copy stay literal). Browser-only: the DOMPurify link hook is installed on
+  first call, NOT at module load, or SSR of `Message.svelte` 500s. All client stores are module singletons so state
   survives tab navigation (`$lib/cart/cart.svelte.ts`,
   `$lib/recipes/browse.svelte.ts`, `$lib/plans/plan-view.svelte.ts`).
 - `src/routes/` — pages `/` (chat), `/varukorg`, `/veckans-recept`, `/recept`,
