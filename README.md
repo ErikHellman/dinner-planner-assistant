@@ -15,7 +15,7 @@ The longer-term product thinking behind this lives in
 
 ## Demo
 
-![Demo](https://github.com/user-attachments/assets/4bd39dbe-0713-435f-bafd-c2690c52d92f)
+https://github.com/user-attachments/assets/4bd39dbe-0713-435f-bafd-c2690c52d92f
 
 ## What's in the app
 
