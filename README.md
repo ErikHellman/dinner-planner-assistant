@@ -13,6 +13,10 @@ yourself — checkout is deliberately **not** something the agent can do.
 The longer-term product thinking behind this lives in
 [Project plan and description - Dinner planner assistant.md](Project%20plan%20and%20description%20-%20Dinner%20planner%20assistant.md).
 
+## Demo
+
+<video src="dinner-planner-demo.mp4" controls width="100%"></video>
+
 ## What's in the app
 
 Five tabs (bottom nav on mobile, top bar on desktop), all in Swedish:
