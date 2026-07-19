@@ -5,9 +5,40 @@ import type { NormalizedCart, NormalizedProduct, RawBreadcrumb, RawProduct } fro
 const MAX_SIZE = 30;
 const ENRICH_CONCURRENCY = 4;
 
+/** willys.se answers request floods with rate-limit pages that carry HTTP 200
+ * but an HTML body — never feed those to res.json(). */
+function isJsonResponse(res: Response): boolean {
+	return (res.headers.get('content-type') ?? '').toLowerCase().includes('json');
+}
+
+/** Runs tasks with at most `slots` in flight; the rest queue in FIFO order. */
+class Semaphore {
+	private waiters: (() => void)[] = [];
+
+	constructor(private slots: number) {}
+
+	async run<T>(task: () => Promise<T>): Promise<T> {
+		if (this.slots > 0) this.slots -= 1;
+		else await new Promise<void>((resolve) => this.waiters.push(resolve));
+		try {
+			return await task();
+		} finally {
+			const next = this.waiters.shift();
+			if (next) next();
+			else this.slots += 1;
+		}
+	}
+}
+
 /** High-level, login-gated Willys operations returning normalized output. */
 export class WillysClient {
 	private categoryCache = new Map<string, string[]>();
+	// CLIENT-WIDE enrichment gate. The Pi agent parallelizes willys_search
+	// calls (39 at once has happened); a per-search worker pool multiplied
+	// that into 150+ concurrent /p/ fetches and willys.se started serving
+	// 200-status HTML rate-limit pages. One shared gate keeps the total
+	// enrichment pressure constant no matter how many searches run at once.
+	private enrichGate = new Semaphore(ENRICH_CONCURRENCY);
 
 	constructor(private readonly session: WillysSession) {}
 
@@ -21,12 +52,23 @@ export class WillysClient {
 		const cached = this.categoryCache.get(code);
 		if (cached) return cached;
 		try {
-			const res = await this.session.read(`/axfood/rest/v1/p/${encodeURIComponent(code)}`);
-			if (!res.ok) return []; // don't cache transient failures
-			const body = (await res.json()) as { breadcrumbs?: RawBreadcrumb[] };
-			const categories = this.extractCategories(body.breadcrumbs);
-			this.categoryCache.set(code, categories); // cache only on success
-			return categories;
+			return await this.enrichGate.run(async () => {
+				// A queued duplicate may have been resolved while we waited.
+				const cachedWhileQueued = this.categoryCache.get(code);
+				if (cachedWhileQueued) return cachedWhileQueued;
+				const res = await this.session.read(`/axfood/rest/v1/p/${encodeURIComponent(code)}`);
+				if (!res.ok) return []; // don't cache transient failures
+				if (!isJsonResponse(res)) {
+					console.warn(
+						`Willys served a non-JSON ${res.status} response for ${code} (likely rate limiting) — categories skipped`
+					);
+					return []; // don't cache: the next lookup usually succeeds
+				}
+				const body = (await res.json()) as { breadcrumbs?: RawBreadcrumb[] };
+				const categories = this.extractCategories(body.breadcrumbs);
+				this.categoryCache.set(code, categories); // cache only on success
+				return categories;
+			});
 		} catch (err) {
 			console.warn(
 				`Willys category enrichment failed for ${code}: ${err instanceof Error ? err.message : String(err)}`
@@ -48,22 +90,21 @@ export class WillysClient {
 	}
 
 	private async enrich(raw: RawProduct[]): Promise<NormalizedProduct[]> {
-		const out: NormalizedProduct[] = new Array(raw.length);
-		let next = 0;
-		const worker = async () => {
-			while (next < raw.length) {
-				const i = next++;
-				out[i] = normalizeProduct(raw[i], await this.categoriesFor(raw[i].code));
-			}
-		};
-		await Promise.all(Array.from({ length: Math.min(ENRICH_CONCURRENCY, raw.length) }, worker));
-		return out;
+		// Fan out freely — the shared enrichGate inside categoriesFor throttles.
+		return Promise.all(
+			raw.map(async (product) => normalizeProduct(product, await this.categoriesFor(product.code)))
+		);
 	}
 
 	/** Single product detail (normalized, category-enriched). */
 	async product(productId: string): Promise<NormalizedProduct> {
 		const res = await this.session.read(`/axfood/rest/v1/p/${encodeURIComponent(productId)}`);
 		if (!res.ok) throw new Error(`Willys product lookup failed for ${productId} (${res.status})`);
+		if (!isJsonResponse(res)) {
+			throw new Error(
+				`Willys product lookup for ${productId} returned a non-JSON ${res.status} response (likely rate limiting) — try again shortly`
+			);
+		}
 		const raw = (await res.json()) as RawProduct & { breadcrumbs?: RawBreadcrumb[] };
 		const categories = this.extractCategories(raw.breadcrumbs);
 		this.categoryCache.set(productId, categories);

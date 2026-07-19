@@ -1,4 +1,4 @@
-import { describe, expect, it, beforeAll, afterAll } from 'vitest';
+import { describe, expect, it, beforeAll, afterAll, vi } from 'vitest';
 import os from 'node:os';
 import path from 'node:path';
 import { WillysSession } from './session';
@@ -14,7 +14,7 @@ const MILK = '101233933_ST';
  * function and records the requested URLs. WillysClient only calls
  * session.read(path) and session.mutate(path, init).
  */
-function fakeSession(routes: (url: string) => { status: number; body: unknown }): {
+function fakeSession(routes: (url: string) => { status: number; body?: unknown; html?: string }): {
 	session: WillysSession;
 	readUrls: string[];
 	mutateUrls: string[];
@@ -22,9 +22,15 @@ function fakeSession(routes: (url: string) => { status: number; body: unknown })
 	const readUrls: string[] = [];
 	const mutateUrls: string[] = [];
 	const respond = (url: string) => {
-		const { status, body } = routes(url);
-		return new Response(JSON.stringify(body), {
-			status,
+		const route = routes(url);
+		if (route.html !== undefined) {
+			return new Response(route.html, {
+				status: route.status,
+				headers: { 'content-type': 'text/html;charset=UTF-8' }
+			});
+		}
+		return new Response(JSON.stringify(route.body), {
+			status: route.status,
 			headers: { 'content-type': 'application/json' }
 		});
 	};
@@ -107,6 +113,90 @@ describe('WillysClient (mocked)', () => {
 
 		const detail = await client.product('A_ST');
 		expect(detail.categories).toEqual(['Mejeri', 'Mjölk']); // now resolves
+	});
+
+	it('bounds enrichment concurrency globally across concurrent searches', async () => {
+		// The Pi agent parallelizes willys_search tool calls (39 at once in the
+		// wild); per-search worker pools multiplied into 150+ concurrent /p/
+		// fetches, which willys.se answered with 200-status HTML rate-limit
+		// pages. The cap must hold client-wide, not per search() call.
+		let inflight = 0;
+		let maxInflight = 0;
+		const session = {
+			read: async (p: string) => {
+				if (p.startsWith('/axfood/rest/v1/search')) {
+					const query = new URLSearchParams(p.split('?')[1]).get('q') ?? 'x';
+					const results = Array.from({ length: 8 }, (_, i) => ({
+						code: `${query}${i}_ST`,
+						name: query
+					}));
+					return new Response(JSON.stringify({ results }), {
+						status: 200,
+						headers: { 'content-type': 'application/json' }
+					});
+				}
+				inflight += 1;
+				maxInflight = Math.max(maxInflight, inflight);
+				await new Promise((resolve) => setTimeout(resolve, 5));
+				inflight -= 1;
+				return new Response(JSON.stringify({ breadcrumbs: [] }), {
+					status: 200,
+					headers: { 'content-type': 'application/json' }
+				});
+			}
+		} as unknown as WillysSession;
+
+		const client = new WillysClient(session);
+		await Promise.all([client.search('a'), client.search('b'), client.search('c')]);
+
+		expect(maxInflight).toBeLessThanOrEqual(4);
+		expect(maxInflight).toBeGreaterThan(0);
+	});
+
+	it('treats a 200 HTML response during enrichment as rate limiting: empty categories, clear warning, no cache', async () => {
+		let pCalls = 0;
+		const { session } = fakeSession((url) => {
+			if (url.startsWith('/axfood/rest/v1/search')) {
+				return { status: 200, body: { results: [{ code: 'A_ST', name: 'A' }] } };
+			}
+			if (url.startsWith('/axfood/rest/v1/p/')) {
+				pCalls += 1;
+				// Rate-limited first (HTML page with HTTP 200), fine afterwards.
+				return pCalls === 1
+					? { status: 200, html: '<!DOCTYPE html><html><body>Vänta lite…</body></html>' }
+					: { status: 200, body: productBody('A_ST', [['DP02', 'Mjölk']]) };
+			}
+			return { status: 200, body: {} };
+		});
+		const warnings: string[] = [];
+		const warnSpy = vi.spyOn(console, 'warn').mockImplementation((msg: unknown) => {
+			warnings.push(String(msg));
+		});
+		try {
+			const client = new WillysClient(session);
+
+			const results = await client.search('mjölk', 0, 5);
+			expect(results[0].categories).toEqual([]);
+			expect(warnings.join('\n')).toContain('non-JSON');
+			expect(warnings.join('\n')).not.toContain('Unexpected token');
+
+			// Not cached: the next lookup gets the real categories.
+			const detail = await client.product('A_ST');
+			expect(detail.categories).toEqual(['Mjölk']);
+		} finally {
+			warnSpy.mockRestore();
+		}
+	});
+
+	it('product() reports a descriptive error on a 200 HTML response instead of a JSON parse error', async () => {
+		const { session } = fakeSession((url) => {
+			if (url.startsWith('/axfood/rest/v1/p/')) {
+				return { status: 200, html: '<!DOCTYPE html><html><body>Vänta lite…</body></html>' };
+			}
+			return { status: 200, body: {} };
+		});
+		const client = new WillysClient(session);
+		await expect(client.product('A_ST')).rejects.toThrow(/non-JSON/);
 	});
 
 	it('drops the N00 breadcrumb when extracting categories', async () => {
