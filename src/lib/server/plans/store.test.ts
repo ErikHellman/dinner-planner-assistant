@@ -119,6 +119,45 @@ describe('PlanStore', () => {
 		await expect(store.setWillysSnapshot('2026-W30', SNAPSHOT)).rejects.toThrow(/no plan/i);
 	});
 
+	it('marks a plan as ordered and back again', async () => {
+		await store.save(createWeeklyPlan(LIST, '2026-W29'));
+
+		const ordered = await store.setStatus('2026-W29', 'ordered');
+		expect(ordered.status).toBe('ordered');
+		await expect(store.load('2026-W29')).resolves.toMatchObject({ status: 'ordered' });
+
+		await store.setStatus('2026-W29', 'new');
+		await expect(store.load('2026-W29')).resolves.toMatchObject({ status: 'new' });
+	});
+
+	it('refuses to set a status when the week has no plan', async () => {
+		await expect(store.setStatus('2026-W30', 'ordered')).rejects.toThrow(/no plan/i);
+	});
+
+	it('reads a plan written before statuses existed as ordered', async () => {
+		const { status, ...legacy } = createWeeklyPlan(LIST, '2026-W29');
+		expect(status).toBe('new'); // guards against the field being dropped silently
+		await writeFile(path.join(dir, '2026-W29.json'), JSON.stringify(legacy, null, 2));
+
+		await expect(store.load('2026-W29')).resolves.toMatchObject({ status: 'ordered' });
+	});
+
+	it('rejects a plan file whose status is not a known value', async () => {
+		const plan = { ...createWeeklyPlan(LIST, '2026-W29'), status: 'levererad' };
+		await writeFile(path.join(dir, '2026-W29.json'), JSON.stringify(plan, null, 2));
+
+		await expect(store.load('2026-W29')).rejects.toThrow(PlanStoreError);
+	});
+
+	it('keeps the status when a Willys snapshot is recorded', async () => {
+		await store.save(createWeeklyPlan(LIST, '2026-W29'));
+		await store.setStatus('2026-W29', 'ordered');
+
+		const updated = await store.setWillysSnapshot('2026-W29', SNAPSHOT);
+
+		expect(updated.status).toBe('ordered');
+	});
+
 	it('leaves no tmp files behind after saving', async () => {
 		await store.save(createWeeklyPlan(LIST, '2026-W29'));
 		const files = await readdir(dir);
@@ -162,6 +201,10 @@ describe('PlanStore', () => {
 describe('createWeeklyPlan', () => {
 	it('rejects an invalid week id', () => {
 		expect(() => createWeeklyPlan(LIST, '2026-w29')).toThrow(PlanStoreError);
+	});
+
+	it('starts a new plan as new, not ordered', () => {
+		expect(createWeeklyPlan(LIST, '2026-W29').status).toBe('new');
 	});
 
 	it('wraps the shopping list without mutating it', () => {

@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, unlink } from 'node:fs/promises';
 import path from 'node:path';
 import { compareWeekIds, parseWeekId } from '../../plans/week';
-import type { WeeklyPlan, WillysCartSnapshot } from '../../plans/types';
+import type { PlanStatus, WeeklyPlan, WillysCartSnapshot } from '../../plans/types';
 import type { ShoppingList } from '../recipes/aggregate';
 import { writeFileAtomic } from '../recipes/atomic-write';
 
@@ -26,6 +26,7 @@ export function createWeeklyPlan(list: ShoppingList, weekId: string): WeeklyPlan
 		version: 1,
 		weekId,
 		servings: list.servings,
+		status: 'new',
 		recipes: list.recipes,
 		shoppingList: { items: list.items, pantryStaples: list.pantryStaples },
 		willysCart: null,
@@ -34,11 +35,22 @@ export function createWeeklyPlan(list: ShoppingList, weekId: string): WeeklyPlan
 	};
 }
 
-function isWeeklyPlanShape(value: unknown): value is WeeklyPlan {
+const PLAN_STATUSES: PlanStatus[] = ['new', 'ordered'];
+
+export function isPlanStatus(value: unknown): value is PlanStatus {
+	return PLAN_STATUSES.includes(value as PlanStatus);
+}
+
+/** Legacy documents predate the field, so absent is allowed — but a status
+ * that IS present and unrecognised means a corrupt file, not an old one. */
+function isWeeklyPlanShape(value: unknown): value is Omit<WeeklyPlan, 'status'> & {
+	status?: PlanStatus;
+} {
 	if (typeof value !== 'object' || value === null) return false;
 	const plan = value as Partial<WeeklyPlan>;
 	return (
 		plan.version === 1 &&
+		(plan.status === undefined || isPlanStatus(plan.status)) &&
 		typeof plan.weekId === 'string' &&
 		typeof plan.servings === 'number' &&
 		Array.isArray(plan.recipes) &&
@@ -93,7 +105,10 @@ export class PlanStore {
 		if (!isWeeklyPlanShape(parsed) || parsed.weekId !== weekId) {
 			throw new PlanStoreError(`Plan file ${file} is corrupt: not a week-${weekId} plan document.`);
 		}
-		return parsed;
+		// Every plan written from now on carries a status, so a missing one can
+		// only be a document from before the field existed — and those weeks
+		// were already ordered.
+		return { ...parsed, status: parsed.status ?? 'ordered' };
 	}
 
 	/** Persist the plan (atomic write), stamping updatedAt. */
@@ -121,6 +136,16 @@ export class PlanStore {
 			if ((err as NodeJS.ErrnoException).code === 'ENOENT') return false;
 			throw err;
 		}
+	}
+
+	/** Set an existing week's lifecycle status (new ⇄ ordered). */
+	async setStatus(weekId: string, status: PlanStatus): Promise<WeeklyPlan> {
+		const plan = await this.load(weekId);
+		if (!plan) {
+			throw new PlanStoreError(`No plan for week ${weekId} — nothing to mark.`);
+		}
+		const { plan: saved } = await this.save({ ...plan, status });
+		return saved;
 	}
 
 	/** Attach a Willys cart snapshot to an existing week's plan. */

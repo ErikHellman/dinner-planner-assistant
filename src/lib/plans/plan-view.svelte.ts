@@ -1,6 +1,6 @@
 import { ApiError, apiFetch, messageFor } from '$lib/api/client';
 import { addWeeks, currentWeekId } from './week';
-import type { PlanRecipeView, WeeklyPlan } from './types';
+import type { PlanRecipeView, PlanStatus, WeeklyPlan } from './types';
 
 interface PlanResponse {
 	plan: WeeklyPlan;
@@ -16,6 +16,8 @@ export class PlanViewStore {
 	recipes = $state.raw<PlanRecipeView[]>([]);
 	weeks = $state.raw<string[]>([]);
 	status = $state<'idle' | 'loading'>('idle');
+	/** A status write is in flight; keeps the toggle from firing twice. */
+	saving = $state(false);
 	error = $state<string | null>(null);
 	#requestSeq = 0;
 
@@ -47,6 +49,27 @@ export class PlanViewStore {
 			this.error = messageFor(err);
 		} finally {
 			if (token === this.#requestSeq) this.status = 'idle';
+		}
+	}
+
+	/** Mark the loaded week as ordered, or back to new. */
+	async setStatus(status: PlanStatus): Promise<void> {
+		const week = this.selectedWeek;
+		if (!this.plan || this.saving) return;
+		this.saving = true;
+		this.error = null;
+		try {
+			const { plan } = await apiFetch<{ plan: WeeklyPlan }>(`/api/plans/${week}`, {
+				method: 'PATCH',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ status })
+			});
+			// Drop the result if the user switched week while the write was in flight.
+			if (week === this.selectedWeek) this.plan = plan;
+		} catch (err) {
+			this.error = messageFor(err);
+		} finally {
+			this.saving = false;
 		}
 	}
 

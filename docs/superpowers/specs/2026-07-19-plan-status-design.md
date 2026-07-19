@@ -89,7 +89,12 @@ hold plan documents written before this change.
   `ordered`; a document with a bogus status is rejected; `setStatus` round
   trips and fails cleanly for a week with no plan; `setWillysSnapshot`
   preserves the status.
-- API route: PATCH updates the status; bad status → 400; unknown week → 404.
+- API route: verified over real HTTP against the dev server (PATCH updates the
+  status; bad status → 400; unknown week → 404), NOT by unit test. The repo has
+  no route-test harness, and the route builds its `PlanStore` at module scope
+  against the real `data/` directory, so a unit test would mean restructuring
+  the routes for dependency injection. The route is a thin adapter over
+  `PlanStore`, whose behaviour is covered above.
 - UI verified in the browser preview.
 
 ## Files touched

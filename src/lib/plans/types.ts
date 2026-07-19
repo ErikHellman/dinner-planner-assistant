@@ -4,6 +4,13 @@ import type { ShoppingListItem } from '../server/recipes/aggregate';
 import type { Money, NormalizedCartLine } from '../server/willys/types';
 
 /**
+ * Where a plan is in its lifecycle. Plans start as `new`; the user marks a
+ * week `ordered` from the Veckans recept tab once the groceries are ordered.
+ * Swedish wording ("Ny" / "Beställd") belongs to the UI, not to the data.
+ */
+export type PlanStatus = 'new' | 'ordered';
+
+/**
  * One week's dinner plan, persisted as data/plans/<weekId>.json.
  * Contains everything needed to (re)populate the Willys cart: the aggregated
  * ingredient list plus the product snapshot recorded after the cart was filled.
@@ -14,6 +21,9 @@ export interface WeeklyPlan {
 	weekId: string;
 	/** Servings per recipe the shopping list was scaled to. */
 	servings: number;
+	/** Lifecycle state. Documents written before this field existed load as
+	 * `ordered` — see PlanStore.load. */
+	status: PlanStatus;
 	/** Chosen recipes in input order; duplicates allowed (same dish twice). */
 	recipes: { recipeId: number; name: string }[];
 	shoppingList: {

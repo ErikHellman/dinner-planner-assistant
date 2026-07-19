@@ -5,6 +5,7 @@
 	import Spinner from '../ui/Spinner.svelte';
 	import WeekSwitcher from './WeekSwitcher.svelte';
 	import PlanRecipeCard from './PlanRecipeCard.svelte';
+	import PlanStatusBar from './PlanStatusBar.svelte';
 	import ShoppingListSection from './ShoppingListSection.svelte';
 	import CartSnapshotSection from './CartSnapshotSection.svelte';
 
@@ -51,6 +52,12 @@
 					<p>Be assistenten planera veckan under fliken Planera.</p>
 				</EmptyState>
 			{:else}
+				<PlanStatusBar
+					status={plan.status}
+					busy={store.saving}
+					onchange={(next) => store.setStatus(next)}
+				/>
+
 				<p class="summary">
 					{plan.recipes.length} recept · {plan.servings} portioner per rätt · Skapad
 					{generatedAt.format(new Date(plan.generatedAt))}

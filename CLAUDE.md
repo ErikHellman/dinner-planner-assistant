@@ -82,8 +82,13 @@ the tools fail with a clear "credentials missing" error.
   stored 2 servings); persistence lives in the plan store below.
 - `src/lib/server/plans/` — week-keyed plan documents. `store.ts` (`PlanStore`)
   reads/writes `data/plans/<YYYY>-Www.json` (`WeeklyPlan` in
-  `src/lib/plans/types.ts`: recipes + servings + shopping list + nullable
-  `willysCart` snapshot); `views.ts` joins plan recipes against the database
+  `src/lib/plans/types.ts`: recipes + servings + `status` + shopping list +
+  nullable `willysCart` snapshot). `status` is `'new' | 'ordered'` ("Ny" /
+  "Beställd" in the UI only): new plans start `new`, the user toggles it from
+  the Veckans recept tab via `PATCH /api/plans/[week]`, and re-aggregating a
+  week resets it. Gotcha: `load()` maps a MISSING status to `ordered` — plan
+  docs predating the field are backfilled that way, so never make the field
+  optional-by-default elsewhere. No agent tool sets the status. `views.ts` joins plan recipes against the database
   for display (`exists` fallback when a re-harvest removed a recipe). ISO week
   math lives in `src/lib/plans/week.ts` (shared client/server, Europe/Stockholm).
 - `src/lib/server/agent/tools/recipes.ts` + `tools/plans.ts` — native Pi tools
@@ -113,7 +118,8 @@ writing` state machine behind every "the agent is working" affordance
   `text`/`tool`/`done`/`error`; `reset/`; `health/` incl. `willysConfigured`),
   `api/cart` (GET/DELETE + POST `items` with ABSOLUTE quantity),
   `api/recipes` (+ `[id]`, `[id]/image?size=` — serves `data/recipes/images/`
-  with immutable caching), `api/plans` (+ `[week]`). Wire errors are
+  with immutable caching), `api/plans` (+ `[week]`: GET the plan, PATCH
+  `{status}`). Wire errors are
   `{error, code}`; Swedish user-facing text is mapped from `code` in
   `$lib/api/client.ts`.
 - `data/sessions/` (git-ignored) — Pi session JSONL files; read these when
