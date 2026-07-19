@@ -15,7 +15,7 @@ The longer-term product thinking behind this lives in
 
 ## Demo
 
-[▶ Watch the demo video](dinner-planner-demo.mp4)
+![Demo](https://github.com/user-attachments/assets/4bd39dbe-0713-435f-bafd-c2690c52d92f)
 
 ## What's in the app
 
