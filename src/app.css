@@ -88,6 +88,45 @@ body {
 	outline-offset: 2px;
 }
 
+/* Print: A4, black & white. Every component styles through the tokens below,
+   so repointing them to black/white is what makes the whole page greyscale —
+   the app shell is a 100dvh flex column with an inner scroller, which would
+   otherwise print only the visible viewport. */
+@media print {
+	@page {
+		size: A4;
+		margin: 15mm;
+	}
+
+	:root {
+		--bg: #fff;
+		--surface: #fff;
+		--surface-2: #fff;
+		--text: #000;
+		--muted: #000;
+		--border: #000;
+		--accent: #000;
+		--accent-contrast: #fff;
+		--error: #000;
+		--error-bg: #fff;
+		--success: #000;
+		--success-bg: #fff;
+		--info: #000;
+		--info-bg: #fff;
+		--warning-text: #000;
+		--warning-bg: #fff;
+		--shadow-1: none;
+	}
+
+	html,
+	body {
+		height: auto;
+		background: #fff;
+		color: #000;
+		font-size: 11pt;
+	}
+}
+
 @media (prefers-reduced-motion: reduce) {
 	*,
 	*::before,

@@ -65,7 +65,7 @@
 				<li>{recipe.nutritionPerServing.energyKcal} kcal/portion</li>
 			{/if}
 			{#if recipe.co2eKgPerServing !== null}
-				<li>{String(recipe.co2eKgPerServing).replace('.', ',')} kg CO₂e/portion</li>
+				<li class="co2">{String(recipe.co2eKgPerServing).replace('.', ',')} kg CO₂e/portion</li>
 			{/if}
 			{#if recipe.rating.average !== null}
 				<li class="rating">
@@ -134,7 +134,7 @@
 		</div>
 
 		{#if nutritionRows.length > 0}
-			<section aria-labelledby="nutrition-title">
+			<section class="nutrition-section" aria-labelledby="nutrition-title">
 				<h2 id="nutrition-title">Näring per portion</h2>
 				<dl class="nutrition">
 					{#each nutritionRows as row (row.label)}
@@ -353,5 +353,61 @@
 		display: inline-flex;
 		align-items: center;
 		gap: 2px;
+	}
+
+	/* Print: black & white A4 sheet with just the cooking essentials — no photo,
+	   chips, rating, description, tips, nutrition table or source line. */
+	@media print {
+		.hero,
+		.chips,
+		.rating,
+		.co2,
+		.description,
+		.tip,
+		.nutrition-section,
+		.source {
+			display: none;
+		}
+
+		article {
+			max-width: none;
+			padding-bottom: 0;
+		}
+
+		.body {
+			padding: 0;
+			gap: var(--space-3);
+		}
+
+		h1 {
+			margin-top: 0;
+			font-size: 20pt;
+		}
+
+		.subheadline {
+			font-size: 12pt;
+		}
+
+		.allergies {
+			padding: var(--space-2);
+			border: 1px solid #000;
+			font-weight: 600;
+		}
+
+		.columns {
+			grid-template-columns: minmax(55mm, 1fr) 2fr;
+			gap: var(--space-5);
+		}
+
+		h1,
+		h2,
+		h3 {
+			break-after: avoid;
+		}
+
+		.ingredients li,
+		.instructions li {
+			break-inside: avoid;
+		}
 	}
 </style>

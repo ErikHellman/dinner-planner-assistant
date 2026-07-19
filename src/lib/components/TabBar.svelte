@@ -117,4 +117,10 @@
 			border-bottom-color: var(--accent);
 		}
 	}
+
+	@media print {
+		nav {
+			display: none;
+		}
+	}
 </style>

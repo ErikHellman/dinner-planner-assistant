@@ -41,6 +41,12 @@
 			<Icon name="chevron-left" size={16} />
 			Alla recept
 		</a>
+		{#if recipe}
+			<button class="print" type="button" onclick={() => window.print()}>
+				<Icon name="printer" size={16} />
+				Skriv ut
+			</button>
+		{/if}
 	</header>
 
 	<div class="content">
@@ -91,6 +97,26 @@
 		background: var(--surface-2);
 	}
 
+	.print {
+		margin-left: auto;
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-1);
+		font: inherit;
+		font-size: var(--text-sm);
+		font-weight: 600;
+		color: var(--text);
+		background: none;
+		border: 1px solid var(--border);
+		border-radius: var(--radius-sm);
+		padding: var(--space-1) var(--space-3);
+		cursor: pointer;
+	}
+
+	.print:hover {
+		background: var(--surface-2);
+	}
+
 	.content {
 		flex: 1;
 		min-height: 0;
@@ -107,5 +133,20 @@
 		display: flex;
 		justify-content: center;
 		padding: var(--space-7) 0;
+	}
+
+	@media print {
+		header {
+			display: none;
+		}
+
+		.page {
+			display: block;
+		}
+
+		.content {
+			overflow: visible;
+			min-height: 0;
+		}
 	}
 </style>

@@ -30,4 +30,17 @@
 		display: flex;
 		flex-direction: column;
 	}
+
+	/* Print: let the content paginate instead of being clipped to one viewport. */
+	@media print {
+		.shell {
+			height: auto;
+			display: block;
+		}
+
+		main {
+			display: block;
+			min-height: 0;
+		}
+	}
 </style>
