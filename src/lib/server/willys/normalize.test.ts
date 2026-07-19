@@ -81,7 +81,8 @@ describe('normalizeCart', () => {
 					price: '15,90 kr',
 					totalPrice: '31,80 kr',
 					pickUnit: { code: 'pieces', name: 'st' },
-					categoryName: 'Mejeri, ost & ägg'
+					categoryName: 'Mejeri, ost & ägg',
+					image: { url: 'https://assets.axfood.se/img/milk' }
 				}
 			]
 		};
@@ -94,8 +95,19 @@ describe('normalizeCart', () => {
 			quantity: 2,
 			pickUnit: 'pieces',
 			unitPrice: { amount: 15.9, formatted: '15,90 kr' },
-			lineTotal: { amount: 31.8, formatted: '31,80 kr' }
+			lineTotal: { amount: 31.8, formatted: '31,80 kr' },
+			imageUrl: 'https://assets.axfood.se/img/milk'
 		});
+	});
+
+	it('defaults imageUrl to null when the raw line has no image', () => {
+		const rawCart = {
+			totalItems: 1,
+			subTotalPrice: '10,00 kr',
+			products: [{ code: '1_ST', name: 'Utan bild', quantity: 1, totalPrice: '10,00 kr' }]
+		};
+		const cart = normalizeCart(rawCart, null);
+		expect(cart.lines[0].imageUrl).toBeNull();
 	});
 
 	it('formats a nonzero discount total as Swedish currency', () => {

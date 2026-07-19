@@ -82,7 +82,8 @@ export function normalizeCart(raw: RawCart, storeId: string | null): NormalizedC
 		unitPrice: moneyWith(p.priceValue, p.price),
 		lineTotal: money(p.totalPrice),
 		categories: p.categoryName ? [p.categoryName] : [],
-		displaySize: p.displayVolume ?? p.productLine2 ?? null
+		displaySize: p.displayVolume ?? p.productLine2 ?? null,
+		imageUrl: p.image?.url ?? p.thumbnail?.url ?? null
 	}));
 	return {
 		store: { id: storeId },

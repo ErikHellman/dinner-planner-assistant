@@ -40,6 +40,7 @@ export interface NormalizedCartLine {
 	lineTotal: Money;
 	categories: string[];
 	displaySize: string | null;
+	imageUrl: string | null;
 }
 
 /** Normalized cart for LLM verification. */
