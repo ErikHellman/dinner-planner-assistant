@@ -2,6 +2,8 @@
 import { WillysSession } from './session';
 import { WillysClient } from './client';
 import { WillysConfigError } from './config';
+import { PlanStore } from '../plans/store';
+import { currentWeekId, parseWeekId } from '../../plans/week';
 import os from 'node:os';
 import path from 'node:path';
 
@@ -52,6 +54,34 @@ async function main(argv: string[]): Promise<number> {
 				out(await client.clearCart());
 				return 0;
 			}
+			if (action === 'record') {
+				let week = currentWeekId();
+				if (rest[0] === '--week' && rest[1]) {
+					if (!parseWeekId(rest[1])) {
+						log(`--week must be an ISO week id like ${week}`);
+						return 64;
+					}
+					week = rest[1];
+				} else if (rest.length > 0) {
+					return usage();
+				}
+				const cart = await client.getCart();
+				if (cart.lines.length === 0) {
+					log('The Willys cart is empty — nothing to record.');
+					return 1;
+				}
+				const plan = await new PlanStore().setWillysSnapshot(week, {
+					recordedAt: new Date().toISOString(),
+					store: cart.store,
+					itemCount: cart.itemCount,
+					totalQuantity: cart.totalQuantity,
+					lines: cart.lines,
+					subtotal: cart.subtotal
+				});
+				log(`Recorded the cart into the ${week} plan`);
+				out(plan);
+				return 0;
+			}
 		}
 		return usage();
 	} catch (err) {
@@ -73,7 +103,8 @@ function usage(): number {
 			'  willys cart list               (default for "cart")',
 			'  willys cart add <code> [qty]   (sets exact quantity)',
 			'  willys cart remove <code>',
-			'  willys cart clear'
+			'  willys cart clear',
+			'  willys cart record [--week 2026-W30]   (snapshot cart into the weekly plan)'
 		].join('\n')
 	);
 	return 64;

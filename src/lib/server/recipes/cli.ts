@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import { harvest } from './harvest';
-import { buildShoppingList, saveShoppingList } from './aggregate';
+import { buildShoppingList } from './aggregate';
 import { defaultRecipesDir, RecipeStore, type RecipeSearchFilters } from './query';
+import { createWeeklyPlan, PlanStore } from '../plans/store';
+import { currentWeekId } from '../../plans/week';
 
 function log(msg: string): void {
 	process.stderr.write(msg + '\n');
@@ -18,7 +20,7 @@ function usage(): number {
 			'  recipes search [--query q] [--category c] [--max-time minutes] [--max-kcal kcal]',
 			'  recipes get <recipeId>',
 			'  recipes ingredients <recipeId...>',
-			'  recipes aggregate <recipeId...> [--servings N]'
+			'  recipes aggregate <recipeId...> [--servings N] [--week 2026-W30]'
 		].join('\n')
 	);
 	return 64;
@@ -112,7 +114,7 @@ async function main(argv: string[]): Promise<number> {
 			const idArgs = flagStart === -1 ? rest : rest.slice(0, flagStart);
 			const flags = parseFlags(
 				flagStart === -1 ? [] : rest.slice(flagStart),
-				new Set(['servings'])
+				new Set(['servings', 'week'])
 			);
 			if (!flags || idArgs.length === 0) return usage();
 			const recipeIds = idArgs.map(Number);
@@ -128,10 +130,11 @@ async function main(argv: string[]): Promise<number> {
 					return 64;
 				}
 			}
+			const week = flags.has('week') ? String(flags.get('week')) : currentWeekId();
 			const shoppingList = await buildShoppingList(store, recipeIds, servings);
-			const saved = await saveShoppingList(shoppingList);
-			log(`Saved shopping list to ${saved}`);
-			out(shoppingList);
+			const { plan, filePath } = await new PlanStore().save(createWeeklyPlan(shoppingList, week));
+			log(`Saved weekly plan to ${filePath}`);
+			out(plan);
 			return 0;
 		}
 		return usage();

@@ -1,6 +1,3 @@
-import { mkdir } from 'node:fs/promises';
-import path from 'node:path';
-import { writeFileAtomic } from './atomic-write';
 import { foldText } from './normalize';
 import type { RecipeStore } from './query';
 import type { RecipeIngredientList } from './types';
@@ -197,16 +194,5 @@ export async function buildShoppingList(
 	};
 }
 
-export function defaultShoppingListPath(): string {
-	return path.resolve(process.cwd(), 'data/plans/shopping-list.json');
-}
-
-/** Persist the latest shopping list (atomic write) for the future web UI. */
-export async function saveShoppingList(
-	list: ShoppingList,
-	filePath: string = defaultShoppingListPath()
-): Promise<string> {
-	await mkdir(path.dirname(filePath), { recursive: true });
-	await writeFileAtomic(filePath, JSON.stringify(list, null, 2) + '\n');
-	return filePath;
-}
+// Persistence lives in src/lib/server/plans/store.ts (week-keyed PlanStore);
+// the legacy single-file saveShoppingList was retired with the weekly plans.

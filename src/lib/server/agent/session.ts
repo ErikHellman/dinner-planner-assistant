@@ -1,6 +1,5 @@
 import { mkdir } from 'node:fs/promises';
 import path from 'node:path';
-import { env } from '$env/dynamic/private';
 import {
 	createAgentSession,
 	DefaultResourceLoader,
@@ -10,12 +9,13 @@ import {
 	type AgentSession
 } from '@earendil-works/pi-coding-agent';
 import { AgentConfigError, getAgentConfig } from './config';
-import { SYSTEM_PROMPT } from './prompt';
-import { WillysSession } from '../willys/session';
-import { WillysClient } from '../willys/client';
+import { buildSystemPrompt } from './prompt';
+import { getWillysClient } from '../willys/shared';
 import { createWillysTools } from './tools/willys';
 import { RecipeStore } from '../recipes/query';
 import { createRecipeTools } from './tools/recipes';
+import { PlanStore } from '../plans/store';
+import { createPlanTools } from './tools/plans';
 
 const SESSIONS_DIR = path.resolve(process.cwd(), 'data/sessions');
 
@@ -68,9 +68,11 @@ async function init(): Promise<AgentBundle> {
 		);
 	}
 
-	// Grocery tools (Willys search + cart) and recipe-database tools are registered below
-	// via customTools; the agent runs with noTools:'builtin' so it has these and no
-	// shell/file tools. No skills/extensions/context files are loaded from disk.
+	// Grocery tools (Willys search + cart), recipe-database tools and weekly-plan tools
+	// are registered below via customTools; the agent runs with noTools:'builtin' so it
+	// has these and no shell/file tools. No skills/extensions/context files are loaded
+	// from disk. The system prompt is built per session so its week context is current.
+	const systemPrompt = buildSystemPrompt();
 	const resourceLoader = new DefaultResourceLoader({
 		cwd,
 		agentDir,
@@ -79,22 +81,26 @@ async function init(): Promise<AgentBundle> {
 		noPromptTemplates: true,
 		noThemes: true,
 		noContextFiles: true,
-		systemPromptOverride: () => SYSTEM_PROMPT,
+		systemPromptOverride: () => systemPrompt,
 		appendSystemPromptOverride: () => []
 	});
 	await resourceLoader.reload();
 
-	const willys = new WillysClient(
-		new WillysSession(env, path.resolve(process.cwd(), 'data/willys/session.json'))
-	);
+	// Shared with the cart REST routes — one client must own the session file.
+	const willys = getWillysClient();
 	const recipes = new RecipeStore(path.resolve(process.cwd(), 'data/recipes'));
+	const plans = new PlanStore();
 
 	const { session } = await createAgentSession({
 		cwd,
 		modelRuntime,
 		model,
 		noTools: 'builtin',
-		customTools: [...createWillysTools(willys), ...createRecipeTools(recipes)],
+		customTools: [
+			...createWillysTools(willys),
+			...createRecipeTools(recipes, { plans }),
+			...createPlanTools({ willys, plans })
+		],
 		resourceLoader,
 		sessionManager: SessionManager.create(cwd, SESSIONS_DIR)
 	});

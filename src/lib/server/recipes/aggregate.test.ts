@@ -1,14 +1,8 @@
-import { mkdtemp, readdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdtemp, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
-import {
-	aggregateIngredients,
-	buildShoppingList,
-	RecipeAggregateError,
-	saveShoppingList,
-	type ShoppingList
-} from './aggregate';
+import { aggregateIngredients, buildShoppingList, RecipeAggregateError } from './aggregate';
 import { RecipeQueryError, RecipeStore } from './query';
 import type { RecipeDoc, RecipeIngredient, RecipeIngredientList } from './types';
 
@@ -224,41 +218,5 @@ describe('buildShoppingList', () => {
 	});
 });
 
-describe('saveShoppingList', () => {
-	const emptyList: ShoppingList = {
-		servings: 2,
-		recipes: [],
-		items: [],
-		pantryStaples: [],
-		generatedAt: '2026-07-18T00:00:00.000Z'
-	};
-
-	it('creates parent directories, writes pretty JSON + newline, returns the path', async () => {
-		const dir = await mkdtemp(path.join(os.tmpdir(), 'aggregate-save-test-'));
-		const target = path.join(dir, 'plans', 'shopping-list.json');
-
-		const written = await saveShoppingList(emptyList, target);
-
-		expect(written).toBe(target);
-		const content = await readFile(target, 'utf8');
-		expect(content.endsWith('\n')).toBe(true);
-		expect(JSON.parse(content)).toEqual(emptyList);
-		expect(await readdir(path.join(dir, 'plans'))).toEqual(['shopping-list.json']);
-	});
-
-	it('concurrent saves to the same path both succeed and leave one complete list', async () => {
-		const dir = await mkdtemp(path.join(os.tmpdir(), 'aggregate-save-test-'));
-		const target = path.join(dir, 'shopping-list.json');
-		const a: ShoppingList = { ...emptyList, servings: 4 };
-		const b: ShoppingList = { ...emptyList, servings: 6 };
-
-		const results = await Promise.allSettled(
-			Array.from({ length: 10 }, (_, i) => saveShoppingList(i % 2 ? a : b, target))
-		);
-
-		expect(results.every((r) => r.status === 'fulfilled')).toBe(true);
-		const final = JSON.parse(await readFile(target, 'utf8')) as ShoppingList;
-		expect([4, 6]).toContain(final.servings);
-		expect(await readdir(dir)).toEqual(['shopping-list.json']); // no stray tmps
-	});
-});
+// Plan persistence (including the atomic-write behavior formerly tested here
+// for saveShoppingList) now lives in src/lib/server/plans/store.ts.

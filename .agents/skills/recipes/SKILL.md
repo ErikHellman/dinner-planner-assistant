@@ -27,8 +27,8 @@ npm run --silent recipes -- get 36553
 # Ingredient lists for one or more recipes (per recipe, unmerged)
 npm run --silent recipes -- ingredients 36553 100988
 
-# Aggregate chosen recipes into ONE shopping list (see the shopping-list skill)
-npm run --silent recipes -- aggregate 36553 100988 --servings 4
+# Aggregate chosen recipes into the week's plan (see the shopping-list skill)
+npm run --silent recipes -- aggregate 36553 100988 --servings 4 --week 2026-W30
 
 # Refresh the database from linasmatkasse.se (idempotent; --force refetches)
 npm run recipes -- harvest
@@ -48,9 +48,11 @@ pantry staples like salt and oil; `amount: null` means "to taste"), and
 
 `ingredients` returns `{recipeId, name, servings, ingredients}` per recipe.
 
-`aggregate` returns `{servings, recipes, items, pantryStaples, generatedAt}` and
-also writes `data/plans/shopping-list.json` — see the shopping-list skill for
-the full shape and the Willys cart workflow.
+`aggregate` returns the weekly plan document (`{version, weekId, servings,
+recipes, shoppingList: {items, pantryStaples}, willysCart, generatedAt,
+updatedAt}`) and writes it to `data/plans/<week>.json` (default: current ISO
+week) — see the shopping-list skill for the full shape and the Willys cart
+workflow.
 
 ## Notes
 

@@ -1,7 +1,9 @@
 import { defineTool, type ToolDefinition } from '@earendil-works/pi-coding-agent';
 import { Type } from 'typebox';
-import { buildShoppingList, RecipeAggregateError, saveShoppingList } from '../../recipes/aggregate';
+import { buildShoppingList, RecipeAggregateError } from '../../recipes/aggregate';
 import { RecipeQueryError, RecipeStore } from '../../recipes/query';
+import { createWeeklyPlan, PlanStore, PlanStoreError } from '../../plans/store';
+import { currentWeekId } from '../../../plans/week';
 
 function ok(data: unknown): { content: { type: 'text'; text: string }[]; details: unknown } {
 	return { content: [{ type: 'text', text: JSON.stringify(data, null, 2) }], details: data };
@@ -9,7 +11,9 @@ function ok(data: unknown): { content: { type: 'text'; text: string }[]; details
 
 function fail(err: unknown): { content: { type: 'text'; text: string }[]; details: unknown } {
 	const message =
-		err instanceof RecipeQueryError || err instanceof RecipeAggregateError
+		err instanceof RecipeQueryError ||
+		err instanceof RecipeAggregateError ||
+		err instanceof PlanStoreError
 			? err.message
 			: `Recipe tool error: ${err instanceof Error ? err.message : String(err)}`;
 	return { content: [{ type: 'text', text: message }], details: { error: message } };
@@ -24,10 +28,10 @@ async function guarded(run: () => Promise<unknown>) {
 }
 
 /** Native Pi tools over the local Linas matkasse recipe database. Read-only except for
- * recipe_aggregate persisting the latest shopping list; no harvest tool. */
+ * recipe_aggregate persisting the week's plan document; no harvest tool. */
 export function createRecipeTools(
 	store: RecipeStore,
-	options: { shoppingListPath?: string } = {}
+	deps: { plans: PlanStore }
 ): ToolDefinition[] {
 	return [
 		defineTool({
@@ -81,10 +85,10 @@ export function createRecipeTools(
 		}),
 		defineTool({
 			name: 'recipe_aggregate',
-			label: 'Shopping list',
+			label: 'Weekly plan',
 			description:
-				'Aggregate the chosen recipes into ONE shopping list scaled to the requested servings (recipes are stored for 2; duplicates count double). Same-name ingredients merge; volume units (krm/tsk/msk/dl) sum together in ml with a human-readable display, other units sum per unit. Returns items (groceries to buy) and pantryStaples (assumed at home — skip when filling the cart unless asked). Also saves the list to data/plans/shopping-list.json. Call it once with the FULL set of chosen recipeIds — each call recomputes and overwrites the previous list; it does not merge across calls.',
-			promptSnippet: 'recipe_aggregate(recipeIds, servings?): build the shopping list',
+				"Aggregate the chosen recipes into the week's plan: ONE shopping list scaled to the requested servings (recipes are stored for 2; duplicates count double). Same-name ingredients merge; volume units (krm/tsk/msk/dl) sum together in ml with a human-readable display, other units sum per unit. The plan document (data/plans/<week>.json) contains shoppingList.items (groceries to buy) and shoppingList.pantryStaples (assumed at home — skip when filling the cart unless asked). Call it once with the FULL set of chosen recipeIds — each call recomputes and OVERWRITES that week's plan (it does not merge across calls) and resets any recorded willysCart snapshot to null, so call plan_record_cart again after refilling the cart.",
+			promptSnippet: "recipe_aggregate(recipeIds, servings?, week?): build the week's plan",
 			parameters: Type.Object({
 				recipeIds: Type.Array(Type.Integer({ minimum: 1 }), {
 					description: 'recipeIds of the chosen recipes, from recipe_search',
@@ -92,13 +96,19 @@ export function createRecipeTools(
 				}),
 				servings: Type.Optional(
 					Type.Integer({ minimum: 1, description: 'Servings per recipe (default 2)' })
+				),
+				week: Type.Optional(
+					Type.String({
+						description: 'ISO week id like "2026-W30"; defaults to the current week'
+					})
 				)
 			}),
 			execute: (_id, params) =>
 				guarded(async () => {
+					const weekId = params.week ?? currentWeekId();
 					const list = await buildShoppingList(store, params.recipeIds, params.servings ?? 2);
-					await saveShoppingList(list, options.shoppingListPath);
-					return list;
+					const { plan } = await deps.plans.save(createWeeklyPlan(list, weekId));
+					return plan;
 				})
 		})
 	];
