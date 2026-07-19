@@ -2,22 +2,22 @@
 	let {
 		busy,
 		disabled,
+		value = $bindable(''),
 		onsend,
 		onstop
 	}: {
 		busy: boolean;
 		disabled: boolean;
+		value?: string;
 		onsend: (text: string) => void;
 		onstop: () => void;
 	} = $props();
 
-	let text = $state('');
-
 	function submit() {
-		const value = text.trim();
-		if (!value || busy || disabled) return;
-		text = '';
-		onsend(value);
+		const text = value.trim();
+		if (!text || busy || disabled) return;
+		value = '';
+		onsend(text);
 	}
 
 	function onkeydown(event: KeyboardEvent) {
@@ -35,29 +35,29 @@
 	}}
 >
 	<textarea
-		bind:value={text}
+		bind:value
 		{onkeydown}
 		rows="1"
-		placeholder={disabled ? 'Configure an API key to start chatting' : 'Ask about dinner…'}
+		placeholder={disabled ? 'Konfigurera en API-nyckel för att börja chatta' : 'Fråga om middag…'}
 		{disabled}></textarea>
 	{#if busy}
-		<button type="button" class="stop" onclick={onstop}>Stop</button>
+		<button type="button" class="stop" onclick={onstop}>Stopp</button>
 	{:else}
-		<button type="submit" disabled={disabled || text.trim() === ''}>Send</button>
+		<button type="submit" disabled={disabled || value.trim() === ''}>Skicka</button>
 	{/if}
 </form>
 
 <style>
 	form {
 		display: flex;
-		gap: 0.5rem;
+		gap: var(--space-2);
 		align-items: flex-end;
 		/* Auto margins disable flex stretch, so claim the width explicitly:
 		   without it the form shrink-wraps and the row shifts while typing. */
 		width: 100%;
 		max-width: 52rem;
 		margin: 0 auto;
-		padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+		padding: var(--space-3) var(--space-4);
 	}
 
 	textarea {
@@ -73,11 +73,6 @@
 		border: 1px solid var(--border);
 		border-radius: var(--radius);
 		padding: 0.6rem 0.9rem;
-	}
-
-	textarea:focus-visible {
-		outline: 2px solid var(--accent);
-		outline-offset: -1px;
 	}
 
 	button {

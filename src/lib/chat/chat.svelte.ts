@@ -1,3 +1,4 @@
+import { activityLabel } from './activity';
 import { createSseParser } from './sse';
 import type { ChatMessage } from './types';
 
@@ -6,6 +7,10 @@ export type ChatStatus = 'idle' | 'streaming';
 export class ChatStore {
 	messages = $state<ChatMessage[]>([]);
 	status = $state<ChatStatus>('idle');
+	/** Unsent input text; lives here so it survives tab navigation. */
+	draft = $state('');
+	/** Swedish label for the tool the agent is currently running, if any. */
+	activity = $state<string | null>(null);
 	#controller: AbortController | null = null;
 
 	get busy(): boolean {
@@ -46,6 +51,8 @@ export class ChatStore {
 				for (const event of parser.push(value)) {
 					if (event.type === 'text') {
 						reply.content += event.delta;
+					} else if (event.type === 'tool') {
+						this.activity = event.phase === 'start' ? activityLabel(event.name) : null;
 					} else if (event.type === 'error') {
 						reply.content = reply.content || event.message;
 						reply.error = true;
@@ -62,6 +69,7 @@ export class ChatStore {
 		} finally {
 			this.#controller = null;
 			this.status = 'idle';
+			this.activity = null;
 		}
 	}
 

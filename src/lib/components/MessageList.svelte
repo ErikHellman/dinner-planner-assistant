@@ -2,7 +2,11 @@
 	import type { ChatMessage } from '$lib/chat/types';
 	import Message from './Message.svelte';
 
-	let { messages, streaming }: { messages: ChatMessage[]; streaming: boolean } = $props();
+	let {
+		messages,
+		streaming,
+		activity = null
+	}: { messages: ChatMessage[]; streaming: boolean; activity?: string | null } = $props();
 
 	let viewport = $state<HTMLElement>();
 
@@ -18,14 +22,14 @@
 <div class="viewport" bind:this={viewport}>
 	{#if messages.length === 0}
 		<div class="empty">
-			<p class="title">What's for dinner?</p>
-			<p>Ask for dinner ideas, recipes, or help planning the week.</p>
+			<p class="title">Vad blir det till middag?</p>
+			<p>Be om middagsidéer, recept eller hjälp att planera veckan.</p>
 		</div>
 	{:else}
 		<div class="list">
 			{#each messages as message, i (i)}
 				{#if message.role === 'assistant' && message.content === '' && streaming && i === messages.length - 1}
-					<div class="thinking">…</div>
+					<div class="thinking">{activity ?? '…'}</div>
 				{:else}
 					<Message {message} />
 				{/if}

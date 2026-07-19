@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { ChatStore } from '$lib/chat/chat.svelte';
+	import { chat } from '$lib/chat/store.svelte';
 	import MessageInput from './MessageInput.svelte';
 	import MessageList from './MessageList.svelte';
 
@@ -11,7 +11,6 @@
 		apiKeyConfigured: boolean;
 	}
 
-	const chat = new ChatStore();
 	let health = $state<Health | null>(null);
 
 	onMount(async () => {
@@ -25,29 +24,30 @@
 
 <div class="chat">
 	<header>
-		<h1>Dinner Planner</h1>
+		<h1>Planera</h1>
 		<div class="controls">
 			{#if health}
 				<span class="model">{health.provider}/{health.model}</span>
 			{/if}
 			<button onclick={() => chat.newChat()} disabled={chat.messages.length === 0}>
-				New chat
+				Ny chatt
 			</button>
 		</div>
 	</header>
 
 	{#if !configured && health}
 		<div class="banner" role="alert">
-			No API key configured. Set <code>{health.apiKeyVar}</code> in <code>.env</code> (see
-			<code>.env.example</code>) and restart the server.
+			Ingen API-nyckel konfigurerad. Ange <code>{health.apiKeyVar}</code> i <code>.env</code> (se
+			<code>.env.example</code>) och starta om servern.
 		</div>
 	{/if}
 
-	<MessageList messages={chat.messages} streaming={chat.busy} />
+	<MessageList messages={chat.messages} streaming={chat.busy} activity={chat.activity} />
 
 	<MessageInput
 		busy={chat.busy}
 		disabled={!configured}
+		bind:value={chat.draft}
 		onsend={(text) => chat.send(text)}
 		onstop={() => chat.stop()}
 	/>
@@ -55,7 +55,8 @@
 
 <style>
 	.chat {
-		height: 100dvh;
+		flex: 1;
+		min-height: 0;
 		display: flex;
 		flex-direction: column;
 	}
@@ -64,21 +65,21 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: 1rem;
-		padding: 0.75rem 1rem;
+		gap: var(--space-4);
+		padding: var(--space-3) var(--space-4);
 		border-bottom: 1px solid var(--border);
 		background: var(--surface);
 	}
 
 	h1 {
-		font-size: 1.1rem;
+		font-size: var(--text-lg);
 		margin: 0;
 	}
 
 	.controls {
 		display: flex;
 		align-items: center;
-		gap: 0.75rem;
+		gap: var(--space-3);
 	}
 
 	.model {
@@ -105,7 +106,7 @@
 	.banner {
 		background: var(--error-bg);
 		color: var(--error);
-		padding: 0.6rem 1rem;
+		padding: 0.6rem var(--space-4);
 		text-align: center;
 		font-size: 0.9rem;
 	}

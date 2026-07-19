@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Dinner Planner</title>
+	<title>Planera – Middagsplaneraren</title>
 </svelte:head>
 
 <Chat />
