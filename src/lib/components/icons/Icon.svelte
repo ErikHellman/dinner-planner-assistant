@@ -14,7 +14,8 @@
 		| 'warning'
 		| 'check'
 		| 'search'
-		| 'star';
+		| 'star'
+		| 'info';
 
 	// Feather-style 24x24 stroke paths; circles/points expressed as arc/dot paths.
 	const PATHS: Record<IconName, string[]> = {
@@ -56,7 +57,8 @@
 		],
 		check: ['M20 6L9 17l-5-5'],
 		search: ['M11 11m-8 0a8 8 0 1 0 16 0a8 8 0 1 0 -16 0', 'M21 21l-4.35-4.35'],
-		star: ['M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z']
+		star: ['M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14 2 9.27l6.91-1.01z'],
+		info: ['M12 12m-10 0a10 10 0 1 0 20 0a10 10 0 1 0 -20 0', 'M12 16v-4', 'M12 8h.01']
 	};
 
 	const FILLED = new Set<IconName>(['star']);

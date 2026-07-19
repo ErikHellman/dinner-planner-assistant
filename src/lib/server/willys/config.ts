@@ -12,6 +12,11 @@ export interface WillysConfig {
 	password: string;
 }
 
+/** Non-throwing credential probe for health reporting. */
+export function isWillysConfigured(env: Record<string, string | undefined>): boolean {
+	return Boolean(env.WILLYS_USERNAME?.trim() && env.WILLYS_PASSWORD?.trim());
+}
+
 /** Validate Willys credentials from an env record (process.env or $env/dynamic/private). */
 export function loadWillysConfig(env: Record<string, string | undefined>): WillysConfig {
 	const username = env.WILLYS_USERNAME?.trim();

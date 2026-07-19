@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { loadWillysConfig, WillysConfigError } from './config';
+import { isWillysConfigured, loadWillysConfig, WillysConfigError } from './config';
 
 describe('loadWillysConfig', () => {
 	it('returns trimmed credentials when both are present', () => {
@@ -15,5 +15,14 @@ describe('loadWillysConfig', () => {
 		expect(() => loadWillysConfig({ WILLYS_USERNAME: 'x', WILLYS_PASSWORD: '  ' })).toThrow(
 			WillysConfigError
 		);
+	});
+});
+
+describe('isWillysConfigured', () => {
+	it('is true only when both credentials are present and non-blank', () => {
+		expect(isWillysConfigured({ WILLYS_USERNAME: 'a', WILLYS_PASSWORD: 'b' })).toBe(true);
+		expect(isWillysConfigured({ WILLYS_USERNAME: 'a', WILLYS_PASSWORD: '  ' })).toBe(false);
+		expect(isWillysConfigured({ WILLYS_PASSWORD: 'b' })).toBe(false);
+		expect(isWillysConfigured({})).toBe(false);
 	});
 });
