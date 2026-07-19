@@ -62,11 +62,15 @@ a clear "credentials missing" error.
   be extracted into a standalone service later. `session.ts` holds a
   globalThis-cached session singleton (survives Vite HMR) and wires up the
   Willys, recipe and plan tools below. The agent runs with `noTools: 'builtin'`
-  plus thirteen native `customTools` (no shell/file tools) and a per-session
+  plus fifteen native `customTools` (no shell/file tools) and a per-session
   system prompt (`prompt.ts`: `coreSystemPrompt()` interpolates the Stockholm
   date and current/next ISO week, `buildSystemPrompt()` appends the saved food
-  preferences, allergies and extra instructions — blank blocks are omitted);
-  future dinner-planning tools/skills get registered here.
+  preferences, allergies, extra instructions and the judged-recipe lists from
+  the verdict store — blank blocks are omitted); future dinner-planning
+  tools/skills get registered here. Gotcha: verdicts are read at session init
+  like everything else in the prompt, so a verdict set mid-chat only applies
+  from the next "Ny chatt" — deliberate, since resetting the session on every
+  thumbs-up would discard the conversation.
 - `src/lib/server/agent/tools/willys.ts` — wraps `WillysClient` as native Pi
   tools (`willys_search`, `willys_product`, `willys_cart_view`,
   `willys_cart_add`, `willys_cart_remove`, `willys_cart_clear`). Checkout is
@@ -100,13 +104,37 @@ a clear "credentials missing" error.
   week resets it. Gotcha: `load()` maps a MISSING status to `ordered` — plan
   docs predating the field are backfilled that way, so never make the field
   optional-by-default elsewhere. No agent tool sets the status. `views.ts` joins plan recipes against the database
-  for display (`exists` fallback when a re-harvest removed a recipe). ISO week
+  for display (`exists` fallback when a re-harvest removed a recipe).
+  `history.ts` (`buildPlanHistory`) summarizes the most recent weeks to
+  weekId + status + servings + recipes for the `plan_history` tool, skipping
+  corrupt files so one bad document cannot hide every other week. ISO week
   math lives in `src/lib/plans/week.ts` (shared client/server, Europe/Stockholm).
+- Cart coverage: `willysCart.coverage` maps each cart `productId` to the
+  shopping-list item names it was bought for — the ONE link between an
+  ingredient and a product, since the two share no key and fuzzy matching
+  would make the checklist lie in both directions. The agent supplies it via
+  `plan_record_cart`; `src/lib/plans/coverage.ts` (`buildCoverageDiff`, pure
+  and client-shared, so it must never import from `$lib/server`) turns it into
+  matched/unmatched/extra for both `plan_cart_diff` and the Veckans recept
+  tab. Gotcha: `hasCoverage: false` means UNKNOWN (no snapshot, or one written
+  before the field existed and backfilled to `[]` by `load()`), never
+  "nothing matched" — do not render it as an all-unmatched list. Coverage
+  naming a product that has left the cart is stale and ignored.
 - `src/lib/server/agent/tools/recipes.ts` + `tools/plans.ts` — native Pi tools
   (`recipe_search`, `recipe_get`, `recipe_ingredients`, `recipe_aggregate` —
   writes the week's plan doc and resets its snapshot — plus `plan_record_cart`,
-  `plan_get` and `plan_delete`). Harvesting is CLI-only, deliberately not an
-  agent tool.
+  `plan_cart_diff`, `plan_get`, `plan_history` and `plan_delete`). Harvesting
+  is CLI-only, deliberately not an agent tool. No agent tool reads or writes
+  the recipe verdicts; they reach the agent only through the system prompt.
+- `src/lib/server/verdicts/` — `VerdictStore` over `data/verdicts.json`: one
+  binary verdict (`liked` / `vetoed`) per recipe, with the recipe name
+  denormalized so `summary()` can build the prompt block without loading 200
+  recipe docs. A missing file is an empty document; a corrupt one throws
+  rather than silently starting over. Gotcha: `set`/`clear` are serialized
+  through an internal promise chain — two quick clicks on different cards
+  overlap, and an unserialized load-modify-save drops one. The client
+  (`$lib/verdicts/verdicts.svelte.ts`) applies only the affected recipe's
+  entry from each response for the same reason.
 - `src/lib/server/settings/` — the writable configuration document.
   `store.ts` (`SettingsStore`) reads/writes `data/settings.json` atomically;
   `secrets.ts` does the AES-256-GCM at-rest encryption (`data/settings.key`,
@@ -134,7 +162,8 @@ writing` state machine behind every "the agent is working" affordance
   first call, NOT at module load, or SSR of `Message.svelte` 500s. All client stores are module singletons so state
   survives tab navigation (`$lib/cart/cart.svelte.ts`,
   `$lib/recipes/browse.svelte.ts`, `$lib/plans/plan-view.svelte.ts`,
-  `$lib/settings/settings.svelte.ts`). The settings form never holds a secret
+  `$lib/settings/settings.svelte.ts`, `$lib/verdicts/verdicts.svelte.ts`).
+  The settings form never holds a secret
   it did not just receive from the user: an empty secret field means "keep",
   and the explicit "Ta bort sparat värde" button is what sends `''`.
 - `src/routes/` — pages `/` (chat), `/varukorg`, `/veckans-recept`, `/recept`,
@@ -144,7 +173,9 @@ writing` state machine behind every "the agent is working" affordance
   `api/cart` (GET/DELETE + POST `items` with ABSOLUTE quantity),
   `api/recipes` (+ `[id]`, `[id]/image?size=` — serves `data/recipes/images/`
   with immutable caching), `api/plans` (+ `[week]`: GET the plan, PATCH
-  `{status}`), `api/settings` (GET + PUT a partial update; `models/` lists
+  `{status}`), `api/verdicts` (GET all; `[id]` PUT
+  `{verdict: 'liked' | 'vetoed' | null}`, null clears),
+  `api/settings` (GET + PUT a partial update; `models/` lists
   Pi's provider/model catalog for the dropdowns). Wire errors are
   `{error, code}`; Swedish user-facing text is mapped from `code` in
   `$lib/api/client.ts`.
@@ -156,7 +187,8 @@ writing` state machine behind every "the agent is working" affordance
   (git-ignored) holds one `<YYYY>-Www.json` plan per ISO week (a legacy
   `shopping-list.json` may linger; it is ignored). `data/settings.json` +
   `data/settings.key` (git-ignored) hold the Inställningar document and its
-  encryption key; `data/preferences/` is a leftover placeholder — food
+  encryption key; `data/verdicts.json` (git-ignored) holds the per-recipe
+  verdicts; `data/preferences/` is a leftover placeholder — food
   preferences live in the settings document now. `.agents/skills/` contains
   the `recipes` and `shopping-list` skills (CLI workflows — the web agent
   does not load them).
@@ -166,7 +198,9 @@ writing` state machine behind every "the agent is working" affordance
 `npm run willys -- <search|product|cart …>` drives the same `WillysClient` as
 the agent tools, e.g. `npm run willys -- search mjölk`,
 `npm run willys -- cart list` or `npm run willys -- cart record --week
-2026-W30` (snapshot the cart into the weekly plan). `npm run` prepends a banner line to stdout, so
+2026-W30` (snapshot the cart into the weekly plan — with empty coverage,
+since only the agent knows which ingredient each product was bought for).
+`npm run` prepends a banner line to stdout, so
 when piping/parsing the JSON output use
 `npm run --silent willys -- …`, or call the script directly:
 `node --env-file=.env --import tsx src/lib/server/willys/cli.ts search mjölk`.
@@ -175,8 +209,9 @@ the app's `data/willys/session.json`).
 
 ## Future milestones (not yet built)
 
-The 5-tab web UI, week-keyed plans, ingredient aggregation and the settings /
-food-preference document are done. The recipe
+The 5-tab web UI, week-keyed plans, ingredient aggregation, the settings /
+food-preference document, plan history, cart coverage and recipe verdicts are
+done. The recipe
 database only covers the kalorisnål category (~200 recipes); re-run
 `npm run recipes -- harvest` to refresh it. A working Hemköp CLI also exists
 on this machine (`~/.local/bin/hemkop`, Claude skill in
