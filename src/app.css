@@ -5,7 +5,9 @@
 	--text: #2b2622;
 	--muted: #6b635a;
 	--border: #e6e0d6;
-	--accent: #c4552d;
+	/* Terracotta deep enough for 4.5:1 as small text on white and under white
+	   button text (the original #c4552d sat at 4.48). */
+	--accent: #b84f28;
 	--accent-contrast: #ffffff;
 	--error: #b3261e;
 	--error-bg: #fdeceb;
@@ -42,8 +44,10 @@
 		--text: #ede7df;
 		--muted: #9c938a;
 		--border: #3d3630;
-		--accent: #d96a3f;
-		--accent-contrast: #ffffff;
+		/* Lighter accent for dark surfaces (4.5:1+ as text) with DARK button
+		   text — white on this orange only reaches ~3.5:1. */
+		--accent: #e07747;
+		--accent-contrast: #1c1917;
 		--error: #f2b8b5;
 		--error-bg: #4a2523;
 		--success: #5fc79e;
