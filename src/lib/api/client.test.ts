@@ -45,10 +45,9 @@ describe('apiFetch', () => {
 
 describe('Swedish error messages', () => {
 	it('translates known codes', () => {
-		expect(messageFor(new ApiError('willys_not_configured', 'x', 503))).toContain(
-			'WILLYS_USERNAME'
-		);
+		expect(messageFor(new ApiError('willys_not_configured', 'x', 503))).toContain('Inställningar');
 		expect(messageForCode('willys_error')).toBe('Kunde inte nå Willys. Försök igen.');
+		expect(messageForCode('settings_error')).toContain('inställningarna');
 	});
 
 	it('falls back for unknown errors and codes', () => {

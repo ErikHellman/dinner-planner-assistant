@@ -4,7 +4,7 @@
 	import Icon, { type IconName } from './icons/Icon.svelte';
 
 	interface Tab {
-		href: '/' | '/varukorg' | '/veckans-recept' | '/recept';
+		href: '/' | '/varukorg' | '/veckans-recept' | '/recept' | '/installningar';
 		label: string;
 		icon: IconName;
 		exact?: boolean;
@@ -14,7 +14,8 @@
 		{ href: '/', label: 'Planera', icon: 'chat', exact: true },
 		{ href: '/varukorg', label: 'Varukorg', icon: 'cart' },
 		{ href: '/veckans-recept', label: 'Veckans recept', icon: 'calendar' },
-		{ href: '/recept', label: 'Alla recept', icon: 'book' }
+		{ href: '/recept', label: 'Alla recept', icon: 'book' },
+		{ href: '/installningar', label: 'Inställningar', icon: 'settings' }
 	];
 
 	function isActive(tab: Tab): boolean {
@@ -51,7 +52,11 @@
 	}
 
 	a {
-		flex: 1;
+		/* Five tabs on a phone: sized to their label, sharing the slack evenly —
+		   and on a very narrow screen they shrink and the label ellipsizes
+		   instead of pushing the bar wider than the viewport. */
+		flex: 1 1 auto;
+		min-width: 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -60,11 +65,17 @@
 		min-height: var(--tabbar-h);
 		padding: 0 var(--space-1);
 		font-size: 0.7rem;
-		white-space: nowrap;
 		text-decoration: none;
 		color: var(--muted);
 		/* Active state = color + weight + edge indicator, never color alone. */
 		border-top: 3px solid transparent;
+	}
+
+	.label {
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	a[aria-current='page'] {

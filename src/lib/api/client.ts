@@ -33,13 +33,13 @@ export async function apiFetch<T>(input: string, init?: RequestInit): Promise<T>
 }
 
 const MESSAGES: Record<string, string> = {
-	willys_not_configured:
-		'Willys-uppgifter saknas. Ange WILLYS_USERNAME och WILLYS_PASSWORD i .env och starta om servern.',
+	willys_not_configured: 'Willys-uppgifter saknas. Fyll i dem under Inställningar.',
 	willys_error: 'Kunde inte nå Willys. Försök igen.',
 	bad_request: 'Felaktig förfrågan.',
 	not_found: 'Hittades inte.',
 	recipes_unavailable: 'Receptdatabasen är inte tillgänglig.',
 	plan_error: 'Kunde inte läsa veckoplanen.',
+	settings_error: 'Kunde inte läsa eller spara inställningarna.',
 	network: 'Kunde inte nå servern. Kontrollera att den är igång.',
 	unknown: 'Något gick fel.'
 };

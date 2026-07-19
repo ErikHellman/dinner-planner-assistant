@@ -16,6 +16,7 @@ import { RecipeStore } from '../recipes/query';
 import { createRecipeTools } from './tools/recipes';
 import { PlanStore } from '../plans/store';
 import { createPlanTools } from './tools/plans';
+import { getSettingsSnapshot } from '../settings/shared';
 
 const SESSIONS_DIR = path.resolve(process.cwd(), 'data/sessions');
 
@@ -71,8 +72,15 @@ async function init(): Promise<AgentBundle> {
 	// Grocery tools (Willys search + cart), recipe-database tools and weekly-plan tools
 	// are registered below via customTools; the agent runs with noTools:'builtin' so it
 	// has these and no shell/file tools. No skills/extensions/context files are loaded
-	// from disk. The system prompt is built per session so its week context is current.
-	const systemPrompt = buildSystemPrompt();
+	// from disk. The system prompt is built per session so its week context is current
+	// and it carries the food preferences saved in the Inställningar tab (a settings
+	// save calls resetAgent(), so the next session picks up the change).
+	const settings = getSettingsSnapshot();
+	const systemPrompt = buildSystemPrompt(new Date(), {
+		foodPreferences: settings.foodPreferences,
+		dislikesAllergies: settings.dislikesAllergies,
+		extraInstructions: settings.extraInstructions
+	});
 	const resourceLoader = new DefaultResourceLoader({
 		cwd,
 		agentDir,

@@ -30,6 +30,11 @@ Thumbs.db
 # Latest aggregated shopping list (written by "recipes aggregate" / recipe_aggregate)
 /data/plans/
 
+# Settings written from the Inställningar tab, and the key its secrets are
+# encrypted with (both machine-local, never committed)
+/data/settings.json
+/data/settings.key
+
 # Atomic-write temp files (recipe harvest writes tmp+rename; a crash mid-write can leave these)
 /data/recipes/**/*.tmp
 

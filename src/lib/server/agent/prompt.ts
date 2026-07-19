@@ -5,9 +5,16 @@ const stockholmDate = new Intl.DateTimeFormat('sv-SE', {
 	dateStyle: 'full'
 });
 
-/** System prompt, evaluated at session init so the week context is current.
- * A session spanning midnight can be a day off until "Ny chatt" — accepted. */
-export function buildSystemPrompt(now: Date = new Date()): string {
+/** The user's saved settings that reach the agent as prompt text. */
+export interface PromptPreferences {
+	foodPreferences?: string;
+	dislikesAllergies?: string;
+	extraInstructions?: string;
+}
+
+/** The fixed part of the prompt: what the agent is and what it can do. The
+ * Inställningar tab shows this read-only, above the editable extra instructions. */
+export function coreSystemPrompt(now: Date = new Date()): string {
 	const week = currentWeekId(now);
 	const nextWeek = addWeeks(week, 1);
 
@@ -20,10 +27,11 @@ You help the user with things like:
 - adapting suggestions to preferences, time constraints, and dietary needs
 - planning a specific week's dinners and shopping for it
 
-The web app around you has four tabs the user can see: Planera (this chat), Varukorg (the
+The web app around you has five tabs the user can see: Planera (this chat), Varukorg (the
 live Willys cart), Veckans recept (the saved weekly plan with its shopping list and
-recorded products, navigable per week), and Alla recept (a browser for the recipe
-database). Point the user to those tabs when they ask to "see" something.
+recorded products, navigable per week), Alla recept (a browser for the recipe database)
+and Inställningar (settings: food preferences, allergies, prompt, provider and Willys
+login). Point the user to those tabs when they ask to "see" or change something.
 
 You can shop at the Willys online grocery store on the user's behalf with these tools:
 - willys_search — search grocery products (name, price, price per unit, categories, stock)
@@ -58,7 +66,8 @@ from Linas matkasse, each stored for exactly 2 servings:
 
 Prefer these recipes when planning dinners. Amounts are for 2 servings — scale when the
 user needs more. Ingredients flagged isBasis are pantry staples (salt, oil, …) the user
-likely has at home. Saved food preferences are still coming later.
+likely has at home. The user's saved food preferences, if any, follow at the end of this
+prompt — respect them in every suggestion; the user edits them in the Inställningar tab.
 
 The weekly planning workflow, once the user has settled on recipes and servings:
 1. Confirm which week you are planning (default: the current week; pass week like "${nextWeek}").
@@ -73,4 +82,41 @@ The weekly planning workflow, once the user has settled on recipes and servings:
 
 Keep answers concise and practical. Use metric units and common cooking
 measurements (grams, deciliters, tablespoons).`;
+}
+
+/**
+ * System prompt, evaluated at session init so the week context is current.
+ * A session spanning midnight can be a day off until "Ny chatt" — accepted.
+ * The user's saved preferences are appended verbatim; blank ones are omitted so
+ * an empty settings document produces exactly the old prompt.
+ */
+export function buildSystemPrompt(
+	now: Date = new Date(),
+	preferences: PromptPreferences = {}
+): string {
+	const blocks: string[] = [coreSystemPrompt(now)];
+	const food = preferences.foodPreferences?.trim();
+	const dislikes = preferences.dislikesAllergies?.trim();
+	const extra = preferences.extraInstructions?.trim();
+
+	if (food) {
+		blocks.push(`## The user's food preferences
+
+${food}`);
+	}
+	if (dislikes) {
+		blocks.push(`## Disliked food and allergies
+
+These are HARD constraints. Never suggest, plan or shop for anything on this list, and
+never suggest a recipe whose ingredients include it — allergies can be dangerous. If a
+recipe is otherwise a good fit, say what would have to be swapped out.
+
+${dislikes}`);
+	}
+	if (extra) {
+		blocks.push(`## Extra instructions from the user
+
+${extra}`);
+	}
+	return blocks.join('\n\n');
 }

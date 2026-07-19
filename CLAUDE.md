@@ -4,9 +4,10 @@ Single-user fullstack web app for planning weekly dinners with an LLM agent.
 The long-term goal (recipe database, ingredient aggregation, grocery-store
 cart tools as agent skills) is described in
 `Project plan and description - Dinner planner assistant.md`. The app is a
-4-tab Swedish-language web UI — Planera (streaming chat), Varukorg (live
+5-tab Swedish-language web UI — Planera (streaming chat), Varukorg (live
 Willys cart with quantity editing), Veckans recept (read-only week-keyed
-plans), Alla recept (recipe browser) — with the Pi agent harness
+plans), Alla recept (recipe browser), Inställningar (prompt, food
+preferences, LLM provider, Willys login) — with the Pi agent harness
 (https://pi.dev) as the LLM integration.
 
 ## Stack
@@ -39,12 +40,21 @@ test:recipes` runs the live site-contract tests (network).
 
 ## Configuration
 
+Two layers, settings first and `.env` as the fallback for every field —
+`src/lib/server/settings/effective.ts` is the ONE place that decides this.
+
+`data/settings.json` (git-ignored), written from the Inställningar tab: extra
+system-prompt instructions, food preferences, dislikes/allergies, provider,
+model, API key and Willys credentials. The two secrets are encrypted at rest
+(AES-256-GCM, key auto-generated in `data/settings.key`, mode 0600) and never
+reach the browser — the API reports only `apiKeySource`/`passwordSource`.
+
 `.env` (git-ignored, template in `.env.example`): `PI_PROVIDER`, `PI_MODEL`,
-and the provider's API key (`<PROVIDER>_API_KEY`, e.g. `ANTHROPIC_API_KEY`).
-Without a key the app boots and shows a banner; chat returns a clear error.
+the provider's API key (`<PROVIDER>_API_KEY`, e.g. `ANTHROPIC_API_KEY`), and
 `WILLYS_USERNAME`/`WILLYS_PASSWORD` (Swedish personnummer or Willys Plus
-number + password) are required for the Willys grocery tools; without them
-the tools fail with a clear "credentials missing" error.
+number + password). Without an API key the app boots and shows a banner; chat
+returns a clear error. Without Willys credentials the grocery tools fail with
+a clear "credentials missing" error.
 
 ## Architecture
 
@@ -53,9 +63,10 @@ the tools fail with a clear "credentials missing" error.
   globalThis-cached session singleton (survives Vite HMR) and wires up the
   Willys, recipe and plan tools below. The agent runs with `noTools: 'builtin'`
   plus thirteen native `customTools` (no shell/file tools) and a per-session
-  system prompt (`prompt.ts` `buildSystemPrompt()` — interpolates the Stockholm
-  date and current/next ISO week); future dinner-planning tools/skills get
-  registered here.
+  system prompt (`prompt.ts`: `coreSystemPrompt()` interpolates the Stockholm
+  date and current/next ISO week, `buildSystemPrompt()` appends the saved food
+  preferences, allergies and extra instructions — blank blocks are omitted);
+  future dinner-planning tools/skills get registered here.
 - `src/lib/server/agent/tools/willys.ts` — wraps `WillysClient` as native Pi
   tools (`willys_search`, `willys_product`, `willys_cart_view`,
   `willys_cart_add`, `willys_cart_remove`, `willys_cart_clear`). Checkout is
@@ -96,6 +107,17 @@ the tools fail with a clear "credentials missing" error.
   writes the week's plan doc and resets its snapshot — plus `plan_record_cart`,
   `plan_get` and `plan_delete`). Harvesting is CLI-only, deliberately not an
   agent tool.
+- `src/lib/server/settings/` — the writable configuration document.
+  `store.ts` (`SettingsStore`) reads/writes `data/settings.json` atomically;
+  `secrets.ts` does the AES-256-GCM at-rest encryption (`data/settings.key`,
+  auto-generated, 0600); `effective.ts` resolves settings-over-`.env` for the
+  LLM config and for a lazily-read env view of the Willys credentials;
+  `shared.ts` owns the globalThis-cached snapshot that synchronous consumers
+  read (primed by `src/hooks.server.ts` `init`); `view.ts` projects the
+  document to the client WITHOUT the secret values. Gotcha: saving restarts the
+  agent session (`resetAgent()`) because provider/model/key/prompt are baked in
+  at session init, and a Willys credential change also calls
+  `resetWillysClient()`, which deletes the cookie cache of the old account.
 - `src/lib/server/agent/events.ts` — maps Pi events to the wire protocol.
   Gotcha: Pi does NOT reject `prompt()` on provider errors; failures arrive
   as `message_end` with `stopReason: "error"`.
@@ -111,15 +133,19 @@ writing` state machine behind every "the agent is working" affordance
   copy stay literal). Browser-only: the DOMPurify link hook is installed on
   first call, NOT at module load, or SSR of `Message.svelte` 500s. All client stores are module singletons so state
   survives tab navigation (`$lib/cart/cart.svelte.ts`,
-  `$lib/recipes/browse.svelte.ts`, `$lib/plans/plan-view.svelte.ts`).
+  `$lib/recipes/browse.svelte.ts`, `$lib/plans/plan-view.svelte.ts`,
+  `$lib/settings/settings.svelte.ts`). The settings form never holds a secret
+  it did not just receive from the user: an empty secret field means "keep",
+  and the explicit "Ta bort sparat värde" button is what sends `''`.
 - `src/routes/` — pages `/` (chat), `/varukorg`, `/veckans-recept`, `/recept`,
-  `/recept/[id]`; tab bar in `+layout.svelte` (bottom nav on mobile, top bar
-  on desktop). API: `api/chat` (POST `{message}` → SSE
+  `/recept/[id]`, `/installningar`; tab bar in `+layout.svelte` (bottom nav on
+  mobile, top bar on desktop). API: `api/chat` (POST `{message}` → SSE
   `text`/`tool`/`done`/`error`; `reset/`; `health/` incl. `willysConfigured`),
   `api/cart` (GET/DELETE + POST `items` with ABSOLUTE quantity),
   `api/recipes` (+ `[id]`, `[id]/image?size=` — serves `data/recipes/images/`
   with immutable caching), `api/plans` (+ `[week]`: GET the plan, PATCH
-  `{status}`). Wire errors are
+  `{status}`), `api/settings` (GET + PUT a partial update; `models/` lists
+  Pi's provider/model catalog for the dropdowns). Wire errors are
   `{error, code}`; Swedish user-facing text is mapped from `code` in
   `$lib/api/client.ts`.
 - `data/sessions/` (git-ignored) — Pi session JSONL files; read these when
@@ -128,8 +154,10 @@ writing` state machine behind every "the agent is working" affordance
   holds the harvested recipe database (JSON docs + images) and, unlike
   `data/sessions/`/`data/willys/`, is tracked in git. `data/plans/`
   (git-ignored) holds one `<YYYY>-Www.json` plan per ISO week (a legacy
-  `shopping-list.json` may linger; it is ignored). `data/preferences/` is
-  still a placeholder for a future milestone. `.agents/skills/` contains
+  `shopping-list.json` may linger; it is ignored). `data/settings.json` +
+  `data/settings.key` (git-ignored) hold the Inställningar document and its
+  encryption key; `data/preferences/` is a leftover placeholder — food
+  preferences live in the settings document now. `.agents/skills/` contains
   the `recipes` and `shopping-list` skills (CLI workflows — the web agent
   does not load them).
 
@@ -147,8 +175,8 @@ the app's `data/willys/session.json`).
 
 ## Future milestones (not yet built)
 
-The 4-tab web UI, week-keyed plans and ingredient aggregation are done;
-remaining: food-preference documents (`data/preferences/`). The recipe
+The 5-tab web UI, week-keyed plans, ingredient aggregation and the settings /
+food-preference document are done. The recipe
 database only covers the kalorisnål category (~200 recipes); re-run
 `npm run recipes -- harvest` to refresh it. A working Hemköp CLI also exists
 on this machine (`~/.local/bin/hemkop`, Claude skill in
