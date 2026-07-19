@@ -61,6 +61,15 @@ function isWeeklyPlanShape(value: unknown): value is Omit<WeeklyPlan, 'status'> 
 	);
 }
 
+/** Snapshots recorded before cart coverage existed have no `coverage` field.
+ * Unlike a missing status, that absence is not a claim about what happened —
+ * an empty list reads as "not recorded", and buildCoverageDiff reports it as
+ * unknown rather than as nothing-matched. */
+function normalizeSnapshot(snapshot: WillysCartSnapshot | null): WillysCartSnapshot | null {
+	if (!snapshot) return null;
+	return { ...snapshot, coverage: snapshot.coverage ?? [] };
+}
+
 /** Week-keyed plan documents under data/plans/, one JSON file per ISO week. */
 export class PlanStore {
 	constructor(private readonly dir: string = defaultPlansDir()) {}
@@ -108,7 +117,11 @@ export class PlanStore {
 		// Every plan written from now on carries a status, so a missing one can
 		// only be a document from before the field existed — and those weeks
 		// were already ordered.
-		return { ...parsed, status: parsed.status ?? 'ordered' };
+		return {
+			...parsed,
+			status: parsed.status ?? 'ordered',
+			willysCart: normalizeSnapshot(parsed.willysCart)
+		};
 	}
 
 	/** Persist the plan (atomic write), stamping updatedAt. */

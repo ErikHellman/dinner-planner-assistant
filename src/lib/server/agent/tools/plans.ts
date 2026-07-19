@@ -6,7 +6,8 @@ import { currentWeekId } from '../../../plans/week';
 import { WillysConfigError } from '../../willys/config';
 import type { WillysClient } from '../../willys/client';
 import type { NormalizedCart } from '../../willys/types';
-import type { WillysCartSnapshot } from '../../../plans/types';
+import type { CartCoverageEntry, WillysCartSnapshot } from '../../../plans/types';
+import { buildCoverageDiff } from '../../../plans/coverage';
 
 function ok(data: unknown): { content: { type: 'text'; text: string }[]; details: unknown } {
 	return { content: [{ type: 'text', text: JSON.stringify(data, null, 2) }], details: data };
@@ -28,16 +29,32 @@ async function guarded(run: () => Promise<unknown>) {
 	}
 }
 
-function snapshotFromCart(cart: NormalizedCart): WillysCartSnapshot {
+function snapshotFromCart(cart: NormalizedCart, coverage: CartCoverageEntry[]): WillysCartSnapshot {
 	return {
 		recordedAt: new Date().toISOString(),
 		store: cart.store,
 		itemCount: cart.itemCount,
 		totalQuantity: cart.totalQuantity,
 		lines: cart.lines,
-		subtotal: cart.subtotal
+		subtotal: cart.subtotal,
+		coverage
 	};
 }
+
+const COVERAGE_PARAM = Type.Optional(
+	Type.Array(
+		Type.Object({
+			productId: Type.String({ description: 'Product in the cart, e.g. 101233933_ST' }),
+			covers: Type.Array(Type.String(), {
+				description: "Shopping-list item names this product buys, spelled as in the plan's list"
+			})
+		}),
+		{
+			description:
+				'Which shopping-list items each cart product was bought for. Without it the app cannot tell which ingredients are actually covered.'
+		}
+	)
+);
 
 const WEEK_PARAM = Type.Optional(
 	Type.String({ description: 'ISO week id like "2026-W30"; defaults to the current week' })
@@ -53,9 +70,10 @@ export function createPlanTools(deps: {
 			name: 'plan_record_cart',
 			label: 'Record cart in plan',
 			description:
-				"Snapshot the CURRENT Willys cart into the week's plan document so the app can show (and later re-create) the chosen products. Call it after filling the cart from the aggregated shopping list. Requires the week to already have a plan (recipe_aggregate first) and a non-empty cart. Re-aggregating the week clears the snapshot — record again after refilling.",
-			promptSnippet: "plan_record_cart(week?): save the Willys cart into the week's plan",
-			parameters: Type.Object({ week: WEEK_PARAM }),
+				"Snapshot the CURRENT Willys cart into the week's plan document so the app can show (and later re-create) the chosen products. Call it after filling the cart from the aggregated shopping list. Requires the week to already have a plan (recipe_aggregate first) and a non-empty cart. Re-aggregating the week clears the snapshot — record again after refilling. ALWAYS pass coverage: it is the only link between an ingredient name and the product you bought for it, and without it every ingredient shows as unchecked.",
+			promptSnippet:
+				"plan_record_cart(week?, coverage?): save the Willys cart into the week's plan",
+			parameters: Type.Object({ week: WEEK_PARAM, coverage: COVERAGE_PARAM }),
 			execute: (_id, params) =>
 				guarded(async () => {
 					const weekId = params.week ?? currentWeekId();
@@ -71,7 +89,29 @@ export function createPlanTools(deps: {
 							'The Willys cart is empty — fill it before recording it into the plan.'
 						);
 					}
-					return deps.plans.setWillysSnapshot(weekId, snapshotFromCart(cart));
+					return deps.plans.setWillysSnapshot(
+						weekId,
+						snapshotFromCart(cart, params.coverage ?? [])
+					);
+				})
+		}),
+		defineTool({
+			name: 'plan_cart_diff',
+			label: 'Check cart against plan',
+			description:
+				"Compare the week's shopping list against the products recorded in its cart, using the coverage you passed to plan_record_cart. Returns matched items, unmatched items (ingredients nothing was bought for — fix these) and extra products. hasCoverage is false when no coverage was recorded, which means unknown, not that nothing matched. Call it after plan_record_cart to check your own work before telling the user the cart is ready.",
+			promptSnippet: "plan_cart_diff(week?): check the cart covers the week's shopping list",
+			parameters: Type.Object({ week: WEEK_PARAM }),
+			execute: (_id, params) =>
+				guarded(async () => {
+					const weekId = params.week ?? currentWeekId();
+					const plan = await deps.plans.load(weekId);
+					if (!plan) {
+						throw new PlanStoreError(
+							`No plan for week ${weekId} — run recipe_aggregate for that week first.`
+						);
+					}
+					return { weekId, ...buildCoverageDiff(plan) };
 				})
 		}),
 		defineTool({

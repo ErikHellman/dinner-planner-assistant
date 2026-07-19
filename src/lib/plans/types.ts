@@ -39,6 +39,19 @@ export interface WeeklyPlan {
 	updatedAt: string;
 }
 
+/**
+ * Which shopping-list items a cart product was bought for, as declared by the
+ * agent while it shopped. This is the ONLY link between an ingredient name
+ * ("potatis") and a product name ("Potatis Fast Sverige Klass 1") — there is
+ * no shared key, and guessing one heuristically would make the coverage
+ * checklist lie in both directions.
+ */
+export interface CartCoverageEntry {
+	productId: string;
+	/** Shopping-list item names, as spelled in the plan's shoppingList. */
+	covers: string[];
+}
+
 /** The Willys cart at the moment the plan's products were recorded. */
 export interface WillysCartSnapshot {
 	recordedAt: string;
@@ -47,6 +60,9 @@ export interface WillysCartSnapshot {
 	totalQuantity: number;
 	lines: NormalizedCartLine[];
 	subtotal: Money;
+	/** Empty means "not recorded" — snapshots predating this field load as [],
+	 * and the UI reports unknown rather than claiming nothing was covered. */
+	coverage: CartCoverageEntry[];
 }
 
 /** Display join of a planned recipe against the recipe database, served by

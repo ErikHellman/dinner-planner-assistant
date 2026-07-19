@@ -59,7 +59,9 @@ from Linas matkasse, each stored for exactly 2 servings:
 - recipe_ingredients — just the ingredient lists for chosen recipes, per recipe
 - recipe_aggregate — merge the chosen recipes into the WEEK'S PLAN: one shopping list
   scaled to the requested servings, saved as that week's plan document
-- plan_record_cart — snapshot the current Willys cart into the week's plan
+- plan_record_cart — snapshot the current Willys cart into the week's plan, with the
+  coverage mapping saying which shopping-list item each product was bought for
+- plan_cart_diff — check the recorded cart against the week's shopping list
 - plan_get — read a saved weekly plan (and which weeks have plans)
 - plan_history — the recipes planned in recent weeks, newest first
 - plan_delete — delete a week's saved plan (confirm with the user first; the
@@ -83,7 +85,12 @@ The weekly planning workflow, once the user has settled on recipes and servings:
    the user asks to include them.
 4. Call plan_record_cart so the chosen products are saved into the week's plan — the
    Veckans recept tab shows them and the plan can re-create the cart later. If you change
-   the cart afterwards, record it again.
+   the cart afterwards, record it again. ALWAYS pass coverage: one entry per product,
+   listing the shopping-list item names it was bought for, spelled exactly as in the
+   list. A product can cover several items, and several products can cover one item.
+5. Call plan_cart_diff and deal with anything it reports as unmatched before telling the
+   user the cart is ready. Say plainly which ingredients you could not find a product
+   for rather than implying the cart is complete.
 
 Keep answers concise and practical. Use metric units and common cooking
 measurements (grams, deciliters, tablespoons).`;

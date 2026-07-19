@@ -11,7 +11,13 @@ import type { NormalizedCart } from '../../willys/types';
 import type { ShoppingList } from '../../recipes/aggregate';
 import type { WeeklyPlan } from '../../../plans/types';
 
-const EXPECTED_NAMES = ['plan_record_cart', 'plan_get', 'plan_history', 'plan_delete'];
+const EXPECTED_NAMES = [
+	'plan_record_cart',
+	'plan_cart_diff',
+	'plan_get',
+	'plan_history',
+	'plan_delete'
+];
 
 const LIST: ShoppingList = {
 	servings: 4,
@@ -149,6 +155,68 @@ describe('createPlanTools', () => {
 		const text = (result.content[0] as { text: string }).text;
 		expect(text).toContain('WILLYS_USERNAME');
 		expect(text.startsWith('Plan tool error:')).toBe(false);
+	});
+
+	it('plan_record_cart stores the coverage mapping it was given', async () => {
+		await plans.save(createWeeklyPlan(LIST, '2026-W29'));
+
+		await run(mockClient({ getCart: async () => CART }), 'plan_record_cart', {
+			week: '2026-W29',
+			coverage: [{ productId: '101233933_ST', covers: ['gul lök'] }]
+		});
+
+		const loaded = await plans.load('2026-W29');
+		expect(loaded?.willysCart?.coverage).toEqual([
+			{ productId: '101233933_ST', covers: ['gul lök'] }
+		]);
+	});
+
+	it('plan_record_cart records an empty coverage when none is passed', async () => {
+		await plans.save(createWeeklyPlan(LIST, '2026-W29'));
+
+		await run(mockClient({ getCart: async () => CART }), 'plan_record_cart', { week: '2026-W29' });
+
+		expect((await plans.load('2026-W29'))?.willysCart?.coverage).toEqual([]);
+	});
+
+	it('plan_cart_diff reports the ingredients no product covers', async () => {
+		await plans.save(
+			createWeeklyPlan(
+				{ ...LIST, items: [...LIST.items, { ...LIST.items[0], name: 'dijonsenap' }] },
+				'2026-W29'
+			)
+		);
+		await run(mockClient({ getCart: async () => CART }), 'plan_record_cart', {
+			week: '2026-W29',
+			coverage: [{ productId: '101233933_ST', covers: ['gul lök'] }]
+		});
+
+		const result = await run(mockClient(), 'plan_cart_diff', { week: '2026-W29' });
+
+		expect(result.details).toMatchObject({
+			weekId: '2026-W29',
+			hasCoverage: true,
+			unmatched: ['dijonsenap'],
+			matched: [{ name: 'gul lök', productIds: ['101233933_ST'] }]
+		});
+	});
+
+	it('plan_cart_diff fails clearly when the week has no plan', async () => {
+		const result = await run(mockClient(), 'plan_cart_diff', { week: '2026-W30' });
+
+		const text = (result.content[0] as { text: string }).text;
+		expect(text).toContain('No plan for week 2026-W30');
+		expect(text.startsWith('Plan tool error:')).toBe(false);
+	});
+
+	it('plan_history summarizes recent weeks newest first', async () => {
+		await plans.save(createWeeklyPlan(LIST, '2026-W29'));
+		await plans.save(createWeeklyPlan(LIST, '2026-W30'));
+
+		const result = await run(mockClient(), 'plan_history', {});
+
+		const details = result.details as { weeks: { weekId: string }[] };
+		expect(details.weeks.map((w) => w.weekId)).toEqual(['2026-W30', '2026-W29']);
 	});
 
 	it('plan_get returns the plan and the available weeks', async () => {

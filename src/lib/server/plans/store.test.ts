@@ -40,7 +40,8 @@ const SNAPSHOT: WillysCartSnapshot = {
 			imageUrl: null
 		}
 	],
-	subtotal: { amount: 25.8, formatted: '25,80 kr', currency: 'SEK' }
+	subtotal: { amount: 25.8, formatted: '25,80 kr', currency: 'SEK' },
+	coverage: [{ productId: '101233933_ST', covers: ['potatis'] }]
 };
 
 describe('PlanStore', () => {
@@ -113,6 +114,20 @@ describe('PlanStore', () => {
 
 		const loaded = await store.load('2026-W29');
 		expect(loaded?.willysCart?.lines[0].productId).toBe('101233933_ST');
+	});
+
+	it('loads a snapshot written before coverage existed with an empty coverage list', async () => {
+		const plan = createWeeklyPlan(LIST, '2026-W29');
+		const legacySnapshot: Record<string, unknown> = { ...SNAPSHOT };
+		delete legacySnapshot.coverage;
+		await writeFile(
+			path.join(dir, '2026-W29.json'),
+			JSON.stringify({ ...plan, willysCart: legacySnapshot }),
+			'utf8'
+		);
+
+		const loaded = await store.load('2026-W29');
+		expect(loaded?.willysCart?.coverage).toEqual([]);
 	});
 
 	it('refuses to record a snapshot when the week has no plan', async () => {

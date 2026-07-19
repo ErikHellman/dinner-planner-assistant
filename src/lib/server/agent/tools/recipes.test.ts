@@ -73,7 +73,8 @@ const SNAPSHOT: WillysCartSnapshot = {
 			imageUrl: null
 		}
 	],
-	subtotal: { amount: 5, formatted: '5,00 kr', currency: 'SEK' }
+	subtotal: { amount: 5, formatted: '5,00 kr', currency: 'SEK' },
+	coverage: []
 };
 
 let store: RecipeStore;

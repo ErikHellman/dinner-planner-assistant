@@ -76,7 +76,10 @@ async function main(argv: string[]): Promise<number> {
 					itemCount: cart.itemCount,
 					totalQuantity: cart.totalQuantity,
 					lines: cart.lines,
-					subtotal: cart.subtotal
+					subtotal: cart.subtotal,
+					// The CLI has no idea which ingredient each product was bought for;
+					// only the agent knows that, so the week reads as "not recorded".
+					coverage: []
 				});
 				log(`Recorded the cart into the ${week} plan`);
 				out(plan);

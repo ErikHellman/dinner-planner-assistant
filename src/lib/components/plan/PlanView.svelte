@@ -8,6 +8,7 @@
 	import PlanStatusBar from './PlanStatusBar.svelte';
 	import ShoppingListSection from './ShoppingListSection.svelte';
 	import CartSnapshotSection from './CartSnapshotSection.svelte';
+	import { buildCoverageDiff } from '$lib/plans/coverage';
 
 	const store = planViewStore;
 	const plan = $derived(store.plan);
@@ -81,7 +82,7 @@
 				{/if}
 
 				{#if plan.willysCart}
-					<CartSnapshotSection snapshot={plan.willysCart} />
+					<CartSnapshotSection snapshot={plan.willysCart} diff={buildCoverageDiff(plan)} />
 				{:else}
 					<Banner variant="info">
 						Inga Willys-produkter är registrerade för den här veckan ännu. Be assistenten fylla
