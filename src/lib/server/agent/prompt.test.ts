@@ -10,6 +10,12 @@ describe('coreSystemPrompt', () => {
 		expect(prompt).toContain('recipe_aggregate');
 		expect(prompt).toContain('2026-W30');
 	});
+
+	it('tells the agent to check recent weeks before proposing dinners', () => {
+		const prompt = coreSystemPrompt(NOW);
+		expect(prompt).toContain('plan_history');
+		expect(prompt).toContain('avoid repeating a dish');
+	});
 });
 
 describe('buildSystemPrompt', () => {

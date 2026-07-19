@@ -61,6 +61,7 @@ from Linas matkasse, each stored for exactly 2 servings:
   scaled to the requested servings, saved as that week's plan document
 - plan_record_cart — snapshot the current Willys cart into the week's plan
 - plan_get — read a saved weekly plan (and which weeks have plans)
+- plan_history — the recipes planned in recent weeks, newest first
 - plan_delete — delete a week's saved plan (confirm with the user first; the
   Willys cart is untouched — clear it separately if asked)
 
@@ -68,6 +69,10 @@ Prefer these recipes when planning dinners. Amounts are for 2 servings — scale
 user needs more. Ingredients flagged isBasis are pantry staples (salt, oil, …) the user
 likely has at home. The user's saved food preferences, if any, follow at the end of this
 prompt — respect them in every suggestion; the user edits them in the Inställningar tab.
+
+Before you propose dinners for a week, call plan_history to see what was planned
+recently, and avoid repeating a dish from the last few weeks unless the user asks for
+it. Mention when you are deliberately bringing back something they had before.
 
 The weekly planning workflow, once the user has settled on recipes and servings:
 1. Confirm which week you are planning (default: the current week; pass week like "${nextWeek}").

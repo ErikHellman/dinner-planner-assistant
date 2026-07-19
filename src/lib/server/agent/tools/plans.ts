@@ -1,6 +1,7 @@
 import { defineTool, type ToolDefinition } from '@earendil-works/pi-coding-agent';
 import { Type } from 'typebox';
 import { PlanStore, PlanStoreError } from '../../plans/store';
+import { buildPlanHistory, clampHistoryWeeks, HISTORY_DEFAULT_WEEKS } from '../../plans/history';
 import { currentWeekId } from '../../../plans/week';
 import { WillysConfigError } from '../../willys/config';
 import type { WillysClient } from '../../willys/client';
@@ -89,6 +90,24 @@ export function createPlanTools(deps: {
 					]);
 					return { weekId, plan, availableWeeks };
 				})
+		}),
+		defineTool({
+			name: 'plan_history',
+			label: 'Recent weekly plans',
+			description:
+				'The most recent weekly plans, newest first — week id, status, servings and the recipes that were planned. Use it before proposing dinners so you know what was cooked recently and can avoid repeats. Shopping lists and recorded products are NOT included; use plan_get for one week in full.',
+			promptSnippet: 'plan_history(weeks?): recently planned weeks and their recipes',
+			parameters: Type.Object({
+				weeks: Type.Optional(
+					Type.Number({
+						description: `How many recent weeks to return (default ${HISTORY_DEFAULT_WEEKS}, max 52)`
+					})
+				)
+			}),
+			execute: (_id, params) =>
+				guarded(async () => ({
+					weeks: await buildPlanHistory(deps.plans, clampHistoryWeeks(params.weeks))
+				}))
 		}),
 		defineTool({
 			name: 'plan_delete',

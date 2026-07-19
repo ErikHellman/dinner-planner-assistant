@@ -11,7 +11,7 @@ import type { NormalizedCart } from '../../willys/types';
 import type { ShoppingList } from '../../recipes/aggregate';
 import type { WeeklyPlan } from '../../../plans/types';
 
-const EXPECTED_NAMES = ['plan_record_cart', 'plan_get', 'plan_delete'];
+const EXPECTED_NAMES = ['plan_record_cart', 'plan_get', 'plan_history', 'plan_delete'];
 
 const LIST: ShoppingList = {
 	servings: 4,
@@ -80,7 +80,7 @@ async function run(willys: WillysClient, name: string, params: unknown) {
 }
 
 describe('createPlanTools', () => {
-	it('returns three tools with the exact expected names', () => {
+	it('returns the plan tools with the exact expected names', () => {
 		const tools = makeTools(mockClient());
 		expect(tools.map((t) => t.name)).toEqual(EXPECTED_NAMES);
 	});
