@@ -15,14 +15,18 @@ The longer-term product thinking behind this lives in
 
 ## What's in the app
 
-Four tabs (bottom nav on mobile, top bar on desktop), all in Swedish:
+Five tabs (bottom nav on mobile, top bar on desktop), all in Swedish:
 
-| Tab                | Route             | What it does                                                             |
-| ------------------ | ----------------- | ------------------------------------------------------------------------ |
-| **Planera**        | `/`               | Streaming chat with the agent, with live tool-activity status            |
-| **Varukorg**       | `/varukorg`       | The live Willys cart — edit quantities, remove items, empty it           |
-| **Veckans recept** | `/veckans-recept` | The stored plan for an ISO week: recipes, shopping list, `Ny`/`Beställd` |
-| **Alla recept**    | `/recept`         | Browse and search the harvested recipe database                          |
+| Tab                | Route             | What it does                                                                          |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------- |
+| **Planera**        | `/`               | Streaming chat with the agent, with live tool-activity status                         |
+| **Varukorg**       | `/varukorg`       | The live Willys cart — edit quantities, remove items, empty it                        |
+| **Veckans recept** | `/veckans-recept` | The stored plan for an ISO week: recipes, shopping list, cart check, `Ny`/`Beställd`  |
+| **Alla recept**    | `/recept`         | Browse and search the harvested recipe database, mark favourites and never-agains     |
+| **Inställningar**  | `/installningar`  | Food preferences, allergies, extra prompt instructions, LLM provider and Willys login |
+
+Recipe pages print to a clean A4 sheet (`Skriv ut`), without the images, chips
+or buttons.
 
 ## How it works
 
@@ -30,12 +34,13 @@ Four tabs (bottom nav on mobile, top bar on desktop), all in Swedish:
   API routes live in `src/routes/api/`.
 - **[Pi](https://pi.dev)** (`@earendil-works/pi-coding-agent`) is the agent
   harness. The agent runs with no builtin tools (no shell, no file access) and
-  thirteen native custom tools instead:
+  fifteen native custom tools instead:
   - Willys: `willys_search`, `willys_product`, `willys_cart_view`,
     `willys_cart_add`, `willys_cart_remove`, `willys_cart_clear`
   - Recipes: `recipe_search`, `recipe_get`, `recipe_ingredients`,
     `recipe_aggregate`
-  - Plans: `plan_get`, `plan_record_cart`, `plan_delete`
+  - Plans: `plan_get`, `plan_history`, `plan_record_cart`, `plan_cart_diff`,
+    `plan_delete`
 - **Recipe database** — ~200 recipes scraped from Linas matkasse's public
   "Kalorisnål" receptbank into `data/recipes/` (JSON + hero images, committed to
   git, 2 servings each). No login needed.
@@ -48,6 +53,20 @@ Four tabs (bottom nav on mobile, top bar on desktop), all in Swedish:
 - **Weekly plans** are stored per ISO week as `data/plans/<YYYY>-Www.json`
   (recipes, servings, shopping list, cart snapshot, and a `new`/`ordered`
   status you toggle from the Veckans recept tab).
+- **The agent remembers past weeks.** `plan_history` gives it a compact summary
+  of recently planned weeks, so it can avoid serving you the same dish three
+  weeks running and answer "what have we been eating a lot of".
+- **The cart is checked, not just claimed.** As it shops, the agent records
+  which shopping-list item each product was bought for. That mapping turns into
+  exact set arithmetic — no fuzzy name matching — so both the agent
+  (`plan_cart_diff`) and the Veckans recept tab can say plainly which
+  ingredients nothing was bought for. Catching one silently-missed ingredient
+  is the whole point.
+- **Preferences accumulate from use.** Beyond the free-text preferences in
+  Inställningar, every recipe has `Favorit` / `Aldrig igen` toggles. Favourites
+  become a preference in the system prompt and never-agains a hard constraint,
+  worded alongside your allergies. Verdicts are read when a chat session
+  starts, so one set mid-conversation applies from the next `Ny chatt`.
 
 `src/lib/server/agent/` is deliberately isolated so the agent could be pulled
 out into its own service later. Architecture details for contributors are in
@@ -108,6 +127,14 @@ Your Willys credentials are used only to talk to willys.se from your own
 machine. The authenticated session is cached under `data/willys/` and is
 git-ignored — as is `.env` itself.
 
+`.env` is the fallback layer: anything you set in the **Inställningar** tab
+(provider, model, API key, Willys login, food preferences) is stored in
+`data/settings.json` and wins over the matching variable. The two secrets are
+encrypted at rest with a key auto-generated in `data/settings.key`, and never
+reach the browser — the UI only reports whether a value came from settings or
+`.env`. Saving restarts the agent session, since the provider, model and prompt
+are baked in when it starts.
+
 ### 4. Run it
 
 ```sh
@@ -166,6 +193,10 @@ npm run willys -- cart clear
 npm run willys -- cart record --week 2026-W30   # snapshot cart into the plan
 ```
 
+`cart record` stores no ingredient-to-product mapping — only the agent knows
+which item each product was bought for — so a week recorded this way shows its
+coverage as unknown.
+
 `npm run` prints a banner line to stdout, so use `npm run --silent …` when
 piping the JSON output. More detail in [docs/willys-cli.md](docs/willys-cli.md).
 
@@ -174,21 +205,29 @@ from the app's.
 
 ## Data layout
 
-| Path                | Tracked | Contents                                            |
-| ------------------- | ------- | --------------------------------------------------- |
-| `data/recipes/`     | yes     | Harvested recipe JSON + hero images                 |
-| `data/plans/`       | no      | One `<YYYY>-Www.json` weekly plan per ISO week      |
-| `data/sessions/`    | no      | Pi session JSONL — read these when debugging a turn |
-| `data/willys/`      | no      | Cached authenticated Willys session (auth cookies)  |
-| `data/preferences/` | —       | Placeholder for the food-preferences milestone      |
+| Path                          | Tracked | Contents                                               |
+| ----------------------------- | ------- | ------------------------------------------------------ |
+| `data/recipes/`               | yes     | Harvested recipe JSON + hero images                    |
+| `data/plans/`                 | no      | One `<YYYY>-Www.json` weekly plan per ISO week         |
+| `data/sessions/`              | no      | Pi session JSONL — read these when debugging a turn    |
+| `data/willys/`                | no      | Cached authenticated Willys session (auth cookies)     |
+| `data/settings.json` + `.key` | no      | Inställningar document and its secret-encryption key   |
+| `data/verdicts.json`          | no      | Per-recipe `Favorit` / `Aldrig igen` verdicts          |
+| `data/preferences/`           | —       | Leftover placeholder; preferences live in settings now |
 
 ## Status
 
-Done: the 4-tab web UI, streaming chat, the Willys client and agent tools, the
-recipe database, ingredient aggregation, and week-keyed plans.
+Done: the 5-tab web UI, streaming chat, the Willys client and agent tools, the
+recipe database, ingredient aggregation, week-keyed plans, the settings /
+food-preference document, plan history, cart coverage checking and recipe
+verdicts.
 
-Not yet built: food-preference documents (`data/preferences/`) that would be
-folded into the system prompt each week. The recipe database also only covers
-the "Kalorisnål" category. Hemköp support is a plausible next store — a working
+Not yet built: the recipe database still only covers the "Kalorisnål" category
+(~200 recipes), which is the main ceiling on suggestion quality — re-run the
+harvest to widen it. Hemköp support is a plausible second store; a working
 Hemköp CLI already exists on the author's machine and could be wrapped the same
 way Willys is.
+
+Known rough edge: cart coverage depends on the agent passing the mapping. If it
+forgets, ingredients show as unchecked rather than falsely complete — safe, but
+noisy. Plans recorded before the feature existed say so instead of guessing.
