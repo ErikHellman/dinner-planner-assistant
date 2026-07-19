@@ -15,7 +15,7 @@ The longer-term product thinking behind this lives in
 
 ## Demo
 
-<video src="dinner-planner-demo.mp4" controls width="100%"></video>
+[▶ Watch the demo video](dinner-planner-demo.mp4)
 
 ## What's in the app
 
