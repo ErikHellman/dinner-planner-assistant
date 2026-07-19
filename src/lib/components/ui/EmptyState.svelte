@@ -2,11 +2,7 @@
 	import type { Snippet } from 'svelte';
 	import Icon, { type IconName } from '../icons/Icon.svelte';
 
-	let {
-		icon,
-		title,
-		children
-	}: { icon?: IconName; title: string; children?: Snippet } = $props();
+	let { icon, title, children }: { icon?: IconName; title: string; children?: Snippet } = $props();
 </script>
 
 <div class="empty">

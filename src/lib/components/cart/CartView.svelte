@@ -23,12 +23,7 @@
 <div class="page">
 	<header>
 		<h1>Varukorg</h1>
-		<button
-			type="button"
-			class="reload"
-			onclick={() => cartStore.load()}
-			disabled={cartStore.busy}
-		>
+		<button type="button" class="reload" onclick={() => cartStore.load()} disabled={cartStore.busy}>
 			<Icon name="refresh" size={16} />
 			Uppdatera
 		</button>
@@ -70,12 +65,21 @@
 
 					<dl class="totals">
 						{#if hasDeposit}
-							<div><dt>Pant</dt><dd>{cart.deposit.formatted}</dd></div>
+							<div>
+								<dt>Pant</dt>
+								<dd>{cart.deposit.formatted}</dd>
+							</div>
 						{/if}
 						{#if hasDiscount}
-							<div><dt>Rabatt</dt><dd>−{cart.discountTotal.formatted}</dd></div>
+							<div>
+								<dt>Rabatt</dt>
+								<dd>−{cart.discountTotal.formatted}</dd>
+							</div>
 						{/if}
-						<div class="grand"><dt>Delsumma</dt><dd>{cart.subtotal.formatted}</dd></div>
+						<div class="grand">
+							<dt>Delsumma</dt>
+							<dd>{cart.subtotal.formatted}</dd>
+						</div>
 					</dl>
 
 					<div class="actions">

@@ -15,9 +15,7 @@ export function defaultPlansDir(): string {
 
 function assertValidWeekId(weekId: string): void {
 	if (!parseWeekId(weekId)) {
-		throw new PlanStoreError(
-			`Invalid week id "${weekId}" — expected "YYYY-Www", e.g. "2026-W29".`
-		);
+		throw new PlanStoreError(`Invalid week id "${weekId}" — expected "YYYY-Www", e.g. "2026-W29".`);
 	}
 }
 
@@ -115,9 +113,7 @@ export class PlanStore {
 	async setWillysSnapshot(weekId: string, snapshot: WillysCartSnapshot): Promise<WeeklyPlan> {
 		const plan = await this.load(weekId);
 		if (!plan) {
-			throw new PlanStoreError(
-				`No plan for week ${weekId} — aggregate the week's recipes first.`
-			);
+			throw new PlanStoreError(`No plan for week ${weekId} — aggregate the week's recipes first.`);
 		}
 		const { plan: saved } = await this.save({ ...plan, willysCart: snapshot });
 		return saved;

@@ -23,7 +23,11 @@ export async function apiFetch<T>(input: string, init?: RequestInit): Promise<T>
 			error?: string;
 			code?: string;
 		} | null;
-		throw new ApiError(details?.code ?? 'unknown', details?.error ?? `HTTP ${res.status}`, res.status);
+		throw new ApiError(
+			details?.code ?? 'unknown',
+			details?.error ?? `HTTP ${res.status}`,
+			res.status
+		);
 	}
 	return (await res.json()) as T;
 }

@@ -19,9 +19,9 @@ describe('parseCartMutation', () => {
 	});
 
 	it('accepts fractional quantities for kilogram lines', () => {
-		expect(
-			parseCartMutation({ productId: '123_KG', quantity: 0.5, pickUnit: 'kilogram' })
-		).toEqual({ productId: '123_KG', quantity: 0.5, pickUnit: 'kilogram' });
+		expect(parseCartMutation({ productId: '123_KG', quantity: 0.5, pickUnit: 'kilogram' })).toEqual(
+			{ productId: '123_KG', quantity: 0.5, pickUnit: 'kilogram' }
+		);
 	});
 
 	it('rejects fractional quantities for piece lines', () => {

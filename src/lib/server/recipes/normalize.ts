@@ -46,7 +46,16 @@ const NAMED_ENTITIES: Record<string, string> = {
 	eacute: 'é',
 	Eacute: 'É',
 	uuml: 'ü',
-	Uuml: 'Ü'
+	Uuml: 'Ü',
+	deg: '°',
+	egrave: 'è',
+	Egrave: 'È',
+	acirc: 'â',
+	icirc: 'î',
+	ocirc: 'ô',
+	ntilde: 'ñ',
+	ndash: '–',
+	mdash: '—'
 };
 
 /** Strip the formatting tags Linas actually uses, decode entities, collapse whitespace. */

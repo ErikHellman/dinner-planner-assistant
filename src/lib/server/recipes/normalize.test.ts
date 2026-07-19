@@ -45,6 +45,12 @@ describe('decodeHtmlText', () => {
 		expect(decodeHtmlText('5 < 10 men 10 > 5')).toBe('5 < 10 men 10 > 5');
 	});
 
+	it('decodes the entities the harvested corpus actually contains', () => {
+		expect(decodeHtmlText('Värm ugnen till 225&deg;C')).toBe('Värm ugnen till 225°C');
+		expect(decodeHtmlText('cr&egrave;me fra&icirc;che')).toBe('crème fraîche');
+		expect(decodeHtmlText('&acirc; &ntilde; 5&ndash;10 min')).toBe('â ñ 5–10 min');
+	});
+
 	it('leaves unknown named entities literal', () => {
 		expect(decodeHtmlText('&frac12; msk')).toBe('&frac12; msk');
 	});

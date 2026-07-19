@@ -17,9 +17,7 @@ const LIST: ShoppingList = {
 			recipeIds: [100575]
 		}
 	],
-	pantryStaples: [
-		{ name: 'salt', amounts: [], toTaste: true, recipeIds: [100575] }
-	],
+	pantryStaples: [{ name: 'salt', amounts: [], toTaste: true, recipeIds: [100575] }],
 	generatedAt: '2026-07-19T10:00:00.000Z'
 };
 
@@ -88,10 +86,7 @@ describe('PlanStore', () => {
 
 	it('rejects a plan file whose weekId does not match its filename', async () => {
 		const plan = createWeeklyPlan(LIST, '2026-W29');
-		await writeFile(
-			path.join(dir, '2026-W30.json'),
-			JSON.stringify(plan, null, 2)
-		);
+		await writeFile(path.join(dir, '2026-W30.json'), JSON.stringify(plan, null, 2));
 		await expect(store.load('2026-W30')).rejects.toThrow(PlanStoreError);
 	});
 
@@ -121,9 +116,7 @@ describe('PlanStore', () => {
 	});
 
 	it('refuses to record a snapshot when the week has no plan', async () => {
-		await expect(store.setWillysSnapshot('2026-W30', SNAPSHOT)).rejects.toThrow(
-			/no plan/i
-		);
+		await expect(store.setWillysSnapshot('2026-W30', SNAPSHOT)).rejects.toThrow(/no plan/i);
 	});
 
 	it('leaves no tmp files behind after saving', async () => {

@@ -1,9 +1,10 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import Icon, { type IconName } from './icons/Icon.svelte';
 
 	interface Tab {
-		href: string;
+		href: '/' | '/varukorg' | '/veckans-recept' | '/recept';
 		label: string;
 		icon: IconName;
 		exact?: boolean;
@@ -26,7 +27,7 @@
 <nav aria-label="Huvudmeny">
 	<span class="brand">Middagsplaneraren</span>
 	{#each tabs as tab (tab.href)}
-		<a href={tab.href} aria-current={isActive(tab) ? 'page' : undefined}>
+		<a href={resolve(tab.href)} aria-current={isActive(tab) ? 'page' : undefined}>
 			<Icon name={tab.icon} size={22} />
 			<span class="label">{tab.label}</span>
 		</a>
