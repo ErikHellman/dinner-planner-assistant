@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, unlink } from 'node:fs/promises';
 import path from 'node:path';
 import { compareWeekIds, parseWeekId } from '../../plans/week';
 import type { WeeklyPlan, WillysCartSnapshot } from '../../plans/types';
@@ -107,6 +107,20 @@ export class PlanStore {
 		await mkdir(this.dir, { recursive: true });
 		await writeFileAtomic(file, JSON.stringify(stamped, null, 2) + '\n');
 		return { plan: stamped, filePath: file };
+	}
+
+	/** Delete a week's plan document. True when a plan existed, false when the
+	 * week had none (already-gone is not an error). The Willys cart itself is
+	 * untouched — plans only reference it. */
+	async delete(weekId: string): Promise<boolean> {
+		assertValidWeekId(weekId);
+		try {
+			await unlink(this.filePath(weekId));
+			return true;
+		} catch (err) {
+			if ((err as NodeJS.ErrnoException).code === 'ENOENT') return false;
+			throw err;
+		}
 	}
 
 	/** Attach a Willys cart snapshot to an existing week's plan. */

@@ -11,7 +11,7 @@ import type { NormalizedCart } from '../../willys/types';
 import type { ShoppingList } from '../../recipes/aggregate';
 import type { WeeklyPlan } from '../../../plans/types';
 
-const EXPECTED_NAMES = ['plan_record_cart', 'plan_get'];
+const EXPECTED_NAMES = ['plan_record_cart', 'plan_get', 'plan_delete'];
 
 const LIST: ShoppingList = {
 	servings: 4,
@@ -80,7 +80,7 @@ async function run(willys: WillysClient, name: string, params: unknown) {
 }
 
 describe('createPlanTools', () => {
-	it('returns two tools with the exact expected names', () => {
+	it('returns three tools with the exact expected names', () => {
 		const tools = makeTools(mockClient());
 		expect(tools.map((t) => t.name)).toEqual(EXPECTED_NAMES);
 	});
@@ -172,5 +172,34 @@ describe('createPlanTools', () => {
 		const details = result.details as { plan: WeeklyPlan | null; availableWeeks: string[] };
 		expect(details.plan).toBeNull();
 		expect(details.availableWeeks).toEqual([]);
+	});
+
+	it('plan_delete removes the plan and reports the remaining weeks', async () => {
+		await plans.save(createWeeklyPlan(LIST, '2026-W29'));
+		await plans.save(createWeeklyPlan(LIST, '2026-W30'));
+
+		const result = await run(mockClient(), 'plan_delete', { week: '2026-W29' });
+
+		const details = result.details as {
+			weekId: string;
+			deleted: boolean;
+			availableWeeks: string[];
+		};
+		expect(details).toEqual({ weekId: '2026-W29', deleted: true, availableWeeks: ['2026-W30'] });
+		await expect(plans.load('2026-W29')).resolves.toBeNull();
+	});
+
+	it('plan_delete reports deleted: false for a week without a plan', async () => {
+		const result = await run(mockClient(), 'plan_delete', { week: '2026-W30' });
+
+		expect(result.details).toEqual({ weekId: '2026-W30', deleted: false, availableWeeks: [] });
+	});
+
+	it('plan_delete surfaces PlanStoreError verbatim for an invalid week id', async () => {
+		const result = await run(mockClient(), 'plan_delete', { week: '2026-W99' });
+
+		const text = (result.content[0] as { text: string }).text;
+		expect(text).toContain('Invalid week id');
+		expect(text.startsWith('Plan tool error:')).toBe(false);
 	});
 });

@@ -53,6 +53,8 @@ from Linas matkasse, each stored for exactly 2 servings:
   scaled to the requested servings, saved as that week's plan document
 - plan_record_cart — snapshot the current Willys cart into the week's plan
 - plan_get — read a saved weekly plan (and which weeks have plans)
+- plan_delete — delete a week's saved plan (confirm with the user first; the
+  Willys cart is untouched — clear it separately if asked)
 
 Prefer these recipes when planning dinners. Amounts are for 2 servings — scale when the
 user needs more. Ingredients flagged isBasis are pantry staples (salt, oil, …) the user

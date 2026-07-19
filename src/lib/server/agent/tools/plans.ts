@@ -89,6 +89,23 @@ export function createPlanTools(deps: {
 					]);
 					return { weekId, plan, availableWeeks };
 				})
+		}),
+		defineTool({
+			name: 'plan_delete',
+			label: 'Delete weekly plan',
+			description:
+				"Delete a week's saved plan document. Destructive and irreversible, so the week id is REQUIRED (no current-week default) — confirm with the user before calling. The Willys cart is untouched; clear it separately with willys_cart_clear if the user wants that too. deleted is false when the week had no plan.",
+			promptSnippet: "plan_delete(week): delete the week's saved plan",
+			parameters: Type.Object({
+				week: Type.String({
+					description: 'ISO week id like "2026-W30" of the plan to delete (required)'
+				})
+			}),
+			execute: (_id, params) =>
+				guarded(async () => {
+					const deleted = await deps.plans.delete(params.week);
+					return { weekId: params.week, deleted, availableWeeks: await deps.plans.listWeeks() };
+				})
 		})
 	];
 }

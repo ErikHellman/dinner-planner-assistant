@@ -131,6 +131,32 @@ describe('PlanStore', () => {
 		expect(text.endsWith('}\n')).toBe(true);
 		expect(text).toContain('\n  "weekId": "2026-W29",\n');
 	});
+
+	it('deletes an existing plan and reports true', async () => {
+		await store.save(createWeeklyPlan(LIST, '2026-W29'));
+
+		await expect(store.delete('2026-W29')).resolves.toBe(true);
+
+		await expect(store.load('2026-W29')).resolves.toBeNull();
+		await expect(store.listWeeks()).resolves.toEqual([]);
+	});
+
+	it('reports false when deleting a week that has no plan', async () => {
+		await expect(store.delete('2026-W30')).resolves.toBe(false);
+	});
+
+	it('rejects an invalid week id on delete', async () => {
+		await expect(store.delete('2026-W99')).rejects.toThrow(PlanStoreError);
+	});
+
+	it('only deletes the requested week', async () => {
+		await store.save(createWeeklyPlan(LIST, '2026-W29'));
+		await store.save(createWeeklyPlan(LIST, '2026-W30'));
+
+		await store.delete('2026-W29');
+
+		await expect(store.listWeeks()).resolves.toEqual(['2026-W30']);
+	});
 });
 
 describe('createWeeklyPlan', () => {

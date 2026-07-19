@@ -50,7 +50,7 @@ the tools fail with a clear "credentials missing" error.
   be extracted into a standalone service later. `session.ts` holds a
   globalThis-cached session singleton (survives Vite HMR) and wires up the
   Willys, recipe and plan tools below. The agent runs with `noTools: 'builtin'`
-  plus twelve native `customTools` (no shell/file tools) and a per-session
+  plus thirteen native `customTools` (no shell/file tools) and a per-session
   system prompt (`prompt.ts` `buildSystemPrompt()` — interpolates the Stockholm
   date and current/next ISO week); future dinner-planning tools/skills get
   registered here.
@@ -86,8 +86,9 @@ the tools fail with a clear "credentials missing" error.
   math lives in `src/lib/plans/week.ts` (shared client/server, Europe/Stockholm).
 - `src/lib/server/agent/tools/recipes.ts` + `tools/plans.ts` — native Pi tools
   (`recipe_search`, `recipe_get`, `recipe_ingredients`, `recipe_aggregate` —
-  writes the week's plan doc and resets its snapshot — plus `plan_record_cart`
-  and `plan_get`). Harvesting is CLI-only, deliberately not an agent tool.
+  writes the week's plan doc and resets its snapshot — plus `plan_record_cart`,
+  `plan_get` and `plan_delete`). Harvesting is CLI-only, deliberately not an
+  agent tool.
 - `src/lib/server/agent/events.ts` — maps Pi events to the wire protocol.
   Gotcha: Pi does NOT reject `prompt()` on provider errors; failures arrive
   as `message_end` with `stopReason: "error"`.
