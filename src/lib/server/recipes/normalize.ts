@@ -106,16 +106,20 @@ function toNumber(value: string | number | null | undefined): number | null {
 
 function normalizeIngredient(raw: RawIngredient, section: string | null): RecipeIngredient {
 	const name = (raw.name ?? '').trim();
-	const unit = (raw.ingredientAmountType ?? '').trim() || null;
 	const amountText =
 		typeof raw.amount === 'number' ? String(raw.amount) : (raw.amount ?? '').trim();
-	const rawParts = [amountText && amountText !== 'null' ? amountText : null, unit, name];
+	// The site hides both amount and unit for "efter smak" items (salt, chili flakes), but
+	// the payload still carries ingredientAmountType. Mirror the site: an absent/zero amount
+	// means no unit and raw is just the name. Unparseable-but-present amount text
+	// ("½-1", "ca ½", "1+1") is real quantity info and stays verbatim.
+	const absent = amountText === '' || amountText === '0' || amountText === 'null';
+	const unit = absent ? null : (raw.ingredientAmountType ?? '').trim() || null;
 	return {
 		section,
 		name,
 		amount: parseAmount(raw.amount),
 		unit,
-		raw: rawParts.filter(Boolean).join(' '),
+		raw: (absent ? [name] : [amountText, unit, name]).filter(Boolean).join(' '),
 		isBasis: raw.isBasis === true
 	};
 }

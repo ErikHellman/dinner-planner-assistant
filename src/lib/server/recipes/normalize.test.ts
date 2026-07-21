@@ -153,8 +153,8 @@ describe('normalizeRecipe', () => {
 			section: 'Dillsås',
 			name: 'salt',
 			amount: null,
-			unit: 'krm',
-			raw: 'krm salt',
+			unit: null,
+			raw: 'salt',
 			isBasis: true
 		});
 		expect(doc.ingredients[2]).toEqual({
@@ -165,8 +165,51 @@ describe('normalizeRecipe', () => {
 			raw: '½ st gurka',
 			isBasis: false
 		});
-		expect(doc.ingredients[4].amount).toBeNull(); // "0" means "to taste"
-		expect(doc.ingredients[4].raw).toBe('0 krm svartpeppar');
+		// "0" means "to taste"
+		expect(doc.ingredients[4]).toMatchObject({ amount: null, unit: null, raw: 'svartpeppar' });
+	});
+
+	it('drops the leftover unit when the amount is absent or zero, keeps real unparseable amounts', () => {
+		const payload: RawRecipeAndSteps = {
+			...fixture,
+			instructions: {
+				portions: [
+					{
+						size: '2',
+						ingredientSections: [
+							{
+								sectionTitle: null,
+								ingredients: [
+									{
+										order: '0',
+										name: 'salt',
+										amount: '0',
+										ingredientAmountType: 'krm',
+										isBasis: true
+									},
+									{ order: '1', name: 'chiliflakes', amount: null, ingredientAmountType: 'krm' },
+									{ order: '2', name: 'olivolja', amount: 0, ingredientAmountType: 'tsk' },
+									{ order: '3', name: 'timjan', amount: 'null', ingredientAmountType: 'krm' },
+									{ order: '4', name: 'vitlök', amount: '½-1', ingredientAmountType: 'klyfta' },
+									{ order: '5', name: 'vetemjöl', amount: 'ca ½', ingredientAmountType: 'dl' }
+								]
+							}
+						]
+					}
+				]
+			}
+		};
+		const doc = normalizeRecipe(payload, OPTS);
+		expect(
+			doc.ingredients.map((i) => ({ name: i.name, amount: i.amount, unit: i.unit, raw: i.raw }))
+		).toEqual([
+			{ name: 'salt', amount: null, unit: null, raw: 'salt' },
+			{ name: 'chiliflakes', amount: null, unit: null, raw: 'chiliflakes' },
+			{ name: 'olivolja', amount: null, unit: null, raw: 'olivolja' },
+			{ name: 'timjan', amount: null, unit: null, raw: 'timjan' },
+			{ name: 'vitlök', amount: null, unit: 'klyfta', raw: '½-1 klyfta vitlök' },
+			{ name: 'vetemjöl', amount: null, unit: 'dl', raw: 'ca ½ dl vetemjöl' }
+		]);
 	});
 
 	it('flattens, decodes, and renumbers instructions', () => {

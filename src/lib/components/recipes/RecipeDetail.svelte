@@ -33,6 +33,14 @@
 		return sections;
 	});
 
+	// Per-taste ingredients are stored as { amount: null, unit: null, raw: name };
+	// rows with unparseable-but-real amounts ("½-1 klyfta vitlök") keep their unit
+	// and must not get the suffix.
+	function ingredientLabel(row: RecipeDetails['ingredients'][number]): string {
+		const toTaste = row.amount === null && row.unit === null ? ' (efter smak)' : '';
+		return `${row.raw}${toTaste}${row.isBasis ? ' *' : ''}`;
+	}
+
 	const grams = new Intl.NumberFormat('sv-SE', { maximumFractionDigits: 1 });
 
 	const nutritionRows = $derived.by(() => {
@@ -116,7 +124,7 @@
 					{/if}
 					<ul class="ingredients">
 						{#each section.rows as row, rowIndex (rowIndex)}
-							<li>{row.raw}{row.isBasis ? ' *' : ''}</li>
+							<li>{ingredientLabel(row)}</li>
 						{/each}
 					</ul>
 				{/each}
