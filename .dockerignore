@@ -1,0 +1,16 @@
+node_modules
+build
+.svelte-kit
+data
+.env
+.env.*
+.git
+.vscode
+.claude
+.agents
+*.md
+LICENSE
+Dockerfile
+docker-compose.yml
+.dockerignore
+.DS_Store

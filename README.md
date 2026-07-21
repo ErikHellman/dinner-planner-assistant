@@ -156,12 +156,44 @@ first run. To refresh it later:
 npm run recipes -- harvest
 ```
 
+## Deploy with Docker
+
+Production deployment runs the adapter-node build in a container (requires
+Docker with Compose v2.24+). From a checkout of the repo:
+
+```sh
+docker compose up -d --build
+```
+
+The app serves on http://localhost:3000. `./data` is bind-mounted into the
+container, so recipes, plans, sessions, verdicts and settings remain plain
+JSON files you can view and edit from the host — the committed
+`data/recipes/` library is picked up as-is, and the app creates everything
+else on demand.
+
+- **ORIGIN**: if the app is reached at anything other than
+  `http://localhost:3000` (other port, LAN hostname, reverse proxy), set
+  `ORIGIN` to the public URL (in `.env` or the shell) — otherwise SvelteKit's
+  CSRF protection rejects all mutating requests. Behind a TLS-terminating
+  proxy, see also adapter-node's `PROTOCOL_HEADER`/`HOST_HEADER`.
+- **Configuration**: a `.env` in the project root is loaded if present (same
+  variables as `.env.example`); everything in it can instead be set at
+  runtime from the Inställningar tab (stored in `data/settings.json`, which
+  wins over env).
+- **Linux hosts**: the container runs as user `node` (uid 1000), which must
+  be able to write `./data` (`sudo chown -R 1000:1000 data`). Alternatively
+  run as your own uid via `user:` in a compose override — then also set
+  `PI_CODING_AGENT_DIR=/app/data/.pi` in `environment`, since `$HOME` won't
+  be writable. On macOS/Windows Docker Desktop no ownership tweaks are
+  needed.
+
 ## Commands
 
 | Command                   | Purpose                                                   |
 | ------------------------- | --------------------------------------------------------- |
 | `npm run dev`             | Dev server on :5173                                       |
 | `npm run build` / `start` | Production build and serve                                |
+| `docker compose up -d`    | Production deployment in Docker (`./data` bind-mounted)   |
 | `npm run check`           | `svelte-check` / TypeScript                               |
 | `npm run lint`            | Prettier check + eslint (`npm run format` fixes)          |
 | `npm test`                | Unit tests (Vitest, `server` + `client` projects)         |

@@ -33,6 +33,9 @@ SDK's requirement (>=22.19). Prefix commands with
 - `npm run dev` — dev server on :5173 (also via `.claude/launch.json` "dev")
 - `npm run check` / `npm run lint` / `npm test` — types, style, unit tests
 - `npm run build` then `npm start` — production build + serve (loads `.env`)
+- `docker compose up -d --build` — production deployment (Dockerfile +
+  docker-compose.yml; `./data` bind-mounted from the host, container runs
+  `node build` directly since `.env` may be absent)
 - `npm run recipes -- <harvest|search|get|ingredients|aggregate …>` — recipe database CLI
   (use `npm run --silent recipes -- …` when piping JSON). `aggregate` takes
   `--servings N --week 2026-W30` and writes the week's plan doc. `npm run
