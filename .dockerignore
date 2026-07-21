@@ -12,5 +12,6 @@ data
 LICENSE
 Dockerfile
 docker-compose.yml
+Caddyfile
 .dockerignore
 .DS_Store

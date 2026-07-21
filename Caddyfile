@@ -1,0 +1,17 @@
+# TLS-terminating reverse proxy for the HTTPS deployment
+# (docker compose --profile https up -d). Caddy obtains and renews the
+# Let's Encrypt certificate automatically; HTTP redirects to HTTPS.
+#
+# Keep ORIGIN in .env in sync with this hostname or SvelteKit's CSRF
+# protection rejects every mutating request.
+dinnerplan.hellman.io {
+	# The app has NO authentication of its own. Strongly consider enabling
+	# basic auth before exposing it to the internet — generate the hash with:
+	#   docker run --rm -it caddy:2 caddy hash-password
+	# then uncomment:
+	# basic_auth {
+	# 	erik <hash>
+	# }
+
+	reverse_proxy app:3000
+}

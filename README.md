@@ -165,17 +165,18 @@ Docker with Compose v2.24+). From a checkout of the repo:
 docker compose up -d --build
 ```
 
-The app serves on http://localhost:3000. `./data` is bind-mounted into the
+The app serves on http://localhost:3000 (loopback only — see the HTTPS
+section below for exposing it). `./data` is bind-mounted into the
 container, so recipes, plans, sessions, verdicts and settings remain plain
 JSON files you can view and edit from the host — the committed
 `data/recipes/` library is picked up as-is, and the app creates everything
 else on demand.
 
 - **ORIGIN**: if the app is reached at anything other than
-  `http://localhost:3000` (other port, LAN hostname, reverse proxy), set
-  `ORIGIN` to the public URL (in `.env` or the shell) — otherwise SvelteKit's
-  CSRF protection rejects all mutating requests. Behind a TLS-terminating
-  proxy, see also adapter-node's `PROTOCOL_HEADER`/`HOST_HEADER`.
+  `http://localhost:3000` (other port, hostname, reverse proxy), set `ORIGIN`
+  to the public URL (in `.env` or the shell) — otherwise SvelteKit's CSRF
+  protection rejects all mutating requests. The HTTPS setup below depends on
+  this.
 - **Configuration**: a `.env` in the project root is loaded if present (same
   variables as `.env.example`); everything in it can instead be set at
   runtime from the Inställningar tab (stored in `data/settings.json`, which
@@ -186,6 +187,46 @@ else on demand.
   `PI_CODING_AGENT_DIR=/app/data/.pi` in `environment`, since `$HOME` won't
   be writable. On macOS/Windows Docker Desktop no ownership tweaks are
   needed.
+
+### HTTPS
+
+The compose file includes a [Caddy](https://caddyserver.com) reverse proxy
+behind the `https` profile. Caddy terminates TLS and obtains + renews the
+Let's Encrypt certificate automatically — there is no certbot or manual
+renewal. The app container itself stays HTTP on the internal network
+(published on loopback only).
+
+Manual steps, assuming the hostname `dinnerplan.hellman.io`:
+
+1. **DNS**: create an A record (and AAAA for IPv6) for `dinnerplan.hellman.io`
+   pointing at the server's public IP.
+2. **Ports**: open/forward **80 and 443** to the Docker host. Port 80 must be
+   reachable from the internet — Let's Encrypt's HTTP challenge and the
+   HTTP→HTTPS redirect both use it.
+3. **Hostname**: `Caddyfile` in the repo root is preconfigured for
+   `dinnerplan.hellman.io`; edit the site address if you deploy under another
+   name.
+4. **ORIGIN**: add `ORIGIN=https://dinnerplan.hellman.io` to `.env`. Without
+   it the UI loads but every save fails (CSRF).
+5. **Auth** (strongly recommended): the app has no login of its own, and
+   exposing it publicly lets anyone chat on your LLM credits and edit your
+   cart. Generate a hash with `docker run --rm -it caddy:2 caddy
+hash-password` and uncomment the `basic_auth` block in `Caddyfile`.
+6. Start everything:
+
+   ```sh
+   docker compose --profile https up -d
+   ```
+
+   (Without `--profile https` the compose file behaves as before: app only,
+   plain HTTP on localhost.)
+7. Verify: `curl -I https://dinnerplan.hellman.io/api/health`. First
+   certificate issuance takes a few seconds after startup; check `docker
+compose logs caddy` if it does not come up.
+
+Certificates and the ACME account are stored in the `caddy_data` named volume
+and survive restarts and rebuilds — do not delete it casually, or you may run
+into Let's Encrypt rate limits.
 
 ## Commands
 

@@ -5,7 +5,9 @@ services:
     container_name: dinner-planner
     restart: unless-stopped
     ports:
-      - '${PORT:-3000}:3000'
+      # Loopback only — public traffic must go through the caddy service below,
+      # which terminates TLS (and can enforce basic auth).
+      - '127.0.0.1:${PORT:-3000}:3000'
     # Same .env as local dev, if present; everything in it is optional at boot
     # (the Inställningar tab / data/settings.json overrides env anyway).
     env_file:
@@ -28,3 +30,28 @@ services:
       timeout: 5s
       retries: 3
       start_period: 15s
+
+  # HTTPS reverse proxy. Opt-in: `docker compose --profile https up -d`.
+  # Requires the hostname in ./Caddyfile to resolve to this machine and
+  # ports 80/443 to be reachable from the internet (Let's Encrypt).
+  caddy:
+    image: caddy:2
+    container_name: dinner-planner-caddy
+    profiles:
+      - https
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      # Certificates and ACME account live here — must persist across restarts
+      # or Let's Encrypt rate limits will bite.
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - app
+
+volumes:
+  caddy_data:
+  caddy_config:

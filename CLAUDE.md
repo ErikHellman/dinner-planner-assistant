@@ -35,7 +35,10 @@ SDK's requirement (>=22.19). Prefix commands with
 - `npm run build` then `npm start` — production build + serve (loads `.env`)
 - `docker compose up -d --build` — production deployment (Dockerfile +
   docker-compose.yml; `./data` bind-mounted from the host, container runs
-  `node build` directly since `.env` may be absent)
+  `node build` directly since `.env` may be absent). App port is published on
+  loopback only; `docker compose --profile https up -d` also starts the Caddy
+  TLS proxy (`Caddyfile`, auto Let's Encrypt — requires `ORIGIN` in `.env` to
+  match the public URL)
 - `npm run recipes -- <harvest|search|get|ingredients|aggregate …>` — recipe database CLI
   (use `npm run --silent recipes -- …` when piping JSON). `aggregate` takes
   `--servings N --week 2026-W30` and writes the week's plan doc. `npm run
