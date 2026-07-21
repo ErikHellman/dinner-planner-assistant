@@ -96,16 +96,16 @@
       "section": "Mangosalsa",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Mangosalsa",
       "name": "chili flakes",
       "amount": null,
-      "unit": "förp",
-      "raw": "förp chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {

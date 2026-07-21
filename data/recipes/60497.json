@@ -54,8 +54,8 @@
       "section": "Tomatsoppa",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -126,8 +126,8 @@
       "section": "Tomatsoppa",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -182,16 +182,16 @@
       "section": "Quesadillas",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Quesadillas",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     }
   ],

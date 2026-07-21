@@ -54,8 +54,8 @@
       "section": "Rostad potatis",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -70,8 +70,8 @@
       "section": "Rostad potatis",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -174,16 +174,16 @@
       "section": "Citrongrillad fläskkarré",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
       "section": "Citrongrillad fläskkarré",
       "name": "smör",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk smör",
+      "unit": null,
+      "raw": "smör",
       "isBasis": true
     },
     {

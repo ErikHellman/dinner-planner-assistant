@@ -127,8 +127,8 @@
       "section": "Nötfärschili",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

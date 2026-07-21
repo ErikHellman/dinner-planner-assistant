@@ -60,16 +60,16 @@
       "section": "Klyftpotatis",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Klyftpotatis",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -180,8 +180,8 @@
       "section": "Tomatsallad",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

@@ -89,8 +89,8 @@
       "section": "Laxwok",
       "name": "chili flakes",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {

@@ -101,8 +101,8 @@
       "section": "Potatis- & sparrissallad",
       "name": "citronsaft",
       "amount": null,
-      "unit": "st",
-      "raw": "0 st citronsaft",
+      "unit": null,
+      "raw": "citronsaft",
       "isBasis": false
     },
     {
@@ -125,8 +125,8 @@
       "section": "Potatis- & sparrissallad",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -149,8 +149,8 @@
       "section": "Smörstekt torsk",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

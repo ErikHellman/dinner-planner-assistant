@@ -65,24 +65,24 @@
       "section": "Getostbakad fänkål",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
       "section": "Getostbakad fänkål",
       "name": "salt",
       "amount": null,
-      "unit": "dl",
-      "raw": "dl salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Getostbakad fänkål",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -121,8 +121,8 @@
       "section": "Citronrisotto",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -153,16 +153,16 @@
       "section": "Citronrisotto",
       "name": "salt",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Citronrisotto",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

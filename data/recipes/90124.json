@@ -78,8 +78,8 @@
       "section": "Ugnsrostade rotfrukter",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -134,16 +134,16 @@
       "section": "Dragonsås",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Dragonsås",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -174,8 +174,8 @@
       "section": "Fläskkotlett",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     }
   ],

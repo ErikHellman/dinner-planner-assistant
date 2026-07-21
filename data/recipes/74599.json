@@ -85,8 +85,8 @@
       "section": "Ugnsrostade rotfrukter",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -109,8 +109,8 @@
       "section": "Grillad kycklingfilé",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -149,8 +149,8 @@
       "section": "Kryddsmör",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

@@ -63,16 +63,16 @@
       "section": "Rostade morötter",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Rostade morötter",
       "name": "chili flakes",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {
@@ -103,8 +103,8 @@
       "section": "Srirachamajonnäs",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -127,8 +127,8 @@
       "section": "Kyckling",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -151,8 +151,8 @@
       "section": "Kyckling",
       "name": "chili flakes",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {

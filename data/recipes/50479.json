@@ -69,8 +69,8 @@
       "section": "Tomatsås",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -133,8 +133,8 @@
       "section": "Tomatsås",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -181,8 +181,8 @@
       "section": "Ruccolasallad",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {

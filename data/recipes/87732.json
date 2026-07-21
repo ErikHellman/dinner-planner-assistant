@@ -73,8 +73,8 @@
       "section": "Höstgryta",
       "name": "smör",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk smör",
+      "unit": null,
+      "raw": "smör",
       "isBasis": true
     },
     {
@@ -97,8 +97,8 @@
       "section": "Höstgryta",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

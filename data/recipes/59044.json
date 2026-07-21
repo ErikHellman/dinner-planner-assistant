@@ -61,8 +61,8 @@
       "section": "Honungsglaserade morötter",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -77,16 +77,16 @@
       "section": "Honungsglaserade morötter",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Honungsglaserade morötter",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -125,16 +125,16 @@
       "section": "Nötfärsbiffar",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
       "section": "Nötfärsbiffar",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -189,8 +189,8 @@
       "section": "Vitlökssky",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

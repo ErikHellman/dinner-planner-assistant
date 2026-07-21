@@ -47,8 +47,8 @@
       "section": "Rostad potatis",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -63,8 +63,8 @@
       "section": "Rostad potatis",
       "name": "bakplåtspapper",
       "amount": null,
-      "unit": "st",
-      "raw": "0 st bakplåtspapper",
+      "unit": null,
+      "raw": "bakplåtspapper",
       "isBasis": true
     },
     {
@@ -95,8 +95,8 @@
       "section": "Sallad",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -119,8 +119,8 @@
       "section": "Sallad",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -191,8 +191,8 @@
       "section": "Kycklingschnitzel",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -207,8 +207,8 @@
       "section": "Kycklingschnitzel",
       "name": "olivolja",
       "amount": null,
-      "unit": "msk",
-      "raw": "msk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     }
   ],

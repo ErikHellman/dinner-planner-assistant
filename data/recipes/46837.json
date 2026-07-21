@@ -77,16 +77,16 @@
       "section": "Gräddkokt purjolök",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
       "section": "Gräddkokt purjolök",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -125,16 +125,16 @@
       "section": "Dillgremolata",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Dillgremolata",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -157,8 +157,8 @@
       "section": "Uerfilé",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {

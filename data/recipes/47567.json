@@ -70,16 +70,16 @@
       "section": "Tillbehör",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Tillbehör",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -102,8 +102,8 @@
       "section": "Gratinerad dragonkyckling",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

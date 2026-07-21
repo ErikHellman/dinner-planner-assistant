@@ -145,16 +145,16 @@
       "section": "Paprikasoppa",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Paprikasoppa",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -185,16 +185,16 @@
       "section": "Vitlöksbröd",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
       "section": "Vitlöksbröd",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {

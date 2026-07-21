@@ -68,8 +68,8 @@
       "section": "Dragonaioli",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -92,8 +92,8 @@
       "section": "Ljummen fänkålssallad",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -108,16 +108,16 @@
       "section": "Ljummen fänkålssallad",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Ljummen fänkålssallad",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -140,8 +140,8 @@
       "section": "Halstrad torsk",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {

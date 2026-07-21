@@ -102,8 +102,8 @@
       "section": "Stekt ägg",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -118,8 +118,8 @@
       "section": "Stekt ägg",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -198,8 +198,8 @@
       "section": "Spenatsallad",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {

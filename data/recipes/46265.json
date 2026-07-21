@@ -43,8 +43,8 @@
       "section": "Rostad potatis",
       "name": "bakplåtspapper",
       "amount": null,
-      "unit": "st",
-      "raw": "0 st bakplåtspapper",
+      "unit": null,
+      "raw": "bakplåtspapper",
       "isBasis": true
     },
     {
@@ -67,16 +67,16 @@
       "section": "Rostad potatis",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Rostad potatis",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -131,16 +131,16 @@
       "section": "Zucchinisallad",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Zucchinisallad",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -171,16 +171,16 @@
       "section": "Fläskkotlett",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
       "section": "Fläskkotlett",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -219,8 +219,8 @@
       "section": "Vitlökssås",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

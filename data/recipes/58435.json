@@ -57,8 +57,8 @@
       "section": "Morot- och ingefärssoppa",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -105,8 +105,8 @@
       "section": "Morot- och ingefärssoppa",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {

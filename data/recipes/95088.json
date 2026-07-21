@@ -86,8 +86,8 @@
       "section": "Rödkålssallad",
       "name": "chili flakes",
       "amount": null,
-      "unit": "förp",
-      "raw": "förp chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {
@@ -126,8 +126,8 @@
       "section": "Avokado",
       "name": "citron",
       "amount": null,
-      "unit": "st",
-      "raw": "st citron",
+      "unit": null,
+      "raw": "citron",
       "isBasis": false
     },
     {

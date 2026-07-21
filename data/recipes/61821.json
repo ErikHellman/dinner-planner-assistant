@@ -51,8 +51,8 @@
       "section": "Kalkonfärscurry",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {

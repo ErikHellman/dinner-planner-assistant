@@ -125,8 +125,8 @@
       "section": "Krispig tortilla",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -165,8 +165,8 @@
       "section": "Grönsakssalsa",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     }
   ],

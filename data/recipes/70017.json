@@ -58,8 +58,8 @@
       "section": "Grönsakswok",
       "name": "olja",
       "amount": null,
-      "unit": "msk",
-      "raw": "msk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -98,8 +98,8 @@
       "section": "Grönsakswok",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {

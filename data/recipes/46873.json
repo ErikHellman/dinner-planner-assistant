@@ -62,16 +62,16 @@
       "section": "Äppeltzatziki",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Äppeltzatziki",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -126,8 +126,8 @@
       "section": "Tabbouleh",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -150,16 +150,16 @@
       "section": "Tabbouleh",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Tabbouleh",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -174,8 +174,8 @@
       "section": "Stekt pannoumi",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     }
   ],

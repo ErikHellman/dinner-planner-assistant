@@ -54,16 +54,16 @@
       "section": "Kokt potatis och broccoli",
       "name": "smör",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk smör",
+      "unit": null,
+      "raw": "smör",
       "isBasis": true
     },
     {
       "section": "Kokt potatis och broccoli",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -150,8 +150,8 @@
       "section": "Sejrygg",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

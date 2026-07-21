@@ -130,16 +130,16 @@
       "section": "Dressing",
       "name": "lime, (limesaft)",
       "amount": null,
-      "unit": "st",
-      "raw": "st lime, (limesaft)",
+      "unit": null,
+      "raw": "lime, (limesaft)",
       "isBasis": false
     },
     {
       "section": "Dressing",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {

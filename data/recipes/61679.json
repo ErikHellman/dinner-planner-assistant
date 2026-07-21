@@ -125,16 +125,16 @@
       "section": "Wok",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
       "section": "Wok",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -173,8 +173,8 @@
       "section": "Stekt ägg",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     }
   ],

@@ -48,16 +48,16 @@
       "section": "Rödbetor",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
       "section": "Rödbetor",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -88,8 +88,8 @@
       "section": "Chévre chaud",
       "name": "hamburgerbröd (2 halvor)",
       "amount": null,
-      "unit": "st",
-      "raw": "st hamburgerbröd (2 halvor)",
+      "unit": null,
+      "raw": "hamburgerbröd (2 halvor)",
       "isBasis": false
     },
     {
@@ -144,8 +144,8 @@
       "section": "Sallad",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -176,8 +176,8 @@
       "section": "Topping",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     }
   ],

@@ -51,8 +51,8 @@
       "section": "Pasta",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -99,16 +99,16 @@
       "section": "Gremolatastekta grönsaker",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Gremolatastekta grönsaker",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -155,16 +155,16 @@
       "section": "Tomatpesto",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
       "section": "Tomatpesto",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -195,8 +195,8 @@
       "section": "Till servering",
       "name": "chili flakes",
       "amount": null,
-      "unit": "förp",
-      "raw": "förp chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     }
   ],

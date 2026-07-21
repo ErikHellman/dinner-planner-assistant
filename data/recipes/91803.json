@@ -111,16 +111,16 @@
       "section": "Grönsaker",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Grönsaker",
       "name": "chili flakes",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {

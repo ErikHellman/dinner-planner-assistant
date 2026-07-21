@@ -86,8 +86,8 @@
       "section": "Italiensk örtkyckling",
       "name": "smör",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk smör",
+      "unit": null,
+      "raw": "smör",
       "isBasis": true
     },
     {
@@ -102,8 +102,8 @@
       "section": "Klyftpotatis",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -118,8 +118,8 @@
       "section": "Klyftpotatis",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -182,8 +182,8 @@
       "section": "Tomatconcassé",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

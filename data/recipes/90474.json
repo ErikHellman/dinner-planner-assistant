@@ -110,8 +110,8 @@
       "section": "Asiatisk linsgryta",
       "name": "röda linser 1 dl",
       "amount": null,
-      "unit": "g",
-      "raw": "g röda linser 1 dl",
+      "unit": null,
+      "raw": "röda linser 1 dl",
       "isBasis": false
     },
     {
@@ -134,16 +134,16 @@
       "section": "Asiatisk linsgryta",
       "name": "chili flakes",
       "amount": null,
-      "unit": "förp",
-      "raw": "0 förp chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {
       "section": "Asiatisk linsgryta",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -182,16 +182,16 @@
       "section": "Ugnsrostad blomkål",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Ugnsrostad blomkål",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     }
   ],

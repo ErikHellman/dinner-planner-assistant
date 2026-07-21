@@ -53,8 +53,8 @@
       "section": "Rostade rotfrukter",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -69,8 +69,8 @@
       "section": "Rostade rotfrukter",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -117,16 +117,16 @@
       "section": "Örtstekt fläskkotlett",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Örtstekt fläskkotlett",
       "name": "olivolja",
       "amount": null,
-      "unit": "msk",
-      "raw": "0 msk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
@@ -157,8 +157,8 @@
       "section": "Dragoncrème",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     }
   ],

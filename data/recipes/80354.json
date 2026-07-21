@@ -64,24 +64,24 @@
       "section": "Rostade rotfrukter",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
       "section": "Rostade rotfrukter",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Rostade rotfrukter",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -144,16 +144,16 @@
       "section": "Kyckling",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
       "section": "Kyckling",
       "name": "smör",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk smör",
+      "unit": null,
+      "raw": "smör",
       "isBasis": true
     },
     {

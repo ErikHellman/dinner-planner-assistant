@@ -77,16 +77,16 @@
       "section": "Ugnsrostade rotfrukter",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Ugnsrostade rotfrukter",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -109,8 +109,8 @@
       "section": "Kyckling",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -149,24 +149,24 @@
       "section": "Chilisås",
       "name": "srirachasås",
       "amount": null,
-      "unit": "förp",
-      "raw": "förp srirachasås",
+      "unit": null,
+      "raw": "srirachasås",
       "isBasis": false
     },
     {
       "section": "Chilisås",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Chilisås",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

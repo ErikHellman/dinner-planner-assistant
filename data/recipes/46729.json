@@ -65,8 +65,8 @@
       "section": "Svampsoppa",
       "name": "smör",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk smör",
+      "unit": null,
+      "raw": "smör",
       "isBasis": true
     },
     {
@@ -113,8 +113,8 @@
       "section": "Svampsoppa",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -169,8 +169,8 @@
       "section": "Grönkålschips",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {

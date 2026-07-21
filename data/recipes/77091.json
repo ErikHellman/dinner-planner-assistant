@@ -102,8 +102,8 @@
       "section": "Buljong",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -142,8 +142,8 @@
       "section": "Buljong",
       "name": "lime",
       "amount": null,
-      "unit": "st",
-      "raw": "st lime",
+      "unit": null,
+      "raw": "lime",
       "isBasis": false
     },
     {

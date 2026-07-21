@@ -66,8 +66,8 @@
       "section": "Grönsakssås",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
@@ -130,8 +130,8 @@
       "section": "Till servering",
       "name": "chili flakes",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     }
   ],

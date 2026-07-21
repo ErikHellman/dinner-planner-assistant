@@ -135,16 +135,16 @@
       "section": "Nudlar och grönsaker",
       "name": "olja",
       "amount": null,
-      "unit": "msk",
-      "raw": "msk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
       "section": "Nudlar och grönsaker",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {

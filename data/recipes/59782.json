@@ -46,32 +46,32 @@
       "section": "Rostad potatis",
       "name": "bakplåtspapper",
       "amount": null,
-      "unit": "st",
-      "raw": "st bakplåtspapper",
+      "unit": null,
+      "raw": "bakplåtspapper",
       "isBasis": true
     },
     {
       "section": "Rostad potatis",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {
       "section": "Rostad potatis",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Rostad potatis",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -206,8 +206,8 @@
       "section": "Dill- och gurksallad",
       "name": "olivolja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "tsk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {

@@ -89,8 +89,8 @@
       "section": "Ramenbuljong",
       "name": "olja",
       "amount": null,
-      "unit": "msk",
-      "raw": "msk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -161,8 +161,8 @@
       "section": "Sesamstekt broccoli",
       "name": "olja",
       "amount": null,
-      "unit": "msk",
-      "raw": "msk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {

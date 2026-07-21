@@ -131,8 +131,8 @@
       "section": "Grönsakslasagne",
       "name": "örtmix, 2 tsk",
       "amount": null,
-      "unit": "förp",
-      "raw": "förp örtmix, 2 tsk",
+      "unit": null,
+      "raw": "örtmix, 2 tsk",
       "isBasis": false
     },
     {

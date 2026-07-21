@@ -62,16 +62,16 @@
       "section": "Klyftpotatis",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Klyftpotatis",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
@@ -166,24 +166,24 @@
       "section": "Zucchini- & cheddarplättar",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {
       "section": "Zucchini- & cheddarplättar",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Zucchini- & cheddarplättar",
       "name": "olivolja",
       "amount": null,
-      "unit": "msk",
-      "raw": "msk olivolja",
+      "unit": null,
+      "raw": "olivolja",
       "isBasis": true
     },
     {

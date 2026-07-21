@@ -53,16 +53,16 @@
       "section": "Bakad sötpotatis",
       "name": "salt",
       "amount": null,
-      "unit": "krm",
-      "raw": "krm salt",
+      "unit": null,
+      "raw": "salt",
       "isBasis": true
     },
     {
       "section": "Bakad sötpotatis",
       "name": "bakplåtspapper",
       "amount": null,
-      "unit": "st",
-      "raw": "st bakplåtspapper",
+      "unit": null,
+      "raw": "bakplåtspapper",
       "isBasis": true
     },
     {
@@ -173,8 +173,8 @@
       "section": "Frijoles",
       "name": "svartpeppar",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm svartpeppar",
+      "unit": null,
+      "raw": "svartpeppar",
       "isBasis": true
     },
     {

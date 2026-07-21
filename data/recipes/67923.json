@@ -181,8 +181,8 @@
       "section": "Wokad tofu",
       "name": "olja",
       "amount": null,
-      "unit": "msk",
-      "raw": "0 msk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {

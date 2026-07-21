@@ -103,8 +103,8 @@
       "section": "Limekryddade färsbiffar",
       "name": "olja",
       "amount": null,
-      "unit": "tsk",
-      "raw": "0 tsk olja",
+      "unit": null,
+      "raw": "olja",
       "isBasis": true
     },
     {
@@ -191,8 +191,8 @@
       "section": "Asiatisk potatissallad",
       "name": "chili flakes",
       "amount": null,
-      "unit": "krm",
-      "raw": "0 krm chili flakes",
+      "unit": null,
+      "raw": "chili flakes",
       "isBasis": false
     },
     {
