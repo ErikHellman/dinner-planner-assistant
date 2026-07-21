@@ -220,6 +220,7 @@ hash-password` and uncomment the `basic_auth` block in `Caddyfile`.
 
    (Without `--profile https` the compose file behaves as before: app only,
    plain HTTP on localhost.)
+
 7. Verify: `curl -I https://dinnerplan.hellman.io/api/health`. First
    certificate issuance takes a few seconds after startup; check `docker
 compose logs caddy` if it does not come up.
